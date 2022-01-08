@@ -1,0 +1,1 @@
+{{ include.successes }}/{% assign failures = include.attempts | minus: include.successes %}{% if failures < 10 %}{% assign failures = failures %}{% endif %}{{ failures }}
