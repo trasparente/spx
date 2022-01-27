@@ -1,8 +1,10 @@
 table
+  @extend .rounded
   margin-right: auto
   margin-left: auto
   width: 100%
   &.upcoming, &.last
+    @extend .border-secondary, .border
     td:first-child
       color: var(--fg-secondary)
     thead
