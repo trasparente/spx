@@ -65,13 +65,13 @@ jobs:
         with:
           url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&search=SpaceX&ordering=-net'
           file: '_data/ll/previous.json'
-      - name: get specified property
-        id: last_url
-        uses: zoexx/github-action-json-file-properties@release
+      - name: get first url
+        id: first_url
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
-          file_path: '_data/ll/previous.json'
+          path: 'package.json'
           prop_path: 'results[0].url'
-      - run: echo ${{steps.last_url.outputs.value}}
+      - run: echo ${{steps.first_url.outputs.prop}}
       - name: LL - Fetch and save SpaceX Agency
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
