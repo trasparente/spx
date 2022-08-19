@@ -65,5 +65,10 @@ jobs:
         with:
           url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&search=SpaceX&ordering=-net'
           file: '_data/ll/previous.json'
+      - name: LL - Fetch and save SpaceX Agency
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/agencies/?format=api&mode=detailed&search=SpaceX'
+          file: '_data/ll/agency.json'
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4.8.0
