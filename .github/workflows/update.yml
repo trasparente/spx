@@ -69,7 +69,7 @@ jobs:
         id: first_url
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
-          path: 'package.json'
+          path: '_data/ll/previous.json'
           prop_path: 'results[0].url'
       - run: echo ${{steps.first_url.outputs.prop}}
       - name: LL - Fetch and save SpaceX Agency
