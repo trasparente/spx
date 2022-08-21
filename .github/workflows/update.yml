@@ -72,6 +72,42 @@ jobs:
           path: '_data/ll/previous.json'
           prop_path: 'results[0].url'
       - run: echo ${{steps.first_url.outputs.prop}}
+      - name: get first id
+        id: first_id
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/previous.json'
+          prop_path: 'results[0].id'
+      - run: echo ${{steps.first_id.outputs.prop}}
+      - name: LL - Fetch and save last mission
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: "${{steps.first_url.outputs.prop}}"
+          file: "_data/ll/missions/${{steps.first_id.outputs.prop}}.json"
+      - name: LL - Fetch and save SpaceX Agency
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/agencies/?format=json&mode=detailed&search=SpaceX'
+          file: '_data/ll/agency.json'
+      - name: get next url
+        id: next_url
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/upcoming.json'
+          prop_path: 'results[0].url'
+      - run: echo ${{steps.next_url.outputs.prop}}
+      - name: get next id
+        id: next_id
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/upcoming.json'
+          prop_path: 'results[0].id'
+      - run: echo ${{steps.next_id.outputs.prop}}
+      - name: LL - Fetch and save next mission
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: "${{steps.next_url.outputs.prop}}"
+          file: "_data/ll/missions/${{steps.next_id.outputs.prop}}.json"
       - name: LL - Fetch and save SpaceX Agency
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
