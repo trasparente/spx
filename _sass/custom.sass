@@ -1,38 +1,55 @@
 table
-  @extend .rounded
+  @extend .rounded, .font-small
   margin-right: auto
   margin-left: auto
   width: 100%
-  &.upcoming, &.last
-    @extend .border-secondary, .border
-    td:first-child
-      color: var(--fg-secondary)
-    thead
-      text-align: left
+  &.upcoming, &.previous, &.last, &.next
+    @extend .border
+    tr.TBC td
+      @extend .bg-secondary
+    tr.TBD td
+      @extend .blue
+    tr.Success td
+      @extend .green
     td, th
+      text-align: left
+      white-space: nowrap
+      overflow: hidden
+      &:first-child
+        text-align: right
+        color: var(--fg-secondary) !important
+        min-width: 3em
+        max-width: 3em
       &:nth-child(2)
-        max-width: 9.75em
-        min-width: 9.75em
-        white-space: nowrap
-        overflow: hidden
+        min-width: 11em
+        max-width: 11em
+      &:nth-child(3)
+        min-width: 7em
+        max-width: 7em
+        background: var(--bg-secondary) !important
       &:nth-child(4)
         min-width: 12em
-      &:nth-child(3),
+        max-width: 12em
       &:nth-child(5)
-        min-width: 8em
+        min-width: 13.2em
+        max-width: 13.2em
+  td code
+    color: var(--fg-secondary)
+  &.last, &.next
+    td, th
       &:nth-child(6)
-        max-width: 8em
-        min-width: 8em
-        overflow: hidden
-        text-overflow: clip
-      &:nth-child(7)
         min-width: 5em
-        text-align: center
+        max-width: 5em
   &.upcoming
-    tr[class*=color-] code
-      color: var(--fg)
-  &.last code
-    color: var(--fg)
+    td, th
+      &:nth-child(6)
+        min-width: 3em
+        max-width: 3em
+  &.previous
+    td, th
+      &:nth-child(6)
+        min-width: none
+        max-width: none
 
 @media (max-width: $small-screen)
   th

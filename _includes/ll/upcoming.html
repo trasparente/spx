@@ -1,0 +1,30 @@
+<table class='upcoming'>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>T-minus</th>
+      <th>Net</th>
+      <th>From</th>
+      <th>To</th>
+      <th>Rocket</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for launch in site.data.ll.upcoming.results offset: 1 %}
+    {%- assign mission = launch.mission -%}
+    {%- assign pad = launch.pad -%}
+    {%- assign rocket = launch.rocket -%}
+    {%- assign configuration = rocket.configuration -%}
+    <tr class="{{ launch.status.abbrev }}">
+      <td title="{{ configuration.full_name }}">{{ total_launch_count | plus: forloop.index | plus: 1 }}</td>
+      <td title="{{ mission.name }}&#13;{{ mission.description }}">{{ mission.name }}</td>
+      <td>{% include widgets/datetime.html datetime=launch.net replace=true %}</td>
+      <td><code title="{{ launch.net | date: "%a %d %b %T" }}">[{{ launch.net | date: "%a %d %b %T" }}]</code></td>
+      <td title="{{ pad.location.name }}">{{ pad.name }}</td>
+      <td title="">{{ mission.orbit.abbrev }}</td>
+      <td title="">{{ configuration.full_name }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

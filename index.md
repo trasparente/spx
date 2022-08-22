@@ -1,17 +1,18 @@
 ---
 ---
+{%- assign total_launch_count = site.data.ll.agency.results[0].total_launch_count -%}
+**Last**
+{% include ll/last_launch.html %}
+**Next**
+{% include ll/next_launch.html %}
+**Upcoming**
+{% include ll/upcoming.html %}
+**Previous**
+{% include ll/previous.html %}
 
 {% assign past_launches = site.data.launches | where: "upcoming", "false" | sort: "date_unix" %}
 {% assign upcoming = site.data.launches | where: "upcoming", "true" | sort: 'flight_number' %}
 {% assign last_launch = past_launches | sort: "flight_number" | last %}
-
-**Last**
-
-{% include spx/last_launch.html %}
-
-**Upcoming**
-
-{% include spx/upcoming_launches.html %}
 
 **Data**
 
