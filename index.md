@@ -1,14 +1,12 @@
 ---
 ---
-{%- assign total_launch_count = site.data.ll.agency.results[0].total_launch_count -%}
+{% include ll/init.html %}
 **Last**
 {% include ll/last_launch.html %}
 **Next**
 {% include ll/next_launch.html %}
 **Upcoming**
 {% include ll/upcoming.html %}
-**Previous**
-{% include ll/previous.html %}
 
 {% assign past_launches = site.data.launches | where: "upcoming", "false" | sort: "date_unix" %}
 {% assign upcoming = site.data.launches | where: "upcoming", "true" | sort: 'flight_number' %}
@@ -16,30 +14,12 @@
 
 **Data**
 
-<div markdown=1 style="justify-content: space-between;" class="flex">
+<div markdown=1 class="tables">
 <div markdown=1>
-{% comment %} -------------------- MISSIONS -------------------- {% endcomment %}
-{% assign difference = site.data.launches.size | minus: past_launches.size %}
-| Missions | |
-|:---|---:|
-| Past | {{ past_launches.size }} |
-| Upcoming | {{ upcoming.size }}{% if upcoming.size != difference %}*{% endif %} |
-{: style="min-width:12em;margin-right:1em"}
-{% comment %} -------------------- DATA -------------------- {% endcomment %}
-| Data | |
-|:---|---:|
-| Payloads | {{ site.data.payloads.size }} |
-| Launches | {{ site.data.launches.size }} |
-| Cores | {{ site.data.cores.size }} |
-| Crew | {{ site.data.crew.size }} |
-| Capsules | {{ site.data.capsules.size }} |
-| Landpads | {{ site.data.landpads.size }} |
-| Launchpads | {{ site.data.launchpads.size }} |
-| Rockets | {{ site.data.rockets.size }} |
-| Dragons | {{ site.data.dragons.size }} |
-|----
-| Total | {{ site.data.payloads.size | plus: site.data.launches.size | plus: site.data.cores.size | plus: site.data.crew.size | plus: site.data.capsules.size | plus: site.data.landpads.size | plus: site.data.launchpads.size | plus: site.data.rockets.size | plus: site.data.dragons.size }}
-{: style="min-width:12em;margin-right:1em"}
+{% include ll/missions.html %}
+
+{% include ll/data.html %}
+
 </div>
 {% comment %} -------------------- CORE REUSE -------------------- {% endcomment %}
 <div markdown=1>
@@ -88,3 +68,6 @@
 {: style="min-width:12em;margin-right:1em"}
 </div>
 </div>
+
+**Recent**
+{% include ll/previous.html %}
