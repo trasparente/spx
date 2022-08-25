@@ -6,13 +6,21 @@
   "r_spacex_api_id": null,
   "name": "Falcon 9 Block 5 | Starlink Group 4-23",
   "status": {
-    "id": 8,
-    "name": "To Be Confirmed",
-    "abbrev": "TBC",
-    "description": "Awaiting official confirmation - current date is known with some certainty."
+    "id": 1,
+    "name": "Go for Launch",
+    "abbrev": "Go",
+    "description": "Current T-0 confirmed by official or reliable sources."
   },
-  "last_updated": "2022-08-24T14:46:13Z",
+  "last_updated": "2022-08-25T14:31:37Z",
   "updates": [
+    {
+      "id": 2281,
+      "profile_image": "https://nyc3.digitaloceanspaces.com/spacelaunchnow-prod-east/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+      "comment": "Go for launch",
+      "info_url": "https://twitter.com/SpaceX/status/1562809375411974144?s=20&t=0m2v5TkpRFdSYG75gbtFTQ",
+      "created_by": "Cosmic_Penguin",
+      "created_on": "2022-08-25T14:30:48Z"
+    },
     {
       "id": 2275,
       "profile_image": "https://nyc3.digitaloceanspaces.com/spacelaunchnow-prod-east/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -228,20 +236,20 @@
         "id": 264,
         "type": "Core",
         "reused": true,
-        "launcher_flight_number": 6,
+        "launcher_flight_number": 2,
         "launcher": {
-          "id": 101,
-          "url": "https://ll.thespacedevs.com/2.2.0/launcher/101/?format=json",
-          "details": "Landed on ASOG as of Jul 15, 2022",
+          "id": 105,
+          "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/?format=json",
+          "details": "Landed on JRTI as of Dec 21, 2021",
           "flight_proven": true,
-          "serial_number": "B1067",
+          "serial_number": "B1069",
           "status": "active",
-          "image_url": "https://nyc3.digitaloceanspaces.com/spacelaunchnow-prod-east/media/launcher_core_images/101_image_20210602203045.jpeg",
-          "successful_landings": 5,
-          "attempted_landings": 5,
-          "flights": 5,
-          "last_launch_date": "2022-07-15T00:44:20Z",
-          "first_launch_date": "2021-06-03T17:29:15Z"
+          "image_url": "https://nyc3.digitaloceanspaces.com/spacelaunchnow-prod-east/media/launcher_core_images/105_image_20211220081646.jpeg",
+          "successful_landings": 1,
+          "attempted_landings": 1,
+          "flights": 1,
+          "last_launch_date": "2021-12-21T10:07:08Z",
+          "first_launch_date": "2021-12-21T10:07:08Z"
         },
         "landing": {
           "id": 292,
@@ -276,7 +284,7 @@
   "mission": {
     "id": 6106,
     "name": "Starlink Group 4-23",
-    "description": "A batch of 53 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "description": "A batch of 54 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "launch_designator": null,
     "type": "Communications",
     "orbit": {
