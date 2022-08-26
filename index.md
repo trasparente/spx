@@ -2,9 +2,9 @@
 ---
 {% include ll/init.html %}
 **Last**
-{% include ll/last_launch.html %}
+{% include ll/last.html %}
 **Next**
-{% include ll/next_launch.html %}
+{% include ll/next.html %}
 **Upcoming**
 {% include ll/upcoming.html %}
 
