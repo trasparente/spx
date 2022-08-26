@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.1
+
+      # SpaceX-API
       - name: Fetch and save launches
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
@@ -55,63 +57,80 @@ jobs:
         with:
           url: 'https://api.spacexdata.com/v4/crew'
           file: '_data/crew.json'
-      - name: LL - Fetch and save upcoming 10 launches
-        uses: gautemo/fetch-api-data-action@1.1.0
-        with:
-          url: 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?format=json&lsp__id=121&ordering=net&mode=detailed'
-          file: '_data/ll/upcoming.json'
-      - name: LL - Fetch and save previous 10 launches
-        uses: gautemo/fetch-api-data-action@1.1.0
-        with:
-          url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&lsp__id=121&ordering=-net&mode=detailed'
-          file: '_data/ll/previous.json'
-      - name: get first url
-        id: first_url
-        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
-        with:
-          path: '_data/ll/previous.json'
-          prop_path: 'results[0].url'
-      - run: echo ${{steps.first_url.outputs.prop}}
-      - name: get first id
-        id: first_id
-        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
-        with:
-          path: '_data/ll/previous.json'
-          prop_path: 'results[0].id'
-      - run: echo ${{steps.first_id.outputs.prop}}
-      - name: LL - Fetch and save last mission
-        uses: gautemo/fetch-api-data-action@1.1.0
-        with:
-          url: "${{steps.first_url.outputs.prop}}"
-          file: "_data/ll/missions/${{steps.first_id.outputs.prop}}.json"
+
+      # Launch Library API
+      # ------------------
+
+      # Launch Agency
       - name: LL - Fetch and save SpaceX Agency
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
           url: 'https://ll.thespacedevs.com/2.2.0/agencies/?format=json&mode=detailed&search=SpaceX'
           file: '_data/ll/agency.json'
+
+      # Upcoming launches
+      #------------------
+      - name: LL - Fetch and save upcoming 10 launches
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?format=json&lsp__id=121&ordering=net&mode=detailed'
+          file: '_data/ll/upcoming.json'
+
+      # Previous launches
+      # -----------------
+      - name: LL - Fetch and save previous 10 launches
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&lsp__id=121&ordering=-net&mode=detailed'
+          file: '_data/ll/previous.json'
+
+      # Last launch URL
+      - name: get first url
+        id: last_url
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/previous.json'
+          prop_path: 'results[0].url'
+
+      # Last launch ID
+      - name: get first id
+        id: last_id
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/previous.json'
+          prop_path: 'results[0].id'
+
+      # Get Last Launch
+      - name: LL - Fetch and save last mission
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: "${{steps.first_url.outputs.prop}}"
+          file: "_data/ll/missions/${{steps.first_id.outputs.prop}}.json"
+
+      # Next launch URL
       - name: get next url
         id: next_url
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
           path: '_data/ll/upcoming.json'
           prop_path: 'results[0].url'
-      - run: echo ${{steps.next_url.outputs.prop}}
+
+      # Next launch ID
       - name: get next id
         id: next_id
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
           path: '_data/ll/upcoming.json'
           prop_path: 'results[0].id'
-      - run: echo ${{steps.next_id.outputs.prop}}
+
+      # Get Next Launch
       - name: LL - Fetch and save next mission
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
           url: "${{steps.next_url.outputs.prop}}"
           file: "_data/ll/missions/${{steps.next_id.outputs.prop}}.json"
-      - name: LL - Fetch and save SpaceX Agency
-        uses: gautemo/fetch-api-data-action@1.1.0
-        with:
-          url: 'https://ll.thespacedevs.com/2.2.0/agencies/?format=json&mode=detailed&search=SpaceX'
-          file: '_data/ll/agency.json'
+
+      # COMMIT
+      # ------
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4.8.0
