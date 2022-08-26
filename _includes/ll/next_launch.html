@@ -19,7 +19,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr class="{% if launch.status.abbrev == 'Success' %}green{% endif %}">
+    <tr class="{{ launch.status.abbrev }}">
       <td title="{{ launch.id }}">{{ total_launch_count | plus: 1 }}</td>
       <td title="{{ mission.name }}&#13;{{ mission.description }}">{{ mission.name }}</td>
       <td>{% include widgets/datetime.html datetime=launch.net replace=true %}</td>
