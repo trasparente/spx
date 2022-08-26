@@ -23,6 +23,9 @@
 </div>
 {% comment %} -------------------- CORE REUSE -------------------- {% endcomment %}
 <div markdown=1>
+
+{% include ll/landings.html %}
+
 {% assign cores_reuse = site.data.cores | sort: "reuse_count" | group_by: "reuse_count" %}
 | Cores reuse | |
 |:---|---:|{% for cr in cores_reuse %}
@@ -40,14 +43,9 @@
 </div>
 <div markdown=1>
 {% comment %} -------------------- LAUNCHES -------------------- {% endcomment %}
-{% assign failures = site.data.launches | where: "success", "false" %}
-{% assign rockets = site.data.rockets | sort: "success_rate_pct" %}
-| Launches | | % |
-|:---|---:|---:|{% for r in rockets reversed %}{% assign past_launches_rocket = past_launches | where: "rocket", r.id %}{% if past_launches_rocket.size == 0 %}{% assign past_launches_rocket = "" | split: "" | push: "1" %}{% endif %}
-| <span {% if r.active != true %}class="fg-secondary" {% endif %}>{{ r.name }}</span> | {{ past_launches | where: "rocket", r.id | group_by: "success" | where: "name", "true" | map: "items" | first | size }} / {{ past_launches | where: "rocket", r.id | group_by: "success" | where: "name", "false" | map: "items" | first | size }} | {{ past_launches_rocket | group_by: "success" | where: "name", "true" | map: "items" | first | size | times: 100 | divided_by: past_launches_rocket.size }} |{% endfor %}
-|----
-| Total | {{ past_launches | where: "success", "true" | size }} / {{ failures.size }} | {{ past_launches | where: "success", "true" | size | times: 100 | divided_by: past_launches.size }} | 
-{: style="min-width:15em;margin-right:1em"}
+
+{% include ll/launcher.html %}
+
 {% comment %} -------------------- LANDINGS -------------------- {% endcomment %}
 {% assign landpads = site.data.landpads | sort: "landing_attempts" %}
 {% assign landing_attempts = 0 %}

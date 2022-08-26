@@ -65,7 +65,7 @@ jobs:
       - name: LL - Fetch and save SpaceX Agency
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          url: 'https://ll.thespacedevs.com/2.2.0/agencies/?format=json&mode=detailed&search=SpaceX'
+          url: 'https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json&mode=detailed&search=SpaceX'
           file: '_data/ll/agency.json'
 
       # Upcoming launches
@@ -129,6 +129,58 @@ jobs:
         with:
           url: "${{steps.next_url.outputs.prop}}"
           file: "_data/ll/missions/${{steps.next_id.outputs.prop}}.json"
+
+      # Landing Pads
+      # -----------------
+
+      # LZ-1
+      - name: LL - Fetch and save landing zone 1
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/4/?format=json'
+          file: '_data/ll/landing_pads/lz1.json'
+
+      # LZ-2
+      - name: LL - Fetch and save landing zone 2
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/5/?format=json'
+          file: '_data/ll/landing_pads/lz2.json'
+
+      # LZ-4
+      - name: LL - Fetch and save landing zone 4
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/7/?format=json'
+          file: '_data/ll/landing_pads/lz4.json'
+
+      # LZ
+      - name: LL - Fetch and save starship landing zone
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/14/?format=json'
+          file: '_data/ll/landing_pads/lz.json'
+
+      # OCISLY
+      - name: LL - Fetch and save OCISLY
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/1/?format=json'
+          file: '_data/ll/landing_pads/ocisly.json'
+
+      # ASOG
+      - name: LL - Fetch and save ASOG
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/17/?format=json'
+          file: '_data/ll/landing_pads/asog.json'
+
+      # JRTI
+      - name: LL - Fetch and save JRTI
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/3/?format=json'
+          file: '_data/ll/landing_pads/jrti.json'
 
       # COMMIT
       # ------

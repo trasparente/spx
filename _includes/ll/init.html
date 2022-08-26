@@ -1,5 +1,7 @@
 {%- assign agency = site.data.ll.agency.results[0] -%}
 {%- assign total_launch_count = agency.total_launch_count -%}
+{%- assign active_launchers = agency.launcher_list | where_exp: "item", "item.pending_launches != 0" | sort: "pending_launches" | reverse -%}
+{%- assign old_launchers = agency.launcher_list | where_exp: "item", "item.pending_launches == 0" | sort: "successful_launches" | reverse -%}
 {%- assign upcoming_launches = site.data.ll.upcoming -%}
 {%- assign previous_launches = site.data.ll.previous -%}
 {%- assign missions = site.data.ll.missions -%}

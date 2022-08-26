@@ -1,0 +1,7 @@
+| Launcher | |
+|:---|---:|---:{% for l in active_launchers %}{% assign total_succeful = total_succeful | plus: l.successful_launches %}{% assign total_failed = total_failed | plus: l.failed_launches %}{% assign total_pending = total_pending | plus: l.pending_launches %}
+| {{ l.full_name }} | {{ l.successful_launches }} / {{ l.failed_launches }} | {{ l.pending_launches }}{% endfor %}
+|==={% for l in old_launchers %}{% assign total_succeful = total_succeful | plus: l.successful_launches %}{% assign total_failed = total_failed | plus: l.failed_launches %}{% assign total_pending = total_pending | plus: l.pending_launches %}
+| {{ l.full_name }} | {{ l.successful_launches }} / {{ l.failed_launches }} | {{ l.pending_launches }}{% endfor %}
+| Total | {{ total_succeful }} / {{ total_failed }} | {{ total_pending }}
+{:.blue}
