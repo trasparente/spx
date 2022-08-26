@@ -58,12 +58,12 @@ jobs:
       - name: LL - Fetch and save upcoming 10 launches
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          url: 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?format=json&search=SpaceX&ordering=net'
+          url: 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?format=json&lsp__id=121&ordering=net&mode=detailed'
           file: '_data/ll/upcoming.json'
       - name: LL - Fetch and save previous 10 launches
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&search=SpaceX&ordering=-net'
+          url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&lsp__id=121&ordering=-net&mode=detailed'
           file: '_data/ll/previous.json'
       - name: get first url
         id: first_url
