@@ -104,8 +104,8 @@ jobs:
       - name: LL - Fetch and save last mission
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          url: "${{steps.first_url.outputs.prop}}"
-          file: "_data/ll/missions/${{steps.first_id.outputs.prop}}.json"
+          url: "${{steps.last_url.outputs.prop}}"
+          file: "_data/ll/missions/${{steps.last_id.outputs.prop}}.json"
 
       # Next launch URL
       - name: get next url
