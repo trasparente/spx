@@ -15,8 +15,8 @@
       <th>T-minus</th>
       <th>Net</th>
       <th>From</th>
+      <th>Core</th>
       <th>To</th>
-      <th>Land</th>
     </tr>
   </thead>
   <tbody>
@@ -26,8 +26,8 @@
       <td>{% include widgets/datetime.html datetime=launch.net replace=true %}</td>
       <td><code title="{{ launch.net | date: "%a %d %b %T" }}">[{{ launch.net | date: "%a %d %b %T" }}]</code></td>
       <td title="{{ pad.location.name }}">{{ pad.name }}</td>
-      <td title="{{ launcher.serial_number }}.{{ launcher.flights }}&#13;Last turn around: {{ stage.turn_around_time_days }} days&#13;Since {{ stage.previous_flight_date | date_to_long_string }}&#13;{{ stage.previous_flight.name }}"><code>[{{ launcher.flights }}]</code>{{ mission.orbit.abbrev }}</td>
-      <td title="{{ landing.name }}"><code>[{{ landing.successful_landings }}]</code>{{ landing.abbrev }}</td>
+      <td title="Last turn around: {{ stage.turn_around_time_days }} days&#13;Since {{ stage.previous_flight_date | date_to_long_string }}&#13;{{ stage.previous_flight.name }}">{{ launcher.serial_number }}<span class="fg-secondary">.{{ launcher.flights }}</span></td>
+      <td title="{{ landing.name }}&#13;From {{ mission.orbit.abbrev }}"><code>[{{ landing.successful_landings }}]</code>{{ landing.abbrev }}</td>
     </tr>
   </tbody>
 </table>
