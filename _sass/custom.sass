@@ -3,7 +3,9 @@ table
   margin-right: auto
   margin-left: auto
   width: 100%
-  &.upcoming, &.previous, &.last, &.next
+  &.upcoming tr.past
+    @extend .hidden
+  &.upcoming, &.previous, &.crew
     @extend .border
     tr.Go td
       @extend .pink
@@ -21,6 +23,16 @@ table
         color: var(--fg-secondary) !important
         min-width: 3em
         max-width: 3em
+  &.crew
+    td, th
+      &:nth-child(6)
+        min-width: 10em
+        max-width: 10em
+      &:nth-child(3)
+        min-width: 8em
+        max-width: 8em
+  &.upcoming, &.previous
+    td, th
       &:nth-child(2)
         min-width: 11em
         max-width: 11em

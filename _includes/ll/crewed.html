@@ -1,0 +1,6 @@
+**{{ c.name | replace: '| ', '' }}**
+{% assign crew = c.rocket.spacecraft_stage.launch_crew %}
+
+| Name | Age | Role | Nationality
+|:--|:--|:--|:--{% for a in crew %}{% assign astronaut = a.astronaut %}
+| {{ astronaut.name }} | {% include widgets/datetime.html datetime=astronaut.date_of_birth replace=true %} | {{ a.role.role }} | {{ astronaut.nationality }}{% endfor %}

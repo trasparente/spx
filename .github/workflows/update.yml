@@ -61,7 +61,7 @@ jobs:
       # Launch Library API
       # ------------------
 
-      # Get datetime
+      # Echo datetime
       - name: Get current date
         id: date
         run: echo "$(date +'%Y-%m-%dT%H:%M:%SZ')"
@@ -96,6 +96,18 @@ jobs:
         with:
           path: '_data/ll/previous.json'
           prop_path: 'results[0].url'
+
+      # Last launch Crew
+      - name: get launch crew
+        id: crew
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/previous.json'
+          prop_path: 'results[0].spacecraft_stage.launch.crew'
+      # Echo Crew
+      - name: Echo crew
+        id: crew
+        run: echo "$(steps.crew.outputs.prop)"
 
       # Last launch ID
       - name: get first id
