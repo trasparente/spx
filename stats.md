@@ -8,8 +8,6 @@ order: 1
 {% assign upcoming = site.data.launches | where: "upcoming", "true" | sort: 'flight_number' %}
 {% assign last_launch = past_launches | sort: "flight_number" | last %}
 
-**Data**
-
 <div markdown=1 class="tables">
 <div markdown=1>
 {% include ll/missions.html %}
