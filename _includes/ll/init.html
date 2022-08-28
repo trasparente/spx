@@ -2,6 +2,11 @@
 {%- assign total_launch_count = agency.total_launch_count -%}
 {%- assign active_launchers = agency.launcher_list | where_exp: "item", "item.pending_launches != 0" | sort: "pending_launches" | reverse -%}
 {%- assign old_launchers = agency.launcher_list | where_exp: "item", "item.pending_launches == 0" | sort: "successful_launches" | reverse -%}
-{%- assign upcoming_launches = site.data.ll.upcoming -%}
-{%- assign previous_launches = site.data.ll.previous -%}
+{%- assign upcoming_launches = site.data.ll.upcoming.results -%}
+{%- assign previous_launches = site.data.ll.previous.results -%}
 {%- assign missions = site.data.ll.missions -%}
+{%- assign landing_pads = "" | split: "" -%}
+{%- for lp in site.data.ll.landing_pads -%}
+  {%- assign landing_pads = landing_pads | push: lp[1] -%}
+{%- endfor -%}
+{%- assign landing_pads = landing_pads | sort: 'successful_landings' | reverse -%}

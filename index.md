@@ -42,30 +42,22 @@
 {: style="min-width:12em;margin-right:1em"}
 </div>
 <div markdown=1>
-{% comment %} -------------------- LAUNCHES -------------------- {% endcomment %}
 
 {% include ll/launcher.html %}
 
-{% comment %} -------------------- LANDINGS -------------------- {% endcomment %}
-{% assign landpads = site.data.landpads | sort: "landing_attempts" %}
-{% assign landing_attempts = 0 %}
-{% assign landing_successes = 0 %}
-| Landings | | % |
-|:---|---:|---:|{% for l in landpads reversed %}{% assign landing_successes = landing_successes | plus: l.landing_successes %}{% assign landing_attempts = landing_attempts | plus: l.landing_attempts %}{% assign attempts = l.landing_attempts %}{% if attempts == 0 %}{% assign attempts = 1 %}{% endif %}
-| <span {% if l.status != "active" %}class="fg-secondary" {% endif %}title="{{ l.full_name }}">{{ l.name }}</span> | {{ l.landing_successes }} / {{ l.landing_attempts | minus: l.landing_successes }} | {{ l.landing_successes | times: 100 | divided_by: attempts }} |{% endfor %}
-|----
-| Total | {{ landing_successes }} / {{ landing_attempts | minus: landing_successes }} | {{ landing_successes | times: 100 | divided_by: landing_attempts }} |
-{: style="min-width:15em;margin-right:1em"}
+{% include ll/landpads.html %}
+
 </div>
 <div markdown=1>
 {% comment %} -------------------- YEARS -------------------- {% endcomment %}
 {% assign years = past_launches | group_by_exp: "item", "item.date_local | truncate: 4, ''" %}
 | Year | &uarr; | Tons |
-|:---|---:|---:|{% for y in years reversed %}{% assign kg = 0 %}{% for l in y.items %}{% for p in l.payloads %}{% assign payload = site.data.payloads | where: 'id', p %}{% assign kg = kg | plus: payload[0].mass_kg %}{% endfor %}{% endfor %}
+|:---|---:|---:|
+| {{ 'now' | date: "%Y" }} | {{ previous_launches[0].agency_launch_attempt_count_year }} |{% for y in years reversed %}{% assign kg = 0 %}{% for l in y.items %}{% for p in l.payloads %}{% assign payload = site.data.payloads | where: 'id', p %}{% assign kg = kg | plus: payload[0].mass_kg %}{% endfor %}{% endfor %}
 | {{ y.name }} | {{ y.items.size }} | {{ kg | divided_by: 907.18474 | round: 1 }} |{% endfor %}
 {: style="min-width:12em;margin-right:1em"}
 </div>
 </div>
 
-**Recent**
+**Previous**
 {% include ll/previous.html %}

@@ -1,0 +1,6 @@
+| Landpads |
+|:--|--:{% for l in landing_pads %}
+| <span title="{{ l.name }}">{{ l.abbrev }}</span> | {{ l.successful_landings }}{% endfor %}
+|===
+| Total | {{ agency.successful_landings }} / {{ agency.failed_landings }}
+{:.blue}

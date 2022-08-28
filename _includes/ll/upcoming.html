@@ -11,7 +11,7 @@
     </tr>
   </thead>
   <tbody>
-    {% for launch in site.data.ll.upcoming.results offset: 1 %}
+    {% for launch in upcoming_launches offset: 1 %}
     {%- assign mission = launch.mission -%}
     {%- assign pad = launch.pad -%}
     {%- assign rocket = launch.rocket -%}
