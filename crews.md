@@ -4,6 +4,7 @@ order: 2
 ---
 {% include ll/init.html %}
 
+{%- assign missions = site.data.ll.missions -%}
 {%- assign crewed = '' | split: '' -%}
 {%- for m in missions -%}
   {%- assign crew_size = m[1].rocket.spacecraft_stage.launch_crew.size -%}
@@ -28,7 +29,8 @@ order: 2
   {% for c in crewed %}
     {%- assign launch_crew = c.rocket.spacecraft_stage.launch_crew -%}
     <tr class="blue">
-      <td colspan="3" style="text-align: left !important;"><span class="fg-secondary">{{ c.name }}</span></td>
+      <td>{{ crewed.size | minus: forloop.index0 }}</td>
+      <td colspan="2" style="text-align: left !important;"><span class="fg-secondary">{{ c.name }}</span></td>
       <td><span class="fg-secondary">{% include widgets/datetime.html datetime=c.net replace=1 %}</span></td>
       <td colspan="3"><code>{{ c.rocket.launcher_stage[0].launcher.serial_number }} {{ c.rocket.spacecraft_stage.spacecraft.serial_number }}</code></td>
     </tr>
