@@ -64,7 +64,7 @@ jobs:
       # Echo datetime
       - name: Get current date
         id: date
-        run: echo "$(date +'%Y-%m-%dT%H:%M:%SZ')"
+        run: echo "::set-output name=now::$(date +'%Y-%m-%dT%H:%M:%SZ')"
 
       # Launch Agency
       - name: LL - Fetch and save SpaceX Agency
@@ -74,21 +74,23 @@ jobs:
           file: '_data/ll/agency.json'
 
       # Upcoming launches
-      # https://ll.thespacedevs.com/2.2.0/launch/?format=json&mode=detailed&net__gt=2022-08-29T12:25:41Z&ordering=net&lsp__ids=121
+      # with date
       #------------------
       - name: LL - Fetch and save upcoming 10 launches
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          url: 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?format=json&lsp__id=121&ordering=net&mode=detailed'
+          #url: 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?format=json&lsp__id=121&ordering=net&mode=detailed'
+          url: "https://ll.thespacedevs.com/2.2.0/launch/?format=json&mode=detailed&net__gt=${{ steps.date.outputs.now }}&ordering=net&lsp__ids=121"
           file: '_data/ll/upcoming.json'
 
       # Previous launches
-      # https://ll.thespacedevs.com/2.2.0/launch/?mode=detailed&net__lt=2022-08-29T12:25:41Z&ordering=-net&lsp__ids=121
+      # with date
       # -----------------
       - name: LL - Fetch and save previous 10 launches
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&lsp__id=121&ordering=-net&mode=detailed'
+          #url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&lsp__id=121&ordering=-net&mode=detailed'
+          url: "https://ll.thespacedevs.com/2.2.0/launch/?mode=detailed&net__lt=${{ steps.date.outputs.now }}&ordering=-net&lsp__ids=121"
           file: '_data/ll/previous.json'
 
       # Last launch Crew
