@@ -99,15 +99,15 @@ jobs:
 
       # Last launch Crew
       - name: get launch crew
-        id: crew
+        id: get_crew
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
           path: '_data/ll/previous.json'
           prop_path: 'results[0].spacecraft_stage.launch.crew'
       # Echo Crew
       - name: Echo crew
-        id: crew
-        run: echo "$(steps.crew.outputs.prop)"
+        id: echo_crew
+        run: echo "$(steps.get_crew.outputs.prop)"
 
       # Last launch ID
       - name: get first id
