@@ -21,14 +21,6 @@ order: 1
 
 {% include ll/landpads.html %}
 
-{% comment %} -------------------- CREWS -------------------- {% endcomment %}
-{% assign crewed_launches = past_launches | where_exp: "item", "item.crew.size > 0" %}
-| Crews | |
-|:---|---:|
-| Crewed launches | {% include spx/crewed_launches.html crewed_launches=crewed_launches %} |
-| Astronauts | {% include spx/astronauts.html %} |
-{: style="min-width:12em;margin-right:1em"}
-
 </div>
 <div markdown=1>
 
