@@ -94,16 +94,16 @@ jobs:
           file: '_data/ll/previous.json'
 
       # Last launch Crew
-      - name: get launch crew
-        id: get_crew
-        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
-        with:
-          path: '_data/ll/previous.json'
-          prop_path: 'results[0].rocket.spacecraft_stage.launch_crew'
-      # Echo Crew
-      - name: Echo crew
-        id: echo_crew
-        run: echo "$(steps.get_crew.outputs.prop)"
+      # - name: get launch crew
+      #   id: get_crew
+      #   uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+      #   with:
+      #     path: '_data/ll/previous.json'
+      #     prop_path: 'results[0].rocket.spacecraft_stage.launch_crew'
+      # # Echo Crew
+      # - name: Echo crew
+      #   id: echo_crew
+      #   run: echo "$(steps.get_crew.outputs.prop)"
 
       # Landing Pads
       # -----------------
