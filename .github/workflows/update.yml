@@ -93,17 +93,36 @@ jobs:
           url: "https://ll.thespacedevs.com/2.2.0/launch/?mode=detailed&net__lt=${{ steps.date.outputs.now }}&ordering=-net&lsp__ids=121"
           file: '_data/ll/previous.json'
 
-      # Last launch Crew
-      # - name: get launch crew
-      #   id: get_crew
-      #   uses: kekedaine/github-action-json-property-by-lodash@0.2.0
-      #   with:
-      #     path: '_data/ll/previous.json'
-      #     prop_path: 'results[0].rocket.spacecraft_stage.launch_crew'
-      # # Echo Crew
-      # - name: Echo crew
-      #   id: echo_crew
-      #   run: echo "$(steps.get_crew.outputs.prop)"
+      # Check Last launch Mission
+      # -------------------------
+      
+      # Get last flight id
+      - name: get last flight id
+        id: last_id
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/previous.json'
+          prop_path: 'results[0].id'
+      # Get last flight url
+      - name: get last flight url
+        id: last_url
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/previous.json'
+          prop_path: 'results[0].url'
+      # Check mission file
+      - name: Check file existence
+        id: check_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "_data/ll/missions/${{ steps.last_id.outputs.prop }}.json"
+      # If not preset, fetch and save
+      - name: File don't exists
+        if: steps.check_files.outputs.files_exists == 'false'
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: "${{ steps.last_url.outputs.prop }}&mode=detailed"
+          file: "_data/ll/missions/${{ steps.last_id.outputs.prop}}.json"
 
       # Landing Pads
       # -----------------
