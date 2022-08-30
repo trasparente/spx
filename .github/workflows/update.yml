@@ -79,7 +79,6 @@ jobs:
       - name: LL - Fetch and save upcoming 10 launches
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          #url: 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?format=json&lsp__id=121&ordering=net&mode=detailed'
           url: "https://ll.thespacedevs.com/2.2.0/launch/?format=json&mode=detailed&net__gt=${{ steps.date.outputs.now }}&ordering=net&lsp__ids=121"
           file: '_data/ll/upcoming.json'
 
@@ -89,7 +88,6 @@ jobs:
       - name: LL - Fetch and save previous 10 launches
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
-          #url: 'https://ll.thespacedevs.com/2.2.0/launch/previous/?format=json&lsp__id=121&ordering=-net&mode=detailed'
           url: "https://ll.thespacedevs.com/2.2.0/launch/?mode=detailed&net__lt=${{ steps.date.outputs.now }}&ordering=-net&lsp__ids=121"
           file: '_data/ll/previous.json'
 
