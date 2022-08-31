@@ -3,7 +3,7 @@ table
   margin-right: auto
   margin-left: auto
   width: 100%
-  &.upcoming tr.past
+  &.upcoming tr.past, &.previous tr.future
     @extend .hidden
   &.upcoming, &.previous, &.crew
     @extend .border
@@ -49,8 +49,6 @@ table
       &:nth-child(6)
         min-width: 5em
         max-width: 5em
-      // &:nth-child(6)
-      //   text-align: right
   td code
     color: var(--fg-secondary)
 

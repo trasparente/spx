@@ -11,6 +11,7 @@
     </tr>
   </thead>
   <tbody>
+    {%- assign previous_launches = previous_launches | push: site.data.ll.upcoming.results[0] -%}
     {% for launch in previous_launches %}
     {%- assign mission = launch.mission -%}
     {%- assign pad = launch.pad -%}
