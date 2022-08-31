@@ -5,6 +5,8 @@ table
   width: 100%
   &.upcoming tr.past, &.previous tr.future
     @extend .hidden
+  &.previous tr.past:last-of-type td
+    border-bottom: none
   &.upcoming, &.previous, &.crew
     @extend .border
     tr.Go td
@@ -20,11 +22,12 @@ table
       overflow: hidden
       &:first-child
         text-align: right
-        color: var(--fg-secondary) !important
         min-width: 3em
         max-width: 3em
   &.crew
     td, th
+      &:first-child
+        color: var(--fg-secondary) !important
       &:nth-child(6)
         min-width: 10em
         max-width: 10em
