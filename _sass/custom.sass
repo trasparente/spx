@@ -7,8 +7,9 @@ table
     @extend .hidden
   &.previous tr.past:last-of-type td
     border-bottom: none
-  &.upcoming, &.previous, &.crew
+  &.upcoming, &.previous
     @extend .border
+  &.upcoming, &.previous, &.crew
     tr.Go td
       @extend .pink
     tr.TBD td
@@ -25,6 +26,8 @@ table
         min-width: 3em
         max-width: 3em
   &.crew
+    tr.blue td
+      @extend .border-top
     td, th
       &:first-child
         color: var(--fg-secondary) !important
