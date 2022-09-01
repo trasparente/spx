@@ -25,7 +25,7 @@
     {%- assign configuration = rocket.configuration -%}
     {%- assign year = launch.net | date: "%Y" | append: " "-%}
     {%- assign net = launch.net | date_to_rfc822 | remove: year | remove: "," | truncate: 19, '' -%}
-    {%- assign zoom = site.data.ll.missions[launch.id].size -%}
+    {%- assign zoom = missions[launch.id].size -%}
     <tr class="{{ launch.status.abbrev }}" check-past-future="{{ launch.net }}">
       <td title="{{ launch.status.name }}&#13;{{ launch.id }}"><span class="{% if zoom == nil %}fg-secondary{% endif %}">{{ total_launch_count | minus: 9 | plus: forloop.index0 }}</span></td>
       <td title="{{ mission.name }}&#13;&#13;{{ mission.description }}">{{ mission.name }}</td>

@@ -41,7 +41,7 @@ order: 1
 {% assign years = past_launches | group_by_exp: "item", "item.date_local | truncate: 4, ''" %}
 | Year | &uarr; | Tons |
 |:---|---:|---:|
-| {{ 'now' | date: "%Y" }} | {{ previous_launches[0].agency_launch_attempt_count_year }} |{% for y in years reversed %}{% assign kg = 0 %}{% for l in y.items %}{% for p in l.payloads %}{% assign payload = site.data.payloads | where: 'id', p %}{% assign kg = kg | plus: payload[0].mass_kg %}{% endfor %}{% endfor %}
+| {{ 'now' | date: "%Y" }} | {{ previous_launches.last.agency_launch_attempt_count_year }} |{% for y in years reversed %}{% assign kg = 0 %}{% for l in y.items %}{% for p in l.payloads %}{% assign payload = site.data.payloads | where: 'id', p %}{% assign kg = kg | plus: payload[0].mass_kg %}{% endfor %}{% endfor %}
 | {{ y.name }} | {{ y.items.size }} | {{ kg | divided_by: 907.18474 | round: 1 }} |{% endfor %}
 {: style="min-width:12em;margin-right:1em"}
 </div>

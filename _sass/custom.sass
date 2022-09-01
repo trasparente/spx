@@ -25,18 +25,25 @@ table
         text-align: right
         min-width: 3em
         max-width: 3em
+  // CREW TABLE
   &.crew
+
     tr.blue td
       @extend .border-top
+
+    tr:not(.blue)
+      td
+        &:first-child
+          color: var(--fg-secondary) !important
+
     td, th
-      &:first-child
-        color: var(--fg-secondary) !important
-      &:nth-child(6)
-        min-width: 10em
-        max-width: 10em
+      &:nth-child(2)
+        min-width: 18em
+        max-width: 18em
       &:nth-child(3)
         min-width: 8em
         max-width: 8em
+
   &.upcoming, &.previous
     td, th
       &:nth-child(2)
@@ -55,6 +62,9 @@ table
       &:nth-child(6)
         min-width: 5em
         max-width: 5em
+      &:nth-child(7)
+        min-width: 7em
+        max-width: 7em
   td code
     color: var(--fg-secondary)
 
