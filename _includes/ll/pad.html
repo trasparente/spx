@@ -1,0 +1,7 @@
+{%- assign location = pad.location.name | split: "," -%}
+{{ pad.name |
+  replace: "Unknown Pad", "" |
+  replace: "Space ", "S" |
+  replace: "Launch Complex", "LC" |
+  replace: "Orbital Launch Mount", "OLM" |
+  append: location[1] }}
