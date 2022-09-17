@@ -1,0 +1,36 @@
+<table class="upcoming next">
+  <tbody>
+{%- assign next = "" | split: "" | push: upcoming_launches[0] | push: upcoming_launches[1] -%}
+{% for launch in next %}
+{% include ll/upcoming_launch.html %}
+<tr class="{{ launch.status.abbrev }}" check-past-future="{{ launch.net }}">
+  <td colspan=7>
+  <div class="grid">
+    <div>
+      <img src="{{ launch.mission_patches[0].image_url }}" alt="">
+    </div>
+    <div>
+      <span class="fg-secondary">Updated</span> {% include widgets/datetime.html datetime=launch.last_updated replace=true %}<br>
+      <ol>
+        {% for u in launch.updates limit: 6 %}<li>{{ u.comment }}</li>
+        {% endfor %}
+      </ol>
+    </div>
+    <div>
+      <span class="fg-secondary">Programs</span>
+      <ol>
+        {% for p in configuration.program %}<li title="{% for a in p.agencies %}{{ a.name }}{% if forloop.last != true %}, {% endif %}{% endfor %}">{{ p.name }}</li>
+        {% endfor %}
+      </ol>{%- if rocket.spacecraft_stage.launch_crew.size -%}
+      <span class="fg-secondary">Crew</span>
+      <ol>
+        {% for c in rocket.spacecraft_stage.launch_crew %}<li title="{{ c.role.role }}">{{ c.astronaut.name }}</li>
+        {% endfor %}
+      </ol>{%- endif -%}
+    </div>
+  </div>
+  </td>
+</tr>
+{% endfor %}
+  </tbody>
+</table>

@@ -3,21 +3,19 @@ table
   margin-right: auto
   margin-left: auto
   width: 100%
-  &.upcoming tr.past, &.previous tr.future
+  &.upcoming tr.past,
+  &.next tr.future:nth-of-type(3),
+  &.next tr.future:nth-of-type(4),
+  &.upcoming:not(.next) tr.future:first-of-type,
+  &.previous tr.future
     @extend .hidden
-  &.previous tr.past:last-of-type td
-    border-bottom: none
   &.upcoming, &.previous
     @extend .border
+  &.previous tr.past:last-of-type td,
+  &.next td
+    border-bottom: none !important
   &.upcoming, &.previous, &.crew
-    tr.Go td
-      @extend .pink
-    tr.TBD td
-      @extend .bg-secondary
-    tr.Success
-      td
-        @extend .green
-    td, th
+    td:not([colspan]), th
       text-align: left
       white-space: nowrap
       overflow: hidden
@@ -83,3 +81,25 @@ div.tables
     margin-right: 1em
     &:first-of-type
       margin-top: 0
+
+//
+// COLORS
+// --------------------------------------
+.Go td
+  @extend .pink
+.TBD td
+  @extend .bg-secondary
+.Success td
+  @extend .green
+
+// NEXT MISSION
+td[colspan="7"] > div
+  @extend .flex
+  div
+    @extend .p-around-small
+  img
+    width: 9em
+  ol, li
+    @extend .mbz
+  ol
+    margin-top: $space/2
