@@ -3,17 +3,24 @@ table
   margin-right: auto
   margin-left: auto
   width: 100%
+
+  // Hide rows
   &.upcoming tr.past,
-  &.next tr.future:nth-of-type(3),
-  &.next tr.future:nth-of-type(4),
-  &.upcoming:not(.next) tr.future:first-of-type,
-  &.previous tr.future
+  &.previous tr.future,
+  &.next .future + .future:nth-of-type(3),
+  &.next .future + .future + .future:nth-of-type(4),
+  &.upcoming:not(.next) tr.past + tr.future,
+  &.upcoming:not(.next) tr:first-of-type:not(.past)
     @extend .hidden
+
+  // Borders
   &.upcoming, &.previous
     @extend .border
   &.previous tr.past:last-of-type td,
   &.next td
     border-bottom: none !important
+
+  // Cells
   &.upcoming, &.previous, &.crew
     td:not([colspan]), th
       text-align: left
@@ -97,6 +104,8 @@ td[colspan="7"] > div
   @extend .flex
   div
     @extend .p-around-small
+  & > div:first-of-type
+    align-self: center
   img
     width: 9em
   ol, li
