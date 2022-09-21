@@ -1,0 +1,4 @@
+{% for s in rocket.launcher_stage %}
+{%- assign landpad = s.landing.location.abbrev | replace: "N/A", "" | trim -%}
+{% if s.landing.location.successful_landings > 0 or landpad != '' %}<code>[{{ s.landing.location.successful_landings }}]</code>{% endif %}{{ landpad }}<br>
+{% endfor %}
