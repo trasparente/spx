@@ -1,6 +1,6 @@
 {
   "count": 83,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-09-22T06%3A45%3A37Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-09-22T12%3A27%3A24Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-09-22T01:32:06Z",
+      "last_updated": "2022-09-22T11:17:14Z",
       "updates": [
+        {
+          "id": 2457,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated T-0",
+          "info_url": "https://twitter.com/TSKelso/status/1572878442521149440",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2022-09-22T11:16:14Z"
+        },
         {
           "id": 2454,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -83,9 +91,9 @@
           "created_on": "2022-08-19T07:01:47Z"
         }
       ],
-      "net": "2022-09-24T23:27:00Z",
-      "window_end": "2022-09-25T01:45:00Z",
-      "window_start": "2022-09-24T23:27:00Z",
+      "net": "2022-09-24T23:32:10Z",
+      "window_end": "2022-09-24T23:32:10Z",
+      "window_start": "2022-09-24T23:32:10Z",
       "probability": 60,
       "holdreason": "",
       "failreason": "",
@@ -257,20 +265,20 @@
             "id": 270,
             "type": "Core",
             "reused": null,
-            "launcher_flight_number": 16,
+            "launcher_flight_number": 4,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 112,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/112/?format=json",
+              "details": "Landed at ASOG as of Aug 10, 2022",
+              "flight_proven": true,
+              "serial_number": "B1073",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/112_image_20220516182658.jpeg",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 3,
+              "last_launch_date": "2022-08-10T02:14:00Z",
+              "first_launch_date": "2022-05-14T20:40:50Z"
             },
             "landing": {
               "id": 298,
@@ -292,11 +300,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
+            "previous_flight_date": "2022-08-10T02:14:00Z",
+            "turn_around_time_days": 45,
             "previous_flight": {
-              "id": "adcb0090-6f97-40c2-821f-104b5ed3e9c7",
-              "name": "Falcon 9 Block 5 | Starlink Group 4-36"
+              "id": "a6b9deb4-f78d-4b57-8e47-98c5aea99d9e",
+              "name": "Falcon 9 Block 5 | Starlink Group 4-26"
             }
           }
         ],
