@@ -1,7 +1,3 @@
-<table class='upcoming'>
-  <tbody>
-    {% for launch in upcoming_launches %}
-    {% include ll/upcoming_launch.html %}
-    {% endfor %}
-  </tbody>
-</table>
+{% for launch in upcoming_launches %}
+{% include ll/upcoming_launch.html %}
+{% endfor %}

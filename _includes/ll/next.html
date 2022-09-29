@@ -1,9 +1,7 @@
-<table class="upcoming next">
-  <tbody>
 {%- assign next = "" | split: "" | push: upcoming_launches[0] | push: upcoming_launches[1] -%}
 {% for launch in next %}
 {% include ll/upcoming_launch.html %}
-<tr class="{{ launch.status.abbrev }}" check-past-future="{{ launch.net }}">
+<tr class="upcoming next {{ launch.status.abbrev }}" check-past-future="{{ launch.net }}">
   <td colspan=7>
   <div class="grid">
     <div>
@@ -32,5 +30,3 @@
   </td>
 </tr>
 {% endfor %}
-  </tbody>
-</table>

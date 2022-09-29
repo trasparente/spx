@@ -5,23 +5,16 @@ table
   width: 100%
 
   // Hide rows
-  &.upcoming tr.past,
-  &.previous tr.future,
-  &.next .future + .future:nth-of-type(3),
-  &.next .future + .future + .future:nth-of-type(4),
-  &.upcoming:not(.next) tr.past + tr.future,
-  &.upcoming:not(.next) tr:first-of-type:not(.past)
+  .upcoming.past,
+  .previous.future,
+  .upcoming.future + .next.future + .upcoming.future,
+  .upcoming.future + .next.future + .upcoming.future + .next.future,
+  .upcoming:not(.next) tr.past + tr.future,
+  .upcoming:not(.next) tr:first-of-type:not(.past)
     @extend .hidden
 
-  // Borders
-  &.upcoming, &.previous
-    @extend .border
-  &.previous tr.past:last-of-type td,
-  &.next td
-    border-bottom: none !important
-
   // Cells
-  &.upcoming, &.previous, &.crew
+  .upcoming, .previous, &.crew
     td:not([colspan]), th
       text-align: left
       white-space: nowrap
@@ -49,7 +42,7 @@ table
         min-width: 8em
         max-width: 8em
 
-  &.upcoming, &.previous
+  .upcoming, .previous
     td, th
       &:nth-child(2)
         min-width: 15em
