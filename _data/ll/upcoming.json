@@ -1,6 +1,6 @@
 {
   "count": 83,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-04T12%3A30%3A23Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-04T18%3A24%3A58Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -373,8 +373,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2022-10-04T02:01:19Z",
+      "last_updated": "2022-10-04T15:57:39Z",
       "updates": [
+        {
+          "id": 2522,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Weather >90%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Falcon%209%20NASA%20Crew-5%20L-1%20Forecast%20-%205%20Oct%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2022-10-04T15:56:38Z"
+        },
         {
           "id": 2512,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -443,7 +451,7 @@
       "net": "2022-10-05T16:00:00Z",
       "window_end": "2022-10-05T16:00:00Z",
       "window_start": "2022-10-05T16:00:00Z",
-      "probability": 90,
+      "probability": 95,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1186,8 +1194,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-10-04T06:53:43Z",
+      "last_updated": "2022-10-04T15:58:10Z",
       "updates": [
+        {
+          "id": 2523,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Weather >90%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Falcon%209%20Intelsat%20G33%20G34%20L-2%20Forecast%20-%206%20Oct%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2022-10-04T15:57:03Z"
+        },
         {
           "id": 2516,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -1232,7 +1248,7 @@
       "net": "2022-10-06T23:07:00Z",
       "window_end": "2022-10-07T00:14:00Z",
       "window_start": "2022-10-06T23:07:00Z",
-      "probability": 90,
+      "probability": 95,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1400,7 +1416,54 @@
           "failed_launches": 0,
           "pending_launches": 67
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 287,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": 14,
+            "launcher": {
+              "id": 72,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/72/?format=json",
+              "details": "Landed on ASOG as of Jun 17, 2022.",
+              "flight_proven": true,
+              "serial_number": "B1060",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/72_image_20200706205625.jpg",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2022-06-17T16:09:20Z",
+              "first_launch_date": "2020-06-30T20:10:46Z"
+            },
+            "landing": {
+              "id": 311,
+              "attempt": false,
+              "success": null,
+              "description": "B1060 will attempt to land on A Shortfall of Gravitas after its 14th flight.",
+              "location": {
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "location": null,
+                "successful_landings": 22
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2022-06-17T16:09:20Z",
+            "turn_around_time_days": 111,
+            "previous_flight": {
+              "id": "179789f0-9380-4182-8ea2-676504c2f890",
+              "name": "Falcon 9 Block 5 | Starlink Group 4-19"
+            }
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -1467,8 +1530,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-10-04T00:25:54Z",
+      "last_updated": "2022-10-04T13:35:22Z",
       "updates": [
+        {
+          "id": 2519,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Updating date",
+          "info_url": "https://spaceflightnow.com/launch-schedule/",
+          "created_by": "Nosu",
+          "created_on": "2022-10-04T13:34:49Z"
+        },
         {
           "id": 2398,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -1486,9 +1557,9 @@
           "created_on": "2022-08-19T07:29:28Z"
         }
       ],
-      "net": "2022-10-14T03:25:00Z",
-      "window_end": "2022-10-14T05:24:00Z",
-      "window_start": "2022-10-14T03:25:00Z",
+      "net": "2022-10-13T03:25:00Z",
+      "window_end": "2022-10-13T05:24:00Z",
+      "window_start": "2022-10-13T03:25:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
