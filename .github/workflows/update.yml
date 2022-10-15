@@ -134,6 +134,13 @@ jobs:
           url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/16/?format=json'
           file: '_data/ll/landing_pads/gom.json'
 
+      # ATL
+      - name: LL - Fetch and save ATL
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: 'https://ll.thespacedevs.com/2.2.0/config/landinglocation/6/?format=json'
+          file: '_data/ll/landing_pads/atl.json'
+
       # COMMIT
       # ------
       - name: Git Auto Commit
