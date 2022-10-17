@@ -44,7 +44,7 @@ jobs:
           url: "https://ll.thespacedevs.com/2.2.0/launch/?format=json&mode=detailed&net__lt=${{ steps.date.outputs.now }}&ordering=-net&lsp__ids=121"
           file: '_data/ll/previous.json'
 
-      # Check Last launch Mission
+      # Check Penultimate launch Mission
       # -------------------------
       
       # Get last flight id
@@ -53,14 +53,14 @@ jobs:
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
           path: '_data/ll/previous.json'
-          prop_path: 'results[0].id'
+          prop_path: 'results[1].id'
       # Get last flight url
       - name: get last flight url
         id: last_url
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
           path: '_data/ll/previous.json'
-          prop_path: 'results[0].url'
+          prop_path: 'results[1].url'
       # Check mission file
       - name: Check file existence
         id: check_files
