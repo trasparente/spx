@@ -1,13 +1,13 @@
 {
   "count": 81,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-21T01%3A13%3A00Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-21T06%3A29%3A48Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
       "id": "4d3bde71-3ead-4236-af5b-eccfa7549f4f",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/4d3bde71-3ead-4236-af5b-eccfa7549f4f/?format=json",
       "slug": "falcon-9-block-5-starlink-group-4-31",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=4d3bde71-3ead-4236-af5b-eccfa7549f4f",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 4-31",
       "status": {
@@ -16,7 +16,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-21T00:58:36Z",
+      "last_updated": "2022-10-21T05:01:41Z",
       "updates": [
         {
           "id": 2494,
@@ -269,7 +269,7 @@
       "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/aa88b853-9e04-4a28-9433-d87799331b1b/?format=json",
       "slug": "falcon-heavy-ussf-44",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=aa88b853-9e04-4a28-9433-d87799331b1b",
       "r_spacex_api_id": "5fe3af99b3467846b3242162",
       "name": "Falcon Heavy | USSF-44",
       "status": {
@@ -278,7 +278,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-20T20:45:18Z",
+      "last_updated": "2022-10-21T05:03:08Z",
       "updates": [
         {
           "id": 2658,
@@ -446,7 +446,7 @@
             "launcher": {
               "id": 86,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
-              "details": "Falcon Heavy side booster first used for USSF-44",
+              "details": "",
               "flight_proven": false,
               "serial_number": "B1065",
               "status": "active",
@@ -493,6 +493,49 @@
             }
           },
           {
+            "id": 150,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 87,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1066",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 181,
+              "attempt": false,
+              "success": null,
+              "description": "B1066 will be expended.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 151,
             "type": "Strap-On Booster",
             "reused": false,
@@ -500,7 +543,7 @@
             "launcher": {
               "id": 85,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Falcon Heavy side booster first used for USSF-44",
+              "details": "At McGregor after static-fire test as of Oct 5, 2020.",
               "flight_proven": false,
               "serial_number": "B1064",
               "status": "active",
@@ -545,49 +588,6 @@
               "id": "0098c032-73de-4c6f-8d73-5d68b9a12fdf",
               "name": "Falcon Heavy | USSF-52"
             }
-          },
-          {
-            "id": 150,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 87,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
-              "details": "Falcon Heavy first stage first used for USSF-44",
-              "flight_proven": false,
-              "serial_number": "B1066",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 181,
-              "attempt": false,
-              "success": null,
-              "description": "B1066 will be expended.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 3
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -656,7 +656,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-21T00:53:26Z",
+      "last_updated": "2022-10-21T02:48:58Z",
       "updates": [],
       "net": "2022-11-05T00:00:00Z",
       "window_end": "2022-11-05T00:00:00Z",
@@ -1208,7 +1208,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-10-20T01:22:26Z",
+      "last_updated": "2022-10-21T01:28:24Z",
       "updates": [
         {
           "id": 2637,
@@ -1818,7 +1818,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-20T01:10:39Z",
+      "last_updated": "2022-10-21T01:15:46Z",
       "updates": [
         {
           "id": 2321,
@@ -2090,7 +2090,7 @@
       "id": "baf2eb66-6cfc-48bb-9ced-85c40218abf1",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/baf2eb66-6cfc-48bb-9ced-85c40218abf1/?format=json",
       "slug": "falcon-9-block-5-hotbird-13g",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=baf2eb66-6cfc-48bb-9ced-85c40218abf1",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Hotbird 13G",
       "status": {
@@ -2099,7 +2099,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-20T02:40:00Z",
+      "last_updated": "2022-10-21T05:04:37Z",
       "updates": [
         {
           "id": 2636,
@@ -2302,7 +2302,7 @@
             "id": 282,
             "type": "Core",
             "reused": null,
-            "launcher_flight_number": 11,
+            "launcher_flight_number": 13,
             "launcher": {
               "id": 106,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
@@ -2392,7 +2392,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-20T02:40:07Z",
+      "last_updated": "2022-10-21T02:52:44Z",
       "updates": [
         {
           "id": 2643,
@@ -2587,7 +2587,7 @@
             "id": 281,
             "type": "Core",
             "reused": null,
-            "launcher_flight_number": 11,
+            "launcher_flight_number": 13,
             "launcher": {
               "id": 106,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
@@ -2709,7 +2709,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-20T02:40:32Z",
+      "last_updated": "2022-10-21T02:53:11Z",
       "updates": [
         {
           "id": 2402,
