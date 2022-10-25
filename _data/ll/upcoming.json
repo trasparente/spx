@@ -1,6 +1,6 @@
 {
   "count": 81,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-25T06%3A52%3A34Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-25T12%3A31%3A20Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-10-25T01:05:28Z",
+      "last_updated": "2022-10-25T08:26:55Z",
       "updates": [
         {
           "id": 2673,
@@ -222,7 +222,54 @@
           "failed_launches": 0,
           "pending_launches": 65
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 292,
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 8,
+            "launcher": {
+              "id": 84,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/84/?format=json",
+              "details": "Landed on OCISLY as of Aug 31, 2022",
+              "flight_proven": true,
+              "serial_number": "B1063",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/84_image_20201122121517.jpeg",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2022-08-31T05:40:10Z",
+              "first_launch_date": "2020-11-21T17:17:00Z"
+            },
+            "landing": {
+              "id": 314,
+              "attempt": true,
+              "success": null,
+              "description": "B1063 will attempt to land on ASDS OCISLY after its eighth flight.",
+              "location": {
+                "id": 1,
+                "name": "Of Course I Still Love You",
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "location": null,
+                "successful_landings": 55
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2022-08-31T05:40:10Z",
+            "turn_around_time_days": 57,
+            "previous_flight": {
+              "id": "576b04d6-1962-4bda-b43f-0da4138d192d",
+              "name": "Falcon 9 Block 5 | Starlink Group 3-4"
+            }
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -1872,7 +1919,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-25T02:59:27Z",
+      "last_updated": "2022-10-25T08:26:53Z",
       "updates": [
         {
           "id": 2675,
@@ -2058,7 +2105,7 @@
           {
             "id": 289,
             "type": "Core",
-            "reused": null,
+            "reused": true,
             "launcher_flight_number": 14,
             "launcher": {
               "id": 2,
@@ -2766,7 +2813,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-25T03:03:56Z",
+      "last_updated": "2022-10-25T08:29:45Z",
       "updates": [
         {
           "id": 2402,
@@ -2952,7 +2999,7 @@
           {
             "id": 283,
             "type": "Core",
-            "reused": null,
+            "reused": true,
             "launcher_flight_number": 11,
             "launcher": {
               "id": 57,
