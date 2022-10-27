@@ -1,6 +1,6 @@
 {
   "count": 81,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-26T18%3A16%3A15Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-10-27T01%3A10%3A34Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 4-31",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2022-10-26T01:47:25Z",
+      "last_updated": "2022-10-27T00:32:43Z",
       "updates": [
+        {
+          "id": 2688,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Go for launch.",
+          "info_url": "https://twitter.com/spacex/status/1585414794181369856",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2022-10-26T23:39:10Z"
+        },
         {
           "id": 2686,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -92,7 +100,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -132,7 +140,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -236,7 +244,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [
           {
@@ -291,7 +299,7 @@
       "mission": {
         "id": 6148,
         "name": "Starlink Group 4-31",
-        "description": "A batch of satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 53 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -324,7 +332,15 @@
         "orbital_launch_attempt_count": 97
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "Starlink Mission",
+          "description": "SpaceX is targeting Thursday, October 27 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 4E (SLC-4E) at Vandenbe...",
+          "feature_image": "https://i.ytimg.com/vi/iYtH2khNIgU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=iYtH2khNIgU"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20220929203708.png",
       "infographic": null,
@@ -365,7 +381,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-10-26T01:49:18Z",
+      "last_updated": "2022-10-27T00:56:14Z",
       "updates": [
         {
           "id": 2666,
@@ -457,7 +473,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -497,7 +513,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -533,6 +549,49 @@
           "pending_launches": 10
         },
         "launcher_stage": [
+          {
+            "id": 150,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 87,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1066",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 181,
+              "attempt": false,
+              "success": null,
+              "description": "B1066 will be expended.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
           {
             "id": 151,
             "type": "Strap-On Booster",
@@ -640,49 +699,6 @@
               "id": "0098c032-73de-4c6f-8d73-5d68b9a12fdf",
               "name": "Falcon Heavy | USSF-52"
             }
-          },
-          {
-            "id": 150,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 87,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1066",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 181,
-              "attempt": false,
-              "success": null,
-              "description": "B1066 will be expended.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 3
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -751,7 +767,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-10-26T06:42:47Z",
+      "last_updated": "2022-10-27T01:00:33Z",
       "updates": [
         {
           "id": 2687,
@@ -819,7 +835,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -859,7 +875,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -963,7 +979,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [
           {
@@ -1060,7 +1076,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-10-26T00:57:25Z",
+      "last_updated": "2022-10-27T00:49:06Z",
       "updates": [
         {
           "id": 2637,
@@ -1112,7 +1128,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -1152,7 +1168,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -1256,7 +1272,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -1408,7 +1424,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-26T00:19:04Z",
+      "last_updated": "2022-10-27T00:15:28Z",
       "updates": [
         {
           "id": 2562,
@@ -1444,7 +1460,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -1484,7 +1500,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -1588,7 +1604,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -1670,7 +1686,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-26T00:27:09Z",
+      "last_updated": "2022-10-27T00:22:40Z",
       "updates": [
         {
           "id": 2676,
@@ -1730,7 +1746,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -1770,7 +1786,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -1874,7 +1890,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -1943,7 +1959,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-26T01:46:16Z",
+      "last_updated": "2022-10-27T00:29:53Z",
       "updates": [
         {
           "id": 2675,
@@ -1979,7 +1995,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -2019,7 +2035,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -2123,7 +2139,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [
           {
@@ -2239,7 +2255,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-26T00:49:45Z",
+      "last_updated": "2022-10-27T00:42:16Z",
       "updates": [
         {
           "id": 2321,
@@ -2307,7 +2323,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -2347,7 +2363,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -2451,7 +2467,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -2520,7 +2536,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-26T01:49:38Z",
+      "last_updated": "2022-10-27T01:01:46Z",
       "updates": [
         {
           "id": 2643,
@@ -2564,7 +2580,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -2604,7 +2620,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -2708,7 +2724,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [
           {
@@ -2837,7 +2853,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-10-26T01:49:54Z",
+      "last_updated": "2022-10-27T01:06:46Z",
       "updates": [
         {
           "id": 2402,
@@ -2873,7 +2889,7 @@
         "consecutive_successful_launches": 71,
         "successful_launches": 191,
         "failed_launches": 9,
-        "pending_launches": 76,
+        "pending_launches": 77,
         "consecutive_successful_landings": 71,
         "successful_landings": 156,
         "failed_landings": 17,
@@ -2913,7 +2929,7 @@
             "consecutive_successful_launches": 71,
             "successful_launches": 191,
             "failed_launches": 9,
-            "pending_launches": 76,
+            "pending_launches": 77,
             "consecutive_successful_landings": 71,
             "successful_landings": 156,
             "failed_landings": 17,
@@ -3017,7 +3033,7 @@
           "consecutive_successful_launches": 126,
           "successful_launches": 126,
           "failed_launches": 0,
-          "pending_launches": 64
+          "pending_launches": 65
         },
         "launcher_stage": [
           {
