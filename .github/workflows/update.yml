@@ -47,20 +47,21 @@ jobs:
       # Check Penultimate launch Mission
       # -------------------------
       
-      # Get last flight id
+      # Get second-last flight id
+      # Wait more time to save definitive mission
       - name: get last flight id
         id: last_id
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
           path: '_data/ll/previous.json'
-          prop_path: 'results[1].id'
-      # Get last flight url
+          prop_path: 'results[2].id'
+      # Get second-last flight url
       - name: get last flight url
         id: last_url
         uses: kekedaine/github-action-json-property-by-lodash@0.2.0
         with:
           path: '_data/ll/previous.json'
-          prop_path: 'results[1].url'
+          prop_path: 'results[2].url'
       # Check mission file
       - name: Check file existence
         id: check_files
