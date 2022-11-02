@@ -1,6 +1,6 @@
 {
   "count": 80,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-11-01T18%3A16%3A34Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-11-02T01%3A15%3A07Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Hotbird 13G",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2022-11-01T15:45:19Z",
+      "last_updated": "2022-11-02T01:03:12Z",
       "updates": [
+        {
+          "id": 2728,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Setting GO",
+          "info_url": "https://twitter.com/SpaceX/status/1587556716408762368",
+          "created_by": "Nosu",
+          "created_on": "2022-11-01T21:28:11Z"
+        },
         {
           "id": 2725,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -76,7 +84,7 @@
         }
       ],
       "net": "2022-11-03T03:26:00Z",
-      "window_end": "2022-11-03T05:26:00Z",
+      "window_end": "2022-11-03T05:22:00Z",
       "window_start": "2022-11-03T03:26:00Z",
       "probability": 90,
       "holdreason": "",
@@ -100,7 +108,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -140,7 +148,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -244,7 +252,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -312,8 +320,24 @@
         "total_launch_count": 157,
         "orbital_launch_attempt_count": 156
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/eutelsat-hotbird-13g/"
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "Eutelsat HOTBIRD 13G Mission",
+          "description": "SpaceX is targeting Wednesday, November 2 for launch of the Eutelsat HOTBIRD 13G mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC...",
+          "feature_image": "https://i.ytimg.com/vi/McV40hM7aI8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=McV40hM7aI8"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
@@ -341,7 +365,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-11-01T01:27:29Z",
+      "last_updated": "2022-11-02T00:31:56Z",
       "updates": [
         {
           "id": 2690,
@@ -385,7 +409,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -425,7 +449,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -529,7 +553,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -622,11 +646,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6323,
+      "orbital_launch_attempt_count": 6324,
       "location_launch_attempt_count": 864,
       "pad_launch_attempt_count": 159,
       "agency_launch_attempt_count": 204,
-      "orbital_launch_attempt_count_year": 153,
+      "orbital_launch_attempt_count_year": 154,
       "location_launch_attempt_count_year": 34,
       "pad_launch_attempt_count_year": 26,
       "agency_launch_attempt_count_year": 52,
@@ -645,7 +669,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-11-01T00:46:44Z",
+      "last_updated": "2022-11-02T00:51:19Z",
       "updates": [
         {
           "id": 2720,
@@ -713,7 +737,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -753,7 +777,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -857,7 +881,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -986,11 +1010,11 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6328,
+      "orbital_launch_attempt_count": 6329,
       "location_launch_attempt_count": 211,
       "pad_launch_attempt_count": 153,
       "agency_launch_attempt_count": 205,
-      "orbital_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count_year": 159,
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 16,
       "agency_launch_attempt_count_year": 53,
@@ -1009,7 +1033,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-11-01T13:09:26Z",
+      "last_updated": "2022-11-02T00:24:26Z",
       "updates": [
         {
           "id": 2719,
@@ -1077,7 +1101,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -1117,7 +1141,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -1221,7 +1245,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -1267,11 +1291,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6329,
+      "orbital_launch_attempt_count": 6330,
       "location_launch_attempt_count": 865,
       "pad_launch_attempt_count": 160,
       "agency_launch_attempt_count": 206,
-      "orbital_launch_attempt_count_year": 159,
+      "orbital_launch_attempt_count_year": 160,
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 27,
       "agency_launch_attempt_count_year": 54,
@@ -1290,7 +1314,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-11-01T00:15:15Z",
+      "last_updated": "2022-11-02T00:17:00Z",
       "updates": [
         {
           "id": 2562,
@@ -1326,7 +1350,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -1366,7 +1390,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -1470,7 +1494,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -1516,11 +1540,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6338,
+      "orbital_launch_attempt_count": 6339,
       "location_launch_attempt_count": 709,
       "pad_launch_attempt_count": 99,
       "agency_launch_attempt_count": 209,
-      "orbital_launch_attempt_count_year": 168,
+      "orbital_launch_attempt_count_year": 169,
       "location_launch_attempt_count_year": 16,
       "pad_launch_attempt_count_year": 12,
       "agency_launch_attempt_count_year": 57,
@@ -1552,7 +1576,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-11-01T01:29:37Z",
+      "last_updated": "2022-11-02T01:04:24Z",
       "updates": [
         {
           "id": 2643,
@@ -1596,7 +1620,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -1636,7 +1660,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -1740,7 +1764,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -1833,11 +1857,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20221001060437.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6338,
+      "orbital_launch_attempt_count": 6339,
       "location_launch_attempt_count": 868,
       "pad_launch_attempt_count": 162,
       "agency_launch_attempt_count": 209,
-      "orbital_launch_attempt_count_year": 168,
+      "orbital_launch_attempt_count_year": 169,
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 29,
       "agency_launch_attempt_count_year": 57,
@@ -1869,7 +1893,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-11-01T01:29:51Z",
+      "last_updated": "2022-11-02T01:09:35Z",
       "updates": [
         {
           "id": 2402,
@@ -1905,7 +1929,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -1945,7 +1969,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -2049,7 +2073,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -2142,11 +2166,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6338,
+      "orbital_launch_attempt_count": 6339,
       "location_launch_attempt_count": 868,
       "pad_launch_attempt_count": 162,
       "agency_launch_attempt_count": 209,
-      "orbital_launch_attempt_count_year": 168,
+      "orbital_launch_attempt_count_year": 169,
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 29,
       "agency_launch_attempt_count_year": 57,
@@ -2165,7 +2189,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-11-01T01:28:37Z",
+      "last_updated": "2022-11-02T00:48:37Z",
       "updates": [
         {
           "id": 2588,
@@ -2217,7 +2241,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -2257,7 +2281,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -2361,7 +2385,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -2462,11 +2486,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6340,
+      "orbital_launch_attempt_count": 6341,
       "location_launch_attempt_count": 710,
       "pad_launch_attempt_count": 100,
       "agency_launch_attempt_count": 210,
-      "orbital_launch_attempt_count_year": 170,
+      "orbital_launch_attempt_count_year": 171,
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 13,
       "agency_launch_attempt_count_year": 58,
@@ -2485,7 +2509,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-11-01T00:14:58Z",
+      "last_updated": "2022-11-02T00:16:42Z",
       "updates": [
         {
           "id": 1433,
@@ -2553,7 +2577,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -2593,7 +2617,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -2697,7 +2721,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -2743,11 +2767,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20220322195146.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6365,
+      "orbital_launch_attempt_count": 6366,
       "location_launch_attempt_count": 876,
       "pad_launch_attempt_count": 4,
       "agency_launch_attempt_count": 221,
-      "orbital_launch_attempt_count_year": 195,
+      "orbital_launch_attempt_count_year": 196,
       "location_launch_attempt_count_year": 46,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 69,
@@ -2766,7 +2790,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-11-01T00:15:48Z",
+      "last_updated": "2022-11-02T00:17:38Z",
       "updates": [
         {
           "id": 2404,
@@ -2818,7 +2842,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -2858,7 +2882,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -2962,7 +2986,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -3008,11 +3032,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6365,
+      "orbital_launch_attempt_count": 6366,
       "location_launch_attempt_count": 712,
       "pad_launch_attempt_count": 102,
       "agency_launch_attempt_count": 221,
-      "orbital_launch_attempt_count_year": 195,
+      "orbital_launch_attempt_count_year": 196,
       "location_launch_attempt_count_year": 19,
       "pad_launch_attempt_count_year": 15,
       "agency_launch_attempt_count_year": 69,

@@ -1,6 +1,6 @@
 {
   "count": 202,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2022-11-01T18%3A16%3A34Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2022-11-02T01%3A15%3A07Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": "5fe3af99b3467846b3242162",
       "name": "Falcon Heavy | USSF-44",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The lauch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T13:52:06Z",
+      "last_updated": "2022-11-02T00:58:45Z",
       "updates": [
+        {
+          "id": 2729,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay_profile_20211216212147.png",
+          "comment": "Successful launch of Falcon Heavy for the United States Space Force.",
+          "info_url": "https://twitter.com/SpaceflightNow/status/1587572427038638084",
+          "created_by": "Jay",
+          "created_on": "2022-11-02T00:58:12Z"
+        },
         {
           "id": 2724,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -156,7 +164,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -196,7 +204,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -287,49 +295,6 @@
             }
           },
           {
-            "id": 150,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 87,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
-              "details": "Expended on its first flight for USSF-44.",
-              "flight_proven": false,
-              "serial_number": "B1066",
-              "status": "expended",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": "2022-11-01T13:41:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 181,
-              "attempt": false,
-              "success": null,
-              "description": "B1066 was expended.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 3
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 152,
             "type": "Strap-On Booster",
             "reused": false,
@@ -382,6 +347,49 @@
               "id": "0098c032-73de-4c6f-8d73-5d68b9a12fdf",
               "name": "Falcon Heavy | USSF-52"
             }
+          },
+          {
+            "id": 150,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 87,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
+              "details": "Expended on its first flight for USSF-44.",
+              "flight_proven": false,
+              "serial_number": "B1066",
+              "status": "expended",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": "2022-11-01T13:41:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 181,
+              "attempt": false,
+              "success": null,
+              "description": "B1066 was expended.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -466,7 +474,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:27:41Z",
+      "last_updated": "2022-11-02T00:34:42Z",
       "updates": [
         {
           "id": 2704,
@@ -582,7 +590,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -622,7 +630,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -726,7 +734,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -863,7 +871,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:29:25Z",
+      "last_updated": "2022-11-02T00:59:47Z",
       "updates": [
         {
           "id": 2656,
@@ -1019,7 +1027,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -1059,7 +1067,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -1163,7 +1171,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -1308,7 +1316,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:26:35Z",
+      "last_updated": "2022-11-02T00:20:41Z",
       "updates": [
         {
           "id": 2633,
@@ -1448,7 +1456,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -1488,7 +1496,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -1592,7 +1600,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -1724,7 +1732,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:26:12Z",
+      "last_updated": "2022-11-02T00:16:46Z",
       "updates": [
         {
           "id": 2558,
@@ -1880,7 +1888,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -1920,7 +1928,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -2024,7 +2032,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -2163,7 +2171,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:28:03Z",
+      "last_updated": "2022-11-02T00:37:48Z",
       "updates": [
         {
           "id": 2536,
@@ -2263,7 +2271,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -2303,7 +2311,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -2407,7 +2415,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -2668,7 +2676,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -2708,7 +2716,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -2812,7 +2820,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -3417,7 +3425,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:26:48Z",
+      "last_updated": "2022-11-02T00:22:52Z",
       "updates": [
         {
           "id": 2475,
@@ -3557,7 +3565,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -3597,7 +3605,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -3701,7 +3709,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -3838,7 +3846,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:29:15Z",
+      "last_updated": "2022-11-02T00:55:07Z",
       "updates": [
         {
           "id": 2438,
@@ -4106,7 +4114,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -4146,7 +4154,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -4250,7 +4258,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
@@ -4416,7 +4424,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-11-01T01:29:13Z",
+      "last_updated": "2022-11-02T00:54:37Z",
       "updates": [
         {
           "id": 2370,
@@ -4556,7 +4564,7 @@
         "consecutive_successful_launches": 72,
         "successful_launches": 192,
         "failed_launches": 9,
-        "pending_launches": 77,
+        "pending_launches": 78,
         "consecutive_successful_landings": 74,
         "successful_landings": 159,
         "failed_landings": 17,
@@ -4596,7 +4604,7 @@
             "consecutive_successful_launches": 72,
             "successful_launches": 192,
             "failed_launches": 9,
-            "pending_launches": 77,
+            "pending_launches": 78,
             "consecutive_successful_landings": 74,
             "successful_landings": 159,
             "failed_landings": 17,
@@ -4700,7 +4708,7 @@
           "consecutive_successful_launches": 127,
           "successful_launches": 127,
           "failed_launches": 0,
-          "pending_launches": 65
+          "pending_launches": 66
         },
         "launcher_stage": [
           {
