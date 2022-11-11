@@ -13,6 +13,12 @@ table
   .upcoming:not(.next) tr:first-of-type:not(.past)
     @extend .hidden
 
+  // No borders
+  tr.previous.past + tr.previous.future,
+  tr.previous.future + tr.upcoming.future
+    td
+      border-bottom: none !important
+
   // Cells
   .upcoming, .previous, &.crew
     td:not([colspan]), th
