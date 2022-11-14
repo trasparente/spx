@@ -19,6 +19,39 @@ jobs:
         id: date
         run: echo "::set-output name=now::$(date +'%Y-%m-%dT%H:%M:%SZ')"
 
+      # ----------- start old mission block
+
+      # Echo datetime One Year ago
+      - name: Get current date
+        id: year
+        run: echo "::set-output name=ago::$(date -d '-1 year' +'%Y-%m-%dT%H:%M:%SZ')"
+      # Save one year ago mission (14/11/2022)
+      - name: LL - Fetch one mission from 1 year ago
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: "https://ll.thespacedevs.com/2.2.0/launch/?format=json&mode=detailed&net__lt=${{ steps.year.outputs.ago }}&ordering=-net&lsp__ids=121&limit=1"
+          file: "_data/ll/year_mission.json"
+      # Get year mission id
+      - name: get year flight id
+        id: year_id
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/year_mission.json'
+          prop_path: 'results[0].id'
+      # Get year mission url
+      - name: get year flight url
+        id: year_url
+        uses: kekedaine/github-action-json-property-by-lodash@0.2.0
+        with:
+          path: '_data/ll/year_mission.json'
+          prop_path: 'results[0].url'
+      # Save year mission file
+      - name: Save year flight file
+        uses: gautemo/fetch-api-data-action@1.1.0
+        with:
+          url: "${{ steps.year_url.outputs.prop }}&mode=detailed"
+          file: "_data/ll/missions/${{ steps.year_id.outputs.prop }}.json"
+
       # Launch Agency
       - name: LL - Fetch and save SpaceX Agency
         uses: gautemo/fetch-api-data-action@1.1.0
@@ -74,7 +107,7 @@ jobs:
         uses: gautemo/fetch-api-data-action@1.1.0
         with:
           url: "${{ steps.last_url.outputs.prop }}&mode=detailed"
-          file: "_data/ll/missions/${{ steps.last_id.outputs.prop}}.json"
+          file: "_data/ll/missions/${{ steps.last_id.outputs.prop }}.json"
 
       # Landing Pads
       # -----------------
