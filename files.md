@@ -2,6 +2,10 @@
 title: Files
 order: 3
 ---
+{%- assign saved = site.data.ll.missions.size -%}
+{%- assign total = site.data.ll.agency.total_launch_count -%}
+{%- assign saved_pct = 100.0 | divided_by: total | times: saved | append: "%" -%}
+{% include widgets/bar.html titles="Saved" widths=saved_pct labels=saved %}
 <table class="border">
   <tbody data-sort="desc">
     {% for m in site.data.ll.missions %}<tr class="{{ m[1].status.abbrev }}" sort="{{ m[1].window_start }}">
