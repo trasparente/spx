@@ -2,5 +2,5 @@
 {%- assign launcher = s.launcher -%}
 {%- assign last_launch = launcher.last_launch_date | date_to_string -%}
 {%- assign first_launch = launcher.first_launch_date | date_to_string -%}
-<span title="Last turn around: {{ s.turn_around_time_days }} days&#13;Since {{ s.previous_flight_date | date_to_long_string }}&#13;{{ s.previous_flight.name }}&#13;First launch: {{ first_launch }}&#13;Last launch: {{ last_launch }}">{{ launcher.serial_number | replace: "Unknown", "" | replace: "F9", "" }}</span>{% if launcher.successful_landings > 0 %}<span class="fg-secondary">.{{ launcher.successful_landings }}</span>{% endif %}<br>
-{% endfor %}
+<span title="Last turn around: {{ s.turn_around_time_days }} days&#13;Previous {{ s.previous_flight_date | date_to_long_string }}&#13;{{ s.previous_flight.name }}&#13;First launch: {{ first_launch }}&#13;Last launch: {{ last_launch }}">{{ launcher.serial_number | replace: "Unknown", "" | replace: "F9", "" }}</span>{% if launcher.successful_landings > 0 %}<span class="fg-secondary">.{{ launcher.successful_landings }}</span>{% endif %}<br>
+{% endfor %}{% if rocket.spacecraft_stage.spacecraft.serial_number %}<span title="{{ rocket.spacecraft_stage.spacecraft.name }}&#13;Maiden flight {{ rocket.spacecraft_stage.spacecraft.spacecraft_config.maiden_flight }}">{{ rocket.spacecraft_stage.spacecraft.serial_number }}</span>{% endif %}
