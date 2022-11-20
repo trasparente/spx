@@ -1,6 +1,6 @@
 {
   "count": 83,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-11-20T06%3A14%3A09Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-11-20T12%3A20%3A01Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -373,7 +373,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2022-11-20T01:43:45Z",
+      "last_updated": "2022-11-20T11:43:27Z",
       "updates": [
         {
           "id": 2848,
@@ -655,15 +655,15 @@
           {
             "id": 299,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": 17,
+            "reused": false,
+            "launcher_flight_number": 2,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
+              "id": 118,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-26 mission.",
               "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
+              "serial_number": "B1076",
+              "status": "active",
               "image_url": null,
               "successful_landings": 0,
               "attempted_landings": 0,
@@ -675,7 +675,7 @@
               "id": 322,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "B1076 will attempt to land on an ASDS after its first flight.",
               "location": {
                 "id": 12,
                 "name": "Unknown",
@@ -797,6 +797,13 @@
       "infoURLs": [],
       "vidURLs": [
         {
+          "priority": 9,
+          "title": "CRS-26 Mission",
+          "description": "SpaceX is targeting Tuesday, November 22 for Falcon 9’s launch of Dragon’s 26th Commercial Resupply Services (CRS-26) mission to the International Space Stat...",
+          "feature_image": "https://i.ytimg.com/vi/ltY790_MdtM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=ltY790_MdtM"
+        },
+        {
           "priority": 10,
           "title": "Watch NASA’s SpaceX CRS-26 Launch to the International Space Station (Official NASA Broadcast)",
           "description": "SpaceX’s CRS-26 cargo mission is set to lift off at 4:19 p.m. EST (2119 UTC) Monday, Nov. 21 from Launch Complex 39A at NASA’s Kennedy Space Center in Florid...",
@@ -899,7 +906,20 @@
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 16,
       "agency_launch_attempt_count_year": 54,
-      "mission_patches": []
+      "mission_patches": [
+        {
+          "id": 749,
+          "name": "CRS.26 Patch",
+          "priority": 10,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/crs.26_patch_20221120115717.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ]
     },
     {
       "id": "2306e0bc-e1a3-4a4a-9285-e1a94073655e",
