@@ -1,6 +1,6 @@
 {
   "count": 82,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-11-23T12%3A22%3A05Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-11-23T18%3A13%3A25Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2022-11-23T01:40:12Z",
+      "last_updated": "2022-11-23T17:30:07Z",
       "updates": [
+        {
+          "id": 2895,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Weather 80%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20CRS-26%20L-3%20Day%20Forecast%2026%20Nov%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2022-11-23T16:34:44Z"
+        },
         {
           "id": 2885,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -174,7 +182,7 @@
       "net": "2022-11-26T19:20:00Z",
       "window_end": "2022-11-26T19:20:00Z",
       "window_start": "2022-11-26T19:20:00Z",
-      "probability": 60,
+      "probability": 80,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -589,18 +597,30 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6336,
+      "orbital_launch_attempt_count": 6335,
       "location_launch_attempt_count": 211,
       "pad_launch_attempt_count": 153,
       "agency_launch_attempt_count": 206,
-      "orbital_launch_attempt_count_year": 166,
+      "orbital_launch_attempt_count_year": 165,
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 16,
       "agency_launch_attempt_count_year": 54,
       "mission_patches": [
         {
+          "id": 753,
+          "name": "NASA CRS-26 patch",
+          "priority": 9,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/nasa_crs-26_patch_20221123172816.png",
+          "agency": {
+            "id": 44,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+            "name": "National Aeronautics and Space Administration",
+            "type": "Government"
+          }
+        },
+        {
           "id": 749,
-          "name": "CRS.26 Patch",
+          "name": "SpaceX CRS-26 Patch",
           "priority": 10,
           "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/crs.26_patch_20221120115717.png",
           "agency": {
