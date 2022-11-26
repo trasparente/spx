@@ -20,11 +20,12 @@
         {% for p in configuration.program %}<li title="{% for a in p.agencies %}{{ a.name }}{% if forloop.last != true %}, {% endif %}{% endfor %}">{{ p.name }}</li>
         {% endfor %}
       </ol>{%- if rocket.spacecraft_stage.launch_crew.size -%}
-      <span class="fg-secondary">Crew</span>
+      {% if rocket.spacecraft_stage.launch_crew.size > 0 %}<span class="fg-secondary">Crew</span>
       <ol>
         {% for c in rocket.spacecraft_stage.launch_crew %}<li title="{{ c.role.role }}">{{ c.astronaut.name }}</li>
         {% endfor %}
-      </ol>{%- endif -%}
+      </ol>{%- endif -%}{% endif %}
+      {% if launch.vidURLs[0].url.size > 0 %}<br><a href='{{ launch.vidURLs[0].url }}'>YouTube live</a>{% endif %}
     </div>
   </div>
   </td>
