@@ -31,7 +31,7 @@ order: 2
       <td>{{ crewed.size | minus: forloop.index0 }}</td>
       <td style="text-align: left !important;"><span class="fg-secondary">{{ c.name }}</span></td>
       <td><span class="fg-secondary">{% include widgets/datetime.html datetime=c.net replace=1 %}</span></td>
-      <td><code>{{ c.rocket.launcher_stage[0].launcher.serial_number | replace: 'Unknow F9', '' }}</code></td>
+      <td><code>{{ c.rocket.launcher_stage[0].launcher.serial_number | replace: 'Unknown F9', '' }}</code></td>
       <td><code>{{ c.rocket.spacecraft_stage.spacecraft.serial_number | replace: 'TBD', '' }}</code></td>
     </tr>
     {% for a in launch_crew %}
