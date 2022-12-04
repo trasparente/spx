@@ -1,6 +1,6 @@
 {
   "count": 83,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-04T12%3A18%3A55Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-04T18%3A11%3A41Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-04T05:03:18Z",
+      "last_updated": "2022-12-04T17:37:59Z",
       "updates": [
         {
           "id": 2944,
@@ -266,27 +266,27 @@
           {
             "id": 297,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": 16,
+            "reused": true,
+            "launcher_flight_number": 4,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 105,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/?format=json",
+              "details": "Landed on JRTI as of Oct 15, 2022",
+              "flight_proven": true,
+              "serial_number": "B1069",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/105_image_20211220081646.jpeg",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 3,
+              "last_launch_date": "2022-10-15T05:22:00Z",
+              "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "landing": {
               "id": 320,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land back at LZ-1 after this flight.",
+              "description": "B1069 will attempt to land back at LZ-1 after its fourth flight.",
               "location": {
                 "id": 4,
                 "name": "Landing Zone 1",
@@ -310,11 +310,11 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
+            "previous_flight_date": "2022-10-15T05:22:00Z",
+            "turn_around_time_days": 52,
             "previous_flight": {
-              "id": "8226d219-b612-4797-a9d2-c5ca7ab0b076",
-              "name": "Falcon 9 Block 5 | SWOT - Surface Water and Ocean Topography"
+              "id": "13977bd5-45d2-4ed1-9a4a-9fefeee0723a",
+              "name": "Falcon 9 Block 5 | Hotbird 13F"
             }
           }
         ],
@@ -397,8 +397,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-04T01:30:48Z",
+      "last_updated": "2022-12-04T17:39:00Z",
       "updates": [
+        {
+          "id": 2948,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Weather >90%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20ISpace%20M1%20L-3%20Forecast%20-%207%20Dec%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2022-12-04T16:56:06Z"
+        },
         {
           "id": 2946,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -499,7 +507,7 @@
       "net": "2022-12-07T08:04:00Z",
       "window_end": "2022-12-07T08:04:00Z",
       "window_start": "2022-12-07T08:04:00Z",
-      "probability": null,
+      "probability": 95,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -671,7 +679,7 @@
           {
             "id": 294,
             "type": "Core",
-            "reused": null,
+            "reused": true,
             "launcher_flight_number": 7,
             "launcher": {
               "id": 112,
@@ -691,12 +699,12 @@
               "id": 317,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land back at the launch site after this flight.",
+              "description": "B1073 will attempt to land back at the launch site after its fifth flight.",
               "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
                 "location": {
                   "id": 12,
                   "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -706,7 +714,7 @@
                   "total_launch_count": 865,
                   "total_landing_count": 26
                 },
-                "successful_landings": 21
+                "successful_landings": 4
               },
               "type": {
                 "id": 2,
