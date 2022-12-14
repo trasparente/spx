@@ -1,6 +1,6 @@
 {
   "count": 82,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-13T18%3A12%3A52Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-14T00%3A54%3A18Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2022-12-13T01:39:17Z",
+      "last_updated": "2022-12-14T00:46:40Z",
       "updates": [
         {
           "id": 2932,
@@ -373,7 +373,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-13T15:58:24Z",
+      "last_updated": "2022-12-14T00:42:38Z",
       "updates": [
         {
           "id": 3007,
@@ -635,7 +635,54 @@
           "failed_launches": 0,
           "pending_launches": 68
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 303,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": 17,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 326,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will attempt to land on ASDS ASOG after this flight.",
+              "location": {
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "location": null,
+                "successful_landings": 24
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2022-12-15T11:46:40Z",
+            "turn_around_time_days": 1,
+            "previous_flight": {
+              "id": "8226d219-b612-4797-a9d2-c5ca7ab0b076",
+              "name": "Falcon 9 Block 5 | SWOT - Surface Water and Ocean Topography"
+            }
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -702,7 +749,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-13T15:58:26Z",
+      "last_updated": "2022-12-13T21:23:03Z",
       "updates": [
         {
           "id": 3006,
@@ -929,33 +976,33 @@
             "id": 281,
             "type": "Core",
             "reused": null,
-            "launcher_flight_number": 15,
+            "launcher_flight_number": 17,
             "launcher": {
-              "id": 69,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/69/?format=json",
-              "details": "Landed on ASOG as of Sep 11, 2022",
-              "flight_proven": true,
-              "serial_number": "B1058",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/69_image_20200602210857.jpeg",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2022-09-11T01:20:00Z",
-              "first_launch_date": "2020-05-30T19:22:45Z"
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
             },
             "landing": {
               "id": 309,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 42
               },
               "type": {
                 "id": 1,
@@ -964,11 +1011,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2022-09-11T01:20:00Z",
-            "turn_around_time_days": 96,
+            "previous_flight_date": "2022-12-16T21:21:00Z",
+            "turn_around_time_days": 0,
             "previous_flight": {
-              "id": "992823ad-f843-4a4a-beca-882b8ce8773a",
-              "name": "Falcon 9 Block 5 | Starlink Group 4-2 & BlueWalker 3"
+              "id": "7105c4f4-7427-4f9a-a959-a8ecedd6062b",
+              "name": "Falcon 9 Block 5 | O3b mPower 1 & 2"
             }
           }
         ],
@@ -1641,7 +1688,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-12-13T01:37:17Z",
+      "last_updated": "2022-12-14T00:19:39Z",
       "updates": [
         {
           "id": 2732,
@@ -1950,7 +1997,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-12-13T01:38:38Z",
+      "last_updated": "2022-12-14T00:35:25Z",
       "updates": [
         {
           "id": 2538,
@@ -2071,6 +2118,60 @@
         },
         "launcher_stage": [
           {
+            "id": 272,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 86,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
+              "details": "Landed at LZ-1 as of Nov 1, 2022.",
+              "flight_proven": true,
+              "serial_number": "B1065",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2022-11-01T13:41:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 300,
+              "attempt": true,
+              "success": null,
+              "description": "B1065 will attempt to land back at the launch site after its first flight.",
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "total_launch_count": 866,
+                  "total_landing_count": 28
+                },
+                "successful_landings": 5
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2022-11-01T13:41:00Z",
+            "turn_around_time_days": 69,
+            "previous_flight": {
+              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
+              "name": "Falcon Heavy | USSF-44"
+            }
+          },
+          {
             "id": 271,
             "type": "Strap-On Booster",
             "reused": true,
@@ -2166,60 +2267,6 @@
             "previous_flight_date": null,
             "turn_around_time_days": 0,
             "previous_flight": null
-          },
-          {
-            "id": 272,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "id": 86,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
-              "details": "Landed at LZ-1 as of Nov 1, 2022.",
-              "flight_proven": true,
-              "serial_number": "B1065",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
-              "successful_landings": 1,
-              "attempted_landings": 1,
-              "flights": 1,
-              "last_launch_date": "2022-11-01T13:41:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 300,
-              "attempt": true,
-              "success": null,
-              "description": "B1065 will attempt to land back at the launch site after its first flight.",
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "total_launch_count": 866,
-                  "total_landing_count": 28
-                },
-                "successful_landings": 5
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2022-11-01T13:41:00Z",
-            "turn_around_time_days": 69,
-            "previous_flight": {
-              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
-              "name": "Falcon Heavy | USSF-44"
-            }
           }
         ],
         "spacecraft_stage": null
@@ -2297,7 +2344,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-12-13T00:56:17Z",
+      "last_updated": "2022-12-14T00:52:32Z",
       "updates": [],
       "net": "2023-01-10T00:00:00Z",
       "window_end": "2023-01-10T00:00:00Z",
@@ -2620,7 +2667,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-12-13T01:38:38Z",
+      "last_updated": "2022-12-14T00:35:26Z",
       "updates": [
         {
           "id": 2692,
@@ -2937,7 +2984,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-12-13T01:36:43Z",
+      "last_updated": "2022-12-14T00:15:33Z",
       "updates": [
         {
           "id": 2992,
