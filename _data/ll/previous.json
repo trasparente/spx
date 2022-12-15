@@ -1,6 +1,6 @@
 {
   "count": 208,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2022-12-15T00%3A55%3A44Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2022-12-15T06%3A13%3A35Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -1628,7 +1628,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-12-14T01:33:05Z",
+      "last_updated": "2022-12-15T01:03:29Z",
       "updates": [
         {
           "id": 2891,
@@ -2457,7 +2457,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-12-14T01:32:47Z",
+      "last_updated": "2022-12-15T00:57:50Z",
       "updates": [
         {
           "id": 2741,
@@ -2857,7 +2857,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2022-12-15T00:54:02Z",
+      "last_updated": "2022-12-15T01:19:02Z",
       "updates": [
         {
           "id": 2729,
@@ -3082,6 +3082,49 @@
         },
         "launcher_stage": [
           {
+            "id": 150,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 87,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
+              "details": "Stage Expended",
+              "flight_proven": true,
+              "serial_number": "B1066",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/87_image_20221102112720.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2022-11-01T13:41:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 181,
+              "attempt": false,
+              "success": null,
+              "description": "B1066 was expended.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 151,
             "type": "Strap-On Booster",
             "reused": false,
@@ -3134,49 +3177,6 @@
               "id": "0098c032-73de-4c6f-8d73-5d68b9a12fdf",
               "name": "Falcon Heavy | USSF-52"
             }
-          },
-          {
-            "id": 150,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 87,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/87/?format=json",
-              "details": "Stage Expended",
-              "flight_proven": true,
-              "serial_number": "B1066",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/87_image_20221102112720.jpeg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2022-11-01T13:41:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 181,
-              "attempt": false,
-              "success": null,
-              "description": "B1066 was expended.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 3
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           },
           {
             "id": 152,
