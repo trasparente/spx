@@ -1,6 +1,6 @@
 {
   "count": 81,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-18T00%3A50%3A54Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-18T06%3A11%3A51Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-17T01:04:26Z",
+      "last_updated": "2022-12-18T01:04:05Z",
       "updates": [
         {
           "id": 3022,
@@ -28,7 +28,7 @@
         },
         {
           "id": 2708,
-          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay_profile_20211216212147.png",
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
           "comment": "Adding launch NET December",
           "info_url": "https://apps.fcc.gov/oetcf/els/reports/STA_Print.cfm?mode=current&application_seq=119435&RequestTimeout=1000",
           "created_by": "Jay",
@@ -286,7 +286,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-17T01:12:36Z",
+      "last_updated": "2022-12-18T01:12:29Z",
       "updates": [
         {
           "id": 3023,
@@ -598,7 +598,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-17T01:12:40Z",
+      "last_updated": "2022-12-18T01:12:34Z",
       "updates": [
         {
           "id": 3024,
@@ -1076,6 +1076,49 @@
         },
         "launcher_stage": [
           {
+            "id": 273,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
+              "details": "Falcon Heavy core booster first used for the USSF-67 mission.",
+              "flight_proven": false,
+              "serial_number": "B1079",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 301,
+              "attempt": false,
+              "success": null,
+              "description": "B1079 will be expended on its first flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 271,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1182,49 +1225,6 @@
               "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
               "name": "Falcon Heavy | USSF-44"
             }
-          },
-          {
-            "id": 273,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
-              "details": "Falcon Heavy core booster first used for the USSF-67 mission.",
-              "flight_proven": false,
-              "serial_number": "B1079",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 301,
-              "attempt": false,
-              "success": null,
-              "description": "B1079 will be expended on its first flight.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 3
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -1978,7 +1978,7 @@
         },
         {
           "id": 2562,
-          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay_profile_20211216212147.png",
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
           "comment": "Adding launch NET November",
           "info_url": "https://apps.fcc.gov/oetcf/els/reports/STA_Print.cfm?mode=current&application_seq=118935&RequestTimeout=1000",
           "created_by": "Jay",
