@@ -1,6 +1,6 @@
 {
   "count": 81,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-19T00%3A49%3A08Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-19T06%3A13%3A08Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-18T10:33:33Z",
+      "last_updated": "2022-12-19T01:06:27Z",
       "updates": [
         {
           "id": 3049,
@@ -294,7 +294,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-18T01:12:29Z",
+      "last_updated": "2022-12-19T01:15:09Z",
       "updates": [
         {
           "id": 3023,
@@ -606,7 +606,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-18T01:12:34Z",
+      "last_updated": "2022-12-19T01:15:15Z",
       "updates": [
         {
           "id": 3024,
@@ -1084,6 +1084,60 @@
         },
         "launcher_stage": [
           {
+            "id": 271,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Landed at LZ-1 as of Nov 1, 2022.",
+              "flight_proven": true,
+              "serial_number": "B1064",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2022-11-01T13:41:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 299,
+              "attempt": true,
+              "success": null,
+              "description": "B1064 will attempt to land back at the launch site after its first flight.",
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "total_launch_count": 867,
+                  "total_landing_count": 28
+                },
+                "successful_landings": 22
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2022-11-01T13:41:00Z",
+            "turn_around_time_days": 69,
+            "previous_flight": {
+              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
+              "name": "Falcon Heavy | USSF-44"
+            }
+          },
+          {
             "id": 272,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1179,60 +1233,6 @@
             "previous_flight_date": null,
             "turn_around_time_days": 0,
             "previous_flight": null
-          },
-          {
-            "id": 271,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Landed at LZ-1 as of Nov 1, 2022.",
-              "flight_proven": true,
-              "serial_number": "B1064",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
-              "successful_landings": 1,
-              "attempted_landings": 1,
-              "flights": 1,
-              "last_launch_date": "2022-11-01T13:41:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 299,
-              "attempt": true,
-              "success": null,
-              "description": "B1064 will attempt to land back at the launch site after its first flight.",
-              "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "total_launch_count": 867,
-                  "total_landing_count": 28
-                },
-                "successful_landings": 22
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2022-11-01T13:41:00Z",
-            "turn_around_time_days": 69,
-            "previous_flight": {
-              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
-              "name": "Falcon Heavy | USSF-44"
-            }
           }
         ],
         "spacecraft_stage": null
@@ -1310,7 +1310,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2022-12-18T00:49:45Z",
+      "last_updated": "2022-12-19T00:51:10Z",
       "updates": [],
       "net": "2023-01-10T00:00:00Z",
       "window_end": "2023-01-10T00:00:00Z",
