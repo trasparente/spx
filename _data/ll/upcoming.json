@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-24T12%3A16%3A41Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2022-12-24T18%3A11%3A02Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-24T01:11:12Z",
+      "last_updated": "2022-12-24T14:47:19Z",
       "updates": [
         {
           "id": 3064,
@@ -246,14 +246,14 @@
               "id": 331,
               "attempt": true,
               "success": null,
-              "description": "B1062 will attempt to land on an ASDS after its eleventh flight.",
+              "description": "B1062 will attempt to land on ASDS ASOG after its eleventh flight.",
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 25
               },
               "type": {
                 "id": 1,
@@ -349,8 +349,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2022-12-24T01:20:04Z",
+      "last_updated": "2022-12-24T18:09:58Z",
       "updates": [
+        {
+          "id": 3065,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET December 30 UTC per marine navigation warnings.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57765.msg2443862#msg2443862",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2022-12-24T18:09:37Z"
+        },
         {
           "id": 3023,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -368,9 +376,9 @@
           "created_on": "2022-11-29T08:44:06Z"
         }
       ],
-      "net": "2022-12-29T06:58:00Z",
-      "window_end": "2022-12-29T06:58:00Z",
-      "window_start": "2022-12-29T06:58:00Z",
+      "net": "2022-12-30T06:58:00Z",
+      "window_end": "2022-12-30T06:58:00Z",
+      "window_start": "2022-12-30T06:58:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -588,7 +596,7 @@
               }
             },
             "previous_flight_date": "2022-08-12T21:40:20Z",
-            "turn_around_time_days": 138,
+            "turn_around_time_days": 139,
             "previous_flight": {
               "id": "4f2c5733-5019-4f7a-8403-15a1a270bf96",
               "name": "Falcon 9 Block 5 | Starlink Group 3-3"
