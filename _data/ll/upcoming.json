@@ -1,6 +1,6 @@
 {
   "count": 92,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-06T06%3A13%3A23Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-06T12%3A19%3A10Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -722,8 +722,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-01-06T00:36:54Z",
+      "last_updated": "2023-01-06T08:02:24Z",
       "updates": [
+        {
+          "id": 3107,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Updating window start",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Nosu",
+          "created_on": "2023-01-06T07:58:43Z"
+        },
         {
           "id": 3094,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -749,9 +757,9 @@
           "created_on": "2022-03-25T22:17:15Z"
         }
       ],
-      "net": "2023-01-12T22:30:00Z",
+      "net": "2023-01-12T22:45:00Z",
       "window_end": "2023-01-13T03:00:00Z",
-      "window_start": "2023-01-12T22:30:00Z",
+      "window_start": "2023-01-12T22:45:00Z",
       "probability": -1,
       "holdreason": "",
       "failreason": "",
@@ -853,15 +861,15 @@
           {
             "id": 273,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": 5,
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
-              "details": "Booster serial number unknown.",
+              "id": 109,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
+              "details": "",
               "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
+              "serial_number": "B1070",
+              "status": "active",
               "image_url": null,
               "successful_landings": 0,
               "attempted_landings": 0,
