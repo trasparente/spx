@@ -1,13 +1,13 @@
 {
   "count": 92,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-08T00%3A56%3A49Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-08T06%3A12%3A08Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
       "id": "d0132d83-687d-44e5-8406-1b639a0906c9",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/d0132d83-687d-44e5-8406-1b639a0906c9/?format=json",
       "slug": "falcon-9-block-5-oneweb-16",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=d0132d83-687d-44e5-8406-1b639a0906c9",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | OneWeb 16",
       "status": {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-01-07T02:07:18Z",
+      "last_updated": "2023-01-08T04:08:29Z",
       "updates": [
         {
           "id": 3110,
@@ -381,7 +381,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-01-08T00:17:36Z",
+      "last_updated": "2023-01-08T05:26:13Z",
       "updates": [
         {
           "id": 3111,
@@ -624,20 +624,20 @@
             "id": 298,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 9,
+            "launcher_flight_number": 3,
             "launcher": {
-              "id": 84,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/84/?format=json",
-              "details": "Landed on OCISLY as of Oct 28, 2022",
-              "flight_proven": true,
-              "serial_number": "B1063",
+              "id": 114,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1075",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/84_image_20201122121517.jpeg",
-              "successful_landings": 8,
-              "attempted_landings": 8,
-              "flights": 8,
-              "last_launch_date": "2022-10-28T01:14:10Z",
-              "first_launch_date": "2020-11-21T17:17:00Z"
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
             },
             "landing": {
               "id": 321,
@@ -659,8 +659,8 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2022-10-28T01:14:10Z",
-            "turn_around_time_days": 74,
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
             "previous_flight": {
               "id": "4d3bde71-3ead-4236-af5b-eccfa7549f4f",
               "name": "Falcon 9 Block 5 | Starlink Group 4-31"
@@ -753,7 +753,7 @@
       "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/571bf2c1-59eb-4079-b785-0472324d3a2d/?format=json",
       "slug": "falcon-heavy-ussf-67",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=571bf2c1-59eb-4079-b785-0472324d3a2d",
       "r_spacex_api_id": null,
       "name": "Falcon Heavy | USSF-67",
       "status": {
@@ -762,7 +762,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-01-08T00:37:49Z",
+      "last_updated": "2023-01-08T02:15:39Z",
       "updates": [
         {
           "id": 3107,
@@ -899,49 +899,6 @@
         },
         "launcher_stage": [
           {
-            "id": 273,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 109,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1070",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 301,
-              "attempt": false,
-              "success": null,
-              "description": "The center core will be expended on this flight.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 3
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 271,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1048,6 +1005,49 @@
               "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
               "name": "Falcon Heavy | USSF-44"
             }
+          },
+          {
+            "id": 273,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 109,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1070",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 301,
+              "attempt": false,
+              "success": null,
+              "description": "The center core will be expended on this flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -2694,7 +2694,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-07T01:02:46Z",
+      "last_updated": "2023-01-08T01:01:03Z",
       "updates": [
         {
           "id": 3060,
@@ -2967,11 +2967,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20221221211141.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6380,
+      "orbital_launch_attempt_count": 6382,
       "location_launch_attempt_count": 713,
       "pad_launch_attempt_count": 103,
       "agency_launch_attempt_count": 226,
-      "orbital_launch_attempt_count_year": 24,
+      "orbital_launch_attempt_count_year": 26,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 13,
@@ -3003,7 +3003,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-07T01:16:25Z",
+      "last_updated": "2023-01-08T01:15:15Z",
       "updates": [
         {
           "id": 2721,
@@ -3377,11 +3377,11 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6380,
+      "orbital_launch_attempt_count": 6382,
       "location_launch_attempt_count": 10,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 226,
-      "orbital_launch_attempt_count_year": 24,
+      "orbital_launch_attempt_count_year": 26,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 13,
