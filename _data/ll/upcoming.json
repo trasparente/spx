@@ -1,6 +1,6 @@
 {
   "count": 91,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-12T06%3A13%3A33Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-12T12%3A21%3A29Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -333,10 +333,14 @@
       "mission": {
         "id": 1140,
         "name": "USSF-67",
-        "description": "USSF-67 is a  mission for the United States Space Force.",
+        "description": "USSF-67 is a mission for the United States Space Force.",
         "launch_designator": null,
         "type": "Government/Top Secret",
-        "orbit": null
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        }
       },
       "pad": {
         "id": 87,
