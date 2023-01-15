@@ -1,6 +1,6 @@
 {
   "count": 91,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-14T18%3A11%3A14Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-15T00%3A57%3A05Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon Heavy | USSF-67",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-01-14T00:37:27Z",
+      "last_updated": "2023-01-15T00:38:27Z",
       "updates": [
+        {
+          "id": 3167,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "One day slip",
+          "info_url": "https://twitter.com/SpaceX/status/1614335113575411714",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-01-14T18:57:03Z"
+        },
         {
           "id": 3160,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -83,10 +91,10 @@
           "created_on": "2022-03-25T22:17:15Z"
         }
       ],
-      "net": "2023-01-14T22:55:00Z",
-      "window_end": "2023-01-14T23:33:00Z",
-      "window_start": "2023-01-14T22:55:00Z",
-      "probability": 80,
+      "net": "2023-01-15T22:56:00Z",
+      "window_end": "2023-01-15T23:33:00Z",
+      "window_start": "2023-01-15T22:56:00Z",
+      "probability": 95,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -108,7 +116,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -148,7 +156,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -181,9 +189,52 @@
           "consecutive_successful_launches": 4,
           "successful_launches": 4,
           "failed_launches": 0,
-          "pending_launches": 9
+          "pending_launches": 10
         },
         "launcher_stage": [
+          {
+            "id": 273,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 109,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
+              "details": "Falcon Heavy core stage first used for the USSF-67 mission.",
+              "flight_proven": false,
+              "serial_number": "B1070",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/109_image_20230114190131.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 301,
+              "attempt": false,
+              "success": null,
+              "description": "The center core will be expended on this flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
           {
             "id": 271,
             "type": "Strap-On Booster",
@@ -232,7 +283,7 @@
               }
             },
             "previous_flight_date": "2022-11-01T13:41:00Z",
-            "turn_around_time_days": 74,
+            "turn_around_time_days": 75,
             "previous_flight": {
               "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
               "name": "Falcon Heavy | USSF-44"
@@ -286,54 +337,11 @@
               }
             },
             "previous_flight_date": "2022-11-01T13:41:00Z",
-            "turn_around_time_days": 74,
+            "turn_around_time_days": 75,
             "previous_flight": {
               "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
               "name": "Falcon Heavy | USSF-44"
             }
-          },
-          {
-            "id": 273,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 109,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1070",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 301,
-              "attempt": false,
-              "success": null,
-              "description": "The center core will be expended on this flight.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 3
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -373,31 +381,47 @@
         "total_launch_count": 155,
         "orbital_launch_attempt_count": 153
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=ussf-67"
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "YouTube",
+          "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+          "feature_image": null,
+          "url": "https://www.youtube.com/watch?v=nfxyF1_Ylkk"
+        }
+      ],
       "webcast_live": false,
-      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
+      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520heav_image_20230114185830.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6365,
+      "orbital_launch_attempt_count": 6366,
       "location_launch_attempt_count": 214,
       "pad_launch_attempt_count": 156,
       "agency_launch_attempt_count": 216,
-      "orbital_launch_attempt_count_year": 9,
+      "orbital_launch_attempt_count_year": 10,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 3,
       "mission_patches": [
         {
-          "id": 743,
-          "name": "US Space Force Patch",
+          "id": 763,
+          "name": "USSF-67 SpaceX Patch",
           "priority": 10,
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/us2520space25_mission_patch_20221102113104.png",
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/ussf-672520spa_mission_patch_20230114210551.png",
           "agency": {
-            "id": 1041,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/?format=json",
-            "name": "United States Space Force",
-            "type": "Government"
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
           }
         }
       ]
@@ -415,7 +439,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-01-14T00:37:29Z",
+      "last_updated": "2023-01-15T00:38:28Z",
       "updates": [
         {
           "id": 3157,
@@ -475,7 +499,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -515,7 +539,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -748,8 +772,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-01-14T08:54:01Z",
+      "last_updated": "2023-01-15T00:18:09Z",
       "updates": [
+        {
+          "id": 3170,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Targeting January 19",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=starlink-2-4-pre-launch",
+          "created_by": "Nosu",
+          "created_on": "2023-01-14T20:20:21Z"
+        },
         {
           "id": 3166,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -887,9 +919,9 @@
           "created_on": "2022-10-09T23:41:53Z"
         }
       ],
-      "net": "2023-01-18T15:32:00Z",
-      "window_end": "2023-01-18T15:32:00Z",
-      "window_start": "2023-01-18T15:32:00Z",
+      "net": "2023-01-19T15:32:00Z",
+      "window_end": "2023-01-19T15:32:00Z",
+      "window_start": "2023-01-19T15:32:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -912,7 +944,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -952,7 +984,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -1201,7 +1233,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-14T00:18:05Z",
+      "last_updated": "2023-01-15T00:18:49Z",
       "updates": [
         {
           "id": 3020,
@@ -1237,7 +1269,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -1277,7 +1309,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -1510,7 +1542,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-14T00:21:55Z",
+      "last_updated": "2023-01-15T00:22:32Z",
       "updates": [
         {
           "id": 3028,
@@ -1554,7 +1586,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -1594,7 +1626,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -1827,7 +1859,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-14T00:31:03Z",
+      "last_updated": "2023-01-15T00:31:53Z",
       "updates": [
         {
           "id": 3062,
@@ -1863,7 +1895,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -1903,7 +1935,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -2136,7 +2168,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-14T00:52:41Z",
+      "last_updated": "2023-01-15T00:53:42Z",
       "updates": [
         {
           "id": 3013,
@@ -2172,7 +2204,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -2212,7 +2244,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -2481,7 +2513,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -2521,7 +2553,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -2790,7 +2822,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -2830,7 +2862,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
@@ -3063,7 +3095,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-14T00:37:57Z",
+      "last_updated": "2023-01-15T00:38:59Z",
       "updates": [
         {
           "id": 3139,
@@ -3107,7 +3139,7 @@
         "consecutive_successful_launches": 86,
         "successful_launches": 206,
         "failed_launches": 9,
-        "pending_launches": 88,
+        "pending_launches": 89,
         "consecutive_successful_landings": 85,
         "successful_landings": 170,
         "failed_landings": 17,
@@ -3147,7 +3179,7 @@
             "consecutive_successful_launches": 86,
             "successful_launches": 206,
             "failed_launches": 9,
-            "pending_launches": 88,
+            "pending_launches": 89,
             "consecutive_successful_landings": 85,
             "successful_landings": 170,
             "failed_landings": 17,
