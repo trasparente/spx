@@ -1,6 +1,6 @@
 {
   "count": 216,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-01-16T00%3A53%3A32Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-01-16T06%3A13%3A56Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon Heavy | USSF-67",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The lauch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2023-01-16T00:41:24Z",
+      "last_updated": "2023-01-16T05:28:25Z",
       "updates": [
+        {
+          "id": 3177,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://twitter.com/nasaspaceflight/status/1614856188444774401",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-01-16T05:27:50Z"
+        },
         {
           "id": 3176,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/swgustav_profile_20210218062738.jpg",
@@ -129,8 +137,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -169,8 +177,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -202,8 +210,8 @@
           "info_url": "http://www.spacex.com/falcon-heavy",
           "wiki_url": "https://en.wikipedia.org/wiki/Falcon_Heavy",
           "total_launch_count": 5,
-          "consecutive_successful_launches": 4,
-          "successful_launches": 4,
+          "consecutive_successful_launches": 5,
+          "successful_launches": 5,
           "failed_launches": 0,
           "pending_launches": 9
         },
@@ -216,14 +224,14 @@
             "launcher": {
               "id": 109,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
-              "details": "Stage Expended",
+              "details": "",
               "flight_proven": true,
               "serial_number": "B1070",
-              "status": "expended",
+              "status": "active",
               "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/109_image_20230114190131.jpeg",
               "successful_landings": 0,
               "attempted_landings": 0,
-              "flights": 0,
+              "flights": 1,
               "last_launch_date": "2023-01-15T22:56:00Z",
               "first_launch_date": "2023-01-15T22:56:00Z"
             },
@@ -252,60 +260,6 @@
             "previous_flight": null
           },
           {
-            "id": 272,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "id": 86,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
-              "details": "Landed at LZ-1 as of Nov 1, 2022.",
-              "flight_proven": true,
-              "serial_number": "B1065",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 1,
-              "last_launch_date": "2023-01-15T22:56:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 300,
-              "attempt": true,
-              "success": true,
-              "description": "B1065 has successfully landed back at the launch site after this flight.",
-              "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "total_launch_count": 870,
-                  "total_landing_count": 32
-                },
-                "successful_landings": 25
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2022-11-01T13:41:00Z",
-            "turn_around_time_days": 75,
-            "previous_flight": {
-              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
-              "name": "Falcon Heavy | USSF-44"
-            }
-          },
-          {
             "id": 271,
             "type": "Strap-On Booster",
             "reused": true,
@@ -320,7 +274,7 @@
               "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
               "successful_landings": 2,
               "attempted_landings": 2,
-              "flights": 1,
+              "flights": 2,
               "last_launch_date": "2023-01-15T22:56:00Z",
               "first_launch_date": "2022-11-01T13:41:00Z"
             },
@@ -344,6 +298,60 @@
                   "total_landing_count": 32
                 },
                 "successful_landings": 6
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2022-11-01T13:41:00Z",
+            "turn_around_time_days": 75,
+            "previous_flight": {
+              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
+              "name": "Falcon Heavy | USSF-44"
+            }
+          },
+          {
+            "id": 272,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 86,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
+              "details": "Landed at LZ-1 as of Nov 1, 2022.",
+              "flight_proven": true,
+              "serial_number": "B1065",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2023-01-15T22:56:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 300,
+              "attempt": true,
+              "success": true,
+              "description": "B1065 has successfully landed back at the launch site after this flight.",
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "total_launch_count": 870,
+                  "total_landing_count": 32
+                },
+                "successful_landings": 25
               },
               "type": {
                 "id": 2,
@@ -455,7 +463,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2023-01-15T01:10:13Z",
+      "last_updated": "2023-01-16T01:14:30Z",
       "updates": [
         {
           "id": 3136,
@@ -552,8 +560,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -592,8 +600,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -852,7 +860,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2023-01-15T01:22:13Z",
+      "last_updated": "2023-01-16T01:27:14Z",
       "updates": [
         {
           "id": 3092,
@@ -981,8 +989,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -1021,8 +1029,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -1281,7 +1289,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2023-01-15T01:22:07Z",
+      "last_updated": "2023-01-16T01:27:07Z",
       "updates": [
         {
           "id": 3084,
@@ -1370,8 +1378,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -1410,8 +1418,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -1662,7 +1670,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2023-01-15T01:12:50Z",
+      "last_updated": "2023-01-16T01:17:07Z",
       "updates": [
         {
           "id": 3074,
@@ -1775,8 +1783,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -1815,8 +1823,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -2059,7 +2067,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2023-01-15T01:06:08Z",
+      "last_updated": "2023-01-16T01:10:25Z",
       "updates": [
         {
           "id": 3048,
@@ -2188,8 +2196,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -2228,8 +2236,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -2649,8 +2657,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -2689,8 +2697,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -2941,7 +2949,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2023-01-15T00:50:10Z",
+      "last_updated": "2023-01-16T00:53:43Z",
       "updates": [
         {
           "id": 3039,
@@ -3046,8 +3054,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -3086,8 +3094,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -3527,8 +3535,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -3567,8 +3575,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
@@ -3975,8 +3983,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
         "total_launch_count": 216,
-        "consecutive_successful_launches": 86,
-        "successful_launches": 206,
+        "consecutive_successful_launches": 87,
+        "successful_launches": 207,
         "failed_launches": 9,
         "pending_launches": 88,
         "consecutive_successful_landings": 87,
@@ -4015,8 +4023,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
             "total_launch_count": 216,
-            "consecutive_successful_launches": 86,
-            "successful_launches": 206,
+            "consecutive_successful_launches": 87,
+            "successful_launches": 207,
             "failed_launches": 9,
             "pending_launches": 88,
             "consecutive_successful_landings": 87,
