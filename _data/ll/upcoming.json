@@ -1,6 +1,6 @@
 {
   "count": 90,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-16T12%3A19%3A17Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-16T18%3A12%3A20Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -834,7 +834,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-16T00:20:24Z",
+      "last_updated": "2023-01-16T16:25:54Z",
       "updates": [
         {
           "id": 3020,
@@ -1079,27 +1079,27 @@
         }
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
         "agency_id": null,
-        "name": "Unknown Pad",
+        "name": "Launch Complex 39A",
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "http://maps.google.com/maps?q=28.608+N,+80.604+W",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
         "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral, FL, USA",
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/27/?format=json",
+          "name": "Kennedy Space Center, FL, USA",
           "country_code": "USA",
-          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-          "total_launch_count": 870,
-          "total_landing_count": 32
+          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
+          "total_launch_count": 214,
+          "total_landing_count": 0
         },
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 156,
+        "orbital_launch_attempt_count": 154
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -1108,12 +1108,12 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6378,
-      "location_launch_attempt_count": 876,
-      "pad_launch_attempt_count": 3,
+      "location_launch_attempt_count": 215,
+      "pad_launch_attempt_count": 157,
       "agency_launch_attempt_count": 224,
       "orbital_launch_attempt_count_year": 22,
-      "location_launch_attempt_count_year": 8,
-      "pad_launch_attempt_count_year": 3,
+      "location_launch_attempt_count_year": 2,
+      "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 11,
       "mission_patches": [
         {
@@ -2387,7 +2387,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-16T01:24:59Z",
+      "last_updated": "2023-01-16T16:36:25Z",
       "updates": [
         {
           "id": 3054,
@@ -2574,26 +2574,26 @@
             "id": 309,
             "type": "Core",
             "reused": false,
-            "launcher_flight_number": 3,
+            "launcher_flight_number": 9,
             "launcher": {
-              "id": 114,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1075",
+              "id": 84,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/84/?format=json",
+              "details": "Landed on OCISLY as of Oct 28, 2022",
+              "flight_proven": true,
+              "serial_number": "B1063",
               "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/84_image_20201122121517.jpeg",
+              "successful_landings": 8,
+              "attempted_landings": 8,
+              "flights": 8,
+              "last_launch_date": "2022-10-28T01:14:10Z",
+              "first_launch_date": "2020-11-21T17:17:00Z"
             },
             "landing": {
               "id": 332,
               "attempt": true,
               "success": null,
-              "description": "B1075 will attempt to land on ASDS OCISLY after its first flight.",
+              "description": "B1063 will attempt to land on ASDS OCISLY after its ninth flight.",
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
@@ -2609,11 +2609,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2023-01-19T15:23:10Z",
-            "turn_around_time_days": 11,
+            "previous_flight_date": "2022-10-28T01:14:10Z",
+            "turn_around_time_days": 94,
             "previous_flight": {
-              "id": "050eecbc-ebfc-4656-9fee-1dbc5e5c59a4",
-              "name": "Falcon 9 Block 5 | Starlink Group 2-4"
+              "id": "4d3bde71-3ead-4236-af5b-eccfa7549f4f",
+              "name": "Falcon 9 Block 5 | Starlink Group 4-31"
             }
           }
         ],
