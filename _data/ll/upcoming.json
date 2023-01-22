@@ -1,6 +1,6 @@
 {
   "count": 88,
-  "next": "http://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-22T06%3A12%3A10Z&offset=10&ordering=net",
+  "next": "http://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-22T12%3A17%3A30Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-01-21T00:51:55Z",
+      "last_updated": "2023-01-22T09:32:42Z",
       "updates": [
         {
           "id": 3200,
@@ -227,26 +227,26 @@
             "id": 304,
             "type": "Core",
             "reused": null,
-            "launcher_flight_number": 18,
+            "launcher_flight_number": 9,
             "launcher": {
-              "id": 106,
-              "url": "http://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 101,
+              "url": "http://ll.thespacedevs.com/2.2.0/launcher/101/?format=json",
+              "details": "Landed on JRTI as of Nov 3, 2022",
+              "flight_proven": true,
+              "serial_number": "B1067",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/101_image_20210602203045.jpeg",
+              "successful_landings": 8,
+              "attempted_landings": 8,
+              "flights": 8,
+              "last_launch_date": "2022-12-16T22:48:00Z",
+              "first_launch_date": "2021-06-03T17:29:15Z"
             },
             "landing": {
               "id": 327,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
+              "description": "B1067 will attempt to land on ASDS JRTI after its ninth flight.",
               "location": {
                 "id": 3,
                 "name": "Just Read the Instructions",
@@ -262,11 +262,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
+            "previous_flight_date": "2022-12-16T22:48:00Z",
+            "turn_around_time_days": 40,
             "previous_flight": {
-              "id": "d0132d83-687d-44e5-8406-1b639a0906c9",
-              "name": "Falcon 9 Block 5 | OneWeb 16"
+              "id": "7105c4f4-7427-4f9a-a959-a8ecedd6062b",
+              "name": "Falcon 9 Block 5 | O3b mPower 1 & 2"
             }
           }
         ],
@@ -975,7 +975,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-01-21T00:37:15Z",
+      "last_updated": "2023-01-22T09:32:12Z",
       "updates": [
         {
           "id": 3199,
@@ -1178,26 +1178,26 @@
             "id": 302,
             "type": "Core",
             "reused": null,
-            "launcher_flight_number": 18,
+            "launcher_flight_number": 7,
             "launcher": {
-              "id": 106,
-              "url": "http://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 112,
+              "url": "http://ll.thespacedevs.com/2.2.0/launcher/112/?format=json",
+              "details": "Landed at ASOG as of Sep 25, 2022",
+              "flight_proven": true,
+              "serial_number": "B1073",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/112_image_20220516182658.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2022-12-11T07:38:13Z",
+              "first_launch_date": "2022-05-14T20:40:50Z"
             },
             "landing": {
               "id": 325,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "B1073 will attempt to land on an ASDS after its sixth flight.",
               "location": {
                 "id": 12,
                 "name": "Unknown",
@@ -1213,11 +1213,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2023-01-31T08:27:00Z",
-            "turn_around_time_days": 4,
+            "previous_flight_date": "2022-12-11T07:38:13Z",
+            "turn_around_time_days": 55,
             "previous_flight": {
-              "id": "072f9f30-3114-4e90-81c7-8111d7d9ae20",
-              "name": "Falcon 9 Block 5 | Starlink Group 5-3"
+              "id": "2306e0bc-e1a3-4a4a-9285-e1a94073655e",
+              "name": "Falcon 9 Block 5 | Hakuto-R M1 & Lunar Flashlight"
             }
           }
         ],
