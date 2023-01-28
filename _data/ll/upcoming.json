@@ -1,6 +1,6 @@
 {
   "count": 87,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-28T12%3A17%3A24Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-01-28T18%3A11%3A17Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -234,8 +234,8 @@
           {
             "id": 309,
             "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 8,
+            "reused": true,
+            "launcher_flight_number": 7,
             "launcher": {
               "id": 107,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/?format=json",
@@ -270,11 +270,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2022-10-28T01:14:10Z",
-            "turn_around_time_days": 93,
+            "previous_flight_date": "2022-12-16T11:46:47Z",
+            "turn_around_time_days": 44,
             "previous_flight": {
-              "id": "4d3bde71-3ead-4236-af5b-eccfa7549f4f",
-              "name": "Falcon 9 Block 5 | Starlink Group 4-31"
+              "id": "8226d219-b612-4797-a9d2-c5ca7ab0b076",
+              "name": "Falcon 9 Block 5 | SWOT (Surface Water and Ocean Topography)"
             }
           }
         ],
@@ -575,7 +575,7 @@
           {
             "id": 307,
             "type": "Core",
-            "reused": null,
+            "reused": true,
             "launcher_flight_number": 5,
             "launcher": {
               "id": 105,
@@ -900,7 +900,7 @@
           {
             "id": 302,
             "type": "Core",
-            "reused": null,
+            "reused": true,
             "launcher_flight_number": 7,
             "launcher": {
               "id": 112,
@@ -3345,7 +3345,59 @@
           "failed_launches": 0,
           "pending_launches": 75
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 314,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": 16,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 337,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will attempt to land back at the launch site after this flight.",
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "total_launch_count": 872,
+                  "total_landing_count": 32
+                },
+                "successful_landings": 25
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
