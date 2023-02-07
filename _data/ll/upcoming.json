@@ -1,6 +1,6 @@
 {
   "count": 86,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-06T18%3A12%3A39Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-07T00%3A54%3A34Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-02-06T00:39:40Z",
+      "last_updated": "2023-02-06T22:09:51Z",
       "updates": [
+        {
+          "id": 3278,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Updating T-0",
+          "info_url": "https://twitter.com/SpaceX/status/1622718134481465344",
+          "created_by": "Nosu",
+          "created_on": "2023-02-06T22:09:54Z"
+        },
         {
           "id": 3273,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
@@ -131,7 +139,7 @@
           "created_on": "2022-12-02T15:46:27Z"
         }
       ],
-      "net": "2023-02-06T22:32:00Z",
+      "net": "2023-02-07T01:32:00Z",
       "window_end": "2023-02-07T02:32:00Z",
       "window_start": "2023-02-06T22:32:00Z",
       "probability": 95,
@@ -1082,7 +1090,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-02-04T05:01:16Z",
+      "last_updated": "2023-02-06T18:45:38Z",
       "updates": [
         {
           "id": 3255,
@@ -1316,15 +1324,28 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6380,
+      "orbital_launch_attempt_count": 6381,
       "location_launch_attempt_count": 875,
       "pad_launch_attempt_count": 1,
-      "agency_launch_attempt_count": 224,
-      "orbital_launch_attempt_count_year": 24,
+      "agency_launch_attempt_count": 225,
+      "orbital_launch_attempt_count_year": 25,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 11,
-      "mission_patches": []
+      "agency_launch_attempt_count_year": 12,
+      "mission_patches": [
+        {
+          "id": 764,
+          "name": "Inmarsat-6 F2 Patch",
+          "priority": 10,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/inmarsat-62520_mission_patch_20230206184533.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ]
     },
     {
       "id": "bc325945-4bee-4412-84e1-14998b2eba5f",
