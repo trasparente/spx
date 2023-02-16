@@ -1,6 +1,6 @@
 {
   "count": 93,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-16T00%3A56%3A18Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-16T06%3A13%3A35Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -928,7 +928,35 @@
           "failed_launches": 0,
           "pending_launches": 82
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 325,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 118,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
+              "details": "Landed on JRTI as of Nov 26, 2022",
+              "flight_proven": true,
+              "serial_number": "B1076",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/118_image_20221122203928.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2023-01-10T04:50:00Z",
+              "first_launch_date": "2022-11-26T19:20:43Z"
+            },
+            "landing": null,
+            "previous_flight_date": "2023-01-10T04:50:00Z",
+            "turn_around_time_days": 43,
+            "previous_flight": {
+              "id": "d0132d83-687d-44e5-8406-1b639a0906c9",
+              "name": "Falcon 9 Block 5 | OneWeb 16"
+            }
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -1008,7 +1036,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-01-28T05:05:00Z",
+      "last_updated": "2023-02-16T02:16:18Z",
       "updates": [
         {
           "id": 3221,
@@ -1256,10 +1284,7 @@
             },
             "previous_flight_date": null,
             "turn_around_time_days": 0,
-            "previous_flight": {
-              "id": "2306e0bc-e1a3-4a4a-9285-e1a94073655e",
-              "name": "Falcon 9 Block 5 | Hakuto-R M1 & Lunar Flashlight"
-            }
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": {
@@ -1659,7 +1684,15 @@
         "orbital_launch_attempt_count": 155
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "NASA's SpaceX Crew-6 Mission Launches to the Space Station (Official NASA Broadcast)",
+          "description": "Our #Crew6 mission to the International Space Station is targeted for liftoff at 2:07 a.m. EST (0607 UTC) on Sunday, Feb. 26, 2023, from Launch Complex 39A a...",
+          "feature_image": "https://i.ytimg.com/vi/WY5R_0Qf_WM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/live/WY5R_0Qf_WM"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20211204170334.jpeg",
       "infographic": null,
@@ -1741,14 +1774,14 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6381,
+      "orbital_launch_attempt_count": 6384,
       "location_launch_attempt_count": 216,
       "pad_launch_attempt_count": 158,
-      "agency_launch_attempt_count": 223,
-      "orbital_launch_attempt_count_year": 25,
+      "agency_launch_attempt_count": 227,
+      "orbital_launch_attempt_count_year": 28,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 10,
+      "agency_launch_attempt_count_year": 14,
       "mission_patches": [
         {
           "id": 756,
