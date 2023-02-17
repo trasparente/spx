@@ -1,6 +1,6 @@
 {
   "count": 93,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-16T18%3A12%3A32Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-17T00%3A58%3A51Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -389,8 +389,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-02-15T17:20:41Z",
+      "last_updated": "2023-02-16T21:59:32Z",
       "updates": [
+        {
+          "id": 3328,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Weather 75%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Inmarsat%206F2%20L-1%20Day%20Forecast%20-%2017%20Feb%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2023-02-16T19:46:14Z"
+        },
         {
           "id": 3326,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -451,7 +459,7 @@
       "net": "2023-02-18T03:59:00Z",
       "window_end": "2023-02-18T05:28:00Z",
       "window_start": "2023-02-18T03:59:00Z",
-      "probability": 65,
+      "probability": 75,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -704,8 +712,24 @@
         "total_launch_count": 169,
         "orbital_launch_attempt_count": 168
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=Inmarsat-I-6-F2"
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "Inmarsat I-6 F2 Mission",
+          "description": "SpaceX is targeting Friday, February 17 for launch of the Inmarsat I-6 F2 mission to orbit from Space Launch Complex 40 at Cape Canaveral Space Force Station...",
+          "feature_image": "https://i.ytimg.com/vi/PxfFL249aoU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=PxfFL249aoU"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
