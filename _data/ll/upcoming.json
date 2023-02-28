@@ -1,6 +1,6 @@
 {
   "count": 90,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-28T06%3A14%3A22Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-02-28T12%3A20%3A58Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -2244,7 +2244,54 @@
           "failed_launches": 0,
           "pending_launches": 73
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 326,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 348,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2023-03-12T01:36:00Z",
+            "turn_around_time_days": 5,
+            "previous_flight": {
+              "id": "9a0216fd-811b-4e20-be0a-98e6c54859e4",
+              "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-27"
+            }
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
