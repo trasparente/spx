@@ -1,6 +1,6 @@
 {
   "count": 100,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-11T12%3A17%3A28Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-11T18%3A11%3A32Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -520,8 +520,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-03-11T08:07:09Z",
+      "last_updated": "2023-03-11T13:36:07Z",
       "updates": [
+        {
+          "id": 3506,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Delayed to March 16 per marine navigation notices.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=58174.0",
+          "created_by": "Nosu",
+          "created_on": "2023-03-11T13:36:12Z"
+        },
         {
           "id": 3505,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -555,9 +563,9 @@
           "created_on": "2023-02-09T21:59:05Z"
         }
       ],
-      "net": "2023-03-15T18:30:00Z",
-      "window_end": "2023-03-16T00:42:00Z",
-      "window_start": "2023-03-15T18:18:00Z",
+      "net": "2023-03-16T18:05:00Z",
+      "window_end": "2023-03-17T00:30:00Z",
+      "window_start": "2023-03-16T18:05:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -767,7 +775,7 @@
               }
             },
             "previous_flight_date": "2023-03-15T00:30:00Z",
-            "turn_around_time_days": 0,
+            "turn_around_time_days": 1,
             "previous_flight": {
               "id": "9a0216fd-811b-4e20-be0a-98e6c54859e4",
               "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-27"
