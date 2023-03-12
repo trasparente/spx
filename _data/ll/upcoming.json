@@ -1,6 +1,6 @@
 {
   "count": 100,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-12T12%3A17%3A52Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-12T18%3A11%3A52Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-03-09T16:22:41Z",
+      "last_updated": "2023-03-12T17:25:59Z",
       "updates": [
         {
           "id": 3491,
@@ -267,33 +267,33 @@
             "id": 313,
             "type": "Core",
             "reused": null,
-            "launcher_flight_number": 2,
+            "launcher_flight_number": 7,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 112,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/112/?format=json",
+              "details": "Landed at ASOG as of Sep 25, 2022",
+              "flight_proven": true,
+              "serial_number": "B1073",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/112_image_20220516182658.jpeg",
+              "successful_landings": 6,
+              "attempted_landings": 6,
+              "flights": 6,
+              "last_launch_date": "2023-02-07T01:32:00Z",
+              "first_launch_date": "2022-05-14T20:40:50Z"
             },
             "landing": {
               "id": 336,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "B1073 will attempt to land on ASDS ASOG after its seventh flight.",
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 30
               },
               "type": {
                 "id": 1,
@@ -302,11 +302,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2023-03-13T23:30:00Z",
-            "turn_around_time_days": 1,
+            "previous_flight_date": "2023-02-07T01:32:00Z",
+            "turn_around_time_days": 35,
             "previous_flight": {
-              "id": "4470fe15-bd51-408b-9d58-283891f97344",
-              "name": "Falcon 9 Block 5 | Starlink Group 2-8"
+              "id": "59449fa1-f709-40c0-bcad-f669b3ee48b4",
+              "name": "Falcon 9 Block 5 | Amazonas Nexus"
             }
           }
         ],
@@ -497,14 +497,14 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6395,
+      "orbital_launch_attempt_count": 6393,
       "location_launch_attempt_count": 217,
       "pad_launch_attempt_count": 159,
-      "agency_launch_attempt_count": 231,
-      "orbital_launch_attempt_count_year": 39,
+      "agency_launch_attempt_count": 230,
+      "orbital_launch_attempt_count_year": 37,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 4,
-      "agency_launch_attempt_count_year": 18,
+      "agency_launch_attempt_count_year": 17,
       "mission_patches": []
     },
     {
