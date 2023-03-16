@@ -1,6 +1,6 @@
 {
   "count": 100,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-16T12%3A19%3A53Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-16T18%3A13%3A18Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 2-8",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-03-14T18:00:08Z",
+      "last_updated": "2023-03-16T18:06:42Z",
       "updates": [
+        {
+          "id": 3583,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl2-8",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-03-16T18:04:02Z"
+        },
         {
           "id": 3558,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -75,9 +83,9 @@
           "created_on": "2023-02-09T21:59:05Z"
         }
       ],
-      "net": "2023-03-17T19:01:00Z",
-      "window_end": "2023-03-18T00:16:00Z",
-      "window_start": "2023-03-17T19:01:00Z",
+      "net": "2023-03-17T19:21:00Z",
+      "window_end": "2023-03-17T23:19:00Z",
+      "window_start": "2023-03-17T19:21:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -100,7 +108,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -140,7 +148,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -244,33 +252,33 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [
           {
             "id": 320,
             "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "reused": true,
+            "launcher_flight_number": 8,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 107,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
+              "flight_proven": true,
+              "serial_number": "B1071",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/107_image_20220205103652.jpg",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2023-01-31T16:15:00Z",
+              "first_launch_date": "2022-02-02T20:27:26Z"
             },
             "landing": {
               "id": 343,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after this flight.",
+              "description": "B1071 will attempt to land on ASDS OCISLY after its eighth flight.",
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
@@ -286,9 +294,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
+            "previous_flight_date": "2023-01-31T16:15:00Z",
+            "turn_around_time_days": 45,
+            "previous_flight": {
+              "id": "f5a5ba75-16c4-4f30-9262-3195a2016f44",
+              "name": "Falcon 9 Block 5 | Starlink Group 2-6 & ION SCV009"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -329,16 +340,24 @@
         "orbital_launch_attempt_count": 104
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "Starlink Mission",
+          "description": "SpaceX is targeting Friday, March 17 at 12:21 p.m. PT (19:21 UTC) for a Falcon 9 launch of 52 Starlink satellites to low-Earth orbit from Space Launch Comple...",
+          "feature_image": "https://i.ytimg.com/vi/HT2F37M193Y/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=HT2F37M193Y"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230209215905.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6397,
+      "orbital_launch_attempt_count": 6396,
       "location_launch_attempt_count": 714,
       "pad_launch_attempt_count": 105,
       "agency_launch_attempt_count": 231,
-      "orbital_launch_attempt_count_year": 41,
+      "orbital_launch_attempt_count_year": 40,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 18,
@@ -365,13 +384,29 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | SES-18 & SES-19",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-03-14T23:55:36Z",
+      "last_updated": "2023-03-16T18:04:33Z",
       "updates": [
+        {
+          "id": 3582,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://twitter.com/SpaceX/status/1636425986509279232",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-03-16T17:57:45Z"
+        },
+        {
+          "id": 3580,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Weather 80%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20SES%2018%20%2019%20L-1%20Day%20Forecast%20-%2017%20Mar%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2023-03-16T16:04:51Z"
+        },
         {
           "id": 3562,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -456,7 +491,7 @@
       "net": "2023-03-17T23:38:00Z",
       "window_end": "2023-03-18T00:16:00Z",
       "window_start": "2023-03-17T23:38:00Z",
-      "probability": 70,
+      "probability": 80,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -478,7 +513,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -518,7 +553,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -622,40 +657,40 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [
           {
             "id": 326,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 2,
+            "launcher_flight_number": 6,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 105,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "flight_proven": true,
+              "serial_number": "B1069",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/105_image_20211220081646.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2023-02-02T07:58:20Z",
+              "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "landing": {
               "id": 348,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "B1069 will attempt to land on ASDS JRTI after its sixth flight.",
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 47
               },
               "type": {
                 "id": 1,
@@ -664,11 +699,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2023-03-17T19:01:00Z",
-            "turn_around_time_days": 0,
+            "previous_flight_date": "2023-02-02T07:58:20Z",
+            "turn_around_time_days": 43,
             "previous_flight": {
-              "id": "4470fe15-bd51-408b-9d58-283891f97344",
-              "name": "Falcon 9 Block 5 | Starlink Group 2-8"
+              "id": "072f9f30-3114-4e90-81c7-8111d7d9ae20",
+              "name": "Falcon 9 Block 5 | Starlink Group 5-3"
             }
           }
         ],
@@ -710,7 +745,15 @@
         "orbital_launch_attempt_count": 171
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "SES-18 and SES-19 Mission",
+          "description": "SpaceX is targeting Friday, March 17 for launch of the SES-18 and SES-19 mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-40) at ...",
+          "feature_image": "https://i.ytimg.com/vi/4aMf9K_ZaAI/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=4aMf9K_ZaAI"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
@@ -782,7 +825,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -822,7 +865,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -926,7 +969,7 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [
           {
@@ -1055,7 +1098,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-03-15T08:09:44Z",
+      "last_updated": "2023-03-16T12:42:34Z",
       "updates": [
         {
           "id": 3569,
@@ -1099,7 +1142,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -1139,7 +1182,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -1243,7 +1286,7 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [
           {
@@ -1308,15 +1351,15 @@
         }
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
-        "agency_id": null,
-        "name": "Unknown Pad",
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "http://maps.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
         "location": {
           "id": 12,
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -1326,9 +1369,9 @@
           "total_launch_count": 877,
           "total_landing_count": 33
         },
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 172,
+        "orbital_launch_attempt_count": 171
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -1336,13 +1379,13 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230209213900.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6401,
+      "orbital_launch_attempt_count": 6402,
       "location_launch_attempt_count": 881,
-      "pad_launch_attempt_count": 1,
+      "pad_launch_attempt_count": 175,
       "agency_launch_attempt_count": 234,
-      "orbital_launch_attempt_count_year": 45,
+      "orbital_launch_attempt_count_year": 46,
       "location_launch_attempt_count_year": 13,
-      "pad_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 12,
       "agency_launch_attempt_count_year": 21,
       "mission_patches": [
         {
@@ -1432,7 +1475,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -1472,7 +1515,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -1576,7 +1619,7 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -1785,7 +1828,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -1825,7 +1868,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -2134,7 +2177,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -2174,7 +2217,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -2278,7 +2321,7 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -2423,7 +2466,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -2463,7 +2506,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -2749,7 +2792,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -2789,7 +2832,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -2893,7 +2936,7 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -3006,7 +3049,7 @@
         "consecutive_successful_launches": 101,
         "successful_launches": 221,
         "failed_launches": 9,
-        "pending_launches": 96,
+        "pending_launches": 98,
         "consecutive_successful_landings": 101,
         "successful_landings": 183,
         "failed_landings": 17,
@@ -3046,7 +3089,7 @@
             "consecutive_successful_launches": 101,
             "successful_launches": 221,
             "failed_launches": 9,
-            "pending_launches": 96,
+            "pending_launches": 98,
             "consecutive_successful_landings": 101,
             "successful_landings": 183,
             "failed_landings": 17,
@@ -3150,7 +3193,7 @@
           "consecutive_successful_launches": 154,
           "successful_launches": 154,
           "failed_launches": 0,
-          "pending_launches": 86
+          "pending_launches": 88
         },
         "launcher_stage": [
           {
