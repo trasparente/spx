@@ -1,6 +1,6 @@
 {
   "count": 98,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-19T18%3A11%3A47Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-03-20T00%3A56%3A33Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1306,7 +1306,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-02-17T03:46:04Z",
+      "last_updated": "2023-03-19T18:28:15Z",
       "updates": [
         {
           "id": 3340,
@@ -1527,21 +1527,9 @@
               "id": 253,
               "attempt": true,
               "success": null,
-              "description": "The side-booster will attempt to land back at the launch site.",
-              "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
+              "description": "The side-booster will be expended following its 8th flight.",
+              "location": null,
+              "type": null
             },
             "previous_flight_date": "2022-09-05T02:09:40Z",
             "turn_around_time_days": 215,
@@ -1573,9 +1561,21 @@
               "id": 254,
               "attempt": false,
               "success": null,
-              "description": "-",
-              "location": null,
-              "type": null
+              "description": "B1068 will be expended after its first flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
             },
             "previous_flight_date": null,
             "turn_around_time_days": 0,
@@ -1625,14 +1625,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6414,
+      "orbital_launch_attempt_count": 6406,
       "location_launch_attempt_count": 218,
       "pad_launch_attempt_count": 160,
-      "agency_launch_attempt_count": 248,
-      "orbital_launch_attempt_count_year": 58,
+      "agency_launch_attempt_count": 237,
+      "orbital_launch_attempt_count_year": 50,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 5,
-      "agency_launch_attempt_count_year": 35,
+      "agency_launch_attempt_count_year": 24,
       "mission_patches": []
     },
     {
