@@ -1,6 +1,6 @@
 {
   "count": 97,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-04T06%3A12%3A39Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-04T12%3A17%3A59Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -693,7 +693,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-03-28T15:30:25Z",
+      "last_updated": "2023-04-04T08:17:48Z",
       "updates": [
         {
           "id": 3688,
@@ -877,7 +877,7 @@
             "launcher": {
               "id": 59,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/59/?format=json",
-              "details": "Landed at LZ-2 as of Jun 25, 2019.",
+              "details": "Falcon Heavy side-booster.",
               "flight_proven": true,
               "serial_number": "B1053",
               "status": "active",
@@ -890,22 +890,22 @@
             },
             "landing": {
               "id": 252,
-              "attempt": true,
+              "attempt": false,
               "success": null,
-              "description": "The side-booster will attempt to land back at the launch site.",
+              "description": "B1053 will be expended following its third flight.",
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
                 "location": null,
                 "successful_landings": 0
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
               }
             },
             "previous_flight_date": "2019-06-25T06:30:00Z",
@@ -923,7 +923,7 @@
             "launcher": {
               "id": 58,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/58/?format=json",
-              "details": "Landed on JRTI as of Sep 5 2022",
+              "details": "Falcon 9 Block 5 booster also used as Falcon Heavy side-booster.",
               "flight_proven": true,
               "serial_number": "B1052",
               "status": "active",
@@ -936,11 +936,23 @@
             },
             "landing": {
               "id": 253,
-              "attempt": true,
+              "attempt": false,
               "success": null,
-              "description": "The side-booster will be expended following its 8th flight.",
-              "location": null,
-              "type": null
+              "description": "B1052 will be expended following its 8th flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
             },
             "previous_flight_date": "2022-09-05T02:09:40Z",
             "turn_around_time_days": 225,
