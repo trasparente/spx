@@ -1,6 +1,6 @@
 {
   "count": 97,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-05T00%3A41%3A40Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-05T06%3A13%3A01Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -352,8 +352,16 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-04-04T18:54:52Z",
+      "last_updated": "2023-04-05T02:47:40Z",
       "updates": [
+        {
+          "id": 3749,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweak in potential launch window.",
+          "info_url": "https://www.fly.faa.gov/adv/adv_spt.jsp",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-04-05T02:47:40Z"
+        },
         {
           "id": 3747,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -483,9 +491,9 @@
           "created_on": "2021-11-17T17:01:44Z"
         }
       ],
-      "net": "2023-04-10T13:10:00Z",
-      "window_end": "2023-04-10T17:45:00Z",
-      "window_start": "2023-04-10T13:10:00Z",
+      "net": "2023-04-10T12:00:00Z",
+      "window_end": "2023-04-10T16:00:00Z",
+      "window_start": "2023-04-10T12:00:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -805,8 +813,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-04-04T16:27:51Z",
+      "last_updated": "2023-04-05T02:45:05Z",
       "updates": [
+        {
+          "id": 3748,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Moved up a day",
+          "info_url": "https://www.fly.faa.gov/adv/adv_spt.jsp",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-04-05T02:45:09Z"
+        },
         {
           "id": 3745,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -856,9 +872,9 @@
           "created_on": "2023-01-03T17:02:19Z"
         }
       ],
-      "net": "2023-04-12T06:45:00Z",
-      "window_end": "2023-04-12T09:00:00Z",
-      "window_start": "2023-04-12T06:15:00Z",
+      "net": "2023-04-11T06:10:00Z",
+      "window_end": "2023-04-11T08:11:00Z",
+      "window_start": "2023-04-11T06:10:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -1076,7 +1092,7 @@
               }
             },
             "previous_flight_date": "2023-02-17T19:12:20Z",
-            "turn_around_time_days": 53,
+            "turn_around_time_days": 52,
             "previous_flight": {
               "id": "ae6b4088-983b-413d-baca-11c5650167d1",
               "name": "Falcon 9 Block 5 | Starlink Group 2-5"
@@ -1126,14 +1142,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6412,
+      "orbital_launch_attempt_count": 6413,
       "location_launch_attempt_count": 716,
       "pad_launch_attempt_count": 107,
-      "agency_launch_attempt_count": 237,
-      "orbital_launch_attempt_count_year": 56,
+      "agency_launch_attempt_count": 238,
+      "orbital_launch_attempt_count_year": 57,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 7,
-      "agency_launch_attempt_count_year": 24,
+      "agency_launch_attempt_count_year": 25,
       "mission_patches": [
         {
           "id": 49,
@@ -1385,6 +1401,49 @@
             }
           },
           {
+            "id": 221,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 108,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1068",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 254,
+              "attempt": false,
+              "success": null,
+              "description": "B1068 will be expended after its first flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 222,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1429,49 +1488,6 @@
               "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
               "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM"
             }
-          },
-          {
-            "id": 221,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 108,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1068",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 254,
-              "attempt": false,
-              "success": null,
-              "description": "B1068 will be expended after its first flight.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -1517,14 +1533,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6414,
+      "orbital_launch_attempt_count": 6415,
       "location_launch_attempt_count": 218,
       "pad_launch_attempt_count": 160,
-      "agency_launch_attempt_count": 238,
-      "orbital_launch_attempt_count_year": 58,
+      "agency_launch_attempt_count": 239,
+      "orbital_launch_attempt_count_year": 59,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 5,
-      "agency_launch_attempt_count_year": 25,
+      "agency_launch_attempt_count_year": 26,
       "mission_patches": []
     },
     {
@@ -1845,14 +1861,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230209215716.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6415,
+      "orbital_launch_attempt_count": 6416,
       "location_launch_attempt_count": 883,
       "pad_launch_attempt_count": 177,
-      "agency_launch_attempt_count": 239,
-      "orbital_launch_attempt_count_year": 59,
+      "agency_launch_attempt_count": 240,
+      "orbital_launch_attempt_count_year": 60,
       "location_launch_attempt_count_year": 15,
       "pad_launch_attempt_count_year": 14,
-      "agency_launch_attempt_count_year": 26,
+      "agency_launch_attempt_count_year": 27,
       "mission_patches": [
         {
           "id": 7,
@@ -2172,14 +2188,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6417,
+      "orbital_launch_attempt_count": 6418,
       "location_launch_attempt_count": 885,
       "pad_launch_attempt_count": 178,
-      "agency_launch_attempt_count": 240,
-      "orbital_launch_attempt_count_year": 61,
+      "agency_launch_attempt_count": 241,
+      "orbital_launch_attempt_count_year": 62,
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 15,
-      "agency_launch_attempt_count_year": 27,
+      "agency_launch_attempt_count_year": 28,
       "mission_patches": []
     },
     {
