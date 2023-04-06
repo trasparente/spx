@@ -1,6 +1,6 @@
 {
   "count": 97,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-05T18%3A13%3A41Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-06T00%3A47%3A41Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -964,49 +964,6 @@
             }
           },
           {
-            "id": 221,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 108,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1068",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 254,
-              "attempt": false,
-              "success": null,
-              "description": "B1068 will be expended after its first flight.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic",
-                "abbrev": "ATL",
-                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 222,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1051,6 +1008,49 @@
               "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
               "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM"
             }
+          },
+          {
+            "id": 221,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 108,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1068",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 254,
+              "attempt": false,
+              "success": null,
+              "description": "B1068 will be expended after its first flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic",
+                "abbrev": "ATL",
+                "description": "The Atlantic ocean on the East coast of the United States is a common landing area for expended boosters.",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "Typically indicates a landing in which the booster is not recovered."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
