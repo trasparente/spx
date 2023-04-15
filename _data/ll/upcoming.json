@@ -1,6 +1,6 @@
 {
   "count": 96,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-15T00%3A52%3A16Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-15T06%3A11%3A37Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-04-14T08:04:02Z",
+      "last_updated": "2023-04-15T05:30:52Z",
       "updates": [
+        {
+          "id": 3807,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweak in T-0.",
+          "info_url": "https://twitter.com/spacex/status/1647109354670403590",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-04-15T05:30:54Z"
+        },
         {
           "id": 3792,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -139,9 +147,9 @@
           "created_on": "2023-01-03T17:02:19Z"
         }
       ],
-      "net": "2023-04-15T06:47:00Z",
-      "window_end": "2023-04-15T06:47:00Z",
-      "window_start": "2023-04-15T06:47:00Z",
+      "net": "2023-04-15T06:48:00Z",
+      "window_end": "2023-04-15T06:48:00Z",
+      "window_start": "2023-04-15T06:48:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -835,7 +843,7 @@
           "id": 783,
           "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/783/?format=json",
           "mission_end": null,
-          "destination": "Low Earth Orbit",
+          "destination": "Pacific Ocean",
           "launch_crew": [],
           "onboard_crew": [],
           "landing_crew": [],
@@ -1016,8 +1024,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-04-14T23:10:28Z",
+      "last_updated": "2023-04-15T05:03:11Z",
       "updates": [
+        {
+          "id": 3806,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated T-0.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-04-15T05:03:14Z"
+        },
         {
           "id": 3800,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1067,9 +1083,9 @@
           "created_on": "2023-02-09T21:57:16Z"
         }
       ],
-      "net": "2023-04-19T12:30:00Z",
-      "window_end": "2023-04-19T12:30:00Z",
-      "window_start": "2023-04-19T12:30:00Z",
+      "net": "2023-04-19T12:28:00Z",
+      "window_end": "2023-04-19T12:28:00Z",
+      "window_start": "2023-04-19T12:28:00Z",
       "probability": null,
       "holdreason": "",
       "failreason": "",
@@ -1567,29 +1583,29 @@
         },
         "launcher_stage": [
           {
-            "id": 222,
+            "id": 223,
             "type": "Strap-On Booster",
             "reused": true,
-            "launcher_flight_number": 8,
+            "launcher_flight_number": 3,
             "launcher": {
-              "id": 58,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/58/?format=json",
-              "details": "Falcon 9 Block 5 booster also used as Falcon Heavy side-booster.",
+              "id": 59,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/59/?format=json",
+              "details": "Falcon Heavy side-booster.",
               "flight_proven": true,
-              "serial_number": "B1052",
+              "serial_number": "B1053",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/58_image_20220202001612.jpeg",
-              "successful_landings": 7,
-              "attempted_landings": 7,
-              "flights": 7,
-              "last_launch_date": "2022-09-05T02:09:40Z",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/59_image_20191115083445.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2019-06-25T06:30:00Z",
               "first_launch_date": "2019-04-11T22:35:00Z"
             },
             "landing": {
-              "id": 253,
+              "id": 252,
               "attempt": false,
               "success": null,
-              "description": "B1052 will be expended following its 8th flight.",
+              "description": "B1053 will be expended following its third flight.",
               "location": {
                 "id": 6,
                 "name": "Atlantic",
@@ -1605,11 +1621,11 @@
                 "description": "Typically indicates a landing in which the booster is not recovered."
               }
             },
-            "previous_flight_date": "2022-09-05T02:09:40Z",
-            "turn_around_time_days": 231,
+            "previous_flight_date": "2019-06-25T06:30:00Z",
+            "turn_around_time_days": 1399,
             "previous_flight": {
-              "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
-              "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM"
+              "id": "0a0a1326-c772-4027-8dc2-365b716f6691",
+              "name": "Falcon Heavy | STP-2"
             }
           },
           {
@@ -1656,29 +1672,29 @@
             "previous_flight": null
           },
           {
-            "id": 223,
+            "id": 222,
             "type": "Strap-On Booster",
             "reused": true,
-            "launcher_flight_number": 3,
+            "launcher_flight_number": 8,
             "launcher": {
-              "id": 59,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/59/?format=json",
-              "details": "Falcon Heavy side-booster.",
+              "id": 58,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/58/?format=json",
+              "details": "Falcon 9 Block 5 booster also used as Falcon Heavy side-booster.",
               "flight_proven": true,
-              "serial_number": "B1053",
+              "serial_number": "B1052",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/59_image_20191115083445.jpeg",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
-              "last_launch_date": "2019-06-25T06:30:00Z",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/58_image_20220202001612.jpeg",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2022-09-05T02:09:40Z",
               "first_launch_date": "2019-04-11T22:35:00Z"
             },
             "landing": {
-              "id": 252,
+              "id": 253,
               "attempt": false,
               "success": null,
-              "description": "B1053 will be expended following its third flight.",
+              "description": "B1052 will be expended following its 8th flight.",
               "location": {
                 "id": 6,
                 "name": "Atlantic",
@@ -1694,11 +1710,11 @@
                 "description": "Typically indicates a landing in which the booster is not recovered."
               }
             },
-            "previous_flight_date": "2019-06-25T06:30:00Z",
-            "turn_around_time_days": 1399,
+            "previous_flight_date": "2022-09-05T02:09:40Z",
+            "turn_around_time_days": 231,
             "previous_flight": {
-              "id": "0a0a1326-c772-4027-8dc2-365b716f6691",
-              "name": "Falcon Heavy | STP-2"
+              "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
+              "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM"
             }
           }
         ],
@@ -3585,14 +3601,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230209214919.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6429,
-      "location_launch_attempt_count": 722,
-      "pad_launch_attempt_count": 112,
-      "agency_launch_attempt_count": 249,
-      "orbital_launch_attempt_count_year": 73,
-      "location_launch_attempt_count_year": 13,
-      "pad_launch_attempt_count_year": 12,
-      "agency_launch_attempt_count_year": 36,
+      "orbital_launch_attempt_count": 6428,
+      "location_launch_attempt_count": 721,
+      "pad_launch_attempt_count": 111,
+      "agency_launch_attempt_count": 248,
+      "orbital_launch_attempt_count_year": 72,
+      "location_launch_attempt_count_year": 12,
+      "pad_launch_attempt_count_year": 11,
+      "agency_launch_attempt_count_year": 35,
       "mission_patches": [
         {
           "id": 7,
