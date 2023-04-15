@@ -1,6 +1,6 @@
 {
   "count": 237,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-04-15T12%3A16%3A05Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-04-15T18%3A10%3A54Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -3447,6 +3447,26 @@
               "info_link": "https://www.spacex.com/dragon"
             }
           },
+          "landing": {
+            "id": 356,
+            "attempt": true,
+            "success": null,
+            "description": "Splashdown in the gulf of Mexico.",
+            "location": {
+              "id": 16,
+              "name": "Gulf of Mexico",
+              "abbrev": "GOM",
+              "description": "Gulf of Mexico",
+              "location": null,
+              "successful_landings": 0
+            },
+            "type": {
+              "id": 4,
+              "name": "Parachute Landing",
+              "abbrev": "PL",
+              "description": "Unpowered landing using parachute(s)."
+            }
+          },
           "docking_events": [
             {
               "spacestation": {
@@ -3463,7 +3483,7 @@
                 "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/international2520space2520station_image_20190220215716.jpeg"
               },
               "docking": "2023-03-16T11:31:00Z",
-              "departure": null,
+              "departure": "2023-04-15T15:05:00Z",
               "docking_location": {
                 "id": 19,
                 "name": "Harmony forward",

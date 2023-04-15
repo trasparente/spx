@@ -1,6 +1,6 @@
 {
   "count": 95,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-15T12%3A16%3A05Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-15T18%3A10%3A54Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -369,7 +369,7 @@
                 "id": 3,
                 "name": "Ocean",
                 "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
+                "description": "No recovery attempt"
               }
             },
             "previous_flight_date": null,
@@ -435,6 +435,26 @@
               "nation_url": null,
               "wiki_link": "https://en.wikipedia.org/wiki/SpaceX_Starship",
               "info_link": "https://www.spacex.com/vehicles/starship/"
+            }
+          },
+          "landing": {
+            "id": 357,
+            "attempt": false,
+            "success": null,
+            "description": "No landing attempt, splashdown at terminal velocity.",
+            "location": {
+              "id": 18,
+              "name": "Pacific Ocean",
+              "abbrev": "PAC",
+              "description": "Pacific Ocean",
+              "location": null,
+              "successful_landings": 0
+            },
+            "type": {
+              "id": 3,
+              "name": "Ocean",
+              "abbrev": "Ocean",
+              "description": "No recovery attempt"
             }
           },
           "docking_events": []
@@ -1156,7 +1176,7 @@
                 "id": 3,
                 "name": "Ocean",
                 "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
+                "description": "No recovery attempt"
               }
             },
             "previous_flight_date": "2019-06-25T06:30:00Z",
@@ -1202,7 +1222,7 @@
                 "id": 3,
                 "name": "Ocean",
                 "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
+                "description": "No recovery attempt"
               }
             },
             "previous_flight_date": null,
@@ -1245,7 +1265,7 @@
                 "id": 3,
                 "name": "Ocean",
                 "abbrev": "Ocean",
-                "description": "Typically indicates a landing in which the booster is not recovered."
+                "description": "No recovery attempt"
               }
             },
             "previous_flight_date": "2022-09-05T02:09:40Z",
