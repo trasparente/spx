@@ -1,6 +1,6 @@
 {
   "count": 93,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-22T12%3A16%3A29Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-22T18%3A11%3A07Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -2920,7 +2920,26 @@
               "info_link": "https://www.spacex.com/crew-dragon"
             }
           },
-          "landing": null,
+          "landing": {
+            "id": 396,
+            "attempt": true,
+            "success": null,
+            "description": "The Crew Dragon spacecraft will splash down in the Atlantic Ocean carrying 4 passengers.",
+            "location": {
+              "id": 6,
+              "name": "Atlantic Ocean",
+              "abbrev": "ATL",
+              "description": "Atlantic Ocean",
+              "location": null,
+              "successful_landings": 0
+            },
+            "type": {
+              "id": 4,
+              "name": "Parachute Landing",
+              "abbrev": "PL",
+              "description": "Unpowered landing using parachute(s)."
+            }
+          },
           "docking_events": []
         }
       },
