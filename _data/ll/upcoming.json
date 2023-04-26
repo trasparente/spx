@@ -1,6 +1,6 @@
 {
   "count": 93,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-26T00%3A50%3A29Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-26T06%3A12%3A42Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -623,6 +623,49 @@
         },
         "launcher_stage": [
           {
+            "id": 221,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 108,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1068",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 254,
+              "attempt": false,
+              "success": null,
+              "description": "B1068 will be expended after its first flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "No recovery attempt"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 223,
             "type": "Strap-On Booster",
             "reused": true,
@@ -667,49 +710,6 @@
               "id": "0a0a1326-c772-4027-8dc2-365b716f6691",
               "name": "Falcon Heavy | STP-2"
             }
-          },
-          {
-            "id": 221,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 108,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1068",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 254,
-              "attempt": false,
-              "success": null,
-              "description": "B1068 will be expended after its first flight.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "No recovery attempt"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           },
           {
             "id": 222,
