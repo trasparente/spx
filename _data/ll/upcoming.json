@@ -1,6 +1,6 @@
 {
   "count": 93,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-25T18%3A11%3A47Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-04-26T00%3A50%3A29Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -374,8 +374,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-04-25T15:08:34Z",
+      "last_updated": "2023-04-25T18:58:53Z",
       "updates": [
+        {
+          "id": 3881,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Weather 60%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20Viasat-3_1%20L-1%20Forecast%20-%2026%20Apr%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2023-04-25T18:58:54Z"
+        },
         {
           "id": 3876,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -516,7 +524,7 @@
       "net": "2023-04-26T23:29:00Z",
       "window_end": "2023-04-27T00:18:00Z",
       "window_start": "2023-04-26T23:29:00Z",
-      "probability": 40,
+      "probability": 60,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -615,49 +623,6 @@
         },
         "launcher_stage": [
           {
-            "id": 221,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 108,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1068",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 254,
-              "attempt": false,
-              "success": null,
-              "description": "B1068 will be expended after its first flight.",
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "No recovery attempt"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 223,
             "type": "Strap-On Booster",
             "reused": true,
@@ -702,6 +667,49 @@
               "id": "0a0a1326-c772-4027-8dc2-365b716f6691",
               "name": "Falcon Heavy | STP-2"
             }
+          },
+          {
+            "id": 221,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 108,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1068",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 254,
+              "attempt": false,
+              "success": null,
+              "description": "B1068 will be expended after its first flight.",
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "No recovery attempt"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           },
           {
             "id": 222,
@@ -2163,11 +2171,11 @@
       "orbital_launch_attempt_count": 6429,
       "location_launch_attempt_count": 219,
       "pad_launch_attempt_count": 161,
-      "agency_launch_attempt_count": 243,
+      "agency_launch_attempt_count": 244,
       "orbital_launch_attempt_count_year": 71,
       "location_launch_attempt_count_year": 6,
       "pad_launch_attempt_count_year": 6,
-      "agency_launch_attempt_count_year": 30,
+      "agency_launch_attempt_count_year": 31,
       "mission_patches": []
     },
     {
