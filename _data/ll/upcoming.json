@@ -1,6 +1,6 @@
 {
   "count": 97,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-05-08T18%3A11%3A37Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-05-09T00%3A51%3A46Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1400,7 +1400,7 @@
         "name": "Axiom Space Mission 2",
         "description": "This is a Crew Dragon flight for a private company Axiom Space. The mission will carry a professionally trained commander alongside three private astronauts to and from the International Space Station. This crew will stay aboard space station for  at least eight days.",
         "launch_designator": null,
-        "type": "Tourism",
+        "type": "Human Exploration",
         "orbit": {
           "id": 8,
           "name": "Low Earth Orbit",
@@ -3022,7 +3022,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-04-14T17:26:57Z",
+      "last_updated": "2023-05-08T20:41:30Z",
       "updates": [
         {
           "id": 3798,
@@ -3042,7 +3042,12 @@
         }
       ],
       "net": "2023-05-31T00:00:00Z",
-      "net_precision": null,
+      "net_precision": {
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
+      },
       "window_end": "2023-05-31T00:00:00Z",
       "window_start": "2023-05-31T00:00:00Z",
       "probability": null,
