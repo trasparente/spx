@@ -1,6 +1,6 @@
 {
   "count": 114,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-05-22T18%3A11%3A31Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-05-23T00%3A51%3A38Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | BADR-8",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-05-22T06:30:28Z",
+      "last_updated": "2023-05-22T20:13:33Z",
       "updates": [
+        {
+          "id": 4103,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+          "comment": "Setting GO. Weather 25%",
+          "info_url": "https://twitter.com/SpaceX/status/1660739475746721792",
+          "created_by": "Nosu",
+          "created_on": "2023-05-22T20:13:40Z"
+        },
         {
           "id": 4082,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
@@ -98,9 +106,9 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2023-05-24T06:14:00Z",
-      "window_start": "2023-05-24T03:20:00Z",
-      "probability": 30,
+      "window_end": "2023-05-24T05:32:00Z",
+      "window_start": "2023-05-24T03:25:00Z",
+      "probability": 25,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -122,7 +130,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -162,7 +170,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -266,7 +274,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [
           {
@@ -355,8 +363,24 @@
         "total_launch_count": 181,
         "orbital_launch_attempt_count": 181
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=ARABSAT-BADR-8"
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "ARABSAT BADR-8 Mission",
+          "description": "SpaceX is targeting Tuesday, May 23 for Falcon 9’s launch of the ARABSAT BADR-8 mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-...",
+          "feature_image": "https://i.ytimg.com/vi/0q-0eD5s-sk/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=0q-0eD5s-sk"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
@@ -434,7 +458,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -474,7 +498,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -578,7 +602,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [
           {
@@ -670,14 +694,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230209220501.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6444,
+      "orbital_launch_attempt_count": 6443,
       "location_launch_attempt_count": 721,
       "pad_launch_attempt_count": 111,
-      "agency_launch_attempt_count": 251,
-      "orbital_launch_attempt_count_year": 86,
+      "agency_launch_attempt_count": 250,
+      "orbital_launch_attempt_count_year": 85,
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 11,
-      "agency_launch_attempt_count_year": 38,
+      "agency_launch_attempt_count_year": 37,
       "mission_patches": [
         {
           "id": 7,
@@ -764,7 +788,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -804,7 +828,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -908,7 +932,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [
           {
@@ -1000,14 +1024,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230503085110.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6445,
-      "location_launch_attempt_count": 891,
+      "orbital_launch_attempt_count": 6444,
+      "location_launch_attempt_count": 890,
       "pad_launch_attempt_count": 183,
-      "agency_launch_attempt_count": 252,
-      "orbital_launch_attempt_count_year": 87,
-      "location_launch_attempt_count_year": 23,
+      "agency_launch_attempt_count": 251,
+      "orbital_launch_attempt_count_year": 86,
+      "location_launch_attempt_count_year": 22,
       "pad_launch_attempt_count_year": 20,
-      "agency_launch_attempt_count_year": 39,
+      "agency_launch_attempt_count_year": 38,
       "mission_patches": [
         {
           "id": 7,
@@ -1094,7 +1118,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -1134,7 +1158,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -1238,7 +1262,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [
           {
@@ -1497,7 +1521,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -1537,7 +1561,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -1641,7 +1665,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -1689,14 +1713,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6447,
+      "orbital_launch_attempt_count": 6446,
       "location_launch_attempt_count": 722,
       "pad_launch_attempt_count": 112,
-      "agency_launch_attempt_count": 254,
-      "orbital_launch_attempt_count_year": 89,
+      "agency_launch_attempt_count": 253,
+      "orbital_launch_attempt_count_year": 88,
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 12,
-      "agency_launch_attempt_count_year": 41,
+      "agency_launch_attempt_count_year": 40,
       "mission_patches": [
         {
           "id": 49,
@@ -1767,7 +1791,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -1807,7 +1831,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -1911,7 +1935,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [
           {
@@ -2105,7 +2129,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -2145,7 +2169,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -2249,7 +2273,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -2362,7 +2386,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -2402,7 +2426,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -2506,7 +2530,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -2554,14 +2578,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522082449.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6467,
-      "location_launch_attempt_count": 900,
-      "pad_launch_attempt_count": 6,
-      "agency_launch_attempt_count": 267,
-      "orbital_launch_attempt_count_year": 109,
-      "location_launch_attempt_count_year": 32,
-      "pad_launch_attempt_count_year": 6,
-      "agency_launch_attempt_count_year": 54,
+      "orbital_launch_attempt_count": 6480,
+      "location_launch_attempt_count": 907,
+      "pad_launch_attempt_count": 13,
+      "agency_launch_attempt_count": 280,
+      "orbital_launch_attempt_count_year": 122,
+      "location_launch_attempt_count_year": 39,
+      "pad_launch_attempt_count_year": 13,
+      "agency_launch_attempt_count_year": 67,
       "mission_patches": [
         {
           "id": 7,
@@ -2672,7 +2696,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -2712,7 +2736,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -2816,7 +2840,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [],
         "spacecraft_stage": null
@@ -2864,14 +2888,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6464,
-      "location_launch_attempt_count": 897,
-      "pad_launch_attempt_count": 185,
-      "agency_launch_attempt_count": 264,
-      "orbital_launch_attempt_count_year": 106,
-      "location_launch_attempt_count_year": 29,
-      "pad_launch_attempt_count_year": 22,
-      "agency_launch_attempt_count_year": 51,
+      "orbital_launch_attempt_count": 6480,
+      "location_launch_attempt_count": 907,
+      "pad_launch_attempt_count": 187,
+      "agency_launch_attempt_count": 280,
+      "orbital_launch_attempt_count_year": 122,
+      "location_launch_attempt_count_year": 39,
+      "pad_launch_attempt_count_year": 24,
+      "agency_launch_attempt_count_year": 67,
       "mission_patches": []
     },
     {
@@ -2929,7 +2953,7 @@
         "consecutive_successful_launches": 9,
         "successful_launches": 238,
         "failed_launches": 10,
-        "pending_launches": 112,
+        "pending_launches": 113,
         "consecutive_successful_landings": 117,
         "successful_landings": 199,
         "failed_landings": 17,
@@ -2969,7 +2993,7 @@
             "consecutive_successful_launches": 9,
             "successful_launches": 238,
             "failed_launches": 10,
-            "pending_launches": 112,
+            "pending_launches": 113,
             "consecutive_successful_landings": 117,
             "successful_landings": 199,
             "failed_landings": 17,
@@ -3073,7 +3097,7 @@
           "consecutive_successful_launches": 170,
           "successful_launches": 170,
           "failed_launches": 0,
-          "pending_launches": 103
+          "pending_launches": 104
         },
         "launcher_stage": [
           {
@@ -3165,14 +3189,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230503090440.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6464,
-      "location_launch_attempt_count": 897,
-      "pad_launch_attempt_count": 5,
-      "agency_launch_attempt_count": 264,
-      "orbital_launch_attempt_count_year": 106,
-      "location_launch_attempt_count_year": 29,
-      "pad_launch_attempt_count_year": 5,
-      "agency_launch_attempt_count_year": 51,
+      "orbital_launch_attempt_count": 6480,
+      "location_launch_attempt_count": 907,
+      "pad_launch_attempt_count": 13,
+      "agency_launch_attempt_count": 280,
+      "orbital_launch_attempt_count_year": 122,
+      "location_launch_attempt_count_year": 39,
+      "pad_launch_attempt_count_year": 13,
+      "agency_launch_attempt_count_year": 67,
       "mission_patches": [
         {
           "id": 7,
