@@ -1,6 +1,6 @@
 {
   "count": 114,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-02T12%3A18%3A37Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-02T18%3A11%3A06Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -292,7 +292,96 @@
             }
           }
         ],
-        "spacecraft_stage": null
+        "spacecraft_stage": {
+          "id": 809,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/809/?format=json",
+          "mission_end": null,
+          "destination": null,
+          "launch_crew": [],
+          "onboard_crew": [],
+          "landing_crew": [],
+          "spacecraft": {
+            "id": 569,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/569/?format=json",
+            "name": "Cargo Dragon",
+            "serial_number": "TBD",
+            "status": {
+              "id": 1,
+              "name": "Active"
+            },
+            "description": "The specific spacecraft for this launch is currently unknown.",
+            "spacecraft_config": {
+              "id": 7,
+              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/7/?format=json",
+              "name": "Cargo Dragon 2",
+              "type": {
+                "id": 1,
+                "name": "Unknown"
+              },
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png"
+              },
+              "in_use": true,
+              "capability": "Cargo Earth Orbit Logistics",
+              "history": "Cargo Dragon 2 is an updated version of the original Dragon spaceship designed to service the International Space Station with first flights conducted in 2020.",
+              "details": "Cargo Dragon 2 is a autonomous spaceship capable of bringing science to and from the International Space Station with large pressurized and un-pressurized sections to support a variety of missions.",
+              "maiden_flight": "2020-12-06",
+              "height": 7.2,
+              "diameter": 3.7,
+              "human_rated": false,
+              "crew_capacity": null,
+              "payload_capacity": 6000,
+              "flight_life": "Able to fly for up to one week of free flight or two years docked.",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/orbiter_images/cargo_dragon_2_image_20220905121632.jpg",
+              "nation_url": null,
+              "wiki_link": "https://en.wikipedia.org/wiki/Dragon_2",
+              "info_link": "https://www.spacex.com/dragon"
+            }
+          },
+          "landing": null,
+          "docking_events": [
+            {
+              "spacestation": {
+                "id": 4,
+                "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/?format=json",
+                "name": "International Space Station",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "founded": "1998-11-20",
+                "description": "The International Space Station (ISS) is a space station, or a habitable artificial satellite, in low Earth orbit. Its first component was launched into orbit in 1998, with the first long-term residents arriving in November 2000. It has been inhabited continuously since that date. The last pressurised module was fitted in 2011, and an experimental inflatable space habitat was added in 2016. The station is expected to operate until 2030. Development and assembly of the station continues, with several new elements scheduled for launch in 2019. The ISS is the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth. The ISS consists of pressurised habitation modules, structural trusses, solar arrays, radiators, docking ports, experiment bays and robotic arms. ISS components have been launched by Russian Proton and Soyuz rockets, and American Space Shuttles.",
+                "orbit": "Low Earth Orbit",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/international2520space2520station_image_20190220215716.jpeg"
+              },
+              "docking": "2023-06-05T09:36:00Z",
+              "departure": null,
+              "docking_location": {
+                "id": 30,
+                "name": "Harmony zenith",
+                "spacestation": {
+                  "id": 4,
+                  "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/?format=json",
+                  "name": "International Space Station"
+                }
+              }
+            }
+          ]
+        }
       },
       "mission": {
         "id": 5858,
