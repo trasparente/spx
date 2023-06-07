@@ -1,6 +1,6 @@
 {
   "count": 114,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-07T06%3A12%3A21Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-07T12%3A19%3A09Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-06-06T17:43:57Z",
+      "last_updated": "2023-06-07T06:19:04Z",
       "updates": [
         {
           "id": 4295,
@@ -256,34 +256,34 @@
           {
             "id": 336,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 9,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 112,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/112/?format=json",
+              "details": "Landed at ASOG as of Sep 25, 2022",
+              "flight_proven": true,
+              "serial_number": "B1073",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/112_image_20220516182658.jpeg",
+              "successful_landings": 8,
+              "attempted_landings": 8,
+              "flights": 8,
+              "last_launch_date": "2023-04-19T14:31:10Z",
+              "first_launch_date": "2022-05-14T20:40:50Z"
             },
             "landing": {
               "id": 1153,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "B1073 will attempt to land on ASDS JRTI after its ninth flight.",
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 53
               },
               "type": {
                 "id": 1,
@@ -292,9 +292,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-04-19T14:31:10Z",
+            "turn_around_time_days": 51,
+            "previous_flight": {
+              "id": "8e4e1804-6ba8-486b-bbbb-e4d9f15c3376",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-2"
+            }
           }
         ],
         "spacecraft_stage": null
