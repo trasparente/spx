@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-13T18%3A11%3A30Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-14T00%3A56%3A20Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-06-12T17:43:02Z",
+      "last_updated": "2023-06-14T00:50:51Z",
       "updates": [
         {
           "id": 4336,
@@ -387,7 +387,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-05-22T06:43:16Z",
+      "last_updated": "2023-06-14T00:53:55Z",
       "updates": [
         {
           "id": 4083,
@@ -662,7 +662,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-05-11T20:04:59Z",
+      "last_updated": "2023-06-14T00:52:35Z",
       "updates": [
         {
           "id": 4020,
@@ -990,7 +990,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-05-12T07:08:39Z",
+      "last_updated": "2023-06-14T00:52:13Z",
       "updates": [
         {
           "id": 2989,
@@ -1252,7 +1252,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-06-06T09:58:13Z",
+      "last_updated": "2023-06-14T00:54:31Z",
       "updates": [
         {
           "id": 4293,
@@ -1604,7 +1604,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-05-10T04:09:21Z",
+      "last_updated": "2023-06-14T00:53:35Z",
       "updates": [
         {
           "id": 3953,
@@ -1744,6 +1744,62 @@
         },
         "launcher_stage": [
           {
+            "id": 236,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Landed at LZ-1 as of Nov 1, 2022.",
+              "flight_proven": true,
+              "serial_number": "B1064",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2023-01-15T22:56:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 264,
+              "attempt": true,
+              "success": null,
+              "description": "B1064 will attempt to landed back at the launch site after its third flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 890,
+                  "total_landing_count": 34
+                },
+                "successful_landings": 27
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2023-01-15T22:56:00Z",
+            "turn_around_time_days": 172,
+            "previous_flight": {
+              "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
+              "name": "Falcon Heavy | USSF-67"
+            }
+          },
+          {
             "id": 235,
             "type": "Core",
             "reused": false,
@@ -1842,62 +1898,6 @@
               "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
               "name": "Falcon Heavy | USSF-67"
             }
-          },
-          {
-            "id": 236,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Landed at LZ-1 as of Nov 1, 2022.",
-              "flight_proven": true,
-              "serial_number": "B1064",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
-              "last_launch_date": "2023-01-15T22:56:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 264,
-              "attempt": true,
-              "success": null,
-              "description": "B1064 will attempt to landed back at the launch site after its third flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 890,
-                  "total_landing_count": 34
-                },
-                "successful_landings": 27
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2023-01-15T22:56:00Z",
-            "turn_around_time_days": 172,
-            "previous_flight": {
-              "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
-              "name": "Falcon Heavy | USSF-67"
-            }
           }
         ],
         "spacecraft_stage": null
@@ -1970,7 +1970,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-05-10T08:18:56Z",
+      "last_updated": "2023-06-14T00:52:17Z",
       "updates": [
         {
           "id": 3720,
@@ -2248,7 +2248,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-06-01T21:18:47Z",
+      "last_updated": "2023-06-14T00:53:31Z",
       "updates": [
         {
           "id": 4257,
@@ -2566,7 +2566,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-06-09T06:12:56Z",
+      "last_updated": "2023-06-14T00:52:38Z",
       "updates": [
         {
           "id": 3940,
@@ -2886,7 +2886,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-06-09T06:11:53Z",
+      "last_updated": "2023-06-14T00:53:03Z",
       "updates": [
         {
           "id": 4095,
