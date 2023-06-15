@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-15T12%3A18%3A23Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-15T18%3A11%3A23Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-06-15T02:45:03Z",
+      "last_updated": "2023-06-15T14:03:23Z",
       "updates": [
+        {
+          "id": 4355,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 60%, trending towards 75% at the end of the window",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20PSN-MFS%20L-3%20Forecast%20-%2018%20Jun%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2023-06-15T14:03:24Z"
+        },
         {
           "id": 4351,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -116,8 +124,8 @@
       },
       "window_end": "2023-06-19T01:32:00Z",
       "window_start": "2023-06-18T22:04:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 60,
+      "weather_concerns": "Cumulus and Anvil Cloud Rules, Surface Electric Fields Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
