@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-19T18%3A11%3A46Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-20T00%3A54%3A58Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -229,27 +229,27 @@
           {
             "id": 337,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 4,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 114,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission.",
+              "flight_proven": true,
+              "serial_number": "B1075",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/114_image_20230122143030.jpeg",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 3,
+              "last_launch_date": "2023-05-10T20:09:00Z",
+              "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "landing": {
               "id": 1154,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after this flight.",
+              "description": "B1075 will attempt to land on ASDS OCISLY after its fourth flight.",
               "downrange_distance": null,
               "location": {
                 "id": 1,
@@ -266,9 +266,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-05-10T20:09:00Z",
+            "turn_around_time_days": 42,
+            "previous_flight": {
+              "id": "84dd42a7-765d-404c-bf12-a81eeb0f2e32",
+              "name": "Falcon 9 Block 5 | Starlink Group 2-9"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -561,7 +564,52 @@
           "failed_landings": 4,
           "consecutive_successful_landings": 123
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 349,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1175,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -1331,7 +1379,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-06-15T05:04:31Z",
+      "last_updated": "2023-06-19T20:45:50Z",
       "updates": [
         {
           "id": 3953,
@@ -1471,6 +1519,50 @@
         },
         "launcher_stage": [
           {
+            "id": 235,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 113,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1074",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 263,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy core stage will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "No recovery attempt"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 237,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1581,55 +1673,22 @@
               "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
               "name": "Falcon Heavy | USSF-67"
             }
-          },
-          {
-            "id": 235,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 113,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1074",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 263,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy core stage will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "No recovery attempt"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
       },
-      "mission": null,
+      "mission": {
+        "id": 6447,
+        "name": "USSF-52",
+        "description": "Classified payload for the U.S. Air Force.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        }
+      },
       "pad": {
         "id": 87,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
@@ -1665,7 +1724,7 @@
       "location_launch_attempt_count": 221,
       "pad_launch_attempt_count": 163,
       "agency_launch_attempt_count": 260,
-      "orbital_launch_attempt_count_year": 6458,
+      "orbital_launch_attempt_count_year": 100,
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 47,
@@ -1906,7 +1965,52 @@
           "failed_landings": 4,
           "consecutive_successful_landings": 123
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 350,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1176,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -2224,7 +2328,52 @@
           "failed_landings": 4,
           "consecutive_successful_landings": 123
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 351,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1177,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -2806,7 +2955,52 @@
           "failed_landings": 4,
           "consecutive_successful_landings": 123
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 353,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1179,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after this flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 1,
+                "name": "Of Course I Still Love You",
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "location": null,
+                "successful_landings": 65
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -3113,7 +3307,32 @@
           "failed_landings": 4,
           "consecutive_successful_landings": 123
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 356,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": null,
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
