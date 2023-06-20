@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-20T00%3A54%3A58Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-20T06%3A12%3A53Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-06-18T05:02:39Z",
+      "last_updated": "2023-06-20T04:14:08Z",
       "updates": [
+        {
+          "id": 4426,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New launch window.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=58896.msg2498012#msg2498012",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-06-20T04:14:09Z"
+        },
         {
           "id": 4407,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -43,15 +51,15 @@
           "created_on": "2023-05-03T08:57:09Z"
         }
       ],
-      "net": "2023-06-22T05:36:00Z",
+      "net": "2023-06-22T07:17:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2023-06-22T05:36:00Z",
-      "window_start": "2023-06-22T05:36:00Z",
+      "window_end": "2023-06-22T08:10:00Z",
+      "window_start": "2023-06-22T07:07:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -355,8 +363,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-06-18T15:56:59Z",
+      "last_updated": "2023-06-20T04:15:46Z",
       "updates": [
+        {
+          "id": 4427,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-06-20T04:15:46Z"
+        },
         {
           "id": 4418,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -382,7 +398,7 @@
           "created_on": "2023-05-22T06:43:17Z"
         }
       ],
-      "net": "2023-06-23T13:10:00Z",
+      "net": "2023-06-23T13:30:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
@@ -390,7 +406,7 @@
         "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2023-06-23T16:12:00Z",
-      "window_start": "2023-06-23T13:10:00Z",
+      "window_start": "2023-06-23T13:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -588,15 +604,15 @@
               "id": 1175,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
               "downrange_distance": null,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 54
               },
               "type": {
                 "id": 1,
