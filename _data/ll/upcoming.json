@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-21T06%3A12%3A35Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-21T12%3A18%3A43Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-06-21T06:10:57Z",
+      "last_updated": "2023-06-21T08:08:59Z",
       "updates": [
+        {
+          "id": 4435,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "T-0 accurate to the second",
+          "info_url": "https://twitter.com/TSKelso/status/1671420053173182464",
+          "created_by": "Nosu",
+          "created_on": "2023-06-21T08:09:01Z"
+        },
         {
           "id": 4430,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -61,10 +69,10 @@
       ],
       "net": "2023-06-22T07:19:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2023-06-22T07:19:00Z",
       "window_start": "2023-06-22T07:19:00Z",
