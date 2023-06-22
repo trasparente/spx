@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-21T18%3A11%3A38Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-22T00%3A57%3A47Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-06-21T08:08:59Z",
+      "last_updated": "2023-06-21T18:26:53Z",
       "updates": [
         {
           "id": 4435,
@@ -349,10 +349,10 @@
       "vidURLs": [
         {
           "priority": 10,
-          "title": "YouTube",
-          "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-          "feature_image": null,
-          "url": "https://www.youtube.com/watch?v=9lwAP91Y7Cs"
+          "title": "Starlink Mission",
+          "description": "SpaceX is targeting Thursday, June 22 at 12:19 a.m. PT (07:19 UTC) for a Falcon 9 launch of 47 Starlink satellites to low-Earth orbit from Space Launch Compl...",
+          "feature_image": "https://i.ytimg.com/vi/98JQV1czLsA/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=98JQV1czLsA"
         }
       ],
       "webcast_live": false,
@@ -1567,50 +1567,6 @@
         },
         "launcher_stage": [
           {
-            "id": 235,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 113,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
-              "details": "",
-              "flight_proven": false,
-              "serial_number": "B1074",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 263,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy core stage will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "No recovery attempt"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 237,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1665,6 +1621,50 @@
               "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
               "name": "Falcon Heavy | USSF-67"
             }
+          },
+          {
+            "id": 235,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 113,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
+              "details": "",
+              "flight_proven": false,
+              "serial_number": "B1074",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 263,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy core stage will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "No recovery attempt"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           },
           {
             "id": 236,
@@ -2467,13 +2467,13 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6472,
+      "orbital_launch_attempt_count": 6471,
       "location_launch_attempt_count": 900,
-      "pad_launch_attempt_count": 190,
+      "pad_launch_attempt_count": 191,
       "agency_launch_attempt_count": 269,
-      "orbital_launch_attempt_count_year": 114,
+      "orbital_launch_attempt_count_year": 113,
       "location_launch_attempt_count_year": 32,
-      "pad_launch_attempt_count_year": 27,
+      "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 56,
       "mission_patches": []
     },
@@ -2774,11 +2774,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230503090440.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6472,
+      "orbital_launch_attempt_count": 6471,
       "location_launch_attempt_count": 900,
       "pad_launch_attempt_count": 2,
       "agency_launch_attempt_count": 269,
-      "orbital_launch_attempt_count_year": 114,
+      "orbital_launch_attempt_count_year": 113,
       "location_launch_attempt_count_year": 32,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 56,
@@ -3094,13 +3094,13 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522092137.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6472,
-      "location_launch_attempt_count": 728,
-      "pad_launch_attempt_count": 118,
+      "orbital_launch_attempt_count": 6471,
+      "location_launch_attempt_count": 727,
+      "pad_launch_attempt_count": 117,
       "agency_launch_attempt_count": 269,
-      "orbital_launch_attempt_count_year": 114,
-      "location_launch_attempt_count_year": 19,
-      "pad_launch_attempt_count_year": 18,
+      "orbital_launch_attempt_count_year": 113,
+      "location_launch_attempt_count_year": 18,
+      "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 56,
       "mission_patches": [
         {
@@ -3426,13 +3426,13 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6472,
-      "location_launch_attempt_count": 728,
-      "pad_launch_attempt_count": 118,
+      "orbital_launch_attempt_count": 6471,
+      "location_launch_attempt_count": 727,
+      "pad_launch_attempt_count": 117,
       "agency_launch_attempt_count": 269,
-      "orbital_launch_attempt_count_year": 114,
-      "location_launch_attempt_count_year": 19,
-      "pad_launch_attempt_count_year": 18,
+      "orbital_launch_attempt_count_year": 113,
+      "location_launch_attempt_count_year": 18,
+      "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 56,
       "mission_patches": []
     }
