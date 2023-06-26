@@ -1,6 +1,6 @@
 {
   "count": 118,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-25T18%3A12%3A43Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-26T01%3A04%3A47Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -2512,53 +2512,6 @@
         },
         "launcher_stage": [
           {
-            "id": 286,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 6,
-            "launcher": {
-              "id": 118,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
-              "details": "Landed on JRTI as of Nov 26, 2022",
-              "flight_proven": true,
-              "serial_number": "B1076",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/118_image_20221122203928.jpeg",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 5,
-              "last_launch_date": "2023-05-19T06:19:30Z",
-              "first_launch_date": "2022-11-26T19:20:43Z"
-            },
-            "landing": {
-              "id": 1165,
-              "attempt": true,
-              "success": null,
-              "description": "B1076 will attempt to land on ASDS ASOG after its flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 17,
-                "name": "A Shortfall of Gravitas",
-                "abbrev": "ASOG",
-                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
-                "location": null,
-                "successful_landings": 38
-              },
-              "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
-              }
-            },
-            "previous_flight_date": "2023-05-19T06:19:30Z",
-            "turn_around_time_days": 72,
-            "previous_flight": {
-              "id": "0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa",
-              "name": "Falcon 9 Block 5 | Starlink Group 6-3"
-            }
-          },
-          {
             "id": 285,
             "type": "Strap-On Booster",
             "reused": true,
@@ -2648,6 +2601,53 @@
             "previous_flight_date": null,
             "turn_around_time_days": 0,
             "previous_flight": null
+          },
+          {
+            "id": 286,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 6,
+            "launcher": {
+              "id": 118,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
+              "details": "Landed on JRTI as of Nov 26, 2022",
+              "flight_proven": true,
+              "serial_number": "B1076",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/118_image_20221122203928.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2023-05-19T06:19:30Z",
+              "first_launch_date": "2022-11-26T19:20:43Z"
+            },
+            "landing": {
+              "id": 1165,
+              "attempt": true,
+              "success": null,
+              "description": "B1076 will attempt to land on ASDS ASOG after its flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "location": null,
+                "successful_landings": 38
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2023-05-19T06:19:30Z",
+            "turn_around_time_days": 72,
+            "previous_flight": {
+              "id": "0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-3"
+            }
           }
         ],
         "spacecraft_stage": null
