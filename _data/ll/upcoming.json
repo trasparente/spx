@@ -1,6 +1,6 @@
 {
   "count": 118,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-30T00%3A59%3A51Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-06-30T06%3A13%3A36Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-06-29T06:21:08Z",
+      "last_updated": "2023-06-30T04:53:08Z",
       "updates": [
         {
           "id": 4492,
@@ -261,27 +261,27 @@
           {
             "id": 290,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 2,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": null,
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 123,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/123/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
+              "flight_proven": true,
+              "serial_number": "B1080",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/123_image_20230630041900.jpeg",
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2023-05-21T21:37:00Z",
+              "first_launch_date": "2023-05-21T21:37:00Z"
             },
             "landing": {
               "id": 1166,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS ASOG after this flight.",
+              "description": "B1080 will attempt to land on ASDS ASOG after its second flight.",
               "downrange_distance": null,
               "location": {
                 "id": 17,
@@ -298,9 +298,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-05-21T21:37:00Z",
+            "turn_around_time_days": 40,
+            "previous_flight": {
+              "id": "0297d3dc-0513-450a-babc-6f3da8e8c181",
+              "name": "Falcon 9 Block 5 | Axiom Space Mission 2"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -361,7 +364,7 @@
         }
       ],
       "webcast_live": false,
-      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
+      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230630045308.jpeg",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6455,
@@ -384,6 +387,18 @@
             "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/?format=json",
             "name": "European Space Agency",
             "type": "Multinational"
+          }
+        },
+        {
+          "id": 823,
+          "name": "Euclid",
+          "priority": 11,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/euclid_mission_patch_20230630042524.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
           }
         }
       ]
@@ -1719,7 +1734,7 @@
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 55,
-      "pad_turnaround": "P38DT16H41M",
+      "pad_turnaround": "P25D",
       "mission_patches": []
     },
     {
@@ -3041,7 +3056,7 @@
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 55,
-      "pad_turnaround": "P38DT16H41M",
+      "pad_turnaround": "P25D",
       "mission_patches": []
     },
     {
@@ -3349,7 +3364,7 @@
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 55,
-      "pad_turnaround": "P38DT16H41M",
+      "pad_turnaround": "P25D",
       "mission_patches": [
         {
           "id": 7,
