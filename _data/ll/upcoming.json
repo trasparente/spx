@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-03T18%3A12%3A52Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-04T01%3A04%3A39Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -854,53 +854,6 @@
         },
         "launcher_stage": [
           {
-            "id": 285,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 10,
-            "launcher": {
-              "id": 112,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/112/?format=json",
-              "details": "Landed at ASOG as of Sep 25, 2022",
-              "flight_proven": true,
-              "serial_number": "B1073",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/112_image_20220516182658.jpeg",
-              "successful_landings": 9,
-              "attempted_landings": 9,
-              "flights": 9,
-              "last_launch_date": "2023-06-12T07:10:50Z",
-              "first_launch_date": "2022-05-14T20:40:50Z"
-            },
-            "landing": {
-              "id": 1164,
-              "attempt": true,
-              "success": null,
-              "description": "B1073 will attempt to land on ASDS JRTI after its flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 3,
-                "name": "Just Read the Instructions",
-                "abbrev": "JRTI",
-                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
-                "location": null,
-                "successful_landings": 55
-              },
-              "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
-              }
-            },
-            "previous_flight_date": "2023-06-12T07:10:50Z",
-            "turn_around_time_days": 41,
-            "previous_flight": {
-              "id": "5eba4955-6292-4a62-bc07-07443ff4baaa",
-              "name": "Falcon 9 Block 5 | Starlink Group 5-11"
-            }
-          },
-          {
             "id": 286,
             "type": "Strap-On Booster",
             "reused": true,
@@ -945,6 +898,53 @@
             "previous_flight": {
               "id": "0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa",
               "name": "Falcon 9 Block 5 | Starlink Group 6-3"
+            }
+          },
+          {
+            "id": 285,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 10,
+            "launcher": {
+              "id": 112,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/112/?format=json",
+              "details": "Landed at ASOG as of Sep 25, 2022",
+              "flight_proven": true,
+              "serial_number": "B1073",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/112_image_20220516182658.jpeg",
+              "successful_landings": 9,
+              "attempted_landings": 9,
+              "flights": 9,
+              "last_launch_date": "2023-06-12T07:10:50Z",
+              "first_launch_date": "2022-05-14T20:40:50Z"
+            },
+            "landing": {
+              "id": 1164,
+              "attempt": true,
+              "success": null,
+              "description": "B1073 will attempt to land on ASDS JRTI after its flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "location": null,
+                "successful_landings": 55
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2023-06-12T07:10:50Z",
+            "turn_around_time_days": 41,
+            "previous_flight": {
+              "id": "5eba4955-6292-4a62-bc07-07443ff4baaa",
+              "name": "Falcon 9 Block 5 | Starlink Group 5-11"
             }
           },
           {
@@ -1401,14 +1401,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6471,
-      "location_launch_attempt_count": 899,
-      "pad_launch_attempt_count": 192,
-      "agency_launch_attempt_count": 268,
-      "orbital_launch_attempt_count_year": 113,
-      "location_launch_attempt_count_year": 31,
-      "pad_launch_attempt_count_year": 29,
-      "agency_launch_attempt_count_year": 55,
+      "orbital_launch_attempt_count": 6470,
+      "location_launch_attempt_count": 898,
+      "pad_launch_attempt_count": 191,
+      "agency_launch_attempt_count": 267,
+      "orbital_launch_attempt_count_year": 112,
+      "location_launch_attempt_count_year": 30,
+      "pad_launch_attempt_count_year": 28,
+      "agency_launch_attempt_count_year": 54,
       "pad_turnaround": "P21DT16H35M",
       "mission_patches": []
     },
@@ -1721,14 +1721,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6471,
+      "orbital_launch_attempt_count": 6470,
       "location_launch_attempt_count": 727,
       "pad_launch_attempt_count": 117,
-      "agency_launch_attempt_count": 268,
-      "orbital_launch_attempt_count_year": 113,
+      "agency_launch_attempt_count": 267,
+      "orbital_launch_attempt_count_year": 112,
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
-      "agency_launch_attempt_count_year": 55,
+      "agency_launch_attempt_count_year": 54,
       "pad_turnaround": "P23DT4H58M",
       "mission_patches": []
     },
@@ -2037,14 +2037,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522091938.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6471,
-      "location_launch_attempt_count": 899,
-      "pad_launch_attempt_count": 192,
-      "agency_launch_attempt_count": 268,
-      "orbital_launch_attempt_count_year": 113,
-      "location_launch_attempt_count_year": 31,
-      "pad_launch_attempt_count_year": 29,
-      "agency_launch_attempt_count_year": 55,
+      "orbital_launch_attempt_count": 6470,
+      "location_launch_attempt_count": 898,
+      "pad_launch_attempt_count": 191,
+      "agency_launch_attempt_count": 267,
+      "orbital_launch_attempt_count_year": 112,
+      "location_launch_attempt_count_year": 30,
+      "pad_launch_attempt_count_year": 28,
+      "agency_launch_attempt_count_year": 54,
       "pad_turnaround": "P21DT16H35M",
       "mission_patches": [
         {
@@ -2359,14 +2359,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6471,
+      "orbital_launch_attempt_count": 6470,
       "location_launch_attempt_count": 727,
       "pad_launch_attempt_count": 117,
-      "agency_launch_attempt_count": 268,
-      "orbital_launch_attempt_count_year": 113,
+      "agency_launch_attempt_count": 267,
+      "orbital_launch_attempt_count_year": 112,
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
-      "agency_launch_attempt_count_year": 55,
+      "agency_launch_attempt_count_year": 54,
       "pad_turnaround": "P23DT4H58M",
       "mission_patches": []
     },
@@ -3813,14 +3813,14 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6474,
+      "orbital_launch_attempt_count": 6473,
       "location_launch_attempt_count": 222,
       "pad_launch_attempt_count": 164,
-      "agency_launch_attempt_count": 269,
-      "orbital_launch_attempt_count_year": 116,
+      "agency_launch_attempt_count": 268,
+      "orbital_launch_attempt_count_year": 115,
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 9,
-      "agency_launch_attempt_count_year": 56,
+      "agency_launch_attempt_count_year": 55,
       "pad_turnaround": "P21DT20H56M",
       "mission_patches": [
         {
