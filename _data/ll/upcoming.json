@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-04T18%3A13%3A51Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-05T01%3A04%3A51Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1046,7 +1046,7 @@
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P21DT16H35M",
+      "pad_turnaround": "P21DT15H14M",
       "mission_patches": []
     },
     {
@@ -1366,7 +1366,7 @@
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P23DT4H58M",
+      "pad_turnaround": "P23DT4H30M",
       "mission_patches": []
     },
     {
@@ -1554,6 +1554,50 @@
         },
         "launcher_stage": [
           {
+            "id": 284,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
+              "details": "Falcon Heavy core booster first used for the EchoStar 24/Jupiter-3 mission.",
+              "flight_proven": false,
+              "serial_number": "B1079",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1163,
+              "attempt": false,
+              "success": null,
+              "description": "B1079 will be expended after its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "No recovery attempt"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 286,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1646,50 +1690,6 @@
               "id": "5eba4955-6292-4a62-bc07-07443ff4baaa",
               "name": "Falcon 9 Block 5 | Starlink Group 5-11"
             }
-          },
-          {
-            "id": 284,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
-              "details": "Falcon Heavy core booster first used for the EchoStar 24/Jupiter-3 mission.",
-              "flight_proven": false,
-              "serial_number": "B1079",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1163,
-              "attempt": false,
-              "success": null,
-              "description": "B1079 will be expended after its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "No recovery attempt"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -2061,7 +2061,7 @@
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P21DT16H35M",
+      "pad_turnaround": "P21DT15H14M",
       "mission_patches": [
         {
           "id": 7,
@@ -2383,7 +2383,7 @@
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P23DT4H58M",
+      "pad_turnaround": "P23DT4H30M",
       "mission_patches": []
     },
     {
@@ -3837,7 +3837,7 @@
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 55,
-      "pad_turnaround": "P21DT20H56M",
+      "pad_turnaround": "P15D",
       "mission_patches": [
         {
           "id": 785,
