@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-09T12%3A19%3A05Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-09T18%3A12%3A03Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-07-09T03:47:43Z",
+      "last_updated": "2023-07-09T14:05:11Z",
       "updates": [
+        {
+          "id": 4546,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Weather 50% GO at the start of the launch window, increasing to 90% towards the end.",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-5%20L-0%20Forecast%20-%209%20Jul%20Launch.pdf",
+          "created_by": "hitura-nobad",
+          "created_on": "2023-07-09T14:05:14Z"
+        },
         {
           "id": 4543,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -108,8 +116,8 @@
       },
       "window_end": "2023-07-10T03:58:50Z",
       "window_start": "2023-07-10T00:36:40Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 50,
+      "weather_concerns": "Anvil Cloud Rules, Surface Electric Fields Rule, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -391,11 +399,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230503090004.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6458,
+      "orbital_launch_attempt_count": 6459,
       "location_launch_attempt_count": 895,
       "pad_launch_attempt_count": 188,
       "agency_launch_attempt_count": 260,
-      "orbital_launch_attempt_count_year": 100,
+      "orbital_launch_attempt_count_year": 101,
       "location_launch_attempt_count_year": 27,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 47,
@@ -641,27 +649,27 @@
           {
             "id": 354,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 15,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 73,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/73/?format=json",
+              "details": "Landed on ASOG as of Oct 20, 2022.",
+              "flight_proven": true,
+              "serial_number": "B1062",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/73_image_20220426161427.jpeg",
+              "successful_landings": 14,
+              "attempted_landings": 14,
+              "flights": 14,
+              "last_launch_date": "2023-05-27T04:30:00Z",
+              "first_launch_date": "2020-11-05T23:24:23Z"
             },
             "landing": {
               "id": 1180,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS ASOG after this flight.",
+              "description": "B1062 will attempt to land on ASDS ASOG after its fifteenth flight.",
               "downrange_distance": null,
               "location": {
                 "id": 17,
@@ -678,9 +686,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-05-27T04:30:00Z",
+            "turn_around_time_days": 47,
+            "previous_flight": {
+              "id": "d5a80dcc-105b-445f-a8c4-394d7c7825ed",
+              "name": "Falcon 9 Block 5 | BADR-8"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -728,15 +739,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522091938.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6460,
+      "orbital_launch_attempt_count": 6461,
       "location_launch_attempt_count": 896,
       "pad_launch_attempt_count": 189,
       "agency_launch_attempt_count": 261,
-      "orbital_launch_attempt_count_year": 102,
+      "orbital_launch_attempt_count_year": 103,
       "location_launch_attempt_count_year": 28,
       "pad_launch_attempt_count_year": 26,
       "agency_launch_attempt_count_year": 48,
-      "pad_turnaround": "P3DT3H59M",
+      "pad_turnaround": "P3DT3H58M20S",
       "mission_patches": [
         {
           "id": 7,
