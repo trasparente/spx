@@ -1,6 +1,6 @@
 {
   "count": 120,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-13T06%3A13%3A59Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-13T12%3A22%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-07-12T22:15:43Z",
+      "last_updated": "2023-07-13T06:48:45Z",
       "updates": [
+        {
+          "id": 4573,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 85%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%205-15%20L-2%20Day%20Forecast%20-%2014%20Jul%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2023-07-13T06:48:46Z"
+        },
         {
           "id": 4570,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
@@ -84,8 +92,8 @@
       },
       "window_end": "2023-07-14T04:40:30Z",
       "window_start": "2023-07-14T04:40:30Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 85,
+      "weather_concerns": "Anvil Cloud Rules, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -266,11 +274,11 @@
             "launcher": {
               "id": 72,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/72/?format=json",
-              "details": "Landed on ASOG as of Oct 8, 2022.",
+              "details": "Booster first used during the GPS III SV03 mission.",
               "flight_proven": true,
               "serial_number": "B1060",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/72_image_20200706205625.jpg",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/72_image_20230713061744.jpg",
               "successful_landings": 15,
               "attempted_landings": 15,
               "flights": 15,
@@ -281,7 +289,7 @@
               "id": 1180,
               "attempt": true,
               "success": null,
-              "description": "B1062 will attempt to land on ASDS ASOG after its fifteenth flight.",
+              "description": "B1060 will attempt to land on ASDS ASOG after its sixteenth flight.",
               "downrange_distance": null,
               "location": {
                 "id": 17,
