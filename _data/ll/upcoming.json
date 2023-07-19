@@ -1,6 +1,6 @@
 {
   "count": 119,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-19T06%3A12%3A31Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-19T12%3A18%3A31Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-07-19T06:03:01Z",
+      "last_updated": "2023-07-19T09:06:17Z",
       "updates": [
         {
           "id": 4619,
@@ -387,6 +387,13 @@
         }
       ],
       "vidURLs": [
+        {
+          "priority": 9,
+          "title": "Starlink Mission",
+          "description": "SpaceX is targeting Wednesday, July 19 at 9:09 p.m. PT (04:09 UTC on July 20) for a Falcon 9 launch of 15 Starlink satellites to low-Earth orbit from Space L...",
+          "feature_image": "https://i.ytimg.com/vi/Z7c9JPUHpPM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=Z7c9JPUHpPM"
+        },
         {
           "priority": 10,
           "title": "Starlink Mission",
@@ -1292,21 +1299,30 @@
               "id": 1164,
               "attempt": true,
               "success": null,
-              "description": "B1073 will attempt to land on ASDS JRTI after its flight.",
+              "description": "B1073 will attempt to land back at the launch site after its flight.",
               "downrange_distance": null,
               "location": {
-                "id": 3,
-                "name": "Just Read the Instructions",
-                "abbrev": "JRTI",
-                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
-                "location": null,
-                "successful_landings": 56
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 896,
+                  "total_landing_count": 34
+                },
+                "successful_landings": 27
               },
               "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
             "previous_flight_date": "2023-06-12T07:10:50Z",
@@ -1383,21 +1399,30 @@
               "id": 1165,
               "attempt": true,
               "success": null,
-              "description": "B1076 will attempt to land on ASDS ASOG after its flight.",
+              "description": "B1076 will attempt to land back at the launch site after its flight.",
               "downrange_distance": null,
               "location": {
-                "id": 17,
-                "name": "A Shortfall of Gravitas",
-                "abbrev": "ASOG",
-                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
-                "location": null,
-                "successful_landings": 40
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 896,
+                  "total_landing_count": 34
+                },
+                "successful_landings": 6
               },
               "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
             "previous_flight_date": "2023-05-19T06:19:30Z",
@@ -1453,11 +1478,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6471,
+      "orbital_launch_attempt_count": 6472,
       "location_launch_attempt_count": 221,
       "pad_launch_attempt_count": 163,
       "agency_launch_attempt_count": 265,
-      "orbital_launch_attempt_count_year": 113,
+      "orbital_launch_attempt_count_year": 114,
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 52,
@@ -2998,7 +3023,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-07-10T06:28:47Z",
+      "last_updated": "2023-07-19T08:10:26Z",
       "updates": [
         {
           "id": 4257,
@@ -3338,16 +3363,29 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6490,
+      "orbital_launch_attempt_count": 6491,
       "location_launch_attempt_count": 903,
       "pad_launch_attempt_count": 195,
       "agency_launch_attempt_count": 279,
-      "orbital_launch_attempt_count_year": 132,
+      "orbital_launch_attempt_count_year": 133,
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 66,
       "pad_turnaround": "P39DT29M",
-      "mission_patches": []
+      "mission_patches": [
+        {
+          "id": 758,
+          "name": "O3b mPower Patch",
+          "priority": 10,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/o3b_mpower_1_2526_2_20221216083159.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ]
     },
     {
       "id": "12e9acca-5aee-4751-9083-5e205d9528c8",
