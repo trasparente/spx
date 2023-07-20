@@ -1,6 +1,6 @@
 {
   "count": 119,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-19T18%3A11%3A40Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-20T00%3A55%3A54Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -968,6 +968,62 @@
         },
         "launcher_stage": [
           {
+            "id": 286,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 6,
+            "launcher": {
+              "id": 118,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
+              "details": "Landed on JRTI as of Nov 26, 2022",
+              "flight_proven": true,
+              "serial_number": "B1076",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/118_image_20221122203928.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2023-05-19T06:19:30Z",
+              "first_launch_date": "2022-11-26T19:20:43Z"
+            },
+            "landing": {
+              "id": 1165,
+              "attempt": true,
+              "success": null,
+              "description": "B1076 will attempt to land back at the launch site after its flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 896,
+                  "total_landing_count": 34
+                },
+                "successful_landings": 6
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2023-05-19T06:19:30Z",
+            "turn_around_time_days": 65,
+            "previous_flight": {
+              "id": "0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-3"
+            }
+          },
+          {
             "id": 285,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1066,62 +1122,6 @@
             "previous_flight_date": null,
             "turn_around_time_days": 0,
             "previous_flight": null
-          },
-          {
-            "id": 286,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 6,
-            "launcher": {
-              "id": 118,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
-              "details": "Landed on JRTI as of Nov 26, 2022",
-              "flight_proven": true,
-              "serial_number": "B1076",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/118_image_20221122203928.jpeg",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 5,
-              "last_launch_date": "2023-05-19T06:19:30Z",
-              "first_launch_date": "2022-11-26T19:20:43Z"
-            },
-            "landing": {
-              "id": 1165,
-              "attempt": true,
-              "success": null,
-              "description": "B1076 will attempt to land back at the launch site after its flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 896,
-                  "total_landing_count": 34
-                },
-                "successful_landings": 6
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2023-05-19T06:19:30Z",
-            "turn_around_time_days": 65,
-            "previous_flight": {
-              "id": "0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa",
-              "name": "Falcon 9 Block 5 | Starlink Group 6-3"
-            }
           }
         ],
         "spacecraft_stage": null
@@ -1494,15 +1494,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6470,
+      "orbital_launch_attempt_count": 6472,
       "location_launch_attempt_count": 726,
       "pad_launch_attempt_count": 116,
-      "agency_launch_attempt_count": 264,
-      "orbital_launch_attempt_count_year": 112,
+      "agency_launch_attempt_count": 265,
+      "orbital_launch_attempt_count_year": 114,
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 16,
-      "agency_launch_attempt_count_year": 51,
-      "pad_turnaround": "P11DT19H25M10S",
+      "agency_launch_attempt_count_year": 52,
+      "pad_turnaround": "P10DT19H50M30S",
       "mission_patches": []
     },
     {
@@ -2314,15 +2314,15 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6474,
+      "orbital_launch_attempt_count": 6475,
       "location_launch_attempt_count": 222,
       "pad_launch_attempt_count": 164,
       "agency_launch_attempt_count": 266,
-      "orbital_launch_attempt_count_year": 116,
+      "orbital_launch_attempt_count_year": 117,
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 53,
-      "pad_turnaround": "P15DT8H40M",
+      "pad_turnaround": "P22DT9H10M",
       "mission_patches": [
         {
           "id": 785,
@@ -3002,11 +3002,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522082449.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6490,
+      "orbital_launch_attempt_count": 6491,
       "location_launch_attempt_count": 903,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 279,
-      "orbital_launch_attempt_count_year": 132,
+      "orbital_launch_attempt_count_year": 133,
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 66,
@@ -3700,11 +3700,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230503090440.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6490,
+      "orbital_launch_attempt_count": 6491,
       "location_launch_attempt_count": 903,
       "pad_launch_attempt_count": 195,
       "agency_launch_attempt_count": 279,
-      "orbital_launch_attempt_count_year": 132,
+      "orbital_launch_attempt_count_year": 133,
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 66,
@@ -4021,11 +4021,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230710072935.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6490,
+      "orbital_launch_attempt_count": 6491,
       "location_launch_attempt_count": 733,
       "pad_launch_attempt_count": 122,
       "agency_launch_attempt_count": 279,
-      "orbital_launch_attempt_count_year": 132,
+      "orbital_launch_attempt_count_year": 133,
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 22,
       "agency_launch_attempt_count_year": 66,
