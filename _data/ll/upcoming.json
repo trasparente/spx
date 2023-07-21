@@ -1,6 +1,6 @@
 {
   "count": 118,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-20T18%3A12%3A28Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-21T00%3A56%3A12Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -557,62 +557,6 @@
         },
         "launcher_stage": [
           {
-            "id": 286,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 6,
-            "launcher": {
-              "id": 118,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
-              "details": "Landed on JRTI as of Nov 26, 2022",
-              "flight_proven": true,
-              "serial_number": "B1076",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/118_image_20221122203928.jpeg",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 5,
-              "last_launch_date": "2023-05-19T06:19:30Z",
-              "first_launch_date": "2022-11-26T19:20:43Z"
-            },
-            "landing": {
-              "id": 1165,
-              "attempt": true,
-              "success": null,
-              "description": "B1076 will attempt to land back at the launch site after its flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 896,
-                  "total_landing_count": 34
-                },
-                "successful_landings": 6
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2023-05-19T06:19:30Z",
-            "turn_around_time_days": 68,
-            "previous_flight": {
-              "id": "0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa",
-              "name": "Falcon 9 Block 5 | Starlink Group 6-3"
-            }
-          },
-          {
             "id": 285,
             "type": "Strap-On Booster",
             "reused": true,
@@ -711,6 +655,62 @@
             "previous_flight_date": null,
             "turn_around_time_days": 0,
             "previous_flight": null
+          },
+          {
+            "id": 286,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 6,
+            "launcher": {
+              "id": 118,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/118/?format=json",
+              "details": "Landed on JRTI as of Nov 26, 2022",
+              "flight_proven": true,
+              "serial_number": "B1076",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/118_image_20221122203928.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2023-05-19T06:19:30Z",
+              "first_launch_date": "2022-11-26T19:20:43Z"
+            },
+            "landing": {
+              "id": 1165,
+              "attempt": true,
+              "success": null,
+              "description": "B1076 will attempt to land back at the launch site after its flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 896,
+                  "total_landing_count": 34
+                },
+                "successful_landings": 6
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2023-05-19T06:19:30Z",
+            "turn_around_time_days": 68,
+            "previous_flight": {
+              "id": "0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-3"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -1911,7 +1911,7 @@
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 53,
-      "pad_turnaround": "P22DT9H10M",
+      "pad_turnaround": "P19DT8H40M",
       "mission_patches": [
         {
           "id": 785,
