@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-25T00%3A58%3A59Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-25T06%3A12%3A32Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon Heavy | EchoStar 24/Jupiter-3",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-07-24T16:45:29Z",
+      "last_updated": "2023-07-25T02:18:02Z",
       "updates": [
+        {
+          "id": 4669,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.youtube.com/live/cJ_CJtncLBU",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-07-25T02:18:10Z"
+        },
         {
           "id": 4667,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -122,8 +130,8 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2023-07-27T04:44:00Z",
-      "window_start": "2023-07-27T02:04:00Z",
+      "window_end": "2023-07-27T04:43:00Z",
+      "window_start": "2023-07-27T03:04:00Z",
       "probability": 85,
       "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
@@ -147,7 +155,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -187,7 +195,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -220,7 +228,7 @@
           "consecutive_successful_launches": 6,
           "successful_launches": 6,
           "failed_launches": 0,
-          "pending_launches": 8,
+          "pending_launches": 9,
           "attempted_landings": 13,
           "successful_landings": 11,
           "failed_landings": 2,
@@ -230,21 +238,21 @@
           {
             "id": 286,
             "type": "Strap-On Booster",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 3,
             "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 86,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
+              "details": "Sidebooster paired with B1064, launched 2 USSF mission.",
+              "flight_proven": true,
+              "serial_number": "B1065",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2023-01-15T22:56:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "landing": {
               "id": 1165,
@@ -276,28 +284,31 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-01-15T22:56:00Z",
+            "turn_around_time_days": 192,
+            "previous_flight": {
+              "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
+              "name": "Falcon Heavy | USSF-67"
+            }
           },
           {
             "id": 285,
             "type": "Strap-On Booster",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 3,
             "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
+              "flight_proven": true,
+              "serial_number": "B1064",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2023-01-15T22:56:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "landing": {
               "id": 1164,
@@ -329,9 +340,12 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-01-15T22:56:00Z",
+            "turn_around_time_days": 192,
+            "previous_flight": {
+              "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
+              "name": "Falcon Heavy | USSF-67"
+            }
           },
           {
             "id": 284,
@@ -418,7 +432,15 @@
         "orbital_launch_attempt_count": 161
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "Hughes JUPITER 3 Mission",
+          "description": "SpaceX is targeting Wednesday, July 26 for Falcon Heavy’s launch of the Hughes JUPITER 3 mission to a geosynchronous transfer orbit from Launch Complex 39A (...",
+          "feature_image": "https://i.ytimg.com/vi/cJ_CJtncLBU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/live/cJ_CJtncLBU"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
@@ -522,7 +544,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -562,7 +584,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -875,7 +897,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -915,7 +937,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -1116,15 +1138,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6477,
+      "orbital_launch_attempt_count": 6475,
       "location_launch_attempt_count": 899,
       "pad_launch_attempt_count": 192,
-      "agency_launch_attempt_count": 267,
-      "orbital_launch_attempt_count_year": 119,
+      "agency_launch_attempt_count": 266,
+      "orbital_launch_attempt_count_year": 117,
       "location_launch_attempt_count_year": 31,
       "pad_launch_attempt_count_year": 29,
-      "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P5DT23H20M",
+      "agency_launch_attempt_count_year": 53,
+      "pad_turnaround": "P5DT21H56M",
       "mission_patches": []
     },
     {
@@ -1140,8 +1162,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-07-13T20:36:31Z",
+      "last_updated": "2023-07-25T02:35:23Z",
       "updates": [
+        {
+          "id": 4671,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET August 17.",
+          "info_url": "https://spaceflightnow.com/launch-schedule/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-07-25T02:35:23Z"
+        },
         {
           "id": 4576,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -1175,15 +1205,15 @@
           "created_on": "2023-01-13T19:00:46Z"
         }
       ],
-      "net": "2023-08-15T11:44:00Z",
+      "net": "2023-08-17T11:00:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
       },
-      "window_end": "2023-08-15T11:44:00Z",
-      "window_start": "2023-08-15T11:44:00Z",
+      "window_end": "2023-08-17T11:00:00Z",
+      "window_start": "2023-08-17T11:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1207,7 +1237,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -1247,7 +1277,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -1944,7 +1974,7 @@
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P19DT8H40M",
+      "pad_turnaround": "P21DT7H56M",
       "mission_patches": [
         {
           "id": 785,
@@ -2016,7 +2046,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -2056,7 +2086,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -2383,7 +2413,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -2423,7 +2453,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -2760,7 +2790,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -2800,7 +2830,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -3081,7 +3111,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -3121,7 +3151,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -3402,7 +3432,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -3442,7 +3472,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
@@ -3723,7 +3753,7 @@
         "consecutive_successful_launches": 24,
         "successful_launches": 253,
         "failed_launches": 10,
-        "pending_launches": 113,
+        "pending_launches": 114,
         "consecutive_successful_landings": 132,
         "successful_landings": 214,
         "failed_landings": 19,
@@ -3763,7 +3793,7 @@
             "consecutive_successful_launches": 24,
             "successful_launches": 253,
             "failed_launches": 10,
-            "pending_launches": 113,
+            "pending_launches": 114,
             "consecutive_successful_landings": 132,
             "successful_landings": 214,
             "failed_landings": 19,
