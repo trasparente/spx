@@ -1,6 +1,6 @@
 {
   "count": 118,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-26T12%3A17%3A37Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-07-26T18%3A11%3A12Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-07-25T06:27:01Z",
+      "last_updated": "2023-07-26T16:12:42Z",
       "updates": [
         {
           "id": 4669,
@@ -359,7 +359,7 @@
               "flight_proven": false,
               "serial_number": "B1079",
               "status": "active",
-              "image_url": null,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/121_image_20230726161249.jpeg",
               "successful_landings": 0,
               "attempted_landings": 0,
               "flights": 0,
@@ -431,7 +431,15 @@
         "total_launch_count": 162,
         "orbital_launch_attempt_count": 161
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=jupiter3"
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
@@ -442,7 +450,7 @@
         }
       ],
       "webcast_live": false,
-      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
+      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520heav_image_20230726161242.jpeg",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6470,
@@ -454,7 +462,20 @@
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 51,
       "pad_turnaround": "P51DT11H17M",
-      "mission_patches": []
+      "mission_patches": [
+        {
+          "id": 850,
+          "name": "Jupiter-3 Patch",
+          "priority": 10,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/jupiter-32520p_mission_patch_20230726160805.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ]
     },
     {
       "id": "ce5f4f47-c54d-4014-84f2-17a556892420",
