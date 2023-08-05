@@ -1,6 +1,6 @@
 {
   "count": 124,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-04T18%3A11%3A35Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-05T00%3A50%3A36Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,29 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 6-8",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-08-03T13:14:58Z",
+      "last_updated": "2023-08-04T22:44:41Z",
       "updates": [
+        {
+          "id": 4774,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-6-8",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-08-04T22:44:44Z"
+        },
+        {
+          "id": 4773,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Updating T-0",
+          "info_url": "http://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Nosu",
+          "created_on": "2023-08-04T19:41:39Z"
+        },
         {
           "id": 4760,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -59,15 +75,15 @@
           "created_on": "2023-05-22T08:21:34Z"
         }
       ],
-      "net": "2023-08-07T00:22:00Z",
+      "net": "2023-08-07T01:00:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2023-08-07T04:25:00Z",
-      "window_start": "2023-08-07T00:22:00Z",
+      "window_end": "2023-08-07T04:22:00Z",
+      "window_start": "2023-08-07T01:00:00Z",
       "probability": 30,
       "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules, Surface Electric Fields Rule",
       "holdreason": "",
@@ -91,7 +107,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -131,7 +147,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -235,7 +251,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -245,21 +261,21 @@
           {
             "id": 360,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 4,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 120,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/120/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
+              "flight_proven": true,
+              "serial_number": "B1078",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/120_image_20230227075809.jpeg",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 3,
+              "last_launch_date": "2023-06-04T12:20:00Z",
+              "first_launch_date": "2023-03-02T05:34:14Z"
             },
             "landing": {
               "id": 1185,
@@ -282,9 +298,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-06-04T12:20:00Z",
+            "turn_around_time_days": 63,
+            "previous_flight": {
+              "id": "066250e1-a3fe-4483-88d7-8b80c7251a5f",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-4"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -299,7 +318,8 @@
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 80,
@@ -327,12 +347,20 @@
         "orbital_launch_attempt_count": 192
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "title": "Starlink Mission",
+          "description": "SpaceX is targeting Sunday, August 6 at 9:00 p.m. ET (01:00 UTC on August 7) for a Falcon 9 launch of 22 Starlink satellites to low-Earth orbit from Space La...",
+          "feature_image": "https://i.ytimg.com/vi/1sGWUunA2mM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/live/1sGWUunA2mM"
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522082133.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6477,
+      "orbital_launch_attempt_count": 6476,
       "location_launch_attempt_count": 900,
       "pad_launch_attempt_count": 193,
       "agency_launch_attempt_count": 267,
@@ -340,7 +368,7 @@
       "location_launch_attempt_count_year": 32,
       "pad_launch_attempt_count_year": 30,
       "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P3DT19H22M",
+      "pad_turnaround": "P3DT20H",
       "mission_patches": [
         {
           "id": 7,
@@ -428,7 +456,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -468,7 +496,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -572,7 +600,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -636,7 +664,8 @@
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 16,
@@ -805,7 +834,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -845,7 +874,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -949,7 +978,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -1424,7 +1453,8 @@
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 87,
@@ -1537,11 +1567,11 @@
       "orbital_launch_attempt_count": 6482,
       "location_launch_attempt_count": 222,
       "pad_launch_attempt_count": 164,
-      "agency_launch_attempt_count": 268,
-      "orbital_launch_attempt_count_year": 124,
+      "agency_launch_attempt_count": 269,
+      "orbital_launch_attempt_count_year": 125,
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 9,
-      "agency_launch_attempt_count_year": 55,
+      "agency_launch_attempt_count_year": 56,
       "pad_turnaround": "P27DT4H45M",
       "mission_patches": [
         {
@@ -1614,7 +1644,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -1654,7 +1684,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -1860,7 +1890,8 @@
           "id": 15,
           "name": "Suborbital",
           "abbrev": "Sub"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 188,
@@ -1981,7 +2012,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -2021,7 +2052,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -2125,7 +2156,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -2189,7 +2220,8 @@
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 72,
@@ -2222,11 +2254,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522082449.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6493,
+      "orbital_launch_attempt_count": 6492,
       "location_launch_attempt_count": 903,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 277,
-      "orbital_launch_attempt_count_year": 136,
+      "orbital_launch_attempt_count_year": 135,
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 64,
@@ -2302,7 +2334,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -2342,7 +2374,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -2446,7 +2478,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -2510,7 +2542,8 @@
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 80,
@@ -2543,15 +2576,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230503090440.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6493,
+      "orbital_launch_attempt_count": 6492,
       "location_launch_attempt_count": 903,
       "pad_launch_attempt_count": 194,
-      "agency_launch_attempt_count": 276,
+      "agency_launch_attempt_count": 277,
       "orbital_launch_attempt_count_year": 135,
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 31,
-      "agency_launch_attempt_count_year": 63,
-      "pad_turnaround": "P23DT23H38M",
+      "agency_launch_attempt_count_year": 64,
+      "pad_turnaround": "P23DT23H",
       "mission_patches": [
         {
           "id": 7,
@@ -2623,7 +2656,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -2663,7 +2696,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -2767,7 +2800,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -2831,7 +2864,8 @@
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 16,
@@ -2864,15 +2898,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230710072935.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6493,
-      "location_launch_attempt_count": 732,
+      "orbital_launch_attempt_count": 6492,
+      "location_launch_attempt_count": 731,
       "pad_launch_attempt_count": 121,
       "agency_launch_attempt_count": 277,
-      "orbital_launch_attempt_count_year": 136,
-      "location_launch_attempt_count_year": 23,
+      "orbital_launch_attempt_count_year": 135,
+      "location_launch_attempt_count_year": 22,
       "pad_launch_attempt_count_year": 21,
       "agency_launch_attempt_count_year": 64,
-      "pad_turnaround": "P22DT20H33M",
+      "pad_turnaround": "P22DT20H3M",
       "mission_patches": [
         {
           "id": 7,
@@ -2976,7 +3010,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -3016,7 +3050,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -3120,7 +3154,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -3184,7 +3218,8 @@
           "id": 17,
           "name": "Sun-Synchronous Orbit",
           "abbrev": "SSO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 16,
@@ -3284,7 +3319,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -3324,7 +3359,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -3428,7 +3463,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -3492,7 +3527,8 @@
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 16,
@@ -3621,7 +3657,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 256,
         "failed_launches": 10,
-        "pending_launches": 121,
+        "pending_launches": 122,
         "consecutive_successful_landings": 136,
         "successful_landings": 218,
         "failed_landings": 19,
@@ -3661,7 +3697,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 256,
             "failed_launches": 10,
-            "pending_launches": 121,
+            "pending_launches": 122,
             "consecutive_successful_landings": 136,
             "successful_landings": 218,
             "failed_landings": 19,
@@ -3765,7 +3801,7 @@
           "consecutive_successful_launches": 187,
           "successful_launches": 187,
           "failed_launches": 0,
-          "pending_launches": 111,
+          "pending_launches": 112,
           "attempted_landings": 182,
           "successful_landings": 178,
           "failed_landings": 4,
@@ -3838,7 +3874,8 @@
           "id": 13,
           "name": "Polar Orbit",
           "abbrev": "PO"
-        }
+        },
+        "agencies": []
       },
       "pad": {
         "id": 16,
