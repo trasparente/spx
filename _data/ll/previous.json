@@ -1,6 +1,6 @@
 {
   "count": 268,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-08-08T18%3A12%3A20Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-08-09T00%3A52%3A09Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -1643,53 +1643,9 @@
           "attempted_landings": 15,
           "successful_landings": 13,
           "failed_landings": 2,
-          "consecutive_successful_landings": 6
+          "consecutive_successful_landings": 7
         },
         "launcher_stage": [
-          {
-            "id": 284,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 113,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
-              "details": "Falcon Heavy core booster for the EchoStar 24/Jupiter-3 mission. Planned to be expended.",
-              "flight_proven": true,
-              "serial_number": "B1074",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/113_image_20230727155352.jpeg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-07-29T03:04:00Z",
-              "first_launch_date": "2023-07-29T03:04:00Z"
-            },
-            "landing": {
-              "id": 1163,
-              "attempt": false,
-              "success": null,
-              "description": "B1074 will be expended after its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "No recovery attempt"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
           {
             "id": 285,
             "type": "Strap-On Booster",
@@ -1745,6 +1701,50 @@
               "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
               "name": "Falcon Heavy | USSF-67"
             }
+          },
+          {
+            "id": 284,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 113,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
+              "details": "Falcon Heavy core booster for the EchoStar 24/Jupiter-3 mission. Planned to be expended.",
+              "flight_proven": true,
+              "serial_number": "B1074",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/113_image_20230727155352.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-07-29T03:04:00Z",
+              "first_launch_date": "2023-07-29T03:04:00Z"
+            },
+            "landing": {
+              "id": 1163,
+              "attempt": false,
+              "success": null,
+              "description": "B1074 will be expended after its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "No recovery attempt"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           },
           {
             "id": 286,
