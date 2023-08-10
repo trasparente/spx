@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-10T06%3A12%3A43Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-10T12%3A19%3A42Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-08-10T00:37:45Z",
+      "last_updated": "2023-08-10T06:47:15Z",
       "updates": [
         {
           "id": 4818,
@@ -289,7 +289,7 @@
               "id": 1158,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
+              "description": "B1069 will land on ASDS JRTI after its ninth flight.",
               "downrange_distance": null,
               "location": {
                 "id": 3,
@@ -384,7 +384,20 @@
         "total_launch_count": 193,
         "orbital_launch_attempt_count": 193
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-6-9",
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
@@ -392,7 +405,11 @@
           "description": "SpaceX is targeting Thursday, August 10 at 9:55 p.m. ET (1:55 UTC on August 11) for a Falcon 9 launch of 22 Starlink satellites to low-Earth orbit from Space...",
           "feature_image": "https://i.ytimg.com/vi/aKrbUe2sNr0/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/live/aKrbUe2sNr0",
-          "language": null
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
         }
       ],
       "webcast_live": false,
@@ -436,8 +453,16 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-08-07T16:05:42Z",
+      "last_updated": "2023-08-10T08:34:34Z",
       "updates": [
+        {
+          "id": 4829,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Targeting early August 17 UTC per NOTAM F2629/23",
+          "info_url": null,
+          "created_by": "Nosu",
+          "created_on": "2023-08-10T08:34:34Z"
+        },
         {
           "id": 4794,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -455,15 +480,15 @@
           "created_on": "2023-05-22T08:24:49Z"
         }
       ],
-      "net": "2023-08-14T00:00:00Z",
+      "net": "2023-08-17T00:00:00Z",
       "net_precision": {
         "id": 5,
         "name": "Day",
         "abbrev": "DAY",
         "description": "The T-0 is expected on the given day."
       },
-      "window_end": "2023-08-14T00:00:00Z",
-      "window_start": "2023-08-14T00:00:00Z",
+      "window_end": "2023-08-17T00:00:00Z",
+      "window_start": "2023-08-17T00:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -767,7 +792,7 @@
       "location_launch_attempt_count_year": 34,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 57,
-      "pad_turnaround": "P2DT22H19M",
+      "pad_turnaround": "P5DT22H4M30S",
       "mission_patches": [
         {
           "id": 7,
@@ -1070,7 +1095,7 @@
               "attempt": true,
               "success": null,
               "description": "B1081 will attempt to land back at the launch site after its first flight.",
-              "downrange_distance": null,
+              "downrange_distance": 0,
               "location": {
                 "id": 4,
                 "name": "Landing Zone 1",
