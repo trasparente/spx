@@ -1,6 +1,6 @@
 {
   "count": 125,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-20T00%3A43%3A07Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-20T06%3A10%3A50Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-08-19T06:13:29Z",
+      "last_updated": "2023-08-20T04:17:51Z",
       "updates": [
+        {
+          "id": 4905,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Added seconds to T-0 and updated launch window",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "hitura-nobad",
+          "created_on": "2023-08-20T04:13:30Z"
+        },
         {
           "id": 4895,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
@@ -109,12 +117,12 @@
       ],
       "net": "2023-08-22T06:04:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2023-08-22T06:04:00Z",
+      "window_end": "2023-08-22T09:26:40Z",
       "window_start": "2023-08-22T06:04:00Z",
       "probability": null,
       "weather_concerns": null,
