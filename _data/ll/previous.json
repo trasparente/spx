@@ -1,6 +1,6 @@
 {
   "count": 271,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-08-22T18%3A11%3A04Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-08-23T00%3A41%3A15Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -3178,6 +3178,50 @@
         },
         "launcher_stage": [
           {
+            "id": 284,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 113,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
+              "details": "Falcon Heavy core booster for the EchoStar 24/Jupiter-3 mission. Planned to be expended.",
+              "flight_proven": true,
+              "serial_number": "B1074",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/113_image_20230727155352.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-07-29T03:04:00Z",
+              "first_launch_date": "2023-07-29T03:04:00Z"
+            },
+            "landing": {
+              "id": 1163,
+              "attempt": false,
+              "success": null,
+              "description": "B1074 was expended after its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 285,
             "type": "Strap-On Booster",
             "reused": true,
@@ -3232,50 +3276,6 @@
               "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
               "name": "Falcon Heavy | USSF-67"
             }
-          },
-          {
-            "id": 284,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 113,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/113/?format=json",
-              "details": "Falcon Heavy core booster for the EchoStar 24/Jupiter-3 mission. Planned to be expended.",
-              "flight_proven": true,
-              "serial_number": "B1074",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/113_image_20230727155352.jpeg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-07-29T03:04:00Z",
-              "first_launch_date": "2023-07-29T03:04:00Z"
-            },
-            "landing": {
-              "id": 1163,
-              "attempt": false,
-              "success": null,
-              "description": "B1074 was expended after its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           },
           {
             "id": 286,
