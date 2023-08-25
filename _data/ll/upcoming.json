@@ -1,6 +1,6 @@
 {
   "count": 124,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-24T18%3A11%3A21Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-25T00%3A42%3A05Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-08-24T07:01:26Z",
+      "last_updated": "2023-08-24T20:14:34Z",
       "updates": [
         {
           "id": 4962,
@@ -317,6 +317,7 @@
                   "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
                   "name": "Cape Canaveral, FL, USA",
                   "country_code": "USA",
+                  "description": null,
                   "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
                   "total_launch_count": 902,
@@ -896,13 +897,16 @@
             "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
             "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 87,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
         "agency_id": 121,
         "name": "Launch Complex 39A",
+        "description": null,
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
         "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
@@ -913,6 +917,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/27/?format=json",
           "name": "Kennedy Space Center, FL, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 221,
@@ -926,10 +931,12 @@
       "infoURLs": [
         {
           "priority": 10,
+          "source": null,
           "title": "SpaceX",
           "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
           "feature_image": null,
           "url": "https://www.spacex.com/launches/mission/?missionId=crew-7",
+          "type": null,
           "language": {
             "id": 1,
             "name": "English",
@@ -939,11 +946,13 @@
       ],
       "vidURLs": [
         {
-          "priority": 9,
-          "title": "Crew-7 Mission | Launch",
-          "description": "SpaceX and NASA are targeting no earlier than Friday, August 25 for Falcon 9’s launch of Dragon’s seventh operational human spaceflight mission (Crew-7) to t...",
-          "feature_image": "https://i.ytimg.com/vi/5KeIAYTW8eQ/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=5KeIAYTW8eQ",
+          "priority": 10,
+          "source": null,
+          "title": "NASA's SpaceX Crew-7 Launch (Official NASA Broadcast in 4K)",
+          "description": "Watch live with us as a crew of four launch on NASA's SpaceX #Crew7 mission to the International Space Station. Liftoff is targeted at 3:49 a.m. EDT (0749 UT...",
+          "feature_image": "https://i.ytimg.com/vi/QD2XDoeT8SI/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=QD2XDoeT8SI",
+          "type": null,
           "language": {
             "id": 1,
             "name": "English",
@@ -951,11 +960,13 @@
           }
         },
         {
-          "priority": 10,
-          "title": "NASA's SpaceX Crew-7 Launch (Official NASA Broadcast in 4K)",
-          "description": "Watch live with us as a crew of four launch on NASA's SpaceX #Crew7 mission to the International Space Station. Liftoff is targeted at 3:49 a.m. EDT (0749 UT...",
-          "feature_image": "https://i.ytimg.com/vi/QD2XDoeT8SI/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=QD2XDoeT8SI",
+          "priority": 11,
+          "source": null,
+          "title": "Crew-7 Mission | Launch",
+          "description": "SpaceX and NASA are targeting no earlier than Friday, August 25 for Falcon 9’s launch of Dragon’s seventh operational human spaceflight mission (Crew-7) to t...",
+          "feature_image": "https://i.ytimg.com/vi/5KeIAYTW8eQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=5KeIAYTW8eQ",
+          "type": null,
           "language": {
             "id": 1,
             "name": "English",
@@ -964,7 +975,7 @@
         }
       ],
       "webcast_live": false,
-      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230822042031.jpeg",
+      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230824200032.jpeg",
       "infographic": null,
       "program": [
         {
@@ -1458,13 +1469,16 @@
             "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
             "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 80,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
         "agency_id": 121,
         "name": "Space Launch Complex 40",
+        "description": null,
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
         "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
@@ -1475,6 +1489,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
           "name": "Cape Canaveral, FL, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 902,
@@ -1488,10 +1503,12 @@
       "infoURLs": [
         {
           "priority": 10,
+          "source": null,
           "title": "SpaceX",
           "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
           "feature_image": null,
           "url": "https://www.spacex.com/launches/mission/?missionId=sl-6-11",
+          "type": null,
           "language": {
             "id": 1,
             "name": "English",
@@ -1502,10 +1519,12 @@
       "vidURLs": [
         {
           "priority": 10,
+          "source": null,
           "title": "Starlink Mission",
           "description": "SpaceX is targeting Friday, August 25 at 9:30 p.m. ET (01:30 UTC on August 26) for a Falcon 9 launch of 22 Starlink satellites to low-Earth orbit from Space ...",
           "feature_image": "https://i.ytimg.com/vi/SEClIbWr3m0/hqdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=SEClIbWr3m0",
+          "type": null,
           "language": {
             "id": 1,
             "name": "English",
@@ -1844,13 +1863,16 @@
             "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
             "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 80,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
         "agency_id": 121,
         "name": "Space Launch Complex 40",
+        "description": null,
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
         "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
@@ -1861,6 +1883,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
           "name": "Cape Canaveral, FL, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 902,
@@ -2167,6 +2190,7 @@
                   "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
                   "name": "Vandenberg SFB, CA, USA",
                   "country_code": "USA",
+                  "description": null,
                   "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
                   "timezone_name": "America/Los_Angeles",
                   "total_launch_count": 726,
@@ -2229,13 +2253,16 @@
             "image_url": null,
             "nation_url": null
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 16,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
         "agency_id": null,
         "name": "Space Launch Complex 4E",
+        "description": null,
         "info_url": null,
         "wiki_url": "",
         "map_url": "https://www.google.com/maps?q=34.632,-120.611",
@@ -2246,6 +2273,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
           "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
           "timezone_name": "America/Los_Angeles",
           "total_launch_count": 726,
@@ -2523,6 +2551,7 @@
                   "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
                   "name": "Cape Canaveral, FL, USA",
                   "country_code": "USA",
+                  "description": null,
                   "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
                   "total_launch_count": 902,
@@ -2585,13 +2614,16 @@
             "image_url": null,
             "nation_url": null
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 80,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
         "agency_id": 121,
         "name": "Space Launch Complex 40",
+        "description": null,
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
         "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
@@ -2602,6 +2634,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
           "name": "Cape Canaveral, FL, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 902,
@@ -2975,13 +3008,16 @@
             "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
             "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 188,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/188/?format=json",
         "agency_id": 121,
         "name": "Orbital Launch Mount A",
+        "description": null,
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_South_Texas_Launch_Site",
         "map_url": "https://www.google.com/maps?q=25.997116,-97.15503099856647",
@@ -2992,6 +3028,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/143/?format=json",
           "name": "SpaceX Space Launch Facility, TX, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_143_20200803142438.jpg",
           "timezone_name": "America/Chicago",
           "total_launch_count": 10,
@@ -3335,13 +3372,16 @@
             "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
             "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 16,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
         "agency_id": null,
         "name": "Space Launch Complex 4E",
+        "description": null,
         "info_url": null,
         "wiki_url": "",
         "map_url": "https://www.google.com/maps?q=34.632,-120.611",
@@ -3352,6 +3392,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
           "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
           "timezone_name": "America/Los_Angeles",
           "total_launch_count": 726,
@@ -3368,11 +3409,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230710073235.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6509,
+      "orbital_launch_attempt_count": 6510,
       "location_launch_attempt_count": 732,
       "pad_launch_attempt_count": 121,
       "agency_launch_attempt_count": 282,
-      "orbital_launch_attempt_count_year": 152,
+      "orbital_launch_attempt_count_year": 153,
       "location_launch_attempt_count_year": 23,
       "pad_launch_attempt_count_year": 21,
       "agency_launch_attempt_count_year": 69,
@@ -3658,13 +3699,16 @@
             "image_url": null,
             "nation_url": null
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 72,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
         "agency_id": null,
         "name": "Unknown Pad",
+        "description": null,
         "info_url": null,
         "wiki_url": "",
         "map_url": "https://www.google.com/maps?q=28.458,-80.528",
@@ -3675,6 +3719,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
           "name": "Cape Canaveral, FL, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 902,
@@ -3976,6 +4021,7 @@
                   "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
                   "name": "Vandenberg SFB, CA, USA",
                   "country_code": "USA",
+                  "description": null,
                   "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
                   "timezone_name": "America/Los_Angeles",
                   "total_launch_count": 726,
@@ -4038,13 +4084,16 @@
             "image_url": null,
             "nation_url": null
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 16,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
         "agency_id": null,
         "name": "Space Launch Complex 4E",
+        "description": null,
         "info_url": null,
         "wiki_url": "",
         "map_url": "https://www.google.com/maps?q=34.632,-120.611",
@@ -4055,6 +4104,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
           "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
           "timezone_name": "America/Los_Angeles",
           "total_launch_count": 726,
@@ -4377,13 +4427,16 @@
             "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
             "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
           }
-        ]
+        ],
+        "info_urls": [],
+        "vid_urls": []
       },
       "pad": {
         "id": 16,
         "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
         "agency_id": null,
         "name": "Space Launch Complex 4E",
+        "description": null,
         "info_url": null,
         "wiki_url": "",
         "map_url": "https://www.google.com/maps?q=34.632,-120.611",
@@ -4394,6 +4447,7 @@
           "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
           "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
+          "description": null,
           "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
           "timezone_name": "America/Los_Angeles",
           "total_launch_count": 726,

@@ -341,13 +341,16 @@
       "name": "Low Earth Orbit",
       "abbrev": "LEO"
     },
-    "agencies": []
+    "agencies": [],
+    "info_urls": [],
+    "vid_urls": []
   },
   "pad": {
     "id": 80,
     "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
     "agency_id": 121,
     "name": "Space Launch Complex 40",
+    "description": null,
     "info_url": null,
     "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
     "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
@@ -358,6 +361,7 @@
       "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
       "name": "Cape Canaveral, FL, USA",
       "country_code": "USA",
+      "description": null,
       "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
       "timezone_name": "America/New_York",
       "total_launch_count": 902,
@@ -371,20 +375,24 @@
   "infoURLs": [
     {
       "priority": 10,
+      "source": null,
       "title": "SpaceX",
       "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
       "feature_image": null,
       "url": "https://www.spacex.com/launches/sl4-27/",
+      "type": null,
       "language": null
     }
   ],
   "vidURLs": [
     {
       "priority": 10,
+      "source": null,
       "title": "Starlink Mission",
       "description": "SpaceX is targeting Friday, August 19 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canave...",
       "feature_image": "https://i.ytimg.com/vi/M018DAaNd_E/maxresdefault_live.jpg",
       "url": "https://www.youtube.com/watch?v=M018DAaNd_E",
+      "type": null,
       "language": null
     }
   ],
