@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-27T12%3A15%3A11Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-27T18%3A10%3A22Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -614,21 +614,21 @@
           {
             "id": 379,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 7,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 116,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/116/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Crew-5 mission.",
+              "flight_proven": true,
+              "serial_number": "B1077",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/116_image_20221005161217.jpeg",
+              "successful_landings": 6,
+              "attempted_landings": 6,
+              "flights": 6,
+              "last_launch_date": "2023-08-03T05:00:00Z",
+              "first_launch_date": "2022-10-05T16:00:57Z"
             },
             "landing": {
               "id": 1206,
@@ -651,9 +651,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-08-03T05:00:00Z",
+            "turn_around_time_days": 28,
+            "previous_flight": {
+              "id": "afc772a3-6ea7-4550-a4e9-35c70c22ebba",
+              "name": "Falcon 9 Block 5 | Galaxy 37"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -736,11 +739,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522083649.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6497,
+      "orbital_launch_attempt_count": 6496,
       "location_launch_attempt_count": 905,
       "pad_launch_attempt_count": 197,
       "agency_launch_attempt_count": 275,
-      "orbital_launch_attempt_count_year": 140,
+      "orbital_launch_attempt_count_year": 139,
       "location_launch_attempt_count_year": 37,
       "pad_launch_attempt_count_year": 34,
       "agency_launch_attempt_count_year": 62,
@@ -2196,12 +2199,12 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6511,
-      "location_launch_attempt_count": 909,
-      "pad_launch_attempt_count": 2,
+      "location_launch_attempt_count": 908,
+      "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 282,
       "orbital_launch_attempt_count_year": 154,
-      "location_launch_attempt_count_year": 41,
-      "pad_launch_attempt_count_year": 2,
+      "location_launch_attempt_count_year": 40,
+      "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 69,
       "pad_turnaround": "P0D",
       "mission_patches": []
@@ -2960,7 +2963,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-06-14T17:39:49Z",
+      "last_updated": "2023-08-27T16:10:12Z",
       "updates": [
         {
           "id": 4088,
@@ -3157,21 +3160,21 @@
           {
             "id": 378,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 10,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 112,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/112/?format=json",
+              "details": "Landed at ASOG as of Sep 25, 2022",
+              "flight_proven": true,
+              "serial_number": "B1073",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/112_image_20220516182658.jpeg",
+              "successful_landings": 9,
+              "attempted_landings": 9,
+              "flights": 9,
+              "last_launch_date": "2023-06-12T07:10:50Z",
+              "first_launch_date": "2022-05-14T20:40:50Z"
             },
             "landing": {
               "id": 1205,
@@ -3194,9 +3197,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-06-12T07:10:50Z",
+            "turn_around_time_days": 109,
+            "previous_flight": {
+              "id": "5eba4955-6292-4a62-bc07-07443ff4baaa",
+              "name": "Falcon 9 Block 5 | Starlink Group 5-11"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -3247,31 +3253,31 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
-        "agency_id": null,
-        "name": "Unknown Pad",
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
         "description": null,
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
         "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral, FL, USA",
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/27/?format=json",
+          "name": "Kennedy Space Center, FL, USA",
           "country_code": "USA",
           "description": null,
-          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 903,
-          "total_landing_count": 37
+          "total_launch_count": 222,
+          "total_landing_count": 0
         },
         "country_code": "USA",
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 164,
+        "orbital_launch_attempt_count": 163
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -3280,14 +3286,14 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6511,
-      "location_launch_attempt_count": 909,
-      "pad_launch_attempt_count": 2,
+      "location_launch_attempt_count": 223,
+      "pad_launch_attempt_count": 165,
       "agency_launch_attempt_count": 282,
       "orbital_launch_attempt_count_year": 154,
-      "location_launch_attempt_count_year": 41,
-      "pad_launch_attempt_count_year": 2,
+      "location_launch_attempt_count_year": 10,
+      "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 69,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P34DT16H33M",
       "mission_patches": [
         {
           "id": 7,
@@ -3727,14 +3733,14 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6512,
-      "location_launch_attempt_count": 223,
-      "pad_launch_attempt_count": 165,
+      "location_launch_attempt_count": 224,
+      "pad_launch_attempt_count": 166,
       "agency_launch_attempt_count": 283,
       "orbital_launch_attempt_count_year": 155,
-      "location_launch_attempt_count_year": 10,
-      "pad_launch_attempt_count_year": 10,
+      "location_launch_attempt_count_year": 11,
+      "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 70,
-      "pad_turnaround": "P40DT7H11M37S",
+      "pad_turnaround": "P5DT14H38M37S",
       "mission_patches": []
     }
   ]
