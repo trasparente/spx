@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-29T12%3A17%3A25Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-29T18%3A11%3A25Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -401,8 +401,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-08-29T06:16:19Z",
+      "last_updated": "2023-08-29T17:11:00Z",
       "updates": [
+        {
+          "id": 5019,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Weather 20% GO at the start of the window, improving to 50% towards the end.",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-13%20L-2%20Forecast%20-%2031%20Aug%20Launch.pdf?ver=65HidUDwJJYKMLWZWyjD5A%3d%3d",
+          "created_by": "hitura-nobad",
+          "created_on": "2023-08-29T17:11:01Z"
+        },
         {
           "id": 5017,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -445,8 +453,8 @@
       },
       "window_end": "2023-09-01T03:12:20Z",
       "window_start": "2023-08-31T23:50:20Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 20,
+      "weather_concerns": "Surface Electric Fields Rule, Cumulus Cloud Rule, Anvil Cloud Rules",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
