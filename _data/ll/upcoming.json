@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-29T18%3A11%3A25Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-08-30T00%3A42%3A09Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -3567,6 +3567,50 @@
             }
           },
           {
+            "id": 238,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
+              "details": "Falcon Heavy core booster.",
+              "flight_proven": false,
+              "serial_number": "B1079",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 266,
+              "attempt": false,
+              "success": null,
+              "description": "B1079 will be expended after its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 240,
             "type": "Strap-On Booster",
             "reused": true,
@@ -3622,50 +3666,6 @@
               "id": "72491a20-315d-4aea-b6df-d1202930bd60",
               "name": "Falcon Heavy | EchoStar 24/Jupiter-3"
             }
-          },
-          {
-            "id": 238,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
-              "details": "Falcon Heavy core booster.",
-              "flight_proven": false,
-              "serial_number": "B1079",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 266,
-              "attempt": false,
-              "success": null,
-              "description": "B1079 will be expended after its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
