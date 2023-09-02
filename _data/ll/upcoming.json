@@ -1,6 +1,6 @@
 {
   "count": 121,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-09-02T06%3A10%3A37Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-09-02T12%3A15%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -454,7 +454,7 @@
           "priority": 10,
           "source": "www.youtube.com",
           "title": "Space Development Agency’s Second Tranche 0 Mission",
-          "description": "SpaceX is targeting Friday, September 1 at 7:26 a.m. PT (14:26 UTC) for a Falcon 9 launch of the Space Development Agency’s second Tranche 0 mission to low-E...",
+          "description": "SpaceX is targeting Saturday, September 2 at 7:25 a.m. PT (14:25 UTC) for a Falcon 9 launch of the Space Development Agency’s second Tranche 0 mission to low...",
           "feature_image": "https://i.ytimg.com/vi/JBeJVN-0t2I/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=JBeJVN-0t2I",
           "type": {
@@ -509,8 +509,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-09-01T21:29:52Z",
+      "last_updated": "2023-09-02T08:33:46Z",
       "updates": [
+        {
+          "id": 5053,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Updating precision to seconds",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Nosu",
+          "created_on": "2023-09-02T08:33:47Z"
+        },
         {
           "id": 5049,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -554,12 +562,12 @@
       ],
       "net": "2023-09-03T23:25:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2023-09-04T03:05:00Z",
+      "window_end": "2023-09-04T03:05:30Z",
       "window_start": "2023-09-03T23:25:00Z",
       "probability": 90,
       "weather_concerns": "Cumulus Cloud Rule",
@@ -788,7 +796,7 @@
       "mission": {
         "id": 6373,
         "name": "Starlink Group 6-12",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 21 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
