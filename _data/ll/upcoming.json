@@ -1,6 +1,6 @@
 {
   "count": 133,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-09-11T18%3A11%3A55Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-09-12T00%3A41%3A09Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-09-11T05:13:25Z",
+      "last_updated": "2023-09-11T20:05:11Z",
       "updates": [
         {
           "id": 5115,
@@ -237,27 +237,27 @@
           {
             "id": 368,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 11,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 107,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
+              "flight_proven": true,
+              "serial_number": "B1071",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/107_image_20220205103652.jpg",
+              "successful_landings": 10,
+              "attempted_landings": 10,
+              "flights": 10,
+              "last_launch_date": "2023-07-20T04:09:30Z",
+              "first_launch_date": "2022-02-02T20:27:26Z"
             },
             "landing": {
               "id": 1194,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after this flight.",
+              "description": "B1071 will land on ASDS OCISLY after its eleventh flight.",
               "downrange_distance": 642,
               "location": {
                 "id": 1,
@@ -274,9 +274,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-07-20T04:09:30Z",
+            "turn_around_time_days": 54,
+            "previous_flight": {
+              "id": "9e94b0b7-d88b-4cdf-9793-acdec5850613",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-15"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -353,7 +356,25 @@
         "total_launch_count": 118,
         "orbital_launch_attempt_count": 118
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-7-2",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230710071854.png",
@@ -1513,7 +1534,7 @@
       "location_launch_attempt_count_year": 21,
       "pad_launch_attempt_count_year": 20,
       "agency_launch_attempt_count_year": 69,
-      "pad_turnaround": "P17DT17H13M",
+      "pad_turnaround": "P17DT17H2M10S",
       "mission_patches": [
         {
           "id": 7,
@@ -2074,52 +2095,65 @@
           "attempted_landings": 15,
           "successful_landings": 13,
           "failed_landings": 2,
-          "consecutive_successful_landings": 8
+          "consecutive_successful_landings": 7
         },
         "launcher_stage": [
           {
-            "id": 238,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "id": 240,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 4,
             "launcher": {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
-              "details": "Falcon Heavy core booster.",
-              "flight_proven": false,
-              "serial_number": "B1079",
+              "id": 86,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
+              "details": "Sidebooster paired with B1064, launched 2 USSF mission.",
+              "flight_proven": true,
+              "serial_number": "B1065",
               "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 3,
+              "last_launch_date": "2023-07-29T03:04:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "landing": {
-              "id": 266,
-              "attempt": false,
+              "id": 268,
+              "attempt": true,
               "success": null,
-              "description": "B1079 will be expended after its first flight.",
-              "downrange_distance": null,
+              "description": "B1065 will attempt to land on LZ-2 after its flight.",
+              "downrange_distance": 14.6,
               "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 906,
+                  "total_landing_count": 37
+                },
+                "successful_landings": 7
               },
               "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
+            "previous_flight_date": "2023-07-29T03:04:00Z",
+            "turn_around_time_days": 68,
+            "previous_flight": {
+              "id": "72491a20-315d-4aea-b6df-d1202930bd60",
+              "name": "Falcon Heavy | EchoStar 24/Jupiter-3"
+            }
           },
           {
             "id": 239,
@@ -2179,61 +2213,48 @@
             }
           },
           {
-            "id": 240,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 4,
+            "id": 238,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 86,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
-              "details": "Sidebooster paired with B1064, launched 2 USSF mission.",
-              "flight_proven": true,
-              "serial_number": "B1065",
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
+              "details": "Falcon Heavy core booster.",
+              "flight_proven": false,
+              "serial_number": "B1079",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
-              "successful_landings": 3,
-              "attempted_landings": 3,
-              "flights": 3,
-              "last_launch_date": "2023-07-29T03:04:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
             },
             "landing": {
-              "id": 268,
-              "attempt": true,
+              "id": 266,
+              "attempt": false,
               "success": null,
-              "description": "B1065 will attempt to land on LZ-2 after its flight.",
-              "downrange_distance": 14.6,
+              "description": "B1079 will be expended after its first flight.",
+              "downrange_distance": null,
               "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": null,
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 906,
-                  "total_landing_count": 37
-                },
-                "successful_landings": 7
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
-            "previous_flight_date": "2023-07-29T03:04:00Z",
-            "turn_around_time_days": 68,
-            "previous_flight": {
-              "id": "72491a20-315d-4aea-b6df-d1202930bd60",
-              "name": "Falcon Heavy | EchoStar 24/Jupiter-3"
-            }
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -2739,15 +2760,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6522,
-      "location_launch_attempt_count": 912,
+      "orbital_launch_attempt_count": 6523,
+      "location_launch_attempt_count": 913,
       "pad_launch_attempt_count": 200,
       "agency_launch_attempt_count": 289,
-      "orbital_launch_attempt_count_year": 165,
-      "location_launch_attempt_count_year": 44,
+      "orbital_launch_attempt_count_year": 166,
+      "location_launch_attempt_count_year": 45,
       "pad_launch_attempt_count_year": 37,
       "agency_launch_attempt_count_year": 76,
-      "pad_turnaround": "P45DT23H30M",
+      "pad_turnaround": "P45DT23H20M",
       "mission_patches": [
         {
           "id": 758,
@@ -3095,12 +3116,12 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522091403.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6522,
-      "location_launch_attempt_count": 912,
+      "orbital_launch_attempt_count": 6523,
+      "location_launch_attempt_count": 913,
       "pad_launch_attempt_count": 4,
       "agency_launch_attempt_count": 289,
-      "orbital_launch_attempt_count_year": 165,
-      "location_launch_attempt_count_year": 44,
+      "orbital_launch_attempt_count_year": 166,
+      "location_launch_attempt_count_year": 45,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 76,
       "pad_turnaround": "P31D",
@@ -3451,12 +3472,12 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230727063129.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6522,
-      "location_launch_attempt_count": 912,
+      "orbital_launch_attempt_count": 6523,
+      "location_launch_attempt_count": 913,
       "pad_launch_attempt_count": 4,
       "agency_launch_attempt_count": 289,
-      "orbital_launch_attempt_count_year": 165,
-      "location_launch_attempt_count_year": 44,
+      "orbital_launch_attempt_count_year": 166,
+      "location_launch_attempt_count_year": 45,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 76,
       "pad_turnaround": "P31D",
