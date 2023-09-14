@@ -1,6 +1,6 @@
 {
   "count": 132,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-09-13T18%3A11%3A50Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-09-14T00%3A42%3A17Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-09-12T19:42:10Z",
+      "last_updated": "2023-09-13T19:32:24Z",
       "updates": [
+        {
+          "id": 5156,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Weather 65% GO",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-16%20L-1%20Forecast%20-%2014%20Sep%20Launch.pdf?ver=GMCF2Tx4eBeXP6rs06cZqw%3d%3d",
+          "created_by": "hitura-nobad",
+          "created_on": "2023-09-13T19:32:24Z"
+        },
         {
           "id": 5147,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -76,8 +84,8 @@
       },
       "window_end": "2023-09-15T04:30:30Z",
       "window_start": "2023-09-15T04:03:40Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 65,
+      "weather_concerns": "Cumulus Cloud Rule, Anvil Rules",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1157,11 +1165,11 @@
       "orbital_launch_attempt_count": null,
       "location_launch_attempt_count": 11,
       "pad_launch_attempt_count": 2,
-      "agency_launch_attempt_count": 282,
+      "agency_launch_attempt_count": 283,
       "orbital_launch_attempt_count_year": 0,
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 69,
+      "agency_launch_attempt_count_year": 70,
       "pad_turnaround": "P162DT10H27M",
       "mission_patches": []
     },
@@ -1853,14 +1861,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230710073235.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6513,
+      "orbital_launch_attempt_count": 6514,
       "location_launch_attempt_count": 730,
       "pad_launch_attempt_count": 120,
-      "agency_launch_attempt_count": 282,
-      "orbital_launch_attempt_count_year": 156,
+      "agency_launch_attempt_count": 283,
+      "orbital_launch_attempt_count_year": 157,
       "location_launch_attempt_count_year": 21,
       "pad_launch_attempt_count_year": 20,
-      "agency_launch_attempt_count_year": 69,
+      "agency_launch_attempt_count_year": 70,
       "pad_turnaround": "P17DT17H2M10S",
       "mission_patches": [
         {
@@ -2066,53 +2074,9 @@
           "attempted_landings": 15,
           "successful_landings": 13,
           "failed_landings": 2,
-          "consecutive_successful_landings": 7
+          "consecutive_successful_landings": 6
         },
         "launcher_stage": [
-          {
-            "id": 238,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
-              "details": "Falcon Heavy core booster.",
-              "flight_proven": false,
-              "serial_number": "B1079",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 266,
-              "attempt": false,
-              "success": null,
-              "description": "B1079 will be expended after its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
           {
             "id": 240,
             "type": "Strap-On Booster",
@@ -2226,6 +2190,50 @@
               "id": "72491a20-315d-4aea-b6df-d1202930bd60",
               "name": "Falcon Heavy | EchoStar 24/Jupiter-3"
             }
+          },
+          {
+            "id": 238,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
+              "details": "Falcon Heavy core booster.",
+              "flight_proven": false,
+              "serial_number": "B1079",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 266,
+              "attempt": false,
+              "success": null,
+              "description": "B1079 will be expended after its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -3095,7 +3103,7 @@
       "location_launch_attempt_count_year": 45,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 76,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P31D",
       "mission_patches": [
         {
           "id": 7,
