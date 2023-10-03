@@ -1,6 +1,6 @@
 {
   "count": 133,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-03T12%3A18%3A27Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-03T18%3A12%3A29Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-10-02T18:02:44Z",
+      "last_updated": "2023-10-03T13:30:02Z",
       "updates": [
+        {
+          "id": 5288,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Weather 50% GO.",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-21%20L-1%20Day%20Forecast%20-%204%20Oct%20Launch.pdf?ver=lkXDnFoyQIO6kV6xAvA3-A%3d%3d",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-10-03T13:29:42Z"
+        },
         {
           "id": 5271,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -52,8 +60,8 @@
       },
       "window_end": "2023-10-05T06:46:00Z",
       "window_start": "2023-10-05T02:16:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 50,
+      "weather_concerns": "Cumulus Cloud Rule, Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -249,15 +257,15 @@
               "id": 1219,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
-              "downrange_distance": null,
+              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
+              "downrange_distance": 630,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 63
               },
               "type": {
                 "id": 1,
