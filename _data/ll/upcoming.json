@@ -1,6 +1,6 @@
 {
   "count": 133,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-04T06%3A13%3A02Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-04T12%3A19%3A01Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-10-04T01:31:25Z",
+      "last_updated": "2023-10-04T06:32:16Z",
       "updates": [
+        {
+          "id": 5295,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Launch window is accurate to the second",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Nosu",
+          "created_on": "2023-10-04T06:32:18Z"
+        },
         {
           "id": 5291,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -61,10 +69,10 @@
       ],
       "net": "2023-10-05T02:45:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2023-10-05T05:57:00Z",
       "window_start": "2023-10-05T02:45:00Z",
@@ -266,7 +274,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage B1076 will attempt to land on ASDS JRTI after this flight.",
-              "downrange_distance": 630,
+              "downrange_distance": 613,
               "location": {
                 "id": 3,
                 "name": "Just Read the Instructions",
@@ -295,7 +303,7 @@
       "mission": {
         "id": 6479,
         "name": "Starlink Group 6-21",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 22 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -364,17 +372,35 @@
         "total_launch_count": 202,
         "orbital_launch_attempt_count": 202
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-6-21",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230727063457.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6517,
+      "orbital_launch_attempt_count": 6518,
       "location_launch_attempt_count": 911,
       "pad_launch_attempt_count": 203,
       "agency_launch_attempt_count": 284,
-      "orbital_launch_attempt_count_year": 160,
+      "orbital_launch_attempt_count_year": 161,
       "location_launch_attempt_count_year": 43,
       "pad_launch_attempt_count_year": 40,
       "agency_launch_attempt_count_year": 71,
