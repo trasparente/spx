@@ -1,6 +1,6 @@
 {
   "count": 135,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-17T06%3A13%3A09Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-17T12%3A18%3A28Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-10-17T01:31:51Z",
+      "last_updated": "2023-10-17T10:41:34Z",
       "updates": [
+        {
+          "id": 5436,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 95%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-23%20L-1%20Forecast%20-%2017%20Oct%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2023-10-17T10:41:36Z"
+        },
         {
           "id": 5431,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -92,8 +100,8 @@
       },
       "window_end": "2023-10-18T00:48:30Z",
       "window_start": "2023-10-17T21:20:30Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 95,
+      "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -319,7 +327,7 @@
       "mission": {
         "id": 6384,
         "name": "Starlink Group 6-23",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 22 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -388,7 +396,25 @@
         "total_launch_count": 204,
         "orbital_launch_attempt_count": 204
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-6-23",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230522104423.png",
@@ -795,8 +821,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-10-15T04:33:47Z",
+      "last_updated": "2023-10-17T10:47:40Z",
       "updates": [
+        {
+          "id": 5437,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Delayed to early October 22 UTC per NOTAM F3403/23",
+          "info_url": null,
+          "created_by": "Nosu",
+          "created_on": "2023-10-17T10:47:41Z"
+        },
         {
           "id": 5425,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -822,15 +856,15 @@
           "created_on": "2023-07-27T06:37:05Z"
         }
       ],
-      "net": "2023-10-21T19:30:00Z",
+      "net": "2023-10-22T00:00:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 5,
+        "name": "Day",
+        "abbrev": "DAY",
+        "description": "The T-0 is expected on the given day."
       },
-      "window_end": "2023-10-21T19:30:00Z",
-      "window_start": "2023-10-21T19:30:00Z",
+      "window_end": "2023-10-22T00:00:00Z",
+      "window_start": "2023-10-22T00:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1138,7 +1172,7 @@
       "location_launch_attempt_count_year": 47,
       "pad_launch_attempt_count_year": 43,
       "agency_launch_attempt_count_year": 77,
-      "pad_turnaround": "P3DT22H9M30S",
+      "pad_turnaround": "P4DT2H39M30S",
       "mission_patches": [
         {
           "id": 7,
