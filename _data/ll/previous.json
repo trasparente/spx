@@ -1,6 +1,6 @@
 {
   "count": 288,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-10-18T18%3A12%3A40Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-10-19T00%3A43%3A22Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -1384,22 +1384,22 @@
           "attempted_landings": 17,
           "successful_landings": 15,
           "failed_landings": 2,
-          "consecutive_successful_landings": 10
+          "consecutive_successful_landings": 8
         },
         "launcher_stage": [
           {
-            "id": 239,
+            "id": 240,
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 4,
             "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
+              "id": 86,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
+              "details": "Sidebooster paired with B1064, launched 2 USSF mission.",
               "flight_proven": true,
-              "serial_number": "B1064",
+              "serial_number": "B1065",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
               "successful_landings": 4,
               "attempted_landings": 4,
               "flights": 4,
@@ -1407,16 +1407,16 @@
               "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "landing": {
-              "id": 267,
+              "id": 268,
               "attempt": true,
               "success": true,
-              "description": "B1064 has landed on LZ-1 after its 4th flight.",
-              "downrange_distance": 14.9,
+              "description": "B1065 has landed on LZ-2 after its 4th flight.",
+              "downrange_distance": 14.6,
               "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
                 "location": {
                   "id": 12,
                   "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -1428,7 +1428,7 @@
                   "total_launch_count": 914,
                   "total_landing_count": 39
                 },
-                "successful_landings": 30
+                "successful_landings": 8
               },
               "type": {
                 "id": 2,
@@ -1489,18 +1489,18 @@
             "previous_flight": null
           },
           {
-            "id": 240,
+            "id": 239,
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 4,
             "launcher": {
-              "id": 86,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
-              "details": "Sidebooster paired with B1064, launched 2 USSF mission.",
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
               "flight_proven": true,
-              "serial_number": "B1065",
+              "serial_number": "B1064",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
               "successful_landings": 4,
               "attempted_landings": 4,
               "flights": 4,
@@ -1508,16 +1508,16 @@
               "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "landing": {
-              "id": 268,
+              "id": 267,
               "attempt": true,
               "success": true,
-              "description": "B1065 has landed on LZ-2 after its 4th flight.",
-              "downrange_distance": 14.6,
+              "description": "B1064 has landed on LZ-1 after its 4th flight.",
+              "downrange_distance": 14.9,
               "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
                 "location": {
                   "id": 12,
                   "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -1529,7 +1529,7 @@
                   "total_launch_count": 914,
                   "total_landing_count": 39
                 },
-                "successful_landings": 8
+                "successful_landings": 30
               },
               "type": {
                 "id": 2,
