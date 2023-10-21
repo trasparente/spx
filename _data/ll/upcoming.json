@@ -1,6 +1,6 @@
 {
   "count": 134,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-21T00%3A41%3A49Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-21T06%3A11%3A32Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-10-21T00:03:15Z",
+      "last_updated": "2023-10-21T03:54:46Z",
       "updates": [
         {
           "id": 5463,
@@ -245,8 +245,8 @@
           {
             "id": 377,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 16,
             "launcher": {
               "id": 71,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/71/?format=json",
@@ -282,9 +282,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-08-22T09:37:30Z",
+            "turn_around_time_days": 59,
+            "previous_flight": {
+              "id": "15699687-3fb1-4749-9680-fc858e5e7081",
+              "name": "Falcon 9 Block 5 | Starlink Group 7-1"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -361,8 +364,44 @@
         "total_launch_count": 121,
         "orbital_launch_attempt_count": 121
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=transporter-6",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "twitter.com",
+          "title": "",
+          "description": null,
+          "feature_image": null,
+          "url": "https://twitter.com/i/broadcasts/1rmxPMZnQPXKN",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230710162355.png",
       "infographic": null,
@@ -404,8 +443,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-10-21T00:05:03Z",
+      "last_updated": "2023-10-21T03:58:12Z",
       "updates": [
+        {
+          "id": 5471,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding seconds to T-0",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Nosu",
+          "created_on": "2023-10-21T03:58:13Z"
+        },
         {
           "id": 5464,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -481,12 +528,12 @@
       ],
       "net": "2023-10-22T02:17:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2023-10-22T06:15:00Z",
+      "window_end": "2023-10-22T06:15:30Z",
       "window_start": "2023-10-22T02:17:00Z",
       "probability": 95,
       "weather_concerns": "Liftoff Winds",
@@ -665,8 +712,8 @@
           {
             "id": 430,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 4,
             "launcher": {
               "id": 123,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/123/?format=json",
@@ -702,9 +749,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-08-27T01:05:40Z",
+            "turn_around_time_days": 56,
+            "previous_flight": {
+              "id": "87fba73c-f085-4abf-830d-fae92c599977",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-11"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -781,8 +831,44 @@
         "total_launch_count": 205,
         "orbital_launch_attempt_count": 205
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=transporter-6",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "twitter.com",
+          "title": "",
+          "description": null,
+          "feature_image": null,
+          "url": "https://twitter.com/i/broadcasts/1YqJDgWXyyEGV",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230727063705.png",
       "infographic": null,
@@ -795,7 +881,7 @@
       "location_launch_attempt_count_year": 47,
       "pad_launch_attempt_count_year": 43,
       "agency_launch_attempt_count_year": 77,
-      "pad_turnaround": "P4DT1H44M",
+      "pad_turnaround": "P4DT1H38M",
       "mission_patches": [
         {
           "id": 7,
@@ -1159,7 +1245,7 @@
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 23,
       "agency_launch_attempt_count_year": 78,
-      "pad_turnaround": "P6DT40M",
+      "pad_turnaround": "P5DT23H12M",
       "mission_patches": [
         {
           "id": 7,
@@ -1507,15 +1593,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230907071515.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6531,
-      "location_launch_attempt_count": 733,
-      "pad_launch_attempt_count": 123,
-      "agency_launch_attempt_count": 292,
-      "orbital_launch_attempt_count_year": 174,
-      "location_launch_attempt_count_year": 24,
-      "pad_launch_attempt_count_year": 23,
-      "agency_launch_attempt_count_year": 79,
-      "pad_turnaround": "P9DT17H41M",
+      "orbital_launch_attempt_count": 6532,
+      "location_launch_attempt_count": 734,
+      "pad_launch_attempt_count": 124,
+      "agency_launch_attempt_count": 293,
+      "orbital_launch_attempt_count_year": 175,
+      "location_launch_attempt_count_year": 25,
+      "pad_launch_attempt_count_year": 24,
+      "agency_launch_attempt_count_year": 80,
+      "pad_turnaround": "P3DT17H1M",
       "mission_patches": [
         {
           "id": 7,
@@ -1879,15 +1965,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230727064542.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6531,
+      "orbital_launch_attempt_count": 6532,
       "location_launch_attempt_count": 916,
       "pad_launch_attempt_count": 207,
-      "agency_launch_attempt_count": 292,
-      "orbital_launch_attempt_count_year": 174,
+      "agency_launch_attempt_count": 293,
+      "orbital_launch_attempt_count_year": 175,
       "location_launch_attempt_count_year": 48,
       "pad_launch_attempt_count_year": 44,
-      "agency_launch_attempt_count_year": 79,
-      "pad_turnaround": "P8DT21H37M",
+      "agency_launch_attempt_count_year": 80,
+      "pad_turnaround": "P8DT21H43M",
       "mission_patches": [
         {
           "id": 7,
@@ -2448,14 +2534,14 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6533,
+      "orbital_launch_attempt_count": 6534,
       "location_launch_attempt_count": 225,
       "pad_launch_attempt_count": 167,
-      "agency_launch_attempt_count": 293,
-      "orbital_launch_attempt_count_year": 176,
+      "agency_launch_attempt_count": 294,
+      "orbital_launch_attempt_count_year": 177,
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 12,
-      "agency_launch_attempt_count_year": 80,
+      "agency_launch_attempt_count_year": 81,
       "pad_turnaround": "P23DT12H41M17S",
       "mission_patches": [
         {
@@ -2860,14 +2946,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6534,
+      "orbital_launch_attempt_count": 6535,
       "location_launch_attempt_count": 226,
       "pad_launch_attempt_count": 168,
-      "agency_launch_attempt_count": 294,
-      "orbital_launch_attempt_count_year": 177,
+      "agency_launch_attempt_count": 295,
+      "orbital_launch_attempt_count_year": 178,
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 13,
-      "agency_launch_attempt_count_year": 81,
+      "agency_launch_attempt_count_year": 82,
       "pad_turnaround": "P9DT20H59M",
       "mission_patches": []
     },
@@ -3651,14 +3737,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6537,
-      "location_launch_attempt_count": 734,
-      "pad_launch_attempt_count": 124,
-      "agency_launch_attempt_count": 296,
-      "orbital_launch_attempt_count_year": 180,
-      "location_launch_attempt_count_year": 25,
-      "pad_launch_attempt_count_year": 24,
-      "agency_launch_attempt_count_year": 83,
+      "orbital_launch_attempt_count": 6538,
+      "location_launch_attempt_count": 735,
+      "pad_launch_attempt_count": 125,
+      "agency_launch_attempt_count": 297,
+      "orbital_launch_attempt_count_year": 181,
+      "location_launch_attempt_count_year": 26,
+      "pad_launch_attempt_count_year": 25,
+      "agency_launch_attempt_count_year": 84,
       "pad_turnaround": "P30D",
       "mission_patches": [
         {
@@ -4204,14 +4290,14 @@
           "mission_patches": []
         }
       ],
-      "orbital_launch_attempt_count": 6540,
+      "orbital_launch_attempt_count": 6541,
       "location_launch_attempt_count": 918,
       "pad_launch_attempt_count": 209,
-      "agency_launch_attempt_count": 297,
-      "orbital_launch_attempt_count_year": 183,
+      "agency_launch_attempt_count": 298,
+      "orbital_launch_attempt_count_year": 184,
       "location_launch_attempt_count_year": 50,
       "pad_launch_attempt_count_year": 46,
-      "agency_launch_attempt_count_year": 84,
+      "agency_launch_attempt_count_year": 85,
       "pad_turnaround": "P11D",
       "mission_patches": []
     }
