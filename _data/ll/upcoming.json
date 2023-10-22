@@ -1,6 +1,6 @@
 {
   "count": 132,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-22T12%3A15%3A56Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-22T18%3A10%3A58Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -380,8 +380,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-10-22T10:02:49Z",
+      "last_updated": "2023-10-22T14:59:52Z",
       "updates": [
+        {
+          "id": 5488,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Updating launch window",
+          "info_url": "http://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Nosu",
+          "created_on": "2023-10-22T15:00:08Z"
+        },
         {
           "id": 5484,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -415,15 +423,15 @@
           "created_on": "2023-07-27T06:45:43Z"
         }
       ],
-      "net": "2023-10-28T22:00:00Z",
+      "net": "2023-10-29T01:00:00Z",
       "net_precision": {
-        "id": 5,
-        "name": "Day",
-        "abbrev": "DAY",
-        "description": "The T-0 is expected on the given day."
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
       },
-      "window_end": "2023-10-29T04:00:00Z",
-      "window_start": "2023-10-28T22:00:00Z",
+      "window_end": "2023-10-29T05:00:00Z",
+      "window_start": "2023-10-29T01:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -731,7 +739,7 @@
       "location_launch_attempt_count_year": 48,
       "pad_launch_attempt_count_year": 44,
       "agency_launch_attempt_count_year": 79,
-      "pad_turnaround": "P6DT19H43M",
+      "pad_turnaround": "P6DT22H43M",
       "mission_patches": [
         {
           "id": 7,
@@ -2161,13 +2169,13 @@
       "program": [],
       "orbital_launch_attempt_count": 6538,
       "location_launch_attempt_count": 918,
-      "pad_launch_attempt_count": 208,
+      "pad_launch_attempt_count": 209,
       "agency_launch_attempt_count": 297,
       "orbital_launch_attempt_count_year": 181,
       "location_launch_attempt_count_year": 50,
-      "pad_launch_attempt_count_year": 45,
+      "pad_launch_attempt_count_year": 46,
       "agency_launch_attempt_count_year": 84,
-      "pad_turnaround": "P32DT2H",
+      "pad_turnaround": "P31DT23H",
       "mission_patches": [
         {
           "id": 758,
@@ -2196,7 +2204,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-10-21T20:05:16Z",
+      "last_updated": "2023-10-22T15:16:21Z",
       "updates": [
         {
           "id": 4700,
@@ -2483,16 +2491,16 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
-        "agency_id": null,
-        "name": "Unknown Pad",
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
         "description": null,
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
         "location": {
           "id": 12,
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -2505,9 +2513,9 @@
           "total_landing_count": 39
         },
         "country_code": "USA",
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 206,
+        "orbital_launch_attempt_count": 206
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -2517,13 +2525,13 @@
       "program": [],
       "orbital_launch_attempt_count": 6538,
       "location_launch_attempt_count": 918,
-      "pad_launch_attempt_count": 1,
+      "pad_launch_attempt_count": 209,
       "agency_launch_attempt_count": 297,
       "orbital_launch_attempt_count_year": 181,
       "location_launch_attempt_count_year": 50,
-      "pad_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 46,
       "agency_launch_attempt_count_year": 84,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P31DT23H",
       "mission_patches": [
         {
           "id": 7,
@@ -3406,11 +3414,11 @@
       ],
       "orbital_launch_attempt_count": 6541,
       "location_launch_attempt_count": 919,
-      "pad_launch_attempt_count": 209,
+      "pad_launch_attempt_count": 210,
       "agency_launch_attempt_count": 298,
       "orbital_launch_attempt_count_year": 184,
       "location_launch_attempt_count_year": 51,
-      "pad_launch_attempt_count_year": 46,
+      "pad_launch_attempt_count_year": 47,
       "agency_launch_attempt_count_year": 85,
       "pad_turnaround": "P11D",
       "mission_patches": []
