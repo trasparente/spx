@@ -1,6 +1,6 @@
 {
   "count": 290,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-10-22T18%3A10%3A58Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-10-23T00%3A43%3A40Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -2372,6 +2372,50 @@
         },
         "launcher_stage": [
           {
+            "id": 238,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
+              "details": "Falcon Heavy core booster expended during the Psyche mission.",
+              "flight_proven": true,
+              "serial_number": "B1079",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/121_image_20231014091824.jpg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-10-13T14:19:43Z",
+              "first_launch_date": "2023-10-13T14:19:43Z"
+            },
+            "landing": {
+              "id": 266,
+              "attempt": false,
+              "success": null,
+              "description": "B1079 was expended after its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
+          },
+          {
             "id": 240,
             "type": "Strap-On Booster",
             "reused": true,
@@ -2427,50 +2471,6 @@
               "id": "72491a20-315d-4aea-b6df-d1202930bd60",
               "name": "Falcon Heavy | EchoStar 24/Jupiter-3"
             }
-          },
-          {
-            "id": 238,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
-              "details": "Falcon Heavy core booster expended during the Psyche mission.",
-              "flight_proven": true,
-              "serial_number": "B1079",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/121_image_20231014091824.jpg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-10-13T14:19:43Z",
-              "first_launch_date": "2023-10-13T14:19:43Z"
-            },
-            "landing": {
-              "id": 266,
-              "attempt": false,
-              "success": null,
-              "description": "B1079 was expended after its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
           },
           {
             "id": 239,
