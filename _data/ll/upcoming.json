@@ -1,6 +1,6 @@
 {
   "count": 132,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-25T18%3A12%3A05Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-26T00%3A42%3A23Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -645,15 +645,15 @@
               "id": 1221,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
               "downrange_distance": 630,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 65
               },
               "type": {
                 "id": 1,
@@ -3076,50 +3076,6 @@
         },
         "launcher_stage": [
           {
-            "id": 235,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 127,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
-              "details": "Falcon Heavy core booster first used for the Psyche mission.",
-              "flight_proven": false,
-              "serial_number": "B1084",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 263,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy core stage will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 237,
             "type": "Strap-On Booster",
             "reused": true,
@@ -3232,6 +3188,50 @@
               "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
               "name": "Falcon Heavy | Psyche"
             }
+          },
+          {
+            "id": 235,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 127,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
+              "details": "Falcon Heavy core booster first used for the Psyche mission.",
+              "flight_proven": false,
+              "serial_number": "B1084",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 263,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy core stage will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -3314,14 +3314,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6594,
+      "orbital_launch_attempt_count": 6593,
       "location_launch_attempt_count": 227,
       "pad_launch_attempt_count": 169,
-      "agency_launch_attempt_count": 330,
-      "orbital_launch_attempt_count_year": 237,
+      "agency_launch_attempt_count": 329,
+      "orbital_launch_attempt_count_year": 236,
       "location_launch_attempt_count_year": 14,
       "pad_launch_attempt_count_year": 14,
-      "agency_launch_attempt_count_year": 117,
+      "agency_launch_attempt_count_year": 116,
       "pad_turnaround": "P45D",
       "mission_patches": [
         {
@@ -3740,11 +3740,11 @@
       "orbital_launch_attempt_count": null,
       "location_launch_attempt_count": 11,
       "pad_launch_attempt_count": 2,
-      "agency_launch_attempt_count": 330,
+      "agency_launch_attempt_count": 329,
       "orbital_launch_attempt_count_year": 0,
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 117,
+      "agency_launch_attempt_count_year": 116,
       "pad_turnaround": "P254DT10H27M",
       "mission_patches": []
     },
@@ -4080,14 +4080,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230920071550.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6594,
+      "orbital_launch_attempt_count": 6593,
       "location_launch_attempt_count": 747,
       "pad_launch_attempt_count": 137,
-      "agency_launch_attempt_count": 330,
-      "orbital_launch_attempt_count_year": 237,
+      "agency_launch_attempt_count": 329,
+      "orbital_launch_attempt_count_year": 236,
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 37,
-      "agency_launch_attempt_count_year": 117,
+      "agency_launch_attempt_count_year": 116,
       "pad_turnaround": "P54D",
       "mission_patches": [
         {
