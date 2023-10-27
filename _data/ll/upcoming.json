@@ -1,6 +1,6 @@
 {
   "count": 132,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-27T12%3A17%3A22Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-10-27T18%3A11%3A56Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -388,8 +388,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-10-23T13:00:39Z",
+      "last_updated": "2023-10-27T16:56:11Z",
       "updates": [
+        {
+          "id": 5516,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Weather 80% GO.",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-25%20L-1%20Forecast%20-%2028%20OCT%20Launch.pdf?ver=ktIC3vPbotpvl7JZLfszUQ%3d%3d",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-10-27T16:56:13Z"
+        },
         {
           "id": 5494,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -448,8 +456,8 @@
       },
       "window_end": "2023-10-29T03:44:00Z",
       "window_start": "2023-10-28T23:13:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 80,
+      "weather_concerns": "Liftoff Winds, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -646,7 +654,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
-              "downrange_distance": 630,
+              "downrange_distance": 612,
               "location": {
                 "id": 3,
                 "name": "Just Read the Instructions",
@@ -1152,7 +1160,35 @@
               "description": "Unpowered landing using parachute(s)."
             }
           },
-          "docking_events": []
+          "docking_events": [
+            {
+              "id": 526,
+              "spacestation": {
+                "id": 4,
+                "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/?format=json",
+                "name": "International Space Station",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "founded": "1998-11-20",
+                "description": "The International Space Station (ISS) is a space station, or a habitable artificial satellite, in low Earth orbit. Its first component was launched into orbit in 1998, with the first long-term residents arriving in November 2000. It has been inhabited continuously since that date. The last pressurised module was fitted in 2011, and an experimental inflatable space habitat was added in 2016. The station is expected to operate until 2030. Development and assembly of the station continues, with several new elements scheduled for launch in 2019. The ISS is the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth. The ISS consists of pressurised habitation modules, structural trusses, solar arrays, radiators, docking ports, experiment bays and robotic arms. ISS components have been launched by Russian Proton and Soyuz rockets, and American Space Shuttles.",
+                "orbit": "Low Earth Orbit",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/international2520space2520station_image_20190220215716.jpeg"
+              },
+              "docking": "2023-11-07T10:05:00Z",
+              "departure": null,
+              "docking_location": {
+                "id": 30,
+                "name": "Harmony zenith",
+                "spacestation": {
+                  "id": 4,
+                  "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/?format=json",
+                  "name": "International Space Station"
+                }
+              }
+            }
+          ]
         }
       },
       "mission": {
