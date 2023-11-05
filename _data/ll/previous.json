@@ -1,6 +1,6 @@
 {
   "count": 293,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-11-04T18%3A11%3A00Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-11-05T00%3A48%3A12Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -3938,48 +3938,61 @@
         },
         "launcher_stage": [
           {
-            "id": 238,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "id": 240,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 4,
             "launcher": {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
-              "details": "Falcon Heavy core booster expended during the Psyche mission.",
+              "id": 86,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
+              "details": "Sidebooster paired with B1064, launched 2 USSF mission.",
               "flight_proven": true,
-              "serial_number": "B1079",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/121_image_20231014091824.jpg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
+              "serial_number": "B1065",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
               "last_launch_date": "2023-10-13T14:19:43Z",
-              "first_launch_date": "2023-10-13T14:19:43Z"
+              "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "landing": {
-              "id": 266,
-              "attempt": false,
-              "success": null,
-              "description": "B1079 was expended after its first flight.",
-              "downrange_distance": null,
+              "id": 268,
+              "attempt": true,
+              "success": true,
+              "description": "B1065 has landed on LZ-2 after its 4th flight.",
+              "downrange_distance": 14.6,
               "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 917,
+                  "total_landing_count": 39
+                },
+                "successful_landings": 8
               },
               "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
+            "previous_flight_date": "2023-07-29T03:04:00Z",
+            "turn_around_time_days": 76,
+            "previous_flight": {
+              "id": "72491a20-315d-4aea-b6df-d1202930bd60",
+              "name": "Falcon Heavy | EchoStar 24/Jupiter-3"
+            }
           },
           {
             "id": 239,
@@ -4039,61 +4052,48 @@
             }
           },
           {
-            "id": 240,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 4,
+            "id": 238,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 86,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/?format=json",
-              "details": "Sidebooster paired with B1064, launched 2 USSF mission.",
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/121/?format=json",
+              "details": "Falcon Heavy core booster expended during the Psyche mission.",
               "flight_proven": true,
-              "serial_number": "B1065",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
-              "successful_landings": 4,
-              "attempted_landings": 4,
-              "flights": 4,
+              "serial_number": "B1079",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/121_image_20231014091824.jpg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
               "last_launch_date": "2023-10-13T14:19:43Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
+              "first_launch_date": "2023-10-13T14:19:43Z"
             },
             "landing": {
-              "id": 268,
-              "attempt": true,
-              "success": true,
-              "description": "B1065 has landed on LZ-2 after its 4th flight.",
-              "downrange_distance": 14.6,
+              "id": 266,
+              "attempt": false,
+              "success": null,
+              "description": "B1079 was expended after its first flight.",
+              "downrange_distance": null,
               "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": null,
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 917,
-                  "total_landing_count": 39
-                },
-                "successful_landings": 8
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
-            "previous_flight_date": "2023-07-29T03:04:00Z",
-            "turn_around_time_days": 76,
-            "previous_flight": {
-              "id": "72491a20-315d-4aea-b6df-d1202930bd60",
-              "name": "Falcon Heavy | EchoStar 24/Jupiter-3"
-            }
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
