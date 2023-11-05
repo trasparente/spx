@@ -1,6 +1,6 @@
 {
   "count": 144,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-11-05T00%3A48%3A12Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-11-05T06%3A11%3A43Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -257,15 +257,15 @@
               "id": 1201,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
-              "downrange_distance": null,
+              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
+              "downrange_distance": 630,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "First (Marmac 300) and third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 66
               },
               "type": {
                 "id": 1,
@@ -359,14 +359,14 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230622063448.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6537,
+      "orbital_launch_attempt_count": 6536,
       "location_launch_attempt_count": 918,
       "pad_launch_attempt_count": 209,
-      "agency_launch_attempt_count": 295,
-      "orbital_launch_attempt_count_year": 180,
+      "agency_launch_attempt_count": 294,
+      "orbital_launch_attempt_count_year": 179,
       "location_launch_attempt_count_year": 50,
       "pad_launch_attempt_count_year": 46,
-      "agency_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 81,
       "pad_turnaround": "P4DT3H22M40S",
       "mission_patches": [
         {
@@ -2884,7 +2884,62 @@
           "failed_landings": 4,
           "consecutive_successful_landings": 159
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 471,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1272,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will land back at the launch site after this flight.",
+              "downrange_distance": 0.4,
+              "location": {
+                "id": 7,
+                "name": "Landing Zone 4",
+                "abbrev": "LZ-4",
+                "description": "LZ at Vandenberg",
+                "location": {
+                  "id": 11,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
+                  "name": "Vandenberg SFB, CA, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
+                  "timezone_name": "America/Los_Angeles",
+                  "total_launch_count": 733,
+                  "total_landing_count": 12
+                },
+                "successful_landings": 12
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -2943,7 +2998,7 @@
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 87,
-      "pad_turnaround": "P22DT5H13M",
+      "pad_turnaround": "P20DT5H13M",
       "mission_patches": []
     },
     {
