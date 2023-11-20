@@ -1,6 +1,6 @@
 {
   "count": 140,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-11-19T18%3A11%3A14Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-11-20T00%3A47%3A23Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -476,9 +476,9 @@
         {
           "priority": 10,
           "source": "www.youtube.com",
-          "title": "SpaceX - Falcon 9 - Starlink Group 7-7 - SLC-4E - Vandenberg SFB - Space Affairs Livestream",
-          "description": "SpaceX is targeting Sunday, November 19 for a Falcon 9 launch of 22 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vande...",
-          "feature_image": "https://i.ytimg.com/vi/1s8fl8lCUs8/maxresdefault_live.jpg",
+          "title": "SCRUBBED - SpaceX - Falcon 9 - Starlink Group 7-7 - SLC-4E - Vandenberg SFB - November 19, 2023",
+          "description": "The launch was scrubbed 4 minutes before the planned lift-off. The confirmation of the scrub took a while; there is NO footage of the scrub in this video. A ...",
+          "feature_image": "https://i.ytimg.com/vi/1s8fl8lCUs8/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=1s8fl8lCUs8",
           "type": {
             "id": 4,
@@ -1763,66 +1763,9 @@
           "attempted_landings": 17,
           "successful_landings": 15,
           "failed_landings": 2,
-          "consecutive_successful_landings": 10
+          "consecutive_successful_landings": 9
         },
         "launcher_stage": [
-          {
-            "id": 236,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 5,
-            "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
-              "flight_proven": true,
-              "serial_number": "B1064",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
-              "successful_landings": 4,
-              "attempted_landings": 4,
-              "flights": 4,
-              "last_launch_date": "2023-10-13T14:19:43Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 264,
-              "attempt": true,
-              "success": null,
-              "description": "B1064 will attempt to landed back at the launch site after its fifth flight.",
-              "downrange_distance": 14.9,
-              "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": null,
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 920,
-                  "total_landing_count": 40
-                },
-                "successful_landings": 31
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2023-10-13T14:19:43Z",
-            "turn_around_time_days": 54,
-            "previous_flight": {
-              "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
-              "name": "Falcon Heavy | Psyche"
-            }
-          },
           {
             "id": 237,
             "type": "Strap-On Booster",
@@ -1865,6 +1808,63 @@
                   "total_landing_count": 40
                 },
                 "successful_landings": 8
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2023-10-13T14:19:43Z",
+            "turn_around_time_days": 54,
+            "previous_flight": {
+              "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
+              "name": "Falcon Heavy | Psyche"
+            }
+          },
+          {
+            "id": 236,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 5,
+            "launcher": {
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
+              "flight_proven": true,
+              "serial_number": "B1064",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2023-10-13T14:19:43Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 264,
+              "attempt": true,
+              "success": null,
+              "description": "B1064 will attempt to landed back at the launch site after its fifth flight.",
+              "downrange_distance": 14.9,
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 920,
+                  "total_landing_count": 40
+                },
+                "successful_landings": 31
               },
               "type": {
                 "id": 2,
