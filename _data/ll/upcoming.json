@@ -1,6 +1,6 @@
 {
   "count": 140,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-11-25T06%3A11%3A55Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-11-25T12%3A16%3A21Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1553,9 +1553,9 @@
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
-          "id": 1,
-          "name": "Geostationary Orbit",
-          "abbrev": "Direct-GEO"
+          "id": 2,
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO"
         },
         "agencies": [
           {
@@ -3417,43 +3417,35 @@
       "type": "detailed"
     },
     {
-      "id": "3ecc1d59-470f-49a3-9508-35f0b6797454",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/3ecc1d59-470f-49a3-9508-35f0b6797454/?format=json",
-      "slug": "falcon-9-block-5-worldview-legion-3-4",
+      "id": "3fe9e0be-183a-4e14-8193-516219fb37e4",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/3fe9e0be-183a-4e14-8193-516219fb37e4/?format=json",
+      "slug": "falcon-9-block-5-starlink-group-7-13",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | WorldView Legion 3 & 4",
+      "name": "Falcon 9 Block 5 | Starlink Group 7-13",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-06-14T17:41:24Z",
+      "last_updated": "2023-10-14T18:51:44Z",
       "updates": [
         {
-          "id": 3343,
-          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET April",
-          "info_url": "https://spaceflightnow.com/launch-schedule/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2023-02-17T03:56:22Z"
-        },
-        {
-          "id": 3260,
+          "id": 5423,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Setting pad",
-          "info_url": "https://spaceflightnow.com/launch-schedule/",
+          "comment": "Adding launch",
+          "info_url": "https://apps.fcc.gov/oetcf/els/reports/STA_Print.cfm?mode=current&application_seq=128768",
           "created_by": "Nosu",
-          "created_on": "2023-02-02T20:32:53Z"
+          "created_on": "2023-10-14T18:51:44Z"
         }
       ],
       "net": "2023-12-31T00:00:00Z",
       "net_precision": {
-        "id": 14,
-        "name": "Year",
-        "abbrev": "Y",
-        "description": "The T-0 is expected in the given year."
+        "id": 11,
+        "name": "Quarter 4",
+        "abbrev": "Q4",
+        "description": "The T-0 is expected in the fourth quarter of the given year."
       },
       "window_end": "2023-12-31T00:00:00Z",
       "window_start": "2023-12-31T00:00:00Z",
@@ -3492,7 +3484,7 @@
         "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7546,
+        "id": 8048,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -3632,7 +3624,7 @@
         },
         "launcher_stage": [
           {
-            "id": 396,
+            "id": 468,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -3650,7 +3642,27 @@
               "last_launch_date": null,
               "first_launch_date": null
             },
-            "landing": null,
+            "landing": {
+              "id": 1266,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will land on ASDS OCISLY after this flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 1,
+                "name": "Of Course I Still Love You",
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "location": null,
+                "successful_landings": 76
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
@@ -3659,93 +3671,106 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 5973,
-        "name": "WorldView Legion 3 & 4",
-        "description": "WorldView Legion is a constellation of Earth observation satellites built and operated by Maxar. Constellation is planned to consist of 6 satellites in both polar and mid-inclination orbits, providing 30 cm-class resolution.",
+        "id": 6596,
+        "name": "Starlink Group 7-13",
+        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
-        "type": "Earth Science",
+        "type": "Communications",
         "orbit": {
-          "id": 17,
-          "name": "Sun-Synchronous Orbit",
-          "abbrev": "SSO"
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         },
         "agencies": [
           {
-            "id": 1057,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1057/?format=json",
-            "name": "Maxar Technologies",
-            "featured": false,
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "featured": true,
             "type": "Commercial",
             "country_code": "USA",
-            "abbrev": "Maxar",
-            "description": "Maxar Technologies Inc. is a space technology company headquartered in Westminster, Colorado, United States, specializing in manufacturing communication, Earth observation, radar, and on-orbit servicing satellites, satellite products, and related services.",
-            "administrator": "President & CEO: Daniel Jablonsky",
-            "founding_year": "2017",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": "https://launchlibrary.net/1.4/agency/1057",
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://maxar.com",
-            "wiki_url": "https://en.wikipedia.org/wiki/Maxar_Technologies",
-            "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/maxar2520technologies_logo_20230806171500.png",
-            "image_url": null,
-            "nation_url": null
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+            "total_launch_count": 301,
+            "consecutive_successful_launches": 2,
+            "successful_launches": 290,
+            "failed_launches": 11,
+            "pending_launches": 137,
+            "consecutive_successful_landings": 171,
+            "successful_landings": 253,
+            "failed_landings": 22,
+            "attempted_landings": 274,
+            "info_url": "http://www.spacex.com/",
+            "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
           }
         ],
         "info_urls": [],
         "vid_urls": []
       },
       "pad": {
-        "id": 80,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
-        "agency_id": 121,
-        "name": "Space Launch Complex 40",
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
         "description": null,
         "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
-        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
-        "latitude": "28.56194122",
-        "longitude": "-80.57735736",
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
         "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral, FL, USA",
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
+          "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
           "description": null,
-          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 921,
-          "total_landing_count": 40
+          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 735,
+          "total_landing_count": 13
         },
         "country_code": "USA",
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
-        "total_launch_count": 212,
-        "orbital_launch_attempt_count": 212
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 125,
+        "orbital_launch_attempt_count": 125
       },
       "infoURLs": [],
       "vidURLs": [],
       "webcast_live": false,
-      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
+      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20231014185144.png",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6585,
-      "location_launch_attempt_count": 937,
-      "pad_launch_attempt_count": 215,
+      "location_launch_attempt_count": 746,
+      "pad_launch_attempt_count": 136,
       "agency_launch_attempt_count": 328,
       "orbital_launch_attempt_count_year": 228,
-      "location_launch_attempt_count_year": 69,
-      "pad_launch_attempt_count_year": 52,
+      "location_launch_attempt_count_year": 37,
+      "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 115,
-      "pad_turnaround": "P32DT20H",
-      "mission_patches": [],
+      "pad_turnaround": "P31DT5H56M",
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "priority": 10,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     }
   ]
