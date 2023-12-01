@@ -1,6 +1,6 @@
 {
   "count": 139,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-01T12%3A18%3A30Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-01T18%3A12%3A23Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-12-01T05:22:56Z",
+      "last_updated": "2023-12-01T17:46:07Z",
       "updates": [
+        {
+          "id": 5815,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Livestream has started",
+          "info_url": "https://www.youtube.com/watch?v=l64-hEGeXZY",
+          "created_by": "LL2",
+          "created_on": "2023-12-01T17:46:08Z"
+        },
         {
           "id": 5810,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/swgustav_profile_20210218062738.jpg",
@@ -262,7 +270,7 @@
               "flight_proven": true,
               "serial_number": "B1061",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/71_image_20201113081327.jpeg",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/71_image_20231201153837.jpeg",
               "successful_landings": 16,
               "attempted_landings": 16,
               "flights": 16,
@@ -373,11 +381,11 @@
       ],
       "vidURLs": [
         {
-          "priority": 10,
+          "priority": 9,
           "source": "youtube.com",
           "publisher": "European Space Agency, ESA",
           "title": "Ad Astra: Launch of EIRSAT-1",
-          "description": "Watch live as Ireland goes to space, for the first time, with the launch of EIRSAT-1. Built by students at @universitycollegedublin under the guidance of ESA...",
+          "description": "Lift off is expected at 19:19 CET / 18:19 GMT.Watch live as Ireland goes to space, for the first time, with the launch of EIRSAT-1. Built by students at @uni...",
           "feature_image": "https://i.ytimg.com/vi/l64-hEGeXZY/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=l64-hEGeXZY",
           "type": {
@@ -389,11 +397,51 @@
             "name": "English",
             "code": "en"
           },
+          "start_time": "2023-12-01T17:45:13Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "twitter.com",
+          "publisher": "",
+          "title": "Livestream on X",
+          "description": null,
+          "feature_image": null,
+          "url": "https://twitter.com/i/broadcasts/1zqKVqZBjZXxB",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
           "start_time": null,
+          "end_time": null
+        },
+        {
+          "priority": 11,
+          "source": "youtube.com",
+          "publisher": "VideoFromSpace",
+          "title": "Watch live! SpaceX to launch South Korean spy satellite and more, land in California",
+          "description": "SpaceX's Falcon 9 rocket is aiming to liftoff from Vandenberg Space Force Base in Califonia on December 1st at 1:19pm ET for the launch of the Korea 425 Miss...",
+          "feature_image": "https://i.ytimg.com/vi/-c19v3TGgKs/hqdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=-c19v3TGgKs",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2023-12-01T18:00:00Z",
           "end_time": null
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20231201052256.jpeg",
       "infographic": null,
       "program": [],
@@ -406,7 +454,20 @@
       "pad_launch_attempt_count_year": 26,
       "agency_launch_attempt_count_year": 90,
       "pad_turnaround": "P11DT7H48M20S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 915,
+          "name": "Korea 425",
+          "priority": 10,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/korea2520425_mission_patch_20231201170617.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
@@ -672,7 +733,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage will attempt to land on ASDS ASOG after this flight.",
-              "downrange_distance": 630,
+              "downrange_distance": 628,
               "location": {
                 "id": 17,
                 "name": "A Shortfall of Gravitas",
@@ -1837,11 +1898,11 @@
             "launcher": {
               "id": 127,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
-              "details": "Falcon Heavy core booster first used for the Psyche mission.",
+              "details": "Falcon Heavy core booster planned to be expended during the USSF-52 mission.",
               "flight_proven": false,
               "serial_number": "B1084",
               "status": "active",
-              "image_url": null,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231201161732.png",
               "successful_landings": 0,
               "attempted_landings": 0,
               "flights": 0,
