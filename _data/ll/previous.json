@@ -1,6 +1,6 @@
 {
   "count": 304,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-12-03T12%3A16%3A45Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-12-03T18%3A11%3A07Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -3001,9 +3001,9 @@
           "successful_launches": 0,
           "failed_launches": 2,
           "pending_launches": 2,
-          "attempted_landings": 0,
+          "attempted_landings": 1,
           "successful_landings": 0,
-          "failed_landings": 0,
+          "failed_landings": 1,
           "consecutive_successful_landings": 0
         },
         "launcher_stage": [
@@ -3021,15 +3021,15 @@
               "status": "destroyed",
               "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/128_image_20230824083027.jpeg",
               "successful_landings": 0,
-              "attempted_landings": 0,
+              "attempted_landings": 1,
               "flights": 1,
               "last_launch_date": "2023-11-18T13:02:53Z",
               "first_launch_date": "2023-11-18T13:02:53Z"
             },
             "landing": {
               "id": 1169,
-              "attempt": false,
-              "success": null,
+              "attempt": true,
+              "success": false,
               "description": "Booster 9 was expected to splash down in the Gulf of Mexico following the second integrated test flight of Starship, but was lost after stage separation.",
               "downrange_distance": 32,
               "location": {
