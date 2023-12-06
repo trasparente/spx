@@ -1,6 +1,6 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-06T06%3A13%3A08Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-06T12%3A18%3A40Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -18,6 +18,14 @@
       },
       "last_updated": "2023-12-03T18:37:29Z",
       "updates": [
+        {
+          "id": 5880,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Launch window is accurate to the second",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Nosu",
+          "created_on": "2023-12-06T07:30:45Z"
+        },
         {
           "id": 5877,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -61,10 +69,10 @@
       ],
       "net": "2023-12-07T04:01:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2023-12-07T07:59:00Z",
       "window_start": "2023-12-07T04:01:00Z",
@@ -1616,7 +1624,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage will land on an ASDS after this flight.",
-              "downrange_distance": null,
+              "downrange_distance": 630,
               "location": {
                 "id": 12,
                 "name": "Unknown",
