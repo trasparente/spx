@@ -1,6 +1,6 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-06T18%3A12%3A39Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-07T00%3A47%3A04Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -18,6 +18,14 @@
       },
       "last_updated": "2023-12-03T18:37:29Z",
       "updates": [
+        {
+          "id": 5893,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-6-33",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-07T00:35:14Z"
+        },
         {
           "id": 5880,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -67,7 +75,7 @@
           "created_on": "2023-09-22T12:39:11Z"
         }
       ],
-      "net": "2023-12-07T04:01:00Z",
+      "net": "2023-12-07T04:41:30Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -1024,61 +1032,48 @@
         },
         "launcher_stage": [
           {
-            "id": 236,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 5,
+            "id": 235,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
-              "flight_proven": true,
-              "serial_number": "B1064",
+              "id": 127,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
+              "details": "Falcon Heavy core booster planned to be expended during the USSF-52 mission.",
+              "flight_proven": false,
+              "serial_number": "B1084",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
-              "successful_landings": 4,
-              "attempted_landings": 4,
-              "flights": 4,
-              "last_launch_date": "2023-10-13T14:19:43Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231201161732.png",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
             },
             "landing": {
-              "id": 264,
-              "attempt": true,
+              "id": 263,
+              "attempt": false,
               "success": null,
-              "description": "B1064 will attempt to landed back at the launch site after its fifth flight.",
-              "downrange_distance": 14.9,
+              "description": "The Falcon Heavy core stage will be expended.",
+              "downrange_distance": null,
               "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": null,
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 923,
-                  "total_landing_count": 40
-                },
-                "successful_landings": 31
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
-            "previous_flight_date": "2023-10-13T14:19:43Z",
-            "turn_around_time_days": 58,
-            "previous_flight": {
-              "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
-              "name": "Falcon Heavy | Psyche"
-            }
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           },
           {
             "id": 237,
@@ -1138,48 +1133,61 @@
             }
           },
           {
-            "id": 235,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "id": 236,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 5,
             "launcher": {
-              "id": 127,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
-              "details": "Falcon Heavy core booster planned to be expended during the USSF-52 mission.",
-              "flight_proven": false,
-              "serial_number": "B1084",
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
+              "flight_proven": true,
+              "serial_number": "B1064",
               "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231201161732.png",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2023-10-13T14:19:43Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "landing": {
-              "id": 263,
-              "attempt": false,
+              "id": 264,
+              "attempt": true,
               "success": null,
-              "description": "The Falcon Heavy core stage will be expended.",
-              "downrange_distance": null,
+              "description": "B1064 will attempt to landed back at the launch site after its fifth flight.",
+              "downrange_distance": 14.9,
               "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 923,
+                  "total_landing_count": 40
+                },
+                "successful_landings": 31
               },
               "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
+            "previous_flight_date": "2023-10-13T14:19:43Z",
+            "turn_around_time_days": 58,
+            "previous_flight": {
+              "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
+              "name": "Falcon Heavy | Psyche"
+            }
           }
         ],
         "spacecraft_stage": {
