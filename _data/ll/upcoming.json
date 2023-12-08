@@ -1,6 +1,6 @@
 {
   "count": 140,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-08T00%3A47%3A25Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-08T06%3A13%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -253,8 +253,8 @@
           {
             "id": 437,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 13,
             "launcher": {
               "id": 107,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/?format=json",
@@ -290,9 +290,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-11-11T18:49:00Z",
+            "turn_around_time_days": 26,
+            "previous_flight": {
+              "id": "a4a7fa7f-f3d9-467e-ac58-6e577155a969",
+              "name": "Falcon 9 Block 5 | Transporter 9 (Dedicated SSO Rideshare)"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -300,7 +303,7 @@
       "mission": {
         "id": 6498,
         "name": "Starlink Group 7-8",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 22 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -422,7 +425,7 @@
       "location_launch_attempt_count_year": 28,
       "pad_launch_attempt_count_year": 27,
       "agency_launch_attempt_count_year": 93,
-      "pad_turnaround": "P6DT13H41M50S",
+      "pad_turnaround": "P6DT13H44M",
       "mission_patches": [
         {
           "id": 7,
@@ -1271,15 +1274,15 @@
               "id": 1261,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on an ASDS after this flight.",
+              "description": "The Falcon 9 first stage will land on an ASDS ASOG after this flight.",
               "downrange_distance": 630,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 53
               },
               "type": {
                 "id": 1,
@@ -1381,7 +1384,7 @@
       "location_launch_attempt_count_year": 57,
       "pad_launch_attempt_count_year": 53,
       "agency_launch_attempt_count_year": 95,
-      "pad_turnaround": "P3DT23H18M30S",
+      "pad_turnaround": "P3DT22H52M30S",
       "mission_patches": [
         {
           "id": 7,
@@ -2116,7 +2119,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 112,
-      "pad_turnaround": "P22DT16H",
+      "pad_turnaround": "P22DT15H57M",
       "mission_patches": [
         {
           "id": 7,
@@ -2473,7 +2476,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 112,
-      "pad_turnaround": "P22DT16H",
+      "pad_turnaround": "P22DT15H57M",
       "mission_patches": [
         {
           "id": 7,
@@ -3552,7 +3555,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 112,
-      "pad_turnaround": "P22DT16H",
+      "pad_turnaround": "P22DT15H57M",
       "mission_patches": [
         {
           "id": 7,
@@ -3909,7 +3912,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 112,
-      "pad_turnaround": "P22DT16H",
+      "pad_turnaround": "P22DT15H57M",
       "mission_patches": [
         {
           "id": 7,
