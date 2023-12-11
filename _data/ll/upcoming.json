@@ -1,6 +1,6 @@
 {
   "count": 139,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-11T06%3A13%3A46Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-11T12%3A19%3A16Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -688,6 +688,14 @@
       "last_updated": "2023-09-22T12:40:06Z",
       "updates": [
         {
+          "id": 5928,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-11T06:20:17Z"
+        },
+        {
           "id": 5926,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
           "comment": "24 hours slip.",
@@ -728,15 +736,15 @@
           "created_on": "2023-09-22T12:40:06Z"
         }
       ],
-      "net": "2023-12-12T04:00:00Z",
+      "net": "2023-12-12T04:05:20Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2023-12-12T08:31:00Z",
-      "window_start": "2023-12-12T04:00:00Z",
+      "window_end": "2023-12-12T08:00:00Z",
+      "window_start": "2023-12-12T04:05:20Z",
       "probability": 85,
       "weather_concerns": "Liftoff Winds",
       "holdreason": "",
@@ -1065,7 +1073,7 @@
       "location_launch_attempt_count_year": 57,
       "pad_launch_attempt_count_year": 53,
       "agency_launch_attempt_count_year": 95,
-      "pad_turnaround": "P4DT22H52M30S",
+      "pad_turnaround": "P4DT22H57M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -1329,7 +1337,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage will land on ASDS OCISLY after this flight.",
-              "downrange_distance": null,
+              "downrange_distance": 642,
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
@@ -1471,6 +1479,14 @@
       "last_updated": "2023-11-26T00:15:25Z",
       "updates": [
         {
+          "id": 5931,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch window.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=46592.msg2548465#msg2548465",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-11T11:18:48Z"
+        },
+        {
           "id": 5916,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
           "comment": "Adding approximate launch time.",
@@ -1511,15 +1527,15 @@
           "created_on": "2023-02-04T05:14:47Z"
         }
       ],
-      "net": "2023-12-15T20:45:00Z",
+      "net": "2023-12-15T20:46:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2023-12-15T20:45:00Z",
-      "window_start": "2023-12-15T20:45:00Z",
+      "window_end": "2023-12-15T23:46:00Z",
+      "window_start": "2023-12-15T20:46:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1829,15 +1845,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6564,
+      "orbital_launch_attempt_count": 6566,
       "location_launch_attempt_count": 926,
       "pad_launch_attempt_count": 217,
       "agency_launch_attempt_count": 310,
-      "orbital_launch_attempt_count_year": 207,
+      "orbital_launch_attempt_count_year": 209,
       "location_launch_attempt_count_year": 58,
       "pad_launch_attempt_count_year": 54,
       "agency_launch_attempt_count_year": 97,
-      "pad_turnaround": "P4DT16H45M",
+      "pad_turnaround": "P3DT16H40M40S",
       "mission_patches": [],
       "type": "detailed"
     },
