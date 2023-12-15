@@ -1,6 +1,6 @@
 {
   "count": 139,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-15T00%3A47%3A49Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-15T06%3A13%3A13Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,32 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-12-14T23:40:02Z",
+      "last_updated": "2023-12-15T06:11:36Z",
       "updates": [
+        {
+          "id": 5994,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Scrubbed for the day.",
+          "info_url": "https://twitter.com/SpaceX/status/1735542795149115652",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-15T06:11:36Z"
+        },
+        {
+          "id": 5993,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-7-9",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-15T04:46:14Z"
+        },
+        {
+          "id": 5988,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-7-9",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-15T03:29:23Z"
+        },
         {
           "id": 5977,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
@@ -67,15 +91,15 @@
           "created_on": "2023-09-20T07:15:50Z"
         }
       ],
-      "net": "2023-12-15T05:04:00Z",
+      "net": "2023-12-16T05:19:00Z",
       "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2023-12-15T08:37:00Z",
-      "window_start": "2023-12-15T05:04:00Z",
+      "window_end": "2023-12-16T08:37:00Z",
+      "window_start": "2023-12-16T05:19:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -253,19 +277,19 @@
           {
             "id": 447,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
+              "id": 125,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/125/?format=json",
+              "details": "Falcon 9 Block 5 booster.",
               "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
+              "serial_number": "B1082",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/125_image_20231215042532.jpg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
               "last_launch_date": null,
               "first_launch_date": null
             },
@@ -273,7 +297,7 @@
               "id": 1244,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on ASDS OCISLY after this flight.",
+              "description": "The Falcon 9 first stage B1082 will land on ASDS OCISLY after its first flight.",
               "downrange_distance": 642,
               "location": {
                 "id": 1,
@@ -291,7 +315,7 @@
               }
             },
             "previous_flight_date": null,
-            "turn_around_time_days": null,
+            "turn_around_time_days": 0,
             "previous_flight": null
           }
         ],
@@ -422,7 +446,7 @@
       "location_launch_attempt_count_year": 29,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 94,
-      "pad_turnaround": "P6DT21H20S",
+      "pad_turnaround": "P7DT26M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -1818,50 +1842,6 @@
             }
           },
           {
-            "id": 235,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 127,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
-              "details": "Falcon Heavy core booster planned to be expended during the USSF-52 mission.",
-              "flight_proven": false,
-              "serial_number": "B1084",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231201161732.png",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 263,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy core stage will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 236,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1917,6 +1897,50 @@
               "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
               "name": "Falcon Heavy | Psyche"
             }
+          },
+          {
+            "id": 235,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 127,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
+              "details": "Falcon Heavy core booster planned to be expended during the USSF-52 mission.",
+              "flight_proven": false,
+              "serial_number": "B1084",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231201161732.png",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 263,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy core stage will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": {
@@ -2541,7 +2565,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 111,
-      "pad_turnaround": "P15DT18H45M30S",
+      "pad_turnaround": "P15DT18H56M",
       "mission_patches": [
         {
           "id": 7,
@@ -3620,7 +3644,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 111,
-      "pad_turnaround": "P15DT18H45M30S",
+      "pad_turnaround": "P15DT18H56M",
       "mission_patches": [
         {
           "id": 7,
@@ -3977,7 +4001,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 36,
       "agency_launch_attempt_count_year": 111,
-      "pad_turnaround": "P15DT18H45M30S",
+      "pad_turnaround": "P15DT18H56M",
       "mission_patches": [
         {
           "id": 7,
