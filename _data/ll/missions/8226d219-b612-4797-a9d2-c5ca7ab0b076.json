@@ -11,7 +11,7 @@
     "abbrev": "Success",
     "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
   },
-  "last_updated": "2022-12-18T00:44:02Z",
+  "last_updated": "2023-06-14T09:58:34Z",
   "updates": [
     {
       "id": 3039,
@@ -47,7 +47,7 @@
     },
     {
       "id": 3018,
-      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
       "comment": "Weather 100%",
       "info_url": "https://twitter.com/jeff_foust/status/1603129414212280320",
       "created_by": "Nosu",
@@ -71,7 +71,7 @@
     },
     {
       "id": 2588,
-      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
       "comment": "Adding approximate launch time",
       "info_url": "https://swot.jpl.nasa.gov/",
       "created_by": "Nosu",
@@ -87,7 +87,7 @@
     },
     {
       "id": 1466,
-      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
       "comment": "NET November 15",
       "info_url": "https://spaceflightnow.com/launch-schedule/",
       "created_by": "Nosu",
@@ -95,9 +95,11 @@
     }
   ],
   "net": "2022-12-16T11:46:47Z",
+  "net_precision": null,
   "window_end": "2022-12-16T11:56:47Z",
   "window_start": "2022-12-16T11:46:47Z",
   "probability": 100,
+  "weather_concerns": null,
   "holdreason": "",
   "failreason": "",
   "hashtag": null,
@@ -115,20 +117,20 @@
     "launchers": "Falcon | Starship",
     "spacecraft": "Dragon",
     "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
-    "total_launch_count": 211,
-    "consecutive_successful_launches": 82,
-    "successful_launches": 202,
-    "failed_launches": 9,
-    "pending_launches": 78,
-    "consecutive_successful_landings": 81,
-    "successful_landings": 166,
-    "failed_landings": 17,
-    "attempted_landings": 183,
+    "total_launch_count": 306,
+    "consecutive_successful_launches": 7,
+    "successful_launches": 295,
+    "failed_launches": 11,
+    "pending_launches": 135,
+    "consecutive_successful_landings": 7,
+    "successful_landings": 258,
+    "failed_landings": 23,
+    "attempted_landings": 280,
     "info_url": "http://www.spacex.com/",
     "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
     "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
     "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
-    "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
   },
   "rocket": {
     "id": 177,
@@ -155,20 +157,20 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
-        "total_launch_count": 211,
-        "consecutive_successful_launches": 82,
-        "successful_launches": 202,
-        "failed_launches": 9,
-        "pending_launches": 78,
-        "consecutive_successful_landings": 81,
-        "successful_landings": 166,
-        "failed_landings": 17,
-        "attempted_landings": 183,
+        "total_launch_count": 306,
+        "consecutive_successful_launches": 7,
+        "successful_launches": 295,
+        "failed_launches": 11,
+        "pending_launches": 135,
+        "consecutive_successful_landings": 7,
+        "successful_landings": 258,
+        "failed_landings": 23,
+        "attempted_landings": 280,
         "info_url": "http://www.spacex.com/",
         "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
         "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
       },
       "program": [
         {
@@ -256,14 +258,18 @@
       "to_thrust": 7607,
       "apogee": 200,
       "vehicle_range": null,
-      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
-      "info_url": "http://www.spacex.com/falcon9",
+      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
+      "info_url": "https://www.spacex.com/vehicles/falcon-9/",
       "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-      "total_launch_count": 136,
-      "consecutive_successful_launches": 136,
-      "successful_launches": 136,
+      "total_launch_count": 225,
+      "consecutive_successful_launches": 225,
+      "successful_launches": 225,
       "failed_launches": 0,
-      "pending_launches": 66
+      "pending_launches": 124,
+      "attempted_landings": 220,
+      "successful_landings": 216,
+      "failed_landings": 4,
+      "consecutive_successful_landings": 171
     },
     "launcher_stage": [
       {
@@ -274,15 +280,15 @@
         "launcher": {
           "id": 107,
           "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/?format=json",
-          "details": "Falcon 9 first stage first used for the NROL-87 mission.",
+          "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
           "flight_proven": true,
           "serial_number": "B1071",
           "status": "active",
           "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/107_image_20220205103652.jpg",
-          "successful_landings": 6,
-          "attempted_landings": 6,
-          "flights": 6,
-          "last_launch_date": "2022-12-16T11:46:47Z",
+          "successful_landings": 13,
+          "attempted_landings": 13,
+          "flights": 13,
+          "last_launch_date": "2023-12-08T08:03:40Z",
           "first_launch_date": "2022-02-02T20:27:26Z"
         },
         "landing": {
@@ -290,6 +296,7 @@
           "attempt": true,
           "success": true,
           "description": "The Falcon 9 booster has successfully landed back at the launch site after this flight.",
+          "downrange_distance": 0.4,
           "location": {
             "id": 7,
             "name": "Landing Zone 4",
@@ -300,11 +307,13 @@
               "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
               "name": "Vandenberg SFB, CA, USA",
               "country_code": "USA",
+              "description": null,
               "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
-              "total_launch_count": 708,
-              "total_landing_count": 7
+              "timezone_name": "America/Los_Angeles",
+              "total_launch_count": 737,
+              "total_landing_count": 14
             },
-            "successful_landings": 7
+            "successful_landings": 14
           },
           "type": {
             "id": 2,
@@ -333,16 +342,20 @@
       "id": 8,
       "name": "Low Earth Orbit",
       "abbrev": "LEO"
-    }
+    },
+    "agencies": [],
+    "info_urls": [],
+    "vid_urls": []
   },
   "pad": {
     "id": 16,
     "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
     "agency_id": null,
     "name": "Space Launch Complex 4E",
+    "description": null,
     "info_url": null,
     "wiki_url": "",
-    "map_url": "http://maps.google.com/maps?q=34.632+N,+120.611+W",
+    "map_url": "https://www.google.com/maps?q=34.632,-120.611",
     "latitude": "34.632",
     "longitude": "-120.611",
     "location": {
@@ -350,37 +363,49 @@
       "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
       "name": "Vandenberg SFB, CA, USA",
       "country_code": "USA",
+      "description": null,
       "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
-      "total_launch_count": 708,
-      "total_landing_count": 7
+      "timezone_name": "America/Los_Angeles",
+      "total_launch_count": 737,
+      "total_landing_count": 14
     },
+    "country_code": "USA",
     "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_16_20200803143532.jpg",
-    "total_launch_count": 99,
-    "orbital_launch_attempt_count": 99
+    "total_launch_count": 127,
+    "orbital_launch_attempt_count": 127
   },
   "infoURLs": [
     {
       "priority": 10,
+      "source": null,
       "title": "SpaceX",
       "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
       "feature_image": null,
-      "url": "https://www.spacex.com/launches/mission/?missionId=SWOT"
+      "url": "https://www.spacex.com/launches/mission/?missionId=SWOT",
+      "type": null,
+      "language": null
     }
   ],
   "vidURLs": [
     {
       "priority": 10,
+      "source": null,
+      "publisher": null,
       "title": "Launch of the International SWOT (Surface Water and Ocean Topography) Mission (NASA Broadcast)",
       "description": "Watch with NASA as we launch an international mission to understand the Earth's water like never before.SWOT, the Surface Water and Ocean Topography mission,...",
       "feature_image": "https://i.ytimg.com/vi/maI09QHicTg/maxresdefault_live.jpg",
-      "url": "https://www.youtube.com/watch?v=maI09QHicTg"
+      "url": "https://www.youtube.com/watch?v=maI09QHicTg",
+      "type": null,
+      "language": null,
+      "start_time": null,
+      "end_time": null
     }
   ],
   "webcast_live": false,
   "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20221215075439.jpeg",
   "infographic": null,
   "program": [],
-  "orbital_launch_attempt_count": 6349,
+  "orbital_launch_attempt_count": 6350,
   "location_launch_attempt_count": 708,
   "pad_launch_attempt_count": 99,
   "agency_launch_attempt_count": 209,
@@ -388,6 +413,7 @@
   "location_launch_attempt_count_year": 15,
   "pad_launch_attempt_count_year": 12,
   "agency_launch_attempt_count_year": 57,
+  "pad_turnaround": "P49DT10H32M37S",
   "mission_patches": [
     {
       "id": 746,
@@ -413,5 +439,6 @@
         "type": "Commercial"
       }
     }
-  ]
+  ],
+  "type": "detailed"
 }
