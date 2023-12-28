@@ -1,6 +1,6 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-28T12%3A17%3A27Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-28T18%3A12%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-12-27T23:53:55Z",
+      "last_updated": "2023-12-28T13:44:41Z",
       "updates": [
         {
           "id": 6122,
@@ -722,21 +722,21 @@
           "priority": 9,
           "source": "youtube.com",
           "publisher": "NASASpaceflight",
-          "title": "SCRUB: SpaceX Doubleheader: Falcon Heavy - USSF-52 and Falcon 9 - Starlink 6-34",
+          "title": "SpaceX Launches Falcon Heavy for the USSF-52 / X-37B Spaceplane",
           "description": "SpaceX's fifth Falcon Heavy of the year is set to liftoff from Launch Complex 39A at NASA's Kennedy Space Center carrying the US Space Force X-37B spaceplane...",
-          "feature_image": "https://i.ytimg.com/vi/yRUQxHht0BA/maxresdefault.jpg",
-          "url": "https://www.youtube.com/watch?v=yRUQxHht0BA",
+          "feature_image": "https://i.ytimg.com/vi/jqeM-CWz2Eo/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=jqeM-CWz2Eo",
           "type": {
-            "id": 1,
-            "name": "Official Webcast"
+            "id": 3,
+            "name": "Unofficial Webcast"
           },
           "language": {
             "id": 1,
             "name": "English",
             "code": "en"
           },
-          "start_time": "2023-12-11T23:43:22Z",
-          "end_time": "2023-12-12T01:12:14Z"
+          "start_time": "2023-12-28T23:40:00Z",
+          "end_time": null
         },
         {
           "priority": 10,
@@ -792,7 +792,7 @@
       "id": "d92ecdac-af22-411c-8fc8-1d4b2578cfff",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/d92ecdac-af22-411c-8fc8-1d4b2578cfff/?format=json",
       "slug": "falcon-9-block-5-starlink-group-6-36",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=d92ecdac-af22-411c-8fc8-1d4b2578cfff",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 6-36",
       "status": {
@@ -801,7 +801,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-12-28T00:00:47Z",
+      "last_updated": "2023-12-28T17:55:11Z",
       "updates": [
         {
           "id": 6125,
@@ -1159,6 +1159,46 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX Falcon 9 booster launches from Cape Canaveral with Starlink satellites",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with 23 second-generation Starlink internet satellites. Liftoff from pad 40 at Cape Canaveral Space ...",
+          "feature_image": "https://i.ytimg.com/vi/0-FFOLKTlMQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=0-FFOLKTlMQ",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2023-12-29T03:00:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 Launches Starlink 6-36",
+          "description": "SpaceX is aiming to launch another batch of Starlink v2 Mini satellites from the Space Launch Complex 40 launchpad. Window Opens: December 28th at 11PM EST (...",
+          "feature_image": "https://i.ytimg.com/vi/PZrA92oGbTU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=PZrA92oGbTU",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2023-12-29T03:20:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "twitter.com",
           "publisher": "",
@@ -1182,7 +1222,41 @@
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20231108221042.png",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/?format=json",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ]
+        }
+      ],
       "orbital_launch_attempt_count": 6588,
       "location_launch_attempt_count": 933,
       "pad_launch_attempt_count": 222,
@@ -1221,7 +1295,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-12-28T00:01:38Z",
+      "last_updated": "2023-12-28T16:08:31Z",
       "updates": [
         {
           "id": 6082,
@@ -1666,7 +1740,41 @@
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230920071550.png",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/?format=json",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ]
+        }
+      ],
       "orbital_launch_attempt_count": 6573,
       "location_launch_attempt_count": 740,
       "pad_launch_attempt_count": 129,
