@@ -1,6 +1,6 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-28T18%3A12%3A11Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-29T00%3A37%3A02Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-12-28T13:44:41Z",
+      "last_updated": "2023-12-29T00:14:03Z",
       "updates": [
+        {
+          "id": 6138,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Weather now 90% GO.",
+          "info_url": "https://twitter.com/SpaceX/status/1740525937043898689",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-29T00:14:04Z"
+        },
+        {
+          "id": 6137,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Livestream has started",
+          "info_url": "https://www.youtube.com/watch?v=wnfddhDuWDE",
+          "created_by": "LL2",
+          "created_on": "2023-12-28T23:32:12Z"
+        },
         {
           "id": 6122,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -244,7 +260,7 @@
       },
       "window_end": "2023-12-29T01:17:00Z",
       "window_start": "2023-12-29T01:07:00Z",
-      "probability": 80,
+      "probability": 90,
       "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
@@ -715,7 +731,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2023-12-28T23:30:00Z",
+          "start_time": "2023-12-28T23:31:10Z",
           "end_time": null
         },
         {
@@ -759,7 +775,7 @@
           "end_time": null
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520heav_image_20231210135716.jpeg",
       "infographic": null,
       "program": [],
@@ -801,8 +817,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-12-28T17:55:11Z",
+      "last_updated": "2023-12-28T22:50:36Z",
       "updates": [
+        {
+          "id": 6136,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding seconds to launch window",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Nosu",
+          "created_on": "2023-12-28T22:50:43Z"
+        },
         {
           "id": 6125,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -836,15 +860,15 @@
           "created_on": "2023-11-08T22:10:42Z"
         }
       ],
-      "net": "2023-12-29T04:01:00Z",
+      "net": "2023-12-29T04:01:40Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2023-12-29T07:59:00Z",
-      "window_start": "2023-12-29T04:01:00Z",
+      "window_end": "2023-12-29T07:59:50Z",
+      "window_start": "2023-12-29T04:01:40Z",
       "probability": 90,
       "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
@@ -3733,7 +3757,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-12-18T23:44:58Z",
+      "last_updated": "2023-12-28T18:59:01Z",
       "updates": [
         {
           "id": 5420,
@@ -4051,7 +4075,41 @@
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20231014184904.png",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/?format=json",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ]
+        }
+      ],
       "orbital_launch_attempt_count": 6588,
       "location_launch_attempt_count": 742,
       "pad_launch_attempt_count": 131,
@@ -4090,7 +4148,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-12-22T23:19:13Z",
+      "last_updated": "2023-12-28T18:58:18Z",
       "updates": [
         {
           "id": 5223,
@@ -4408,7 +4466,41 @@
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230922124100.png",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/?format=json",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ]
+        }
+      ],
       "orbital_launch_attempt_count": 6576,
       "location_launch_attempt_count": 928,
       "pad_launch_attempt_count": 219,
@@ -4447,7 +4539,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-12-15T07:32:52Z",
+      "last_updated": "2023-12-28T18:58:49Z",
       "updates": [
         {
           "id": 5706,
@@ -4773,7 +4865,41 @@
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230622063617.png",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/?format=json",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ]
+        }
+      ],
       "orbital_launch_attempt_count": 6588,
       "location_launch_attempt_count": 933,
       "pad_launch_attempt_count": 222,
@@ -4812,7 +4938,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-12-18T23:45:20Z",
+      "last_updated": "2023-12-28T18:59:25Z",
       "updates": [
         {
           "id": 5089,
@@ -5130,7 +5256,41 @@
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230907071515.png",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/?format=json",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ]
+        }
+      ],
       "orbital_launch_attempt_count": 6588,
       "location_launch_attempt_count": 742,
       "pad_launch_attempt_count": 131,
