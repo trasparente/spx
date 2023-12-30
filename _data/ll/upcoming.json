@@ -1,6 +1,6 @@
 {
   "count": 139,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-30T12%3A16%3A19Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-30T18%3A11%3A44Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1401,8 +1401,8 @@
                 "nationality": "Italian",
                 "twitter": null,
                 "instagram": null,
-                "bio": "Italian Air Force mission commander on the Virgin Galactic 01 flight. Backup pilot for the Axiom Space Mission 2, qualified on Soyuz, ISS systems, and Orlan for EVA activities.",
-                "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/walter_villadei_image_20230626124317.png",
+                "bio": "Italian Air Force mission commander on the Virgin Galactic 01 flight. Backup pilot for the Axiom Space Mission 2, Pilon for the Axiom Space Mission 3, qualified on Soyuz, ISS systems, and Orlan for EVA activities.",
+                "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/walter_villadei_image_20231230180121.jpeg",
                 "wiki": "https://en.wikipedia.org/wiki/Walter_Villadei",
                 "last_flight": "2023-06-29T15:28:38Z",
                 "first_flight": "2023-06-29T15:28:38Z"
@@ -1426,8 +1426,8 @@
                 "in_space": false,
                 "time_in_space": "P0D",
                 "status": {
-                  "id": 3,
-                  "name": "In-Training"
+                  "id": 1,
+                  "name": "Active"
                 },
                 "agency": {
                   "id": 1053,
@@ -1441,8 +1441,8 @@
                 "twitter": null,
                 "instagram": null,
                 "bio": "Fighter pilot trained on F16, first Turkish astronaut.",
-                "profile_image": null,
-                "wiki": null,
+                "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/alper_gezeravci_image_20231230181038.jpeg",
+                "wiki": "https://en.wikipedia.org/wiki/Alper_Gezeravc%C4%B1",
                 "last_flight": null,
                 "first_flight": null
               }
@@ -1560,8 +1560,8 @@
                 "nationality": "Italian",
                 "twitter": null,
                 "instagram": null,
-                "bio": "Italian Air Force mission commander on the Virgin Galactic 01 flight. Backup pilot for the Axiom Space Mission 2, qualified on Soyuz, ISS systems, and Orlan for EVA activities.",
-                "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/walter_villadei_image_20230626124317.png",
+                "bio": "Italian Air Force mission commander on the Virgin Galactic 01 flight. Backup pilot for the Axiom Space Mission 2, Pilon for the Axiom Space Mission 3, qualified on Soyuz, ISS systems, and Orlan for EVA activities.",
+                "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/walter_villadei_image_20231230180121.jpeg",
                 "wiki": "https://en.wikipedia.org/wiki/Walter_Villadei",
                 "last_flight": "2023-06-29T15:28:38Z",
                 "first_flight": "2023-06-29T15:28:38Z"
@@ -1585,8 +1585,8 @@
                 "in_space": false,
                 "time_in_space": "P0D",
                 "status": {
-                  "id": 3,
-                  "name": "In-Training"
+                  "id": 1,
+                  "name": "Active"
                 },
                 "agency": {
                   "id": 1053,
@@ -1600,8 +1600,8 @@
                 "twitter": null,
                 "instagram": null,
                 "bio": "Fighter pilot trained on F16, first Turkish astronaut.",
-                "profile_image": null,
-                "wiki": null,
+                "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/alper_gezeravci_image_20231230181038.jpeg",
+                "wiki": "https://en.wikipedia.org/wiki/Alper_Gezeravc%C4%B1",
                 "last_flight": null,
                 "first_flight": null
               }
@@ -2215,7 +2215,14 @@
             "success": null,
             "description": "The Cygnus spacecraft will burn up upon entering Earth's atmosphere.",
             "downrange_distance": null,
-            "location": null,
+            "location": {
+              "id": 12,
+              "name": "Unknown",
+              "abbrev": "N/A",
+              "description": null,
+              "location": null,
+              "successful_landings": 0
+            },
             "type": {
               "id": 7,
               "name": "Destructive Reentry",
