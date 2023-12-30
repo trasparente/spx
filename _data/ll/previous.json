@@ -1,6 +1,6 @@
 {
   "count": 311,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-12-29T18%3A11%3A43Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2023-12-30T00%3A44%3A15Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -269,8 +269,8 @@
           {
             "id": 479,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 12,
             "launcher": {
               "id": 105,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/?format=json",
@@ -306,9 +306,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-11-18T05:05:50Z",
+            "turn_around_time_days": 40,
+            "previous_flight": {
+              "id": "dc5c0513-9c1e-416d-8675-6e83187a4c07",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-28"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -524,15 +527,15 @@
           ]
         }
       ],
-      "orbital_launch_attempt_count": 6588,
-      "location_launch_attempt_count": 933,
-      "pad_launch_attempt_count": 222,
-      "agency_launch_attempt_count": 320,
-      "orbital_launch_attempt_count_year": 12,
-      "location_launch_attempt_count_year": 5,
-      "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 7,
-      "pad_turnaround": "P2D",
+      "orbital_launch_attempt_count": 6576,
+      "location_launch_attempt_count": 927,
+      "pad_launch_attempt_count": 218,
+      "agency_launch_attempt_count": 311,
+      "orbital_launch_attempt_count_year": 219,
+      "location_launch_attempt_count_year": 59,
+      "pad_launch_attempt_count_year": 55,
+      "agency_launch_attempt_count_year": 98,
+      "pad_turnaround": "P5DT22H28M40S",
       "mission_patches": [
         {
           "id": 7,
@@ -922,7 +925,7 @@
           "attempted_landings": 19,
           "successful_landings": 17,
           "failed_landings": 2,
-          "consecutive_successful_landings": 11
+          "consecutive_successful_landings": 12
         },
         "launcher_stage": [
           {
@@ -1047,11 +1050,11 @@
             "launcher": {
               "id": 127,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
-              "details": "Falcon Heavy core booster planned to be expended during the USSF-52 mission.",
+              "details": "Falcon Heavy core booster expended during the USSF-52 mission.",
               "flight_proven": false,
               "serial_number": "B1084",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231201161732.png",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231229222119.jpeg",
               "successful_landings": 0,
               "attempted_landings": 0,
               "flights": 1,
@@ -1098,10 +1101,10 @@
             "name": "X-37B 2",
             "serial_number": "2",
             "is_placeholder": false,
-            "in_space": false,
-            "time_in_space": "P1966DT4H35M",
+            "in_space": true,
+            "time_in_space": "P1967DT3H46M29S",
             "time_docked": "P0D",
-            "flights_count": 3,
+            "flights_count": 4,
             "mission_ends_count": 3,
             "status": {
               "id": 1,
@@ -1362,15 +1365,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520heav_image_20231229055756.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6572,
+      "orbital_launch_attempt_count": 6575,
       "location_launch_attempt_count": 226,
       "pad_launch_attempt_count": 168,
       "agency_launch_attempt_count": 310,
-      "orbital_launch_attempt_count_year": 215,
+      "orbital_launch_attempt_count_year": 218,
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 13,
       "agency_launch_attempt_count_year": 97,
-      "pad_turnaround": "P48DT22H31M46S",
+      "pad_turnaround": "P48DT23H38M46S",
       "mission_patches": [
         {
           "id": 953,
@@ -1701,8 +1704,8 @@
           {
             "id": 296,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 8,
             "launcher": {
               "id": 114,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
@@ -1748,9 +1751,12 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-10-29T09:00:00Z",
+            "turn_around_time_days": 56,
+            "previous_flight": {
+              "id": "9bfd7559-da1a-4286-baf8-e2342d55ef52",
+              "name": "Falcon 9 Block 5 | Starlink Group 7-6"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -1912,15 +1918,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20231223073520.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6568,
+      "orbital_launch_attempt_count": 6569,
       "location_launch_attempt_count": 739,
       "pad_launch_attempt_count": 128,
-      "agency_launch_attempt_count": 308,
-      "orbital_launch_attempt_count_year": 211,
+      "agency_launch_attempt_count": 309,
+      "orbital_launch_attempt_count_year": 212,
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 28,
-      "agency_launch_attempt_count_year": 95,
-      "pad_turnaround": "P14DT4H52M20S",
+      "agency_launch_attempt_count_year": 96,
+      "pad_turnaround": "P16DT5H7M20S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -2198,8 +2204,8 @@
           {
             "id": 461,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 19,
             "launcher": {
               "id": 69,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/69/?format=json",
@@ -2235,9 +2241,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-11-04T00:37:20Z",
+            "turn_around_time_days": 49,
+            "previous_flight": {
+              "id": "48f71d70-4df8-4b8d-a3c5-8b5f08ab9858",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-26"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -2419,15 +2428,15 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20230922123757.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6569,
+      "orbital_launch_attempt_count": 6568,
       "location_launch_attempt_count": 926,
       "pad_launch_attempt_count": 217,
-      "agency_launch_attempt_count": 309,
-      "orbital_launch_attempt_count_year": 212,
+      "agency_launch_attempt_count": 308,
+      "orbital_launch_attempt_count_year": 211,
       "location_launch_attempt_count_year": 58,
       "pad_launch_attempt_count_year": 54,
-      "agency_launch_attempt_count_year": 96,
-      "pad_turnaround": "P3DT23H59M",
+      "agency_launch_attempt_count_year": 95,
+      "pad_turnaround": "P4DT1H32M",
       "mission_patches": [
         {
           "id": 7,
