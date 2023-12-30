@@ -11,7 +11,7 @@
     "abbrev": "Success",
     "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
   },
-  "last_updated": "2023-01-10T01:27:17Z",
+  "last_updated": "2023-07-19T08:24:10Z",
   "updates": [
     {
       "id": 3084,
@@ -63,7 +63,7 @@
     },
     {
       "id": 3023,
-      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+      "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
       "comment": "Setting TBC",
       "info_url": "https://spaceflightnow.com/launch-schedule/",
       "created_by": "Nosu",
@@ -79,9 +79,11 @@
     }
   ],
   "net": "2022-12-30T07:38:00Z",
+  "net_precision": null,
   "window_end": "2022-12-30T08:13:00Z",
   "window_start": "2022-12-30T07:17:00Z",
   "probability": 70,
+  "weather_concerns": null,
   "holdreason": "",
   "failreason": "",
   "hashtag": null,
@@ -99,20 +101,20 @@
     "launchers": "Falcon | Starship",
     "spacecraft": "Dragon",
     "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
-    "total_launch_count": 215,
-    "consecutive_successful_launches": 85,
-    "successful_launches": 205,
-    "failed_launches": 9,
-    "pending_launches": 89,
-    "consecutive_successful_landings": 85,
-    "successful_landings": 170,
-    "failed_landings": 17,
-    "attempted_landings": 187,
+    "total_launch_count": 311,
+    "consecutive_successful_launches": 12,
+    "successful_launches": 300,
+    "failed_launches": 11,
+    "pending_launches": 136,
+    "consecutive_successful_landings": 13,
+    "successful_landings": 264,
+    "failed_landings": 23,
+    "attempted_landings": 286,
     "info_url": "http://www.spacex.com/",
     "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
     "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
     "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
-    "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
   },
   "rocket": {
     "id": 7717,
@@ -139,54 +141,22 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
-        "total_launch_count": 215,
-        "consecutive_successful_launches": 85,
-        "successful_launches": 205,
-        "failed_launches": 9,
-        "pending_launches": 89,
-        "consecutive_successful_landings": 85,
-        "successful_landings": 170,
-        "failed_landings": 17,
-        "attempted_landings": 187,
+        "total_launch_count": 311,
+        "consecutive_successful_launches": 12,
+        "successful_launches": 300,
+        "failed_launches": 11,
+        "pending_launches": 136,
+        "consecutive_successful_landings": 13,
+        "successful_landings": 264,
+        "failed_landings": 23,
+        "attempted_landings": 286,
         "info_url": "http://www.spacex.com/",
         "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
         "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
       },
       "program": [
-        {
-          "id": 5,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
-          "name": "Commercial Crew Program",
-          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-          "agencies": [
-            {
-              "id": 80,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
-              "name": "Boeing",
-              "type": "Commercial"
-            },
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-              "name": "SpaceX",
-              "type": "Commercial"
-            }
-          ],
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20200820201209.png",
-          "start_date": "2011-04-18T00:00:00Z",
-          "end_date": null,
-          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-          "mission_patches": []
-        },
         {
           "id": 11,
           "url": "https://ll.thespacedevs.com/2.2.0/program/11/?format=json",
@@ -224,6 +194,38 @@
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
           "mission_patches": []
+        },
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
+          "name": "Commercial Crew Program",
+          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+          "agencies": [
+            {
+              "id": 80,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
+              "name": "Boeing",
+              "type": "Commercial"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20200820201209.png",
+          "start_date": "2011-04-18T00:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+          "mission_patches": []
         }
       ],
       "variant": "Block 5",
@@ -240,14 +242,18 @@
       "to_thrust": 7607,
       "apogee": 200,
       "vehicle_range": null,
-      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
-      "info_url": "http://www.spacex.com/falcon9",
+      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
+      "info_url": "https://www.spacex.com/vehicles/falcon-9/",
       "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-      "total_launch_count": 140,
-      "consecutive_successful_launches": 139,
-      "successful_launches": 139,
+      "total_launch_count": 229,
+      "consecutive_successful_launches": 229,
+      "successful_launches": 229,
       "failed_launches": 0,
-      "pending_launches": 78
+      "pending_launches": 126,
+      "attempted_landings": 224,
+      "successful_landings": 220,
+      "failed_landings": 4,
+      "consecutive_successful_landings": 175
     },
     "launcher_stage": [
       {
@@ -258,15 +264,15 @@
         "launcher": {
           "id": 71,
           "url": "https://ll.thespacedevs.com/2.2.0/launcher/71/?format=json",
-          "details": "Landed at OCISLY as of Aug 12, 2022.",
+          "details": "Booster which launched Crew-1, Crew-2 and IXPE.",
           "flight_proven": true,
           "serial_number": "B1061",
           "status": "active",
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/71_image_20201113081327.jpeg",
-          "successful_landings": 11,
-          "attempted_landings": 11,
-          "flights": 11,
-          "last_launch_date": "2022-12-30T07:38:00Z",
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/71_image_20231201153837.jpeg",
+          "successful_landings": 17,
+          "attempted_landings": 17,
+          "flights": 17,
+          "last_launch_date": "2023-12-01T18:19:00Z",
           "first_launch_date": "2020-11-16T00:27:17Z"
         },
         "landing": {
@@ -274,6 +280,7 @@
           "attempt": true,
           "success": true,
           "description": "B1061 has landed back at LZ-4 after its eleventh flight.",
+          "downrange_distance": 0.4,
           "location": {
             "id": 7,
             "name": "Landing Zone 4",
@@ -284,11 +291,13 @@
               "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
               "name": "Vandenberg SFB, CA, USA",
               "country_code": "USA",
+              "description": null,
               "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
-              "total_launch_count": 709,
-              "total_landing_count": 8
+              "timezone_name": "America/Los_Angeles",
+              "total_launch_count": 739,
+              "total_landing_count": 15
             },
-            "successful_landings": 8
+            "successful_landings": 15
           },
           "type": {
             "id": 2,
@@ -317,16 +326,20 @@
       "id": 8,
       "name": "Low Earth Orbit",
       "abbrev": "LEO"
-    }
+    },
+    "agencies": [],
+    "info_urls": [],
+    "vid_urls": []
   },
   "pad": {
     "id": 16,
     "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
     "agency_id": null,
     "name": "Space Launch Complex 4E",
+    "description": null,
     "info_url": null,
     "wiki_url": "",
-    "map_url": "http://maps.google.com/maps?q=34.632+N,+120.611+W",
+    "map_url": "https://www.google.com/maps?q=34.632,-120.611",
     "latitude": "34.632",
     "longitude": "-120.611",
     "location": {
@@ -334,29 +347,49 @@
       "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
       "name": "Vandenberg SFB, CA, USA",
       "country_code": "USA",
+      "description": null,
       "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
-      "total_launch_count": 709,
-      "total_landing_count": 8
+      "timezone_name": "America/Los_Angeles",
+      "total_launch_count": 739,
+      "total_landing_count": 15
     },
+    "country_code": "USA",
     "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_16_20200803143532.jpg",
-    "total_launch_count": 100,
-    "orbital_launch_attempt_count": 100
+    "total_launch_count": 128,
+    "orbital_launch_attempt_count": 128
   },
-  "infoURLs": [],
+  "infoURLs": [
+    {
+      "priority": 10,
+      "source": null,
+      "title": "SpaceX",
+      "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+      "feature_image": null,
+      "url": "https://www.spacex.com/launches/mission/?missionId=ISI-EROS-C-3-pl",
+      "type": null,
+      "language": null
+    }
+  ],
   "vidURLs": [
     {
       "priority": 10,
+      "source": null,
+      "publisher": null,
       "title": "ISI EROS C-3 Mission",
       "description": "SpaceX is targeting Thursday, December 29 for launch of the ISI EROS C-3 mission to a low-earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg...",
       "feature_image": "https://i.ytimg.com/vi/V0OQfukN-Ec/maxresdefault_live.jpg",
-      "url": "https://www.youtube.com/watch?v=V0OQfukN-Ec"
+      "url": "https://www.youtube.com/watch?v=V0OQfukN-Ec",
+      "type": null,
+      "language": null,
+      "start_time": null,
+      "end_time": null
     }
   ],
   "webcast_live": false,
   "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20221230072048.jpeg",
   "infographic": null,
   "program": [],
-  "orbital_launch_attempt_count": 6356,
+  "orbital_launch_attempt_count": 6357,
   "location_launch_attempt_count": 709,
   "pad_launch_attempt_count": 100,
   "agency_launch_attempt_count": 213,
@@ -364,6 +397,7 @@
   "location_launch_attempt_count_year": 16,
   "pad_launch_attempt_count_year": 13,
   "agency_launch_attempt_count_year": 61,
+  "pad_turnaround": "P13DT19H51M13S",
   "mission_patches": [
     {
       "id": 759,
@@ -377,5 +411,6 @@
         "type": "Commercial"
       }
     }
-  ]
+  ],
+  "type": "detailed"
 }
