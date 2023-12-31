@@ -1,6 +1,6 @@
 {
   "count": 139,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-31T06%3A11%3A45Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2023-12-31T12%3A16%3A53Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -992,7 +992,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-12-31T02:45:00Z",
+      "last_updated": "2023-12-31T10:05:20Z",
       "updates": [
         {
           "id": 6151,
@@ -1814,7 +1814,65 @@
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20210525171042.jpeg",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 32,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/32/?format=json",
+          "name": "Axiom Private Spaceflight",
+          "description": "Axiom Space provides human spaceflight missions to the International Space Station. \r\nThe company sent its first commercial astronauts into orbit in 2022. It also plans human spaceflight for government-funded and commercial astronauts engaging in in-space research, in-space manufacturing, and space exploration.",
+          "agencies": [
+            {
+              "id": 1022,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/1022/?format=json",
+              "name": "Axiom Space",
+              "type": "Private"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/axiom2520priva_program_20231231100427.jpeg",
+          "start_date": "2022-04-08T00:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.axiomspace.com/missions/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Axiom_Space#Missions",
+          "mission_patches": [
+            {
+              "id": 901,
+              "name": "Ax-3 Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-32520patch_mission_patch_20231019065301.png",
+              "agency": {
+                "id": 1022,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/1022/?format=json",
+                "name": "Axiom Space",
+                "type": "Private"
+              }
+            },
+            {
+              "id": 605,
+              "name": "Ax-1 Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-12520patch_mission_patch_20220401172359.png",
+              "agency": {
+                "id": 1022,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/1022/?format=json",
+                "name": "Axiom Space",
+                "type": "Private"
+              }
+            },
+            {
+              "id": 778,
+              "name": "Axiom Mission 2 Patch",
+              "priority": 10,
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/axiom2520missi_mission_patch_20230522161438.png",
+              "agency": {
+                "id": 1022,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/1022/?format=json",
+                "name": "Axiom Space",
+                "type": "Private"
+              }
+            }
+          ]
+        }
+      ],
       "orbital_launch_attempt_count": 6587,
       "location_launch_attempt_count": 227,
       "pad_launch_attempt_count": 169,
@@ -1848,13 +1906,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-20 (S.S. Patricia “Patty” Hilliard Robertson)",
       "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2023-10-25T18:30:00Z",
+      "last_updated": "2023-12-31T07:01:46Z",
       "updates": [
+        {
+          "id": 6152,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch time.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-31T07:01:48Z"
+        },
         {
           "id": 5892,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -1912,15 +1978,15 @@
           "created_on": "2023-02-17T13:31:51Z"
         }
       ],
-      "net": "2024-01-29T00:00:00Z",
+      "net": "2024-01-29T17:20:00Z",
       "net_precision": {
-        "id": 5,
-        "name": "Day",
-        "abbrev": "DAY",
-        "description": "The T-0 is expected on the given day."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2024-01-29T00:00:00Z",
-      "window_start": "2024-01-29T00:00:00Z",
+      "window_end": "2024-01-29T17:20:00Z",
+      "window_start": "2024-01-29T17:20:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -2457,7 +2523,7 @@
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 4,
-      "pad_turnaround": "P25DT56M",
+      "pad_turnaround": "P25DT18H16M",
       "mission_patches": [
         {
           "id": 952,
@@ -4437,8 +4503,16 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-12-28T18:50:26Z",
+      "last_updated": "2023-12-31T07:07:53Z",
       "updates": [
+        {
+          "id": 6153,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET February 10.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-31T07:07:54Z"
+        },
         {
           "id": 6048,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -4536,15 +4610,15 @@
           "created_on": "2022-03-25T22:10:08Z"
         }
       ],
-      "net": "2024-02-12T00:00:00Z",
+      "net": "2024-02-10T00:00:00Z",
       "net_precision": {
-        "id": 6,
-        "name": "Week",
-        "abbrev": "WK",
-        "description": "The T-0 is expected in the given week (starting on Monday according to ISO 8601)."
+        "id": 5,
+        "name": "Day",
+        "abbrev": "DAY",
+        "description": "The T-0 is expected on the given day."
       },
-      "window_end": "2024-02-12T00:00:00Z",
-      "window_start": "2024-02-12T00:00:00Z",
+      "window_end": "2024-02-10T00:00:00Z",
+      "window_start": "2024-02-10T00:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -4883,7 +4957,7 @@
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 10,
-      "pad_turnaround": "P25DT1H54M",
+      "pad_turnaround": "P23DT1H49M",
       "mission_patches": [],
       "type": "detailed"
     }
