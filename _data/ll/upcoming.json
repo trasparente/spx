@@ -1,6 +1,6 @@
 {
-  "count": 139,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-01-02T12%3A17%3A43Z&offset=10&ordering=net",
+  "count": 140,
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-01-02T18%3A12%3A40Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-01-02T02:40:48Z",
+      "last_updated": "2024-01-02T15:24:53Z",
       "updates": [
         {
           "id": 6159,
@@ -163,7 +163,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -203,7 +203,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -251,7 +251,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -283,7 +287,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -307,7 +315,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -391,7 +399,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -454,6 +462,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink Group 7-9 - SLC-4E - Vandenberg SFB - Space Affairs Livestream",
+          "description": "SpaceX is targeting Tuesday, January 2 for a Falcon 9 launch of 21 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vanden...",
+          "feature_image": "https://i.ytimg.com/vi/Uqby0Qq10Gg/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=Uqby0Qq10Gg",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-01-03T02:05:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "twitter.com",
           "publisher": "",
@@ -509,7 +537,11 @@
                 "type": "Commercial"
               }
             }
-          ]
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6579,
@@ -550,8 +582,24 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2023-12-30T03:56:47Z",
+      "last_updated": "2024-01-02T15:24:19Z",
       "updates": [
+        {
+          "id": 6163,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Updating window end",
+          "info_url": "http://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Nosu",
+          "created_on": "2024-01-02T15:08:16Z"
+        },
+        {
+          "id": 6162,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 90%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Ovzon-3%20L-1%20Forecast%20-%203%20Jan%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2024-01-02T15:07:26Z"
+        },
         {
           "id": 6149,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -664,10 +712,10 @@
         "abbrev": "HR",
         "description": "The T-0 is accurate to the hour."
       },
-      "window_end": "2024-01-03T23:45:00Z",
+      "window_end": "2024-01-03T23:14:00Z",
       "window_start": "2024-01-03T23:04:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Thick Cloud Layers Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -689,7 +737,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -729,7 +777,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -777,7 +825,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -809,7 +861,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -833,7 +889,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -970,7 +1026,28 @@
         "orbital_launch_attempt_count": 218
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Ovzon-3 - SLC-40 - Cape Canaveral SFS - Space Affairs Livestream",
+          "description": "Ovzon 3 is the first privately funded and developed Swedish geostationary satellite ever launched. It’s also the most powerful GEO satellite to be put into o...",
+          "feature_image": "https://i.ytimg.com/vi/VG43lYjFvbQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=VG43lYjFvbQ",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-01-03T22:44:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
@@ -1131,7 +1208,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -1171,7 +1248,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -1219,7 +1296,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -1251,7 +1332,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -1275,7 +1360,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -1878,7 +1963,11 @@
                 "type": "Private"
               }
             }
-          ]
+          ],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6586,
@@ -2018,7 +2107,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -2058,7 +2147,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -2106,7 +2195,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -2138,7 +2231,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -2162,7 +2259,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -2476,7 +2573,11 @@
           "end_date": null,
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-          "mission_patches": []
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
         },
         {
           "id": 17,
@@ -2520,7 +2621,11 @@
           "end_date": null,
           "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
           "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
-          "mission_patches": []
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6588,
@@ -2604,7 +2709,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -2644,7 +2749,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -2692,7 +2797,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -2724,7 +2833,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -2748,7 +2861,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -2832,7 +2945,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -2911,7 +3024,11 @@
                 "type": "Commercial"
               }
             }
-          ]
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6595,
@@ -2995,7 +3112,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -3035,7 +3152,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -3083,7 +3200,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -3115,7 +3236,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -3139,7 +3264,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -3223,7 +3348,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -3302,7 +3427,11 @@
                 "type": "Commercial"
               }
             }
-          ]
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6595,
@@ -3394,7 +3523,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -3434,7 +3563,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -3482,7 +3611,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -3514,7 +3647,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -3538,7 +3675,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -3622,7 +3759,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -3701,7 +3838,11 @@
                 "type": "Commercial"
               }
             }
-          ]
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6595,
@@ -3785,7 +3926,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -3825,7 +3966,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -3873,7 +4014,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -3905,7 +4050,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -3929,7 +4078,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -4013,7 +4162,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -4092,7 +4241,11 @@
                 "type": "Commercial"
               }
             }
-          ]
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6595,
@@ -4200,7 +4353,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -4240,7 +4393,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -4288,7 +4441,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -4320,7 +4477,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -4344,7 +4505,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -4650,7 +4811,7 @@
         "consecutive_successful_launches": 12,
         "successful_launches": 300,
         "failed_launches": 11,
-        "pending_launches": 136,
+        "pending_launches": 137,
         "consecutive_successful_landings": 13,
         "successful_landings": 264,
         "failed_landings": 23,
@@ -4690,7 +4851,7 @@
             "consecutive_successful_launches": 12,
             "successful_launches": 300,
             "failed_launches": 11,
-            "pending_launches": 136,
+            "pending_launches": 137,
             "consecutive_successful_landings": 13,
             "successful_landings": 264,
             "failed_landings": 23,
@@ -4738,7 +4899,11 @@
               "end_date": null,
               "info_url": null,
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             },
             {
               "id": 5,
@@ -4770,7 +4935,11 @@
               "end_date": null,
               "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
               "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": []
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
             }
           ],
           "variant": "Block 5",
@@ -4794,7 +4963,7 @@
           "consecutive_successful_launches": 229,
           "successful_launches": 229,
           "failed_launches": 0,
-          "pending_launches": 126,
+          "pending_launches": 127,
           "attempted_landings": 224,
           "successful_landings": 220,
           "failed_landings": 4,
@@ -4954,7 +5123,11 @@
           "end_date": null,
           "info_url": "https://www.nasa.gov/commercial-lunar-payload-services/",
           "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Lunar_Payload_Services",
-          "mission_patches": []
+          "mission_patches": [],
+          "type": {
+            "id": 5,
+            "name": "Exploration"
+          }
         }
       ],
       "orbital_launch_attempt_count": 6597,
