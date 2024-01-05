@@ -1,6 +1,6 @@
 {
   "count": 313,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-01-04T18%3A12%3A19Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-01-05T00%3A46%3A49Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2024-01-04T06:01:47Z",
+      "last_updated": "2024-01-04T20:17:31Z",
       "updates": [
         {
           "id": 6179,
@@ -628,7 +628,20 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 2,
       "pad_turnaround": "P5DT19H2M20S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 970,
+          "name": "Ovzon-3",
+          "priority": 10,
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/ovzon-3_mission_patch_20240104201716.png",
+          "agency": {
+            "id": 1068,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1068/?format=json",
+            "name": "Ovzon",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
@@ -2211,9 +2224,66 @@
           "attempted_landings": 19,
           "successful_landings": 17,
           "failed_landings": 2,
-          "consecutive_successful_landings": 11
+          "consecutive_successful_landings": 12
         },
         "launcher_stage": [
+          {
+            "id": 236,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 5,
+            "launcher": {
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
+              "flight_proven": true,
+              "serial_number": "B1064",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2023-12-29T01:07:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 264,
+              "attempt": true,
+              "success": true,
+              "description": "B1064 has landed back at the launch site after its fifth flight.",
+              "downrange_distance": 14.9,
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 928,
+                  "total_landing_count": 43
+                },
+                "successful_landings": 33
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2023-10-13T14:19:43Z",
+            "turn_around_time_days": 76,
+            "previous_flight": {
+              "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
+              "name": "Falcon Heavy | Psyche"
+            }
+          },
           {
             "id": 237,
             "type": "Strap-On Booster",
@@ -2314,63 +2384,6 @@
             "previous_flight_date": null,
             "turn_around_time_days": 0,
             "previous_flight": null
-          },
-          {
-            "id": 236,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 5,
-            "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
-              "flight_proven": true,
-              "serial_number": "B1064",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 5,
-              "last_launch_date": "2023-12-29T01:07:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 264,
-              "attempt": true,
-              "success": true,
-              "description": "B1064 has landed back at the launch site after its fifth flight.",
-              "downrange_distance": 14.9,
-              "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": null,
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 928,
-                  "total_landing_count": 43
-                },
-                "successful_landings": 33
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2023-10-13T14:19:43Z",
-            "turn_around_time_days": 76,
-            "previous_flight": {
-              "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
-              "name": "Falcon Heavy | Psyche"
-            }
           }
         ],
         "spacecraft_stage": {
