@@ -1,6 +1,6 @@
 {
   "count": 216,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=1&lsp__ids=121&mode=detailed&net__lt=2023-01-16T18%3A12%3A41Z&offset=1&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=1&lsp__ids=121&mode=detailed&net__lt=2023-01-17T00%3A48%3A28Z&offset=1&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -219,7 +219,7 @@
           "attempted_landings": 19,
           "successful_landings": 17,
           "failed_landings": 2,
-          "consecutive_successful_landings": 11
+          "consecutive_successful_landings": 12
         },
         "launcher_stage": [
           {
@@ -267,63 +267,6 @@
             "previous_flight": null
           },
           {
-            "id": 271,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
-            "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
-              "flight_proven": true,
-              "serial_number": "B1064",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 5,
-              "last_launch_date": "2023-12-29T01:07:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 299,
-              "attempt": true,
-              "success": true,
-              "description": "B1064 has successfully landed back at the launch site after this flight.",
-              "downrange_distance": 14.6,
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": null,
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 931,
-                  "total_landing_count": 43
-                },
-                "successful_landings": 9
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2022-11-01T13:41:00Z",
-            "turn_around_time_days": 75,
-            "previous_flight": {
-              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
-              "name": "Falcon Heavy | USSF-44"
-            }
-          },
-          {
             "id": 272,
             "type": "Strap-On Booster",
             "reused": true,
@@ -365,6 +308,63 @@
                   "total_landing_count": 43
                 },
                 "successful_landings": 33
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2022-11-01T13:41:00Z",
+            "turn_around_time_days": 75,
+            "previous_flight": {
+              "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
+              "name": "Falcon Heavy | USSF-44"
+            }
+          },
+          {
+            "id": 271,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Sidebooster paired with B1065, launched 2 USSF mission.",
+              "flight_proven": true,
+              "serial_number": "B1064",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2023-12-29T01:07:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 299,
+              "attempt": true,
+              "success": true,
+              "description": "B1064 has successfully landed back at the launch site after this flight.",
+              "downrange_distance": 14.6,
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 931,
+                  "total_landing_count": 43
+                },
+                "successful_landings": 9
               },
               "type": {
                 "id": 2,
