@@ -1,6 +1,6 @@
 {
   "count": 216,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=1&lsp__ids=121&mode=detailed&net__lt=2023-01-17T18%3A12%3A46Z&offset=1&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=1&lsp__ids=121&mode=detailed&net__lt=2023-01-18T00%3A47%3A24Z&offset=1&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -219,53 +219,9 @@
           "attempted_landings": 19,
           "successful_landings": 17,
           "failed_landings": 2,
-          "consecutive_successful_landings": 12
+          "consecutive_successful_landings": 10
         },
         "launcher_stage": [
-          {
-            "id": 273,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 109,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
-              "details": "Falcon Heavy core booster expended on its first flight as part of the USSF-67 mission.",
-              "flight_proven": true,
-              "serial_number": "B1070",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/109_image_20230114190131.jpeg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-01-15T22:56:00Z",
-              "first_launch_date": "2023-01-15T22:56:00Z"
-            },
-            "landing": {
-              "id": 301,
-              "attempt": false,
-              "success": null,
-              "description": "The center core was expended on this flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
           {
             "id": 272,
             "type": "Strap-On Booster",
@@ -322,6 +278,50 @@
               "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
               "name": "Falcon Heavy | USSF-44"
             }
+          },
+          {
+            "id": 273,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 109,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/?format=json",
+              "details": "Falcon Heavy core booster expended on its first flight as part of the USSF-67 mission.",
+              "flight_proven": true,
+              "serial_number": "B1070",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/109_image_20230114190131.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-01-15T22:56:00Z",
+              "first_launch_date": "2023-01-15T22:56:00Z"
+            },
+            "landing": {
+              "id": 301,
+              "attempt": false,
+              "success": null,
+              "description": "The center core was expended on this flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           },
           {
             "id": 271,
