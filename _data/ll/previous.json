@@ -1,6 +1,6 @@
 {
   "count": 318,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-01-25T18%3A13%3A04Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-01-26T00%3A44%3A32Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -6561,50 +6561,6 @@
         },
         "launcher_stage": [
           {
-            "id": 235,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 127,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
-              "details": "Falcon Heavy core booster expended during the USSF-52 mission.",
-              "flight_proven": false,
-              "serial_number": "B1084",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231229222119.jpeg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-12-29T01:07:00Z",
-              "first_launch_date": "2023-12-29T01:07:00Z"
-            },
-            "landing": {
-              "id": 263,
-              "attempt": false,
-              "success": null,
-              "description": "B1084 was expended after its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": 0,
-            "previous_flight": null
-          },
-          {
             "id": 236,
             "type": "Strap-On Booster",
             "reused": true,
@@ -6660,6 +6616,50 @@
               "id": "66133437-db31-4098-8e3e-cf34c8125f9b",
               "name": "Falcon Heavy | Psyche"
             }
+          },
+          {
+            "id": 235,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 127,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/127/?format=json",
+              "details": "Falcon Heavy core booster expended during the USSF-52 mission.",
+              "flight_proven": false,
+              "serial_number": "B1084",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/127_image_20231229222119.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-12-29T01:07:00Z",
+              "first_launch_date": "2023-12-29T01:07:00Z"
+            },
+            "landing": {
+              "id": 263,
+              "attempt": false,
+              "success": null,
+              "description": "B1084 was expended after its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": 0,
+            "previous_flight": null
           },
           {
             "id": 237,
