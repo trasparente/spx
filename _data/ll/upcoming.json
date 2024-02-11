@@ -1,6 +1,6 @@
 {
   "count": 145,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-11T12%3A15%3A27Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-11T18%3A11%3A37Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1252,27 +1252,27 @@
           {
             "id": 438,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 7,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 120,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/120/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
+              "flight_proven": true,
+              "serial_number": "B1078",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/120_image_20230227075809.jpeg",
+              "successful_landings": 6,
+              "attempted_landings": 6,
+              "flights": 6,
+              "last_launch_date": "2023-12-03T04:00:50Z",
+              "first_launch_date": "2023-03-02T05:34:14Z"
             },
             "landing": {
               "id": 1231,
               "attempt": true,
               "success": null,
-              "description": "the booster will land back at the launch site.",
+              "description": "The Falcon 9 first stage B1078 will land back at the launch site after its 7th flight.",
               "downrange_distance": 9.1,
               "location": {
                 "id": 12,
@@ -1289,9 +1289,12 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2023-12-03T04:00:50Z",
+            "turn_around_time_days": 73,
+            "previous_flight": {
+              "id": "8cf1015d-3fe5-40c4-8436-2f79c1f3ff2e",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-31"
+            }
           }
         ],
         "spacecraft_stage": null
