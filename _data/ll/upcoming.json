@@ -1,6 +1,6 @@
 {
   "count": 145,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-13T18%3A12%3A35Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-14T00%3A44%3A24Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-02-13T16:45:14Z",
+      "last_updated": "2024-02-14T00:22:25Z",
       "updates": [
         {
           "id": 6652,
@@ -537,6 +537,46 @@
           },
           "start_time": null,
           "end_time": null
+        },
+        {
+          "priority": 11,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 Launches Nova C (IM-1) to the Moon",
+          "description": "First of at least 3 robotic lunar landing missions by Intuitive Machines as part of NASA's Commercial Lunar Payload Services (CLPS) Program. The lunar lander...",
+          "feature_image": "https://i.ytimg.com/vi/LBcb_qvHCZ8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=LBcb_qvHCZ8",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-02-14T05:00:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 12,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch Live: SpaceX Falcon 9 rocket launches moon mission for Intuitive Machines and NASA",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying Intuitive Machines' Nova C IM-1 lunar lander carrying NASA experiments to the surface of th...",
+          "feature_image": "https://i.ytimg.com/vi/zazdwjw2xAQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=zazdwjw2xAQ",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-02-14T03:30:00Z",
+          "end_time": null
         }
       ],
       "webcast_live": false,
@@ -820,7 +860,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-02-13T16:46:15Z",
+      "last_updated": "2024-02-14T00:23:20Z",
       "updates": [
         {
           "id": 6651,
@@ -1241,7 +1281,28 @@
         "orbital_launch_attempt_count": 223
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 11,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 Launches USSF-124 for the United States Space Force",
+          "description": "USSF-124 is a classified mission for the United States Space Force. It consists of 2 satellites, one by L3Harris and the other by Northrop Grumman, to be lau...",
+          "feature_image": "https://i.ytimg.com/vi/kdpbgyWwVsY/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=kdpbgyWwVsY",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-02-14T21:30:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
@@ -4176,8 +4237,16 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-12-17T09:02:12Z",
+      "last_updated": "2024-02-13T23:32:00Z",
       "updates": [
+        {
+          "id": 6655,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET mid-March.",
+          "info_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-30th-resupply-launch-to-space-station/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-02-13T23:32:04Z"
+        },
         {
           "id": 5537,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -4195,15 +4264,15 @@
           "created_on": "2023-09-20T07:10:40Z"
         }
       ],
-      "net": "2024-03-04T00:00:00Z",
+      "net": "2024-03-11T00:00:00Z",
       "net_precision": {
-        "id": 5,
-        "name": "Day",
-        "abbrev": "DAY",
-        "description": "The T-0 is expected on the given day."
+        "id": 6,
+        "name": "Week",
+        "abbrev": "WK",
+        "description": "The T-0 is expected in the given week (starting on Monday according to ISO 8601)."
       },
-      "window_end": "2024-03-04T00:00:00Z",
-      "window_start": "2024-03-04T00:00:00Z",
+      "window_end": "2024-03-11T00:00:00Z",
+      "window_start": "2024-03-11T00:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -4642,15 +4711,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6620,
+      "orbital_launch_attempt_count": 6621,
       "location_launch_attempt_count": 231,
       "pad_launch_attempt_count": 173,
       "agency_launch_attempt_count": 332,
-      "orbital_launch_attempt_count_year": 42,
+      "orbital_launch_attempt_count_year": 43,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 21,
-      "pad_turnaround": "P4DT18H",
+      "pad_turnaround": "P11DT18H11M",
       "mission_patches": [
         {
           "id": 959,
@@ -5054,7 +5123,7 @@
       "location_launch_attempt_count_year": 15,
       "pad_launch_attempt_count_year": 14,
       "agency_launch_attempt_count_year": 41,
-      "pad_turnaround": "P45DT2H5M",
+      "pad_turnaround": "P44DT23H30M",
       "mission_patches": [
         {
           "id": 7,
