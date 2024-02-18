@@ -1,6 +1,6 @@
 {
   "count": 142,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-18T06%3A12%3A13Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-18T12%3A15%3A29Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -651,7 +651,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage will land on ASDS OCISLY after this flight.",
-              "downrange_distance": null,
+              "downrange_distance": 642,
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
@@ -1102,15 +1102,15 @@
               "id": 1291,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on an ASDS after this flight.",
+              "description": "The Falcon 9 first stage will land on ASDS ASOG after this flight.",
               "downrange_distance": null,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 58
               },
               "type": {
                 "id": 1,
@@ -1685,7 +1685,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-01-11T16:49:46Z",
+      "last_updated": "2024-02-18T09:03:50Z",
       "updates": [
         {
           "id": 6244,
@@ -1980,16 +1980,16 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
-        "agency_id": null,
-        "name": "Unknown Pad",
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
         "description": null,
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
         "location": {
           "id": 12,
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -2002,9 +2002,9 @@
           "total_landing_count": 48
         },
         "country_code": "USA",
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 224,
+        "orbital_launch_attempt_count": 224
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -2053,13 +2053,13 @@
       ],
       "orbital_launch_attempt_count": 6619,
       "location_launch_attempt_count": 937,
-      "pad_launch_attempt_count": 1,
+      "pad_launch_attempt_count": 227,
       "agency_launch_attempt_count": 331,
       "orbital_launch_attempt_count_year": 41,
       "location_launch_attempt_count_year": 10,
-      "pad_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 20,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P5D",
       "mission_patches": [
         {
           "id": 7,
@@ -2979,7 +2979,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-02-17T02:04:27Z",
+      "last_updated": "2024-02-18T09:01:49Z",
       "updates": [
         {
           "id": 6697,
@@ -3232,7 +3232,37 @@
               "last_launch_date": null,
               "first_launch_date": null
             },
-            "landing": null,
+            "landing": {
+              "id": 1315,
+              "attempt": true,
+              "success": null,
+              "description": "The Falon 9 first stage will land back at the launch site after this flight.",
+              "downrange_distance": 0.4,
+              "location": {
+                "id": 7,
+                "name": "Landing Zone 4",
+                "abbrev": "LZ-4",
+                "description": "LZ at Vandenberg",
+                "location": {
+                  "id": 11,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
+                  "name": "Vandenberg SFB, CA, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
+                  "timezone_name": "America/Los_Angeles",
+                  "total_launch_count": 745,
+                  "total_landing_count": 15
+                },
+                "successful_landings": 15
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
@@ -3286,31 +3316,31 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
         "agency_id": null,
-        "name": "Unknown Pad",
+        "name": "Space Launch Complex 4E",
         "description": null,
         "info_url": null,
         "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
         "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral, FL, USA",
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
+          "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
           "description": null,
-          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 934,
-          "total_landing_count": 48
+          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 745,
+          "total_landing_count": 15
         },
         "country_code": "USA",
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 134,
+        "orbital_launch_attempt_count": 134
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -3320,12 +3350,12 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6623,
-      "location_launch_attempt_count": 938,
-      "pad_launch_attempt_count": 2,
+      "location_launch_attempt_count": 748,
+      "pad_launch_attempt_count": 137,
       "agency_launch_attempt_count": 333,
       "orbital_launch_attempt_count_year": 45,
-      "location_launch_attempt_count_year": 11,
-      "pad_launch_attempt_count_year": 2,
+      "location_launch_attempt_count_year": 9,
+      "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 22,
       "pad_turnaround": "P4D",
       "mission_patches": [
@@ -4186,14 +4216,14 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6655,
-      "location_launch_attempt_count": 950,
-      "pad_launch_attempt_count": 228,
+      "location_launch_attempt_count": 949,
+      "pad_launch_attempt_count": 229,
       "agency_launch_attempt_count": 352,
       "orbital_launch_attempt_count_year": 77,
-      "location_launch_attempt_count_year": 23,
-      "pad_launch_attempt_count_year": 10,
+      "location_launch_attempt_count_year": 22,
+      "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 41,
-      "pad_turnaround": "P36D",
+      "pad_turnaround": "P31D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -4535,14 +4565,14 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6655,
-      "location_launch_attempt_count": 950,
-      "pad_launch_attempt_count": 228,
+      "location_launch_attempt_count": 949,
+      "pad_launch_attempt_count": 229,
       "agency_launch_attempt_count": 352,
       "orbital_launch_attempt_count_year": 77,
-      "location_launch_attempt_count_year": 23,
-      "pad_launch_attempt_count_year": 10,
+      "location_launch_attempt_count_year": 22,
+      "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 41,
-      "pad_turnaround": "P36D",
+      "pad_turnaround": "P31D",
       "mission_patches": [],
       "type": "detailed"
     }
