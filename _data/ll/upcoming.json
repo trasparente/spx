@@ -1,6 +1,6 @@
 {
   "count": 145,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-23T12%3A16%3A56Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-02-23T18%3A12%3A46Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-02-23T08:03:45Z",
+      "last_updated": "2024-02-23T16:16:51Z",
       "updates": [
+        {
+          "id": 6782,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather.",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-39%20L-1%20Forecast%20-%2024%20Feb%20Launch.pdf?ver=JgyhwwLFwdFF4gDiFZ6wSQ%3d%3d",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-02-23T16:16:51Z"
+        },
         {
           "id": 6761,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -100,8 +108,8 @@
       },
       "window_end": "2024-02-25T01:57:50Z",
       "window_start": "2024-02-24T21:59:40Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 98,
+      "weather_concerns": "Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -2892,7 +2900,37 @@
               "last_launch_date": null,
               "first_launch_date": null
             },
-            "landing": null,
+            "landing": {
+              "id": 1321,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon 9 first stage will back at the launch site after its flight.",
+              "downrange_distance": 14.9,
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": null,
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 935,
+                  "total_landing_count": 48
+                },
+                "successful_landings": 37
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
