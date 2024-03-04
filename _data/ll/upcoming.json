@@ -1,6 +1,6 @@
 {
   "count": 144,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-03-04T06%3A57%3A29Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-03-04T12%3A22%3A53Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-03-04T06:16:40Z",
+      "last_updated": "2024-03-04T08:12:27Z",
       "updates": [
         {
           "id": 6861,
@@ -345,7 +345,7 @@
       "mission": {
         "id": 6337,
         "name": "Transporter 10 (Dedicated SSO Rideshare)",
-        "description": "Transporter 10 mission is a dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+        "description": "Transporter 10 mission is a dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThere will be 53 payloads on this flight, including CubeSats, MicroSats, and a hosted payload.",
         "launch_designator": null,
         "type": "Dedicated Rideshare",
         "orbit": {
@@ -415,10 +415,264 @@
         "orbital_launch_attempt_count": 135
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "twitter.com",
+          "publisher": "",
+          "title": "Livestream on X",
+          "description": "This browser is no longer supported.\n\nPlease switch to a supported browser to continue using twitter.com. You can see a list of supported browsers in our Help Center.",
+          "feature_image": null,
+          "url": "https://twitter.com/i/broadcasts/1RDxllLyVXzxL",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": null,
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
-      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_image_20230807133459.jpeg",
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M10S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M20S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M23S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M31S"
+        },
+        {
+          "type": {
+            "id": 39,
+            "abbrev": "Booster Boostback Burn Startup",
+            "description": "Start of the booster boostback burn"
+          },
+          "relative_time": "PT2M36S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M2S"
+        },
+        {
+          "type": {
+            "id": 40,
+            "abbrev": "Booster Boostback Burn Shutdown",
+            "description": "End of the booster boostback burn"
+          },
+          "relative_time": "PT3M31S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M8S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M20S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M14S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT7M32S"
+        },
+        {
+          "type": {
+            "id": 24,
+            "abbrev": "SECO",
+            "description": "Cut-off of the second engine"
+          },
+          "relative_time": "PT8M17S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT50M12S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT50M16S"
+        },
+        {
+          "type": {
+            "id": 78,
+            "abbrev": "Payload Deployment Sequence Start",
+            "description": "Start of the payload deployment sequence"
+          },
+          "relative_time": "PT53M44S"
+        },
+        {
+          "type": {
+            "id": 80,
+            "abbrev": "SES-3",
+            "description": "Third start of the second engine"
+          },
+          "relative_time": "PT1H44M26S"
+        },
+        {
+          "type": {
+            "id": 81,
+            "abbrev": "SECO-3",
+            "description": "Third cut-off of the second engine"
+          },
+          "relative_time": "PT1H44M27S"
+        },
+        {
+          "type": {
+            "id": 84,
+            "abbrev": "SEB-4",
+            "description": "4th burn of the second engine (sub-second)"
+          },
+          "relative_time": "PT2H25M51S"
+        },
+        {
+          "type": {
+            "id": 79,
+            "abbrev": "Payload Deployment Sequence End",
+            "description": "End of the payload deployment sequence."
+          },
+          "relative_time": "PT2H33M1S"
+        }
+      ],
+      "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20240304074536.jpeg",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 6621,
@@ -459,8 +713,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-03-04T06:29:20Z",
+      "last_updated": "2024-03-04T08:07:35Z",
       "updates": [
+        {
+          "id": 6863,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch window.",
+          "info_url": "https://twitter.com/tskelso/status/1764562311912788404",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-03-04T08:07:36Z"
+        },
         {
           "id": 6862,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -510,15 +772,15 @@
           "created_on": "2024-01-11T03:06:02Z"
         }
       ],
-      "net": "2024-03-04T23:54:00Z",
+      "net": "2024-03-04T23:56:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2024-03-05T04:25:00Z",
-      "window_start": "2024-03-04T23:54:00Z",
+      "window_end": "2024-03-05T03:54:00Z",
+      "window_start": "2024-03-04T23:56:00Z",
       "probability": 80,
       "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules",
       "holdreason": "",
@@ -751,7 +1013,7 @@
       "mission": {
         "id": 6736,
         "name": "Starlink Group 6-41",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 23 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -873,7 +1135,7 @@
       "location_launch_attempt_count_year": 11,
       "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 22,
-      "pad_turnaround": "P4DT8H24M",
+      "pad_turnaround": "P4DT8H26M",
       "mission_patches": [
         {
           "id": 7,
@@ -1152,15 +1414,15 @@
               "id": 1204,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
+              "description": "The Falcon 9 first stage will attempt to land on ASDS JRTI after this flight.",
               "downrange_distance": 630,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 73
               },
               "type": {
                 "id": 1,
