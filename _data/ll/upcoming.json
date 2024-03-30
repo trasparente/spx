@@ -1,6 +1,6 @@
 {
   "count": 149,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-03-30T06%3A11%3A49Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-03-30T12%3A15%3A25Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -351,7 +351,37 @@
           "name": "Geostationary Transfer Orbit",
           "abbrev": "GTO"
         },
-        "agencies": [],
+        "agencies": [
+          {
+            "id": 229,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/229/?format=json",
+            "name": "Eutelsat",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "FRA",
+            "abbrev": "EUTEL",
+            "description": "Eutelsat S.A. is a French satellite operator. Providing coverage over the entire European continent, the Middle East, Africa, Asia and the Americas.",
+            "administrator": "CEO: Eva Berneke",
+            "founding_year": "1977",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.eutelsat.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Eutelsat",
+            "logo_url": null,
+            "image_url": null,
+            "nation_url": null
+          }
+        ],
         "info_urls": [],
         "vid_urls": []
       },
@@ -638,8 +668,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-03-30T01:11:24Z",
+      "last_updated": "2024-03-30T06:28:21Z",
       "updates": [
+        {
+          "id": 7153,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "T-0 is accurate to the second",
+          "info_url": "https://twitter.com/TSKelso/status/1773889242865029302",
+          "created_by": "Nosu",
+          "created_on": "2024-03-30T06:28:22Z"
+        },
         {
           "id": 7145,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -699,10 +737,10 @@
       ],
       "net": "2024-03-31T01:02:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2024-03-31T02:00:00Z",
       "window_start": "2024-03-31T01:02:00Z",
