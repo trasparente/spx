@@ -1,6 +1,6 @@
 {
   "count": 147,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-03-31T12%3A16%3A22Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-03-31T18%3A11%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 7-18",
       "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-03-31T09:17:24Z",
+      "last_updated": "2024-03-31T18:03:54Z",
       "updates": [
+        {
+          "id": 7177,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Rescheduled for April 2nd UTC.",
+          "info_url": "https://twitter.com/SpaceX/status/1774495199726805350",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-03-31T18:03:55Z"
+        },
         {
           "id": 7173,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -163,15 +171,15 @@
           "created_on": "2024-03-08T05:26:55Z"
         }
       ],
-      "net": "2024-04-01T00:00:00Z",
+      "net": "2024-04-02T02:30:00Z",
       "net_precision": {
-        "id": 6,
-        "name": "Week",
-        "abbrev": "WK",
-        "description": "The T-0 is expected in the given week (starting on Monday according to ISO 8601)."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2024-04-01T00:00:00Z",
-      "window_start": "2024-04-01T00:00:00Z",
+      "window_end": "2024-04-02T06:30:00Z",
+      "window_start": "2024-04-02T02:30:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -395,7 +403,7 @@
               }
             },
             "previous_flight_date": "2024-02-10T00:34:00Z",
-            "turn_around_time_days": 50,
+            "turn_around_time_days": 52,
             "previous_flight": {
               "id": "3fe9e0be-183a-4e14-8193-516219fb37e4",
               "name": "Falcon 9 Block 5 | Starlink Group 7-13"
@@ -500,8 +508,8 @@
           "priority": 8,
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
-          "title": "SpaceX - Falcon 9 - Starlink Group 7-18 - SLC-4E - Vandenberg SFB - Space Affairs LIvestream",
-          "description": "SpaceX targets Saturday, March 30, for a Falcon 9 launch of 22 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg...",
+          "title": "TBD - SpaceX - Falcon 9 - Starlink Group 7-18 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+          "description": "After several shifts of T-Zero on Saturday/Sunday March 30/31, SpaceX scrubbed the launch attempt due to bad weather. They will soon announce a new launch da...",
           "feature_image": "https://i.ytimg.com/vi/PNjFElHB0UE/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=PNjFElHB0UE",
           "type": {
@@ -513,7 +521,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2024-03-31T06:20:00Z",
+          "start_time": "2024-04-01T22:00:00Z",
           "end_time": null
         },
         {
@@ -793,7 +801,7 @@
       "location_launch_attempt_count_year": 11,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 33,
-      "pad_turnaround": "P12DT21H32M",
+      "pad_turnaround": "P14DT2M",
       "mission_patches": [
         {
           "id": 7,
