@@ -1,6 +1,6 @@
 {
   "count": 146,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-05T12%3A17%3A09Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-05T18%3A12%3A19Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-04-05T01:42:23Z",
+      "last_updated": "2024-04-05T17:33:53Z",
       "updates": [
+        {
+          "id": 7208,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "T-0 accurate to the second",
+          "info_url": "https://twitter.com/TSKelso/status/1776300167395942582",
+          "created_by": "hitura-nobad",
+          "created_on": "2024-04-05T17:33:53Z"
+        },
         {
           "id": 7202,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -61,10 +69,10 @@
       ],
       "net": "2024-04-06T02:31:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2024-04-06T06:25:00Z",
       "window_start": "2024-04-06T02:31:00Z",
@@ -274,7 +282,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage B1081 will land on ASDS OCISLY after its 6th flight.",
-              "downrange_distance": 642,
+              "downrange_distance": 627,
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
