@@ -1,6 +1,6 @@
 {
   "count": 144,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-09T06%3A13%3A16Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-09T12%3A17%3A55Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -844,7 +844,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-04-08T14:04:27Z",
+      "last_updated": "2024-04-09T06:36:40Z",
       "updates": [
         {
           "id": 7228,
@@ -1085,15 +1085,15 @@
               "id": 1331,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on an ASDS after this flight.",
-              "downrange_distance": null,
+              "description": "The Falcon 9 first stage will land on ASDS ASOG after this flight.",
+              "downrange_distance": 615,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 64
               },
               "type": {
                 "id": 1,
@@ -1155,31 +1155,31 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 87,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
         "agency_id": 121,
-        "name": "Launch Complex 39A",
+        "name": "Space Launch Complex 40",
         "description": null,
         "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
-        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
-        "latitude": "28.60822681",
-        "longitude": "-80.60428186",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
         "location": {
-          "id": 27,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/27/?format=json",
-          "name": "Kennedy Space Center, FL, USA",
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+          "name": "Cape Canaveral, FL, USA",
           "country_code": "USA",
           "description": null,
-          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
+          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 234,
-          "total_landing_count": 0
+          "total_launch_count": 943,
+          "total_landing_count": 51
         },
         "country_code": "USA",
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
-        "total_launch_count": 176,
-        "orbital_launch_attempt_count": 175
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 233,
+        "orbital_launch_attempt_count": 233
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -1227,14 +1227,14 @@
         }
       ],
       "orbital_launch_attempt_count": 6650,
-      "location_launch_attempt_count": 235,
-      "pad_launch_attempt_count": 177,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 235,
       "agency_launch_attempt_count": 350,
       "orbital_launch_attempt_count_year": 72,
-      "location_launch_attempt_count_year": 9,
-      "pad_launch_attempt_count_year": 9,
+      "location_launch_attempt_count_year": 19,
+      "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 39,
-      "pad_turnaround": "P5DT1H43M3S",
+      "pad_turnaround": "P2DT21H",
       "mission_patches": [
         {
           "id": 7,
@@ -1616,11 +1616,11 @@
         }
       ],
       "orbital_launch_attempt_count": 6651,
-      "location_launch_attempt_count": 946,
+      "location_launch_attempt_count": 947,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 351,
       "orbital_launch_attempt_count_year": 73,
-      "location_launch_attempt_count_year": 19,
+      "location_launch_attempt_count_year": 20,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 40,
       "pad_turnaround": "P0D",
@@ -2411,11 +2411,11 @@
         }
       ],
       "orbital_launch_attempt_count": 6674,
-      "location_launch_attempt_count": 956,
+      "location_launch_attempt_count": 957,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 370,
       "orbital_launch_attempt_count_year": 96,
-      "location_launch_attempt_count_year": 29,
+      "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 59,
       "pad_turnaround": "P8D",
@@ -3623,11 +3623,11 @@
         }
       ],
       "orbital_launch_attempt_count": 6674,
-      "location_launch_attempt_count": 956,
+      "location_launch_attempt_count": 957,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 370,
       "orbital_launch_attempt_count_year": 96,
-      "location_launch_attempt_count_year": 29,
+      "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 59,
       "pad_turnaround": "P8D",
@@ -4027,11 +4027,11 @@
         }
       ],
       "orbital_launch_attempt_count": 6674,
-      "location_launch_attempt_count": 956,
+      "location_launch_attempt_count": 957,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 370,
       "orbital_launch_attempt_count_year": 96,
-      "location_launch_attempt_count_year": 29,
+      "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 59,
       "pad_turnaround": "P8D",
