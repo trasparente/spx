@@ -1,6 +1,6 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-16T06%3A12%3A56Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-16T12%3A17%3A34Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -435,8 +435,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-04-13T03:03:50Z",
+      "last_updated": "2024-04-16T12:03:32Z",
       "updates": [
+        {
+          "id": 7293,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 90%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-51%20L-1%20Forecast%20-%2017%20APR%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2024-04-16T12:03:36Z"
+        },
         {
           "id": 7282,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -487,8 +495,8 @@
       },
       "window_end": "2024-04-18T01:55:00Z",
       "window_start": "2024-04-17T21:24:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Thick Cloud Layers Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1283,7 +1291,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-04-15T16:52:00Z",
+      "last_updated": "2024-04-16T06:25:21Z",
       "updates": [
         {
           "id": 7289,
@@ -1586,31 +1594,31 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
-        "agency_id": null,
-        "name": "Unknown Pad",
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
         "description": null,
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
         "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral, FL, USA",
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/27/?format=json",
+          "name": "Kennedy Space Center, FL, USA",
           "country_code": "USA",
           "description": "",
-          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+          "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 946,
-          "total_landing_count": 51
+          "total_launch_count": 234,
+          "total_landing_count": 0
         },
         "country_code": "USA",
-        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 176,
+        "orbital_launch_attempt_count": 175
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -1657,15 +1665,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6655,
-      "location_launch_attempt_count": 948,
-      "pad_launch_attempt_count": 1,
+      "orbital_launch_attempt_count": 6656,
+      "location_launch_attempt_count": 236,
+      "pad_launch_attempt_count": 178,
       "agency_launch_attempt_count": 354,
-      "orbital_launch_attempt_count_year": 77,
-      "location_launch_attempt_count_year": 21,
-      "pad_launch_attempt_count_year": 1,
+      "orbital_launch_attempt_count_year": 78,
+      "location_launch_attempt_count_year": 10,
+      "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 43,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P5DT36M",
       "mission_patches": [
         {
           "id": 7,
@@ -2465,15 +2473,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6675,
-      "location_launch_attempt_count": 956,
-      "pad_launch_attempt_count": 9,
+      "orbital_launch_attempt_count": 6676,
+      "location_launch_attempt_count": 955,
+      "pad_launch_attempt_count": 8,
       "agency_launch_attempt_count": 370,
-      "orbital_launch_attempt_count_year": 97,
-      "location_launch_attempt_count_year": 29,
-      "pad_launch_attempt_count_year": 9,
+      "orbital_launch_attempt_count_year": 98,
+      "location_launch_attempt_count_year": 28,
+      "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 59,
-      "pad_turnaround": "P7DT2H",
+      "pad_turnaround": "P0D",
       "mission_patches": [
         {
           "id": 7,
@@ -3677,15 +3685,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6675,
-      "location_launch_attempt_count": 956,
-      "pad_launch_attempt_count": 9,
+      "orbital_launch_attempt_count": 6676,
+      "location_launch_attempt_count": 955,
+      "pad_launch_attempt_count": 8,
       "agency_launch_attempt_count": 370,
-      "orbital_launch_attempt_count_year": 97,
-      "location_launch_attempt_count_year": 29,
-      "pad_launch_attempt_count_year": 9,
+      "orbital_launch_attempt_count_year": 98,
+      "location_launch_attempt_count_year": 28,
+      "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 59,
-      "pad_turnaround": "P7DT2H",
+      "pad_turnaround": "P0D",
       "mission_patches": [
         {
           "id": 7,
@@ -4081,15 +4089,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6675,
-      "location_launch_attempt_count": 956,
-      "pad_launch_attempt_count": 9,
+      "orbital_launch_attempt_count": 6676,
+      "location_launch_attempt_count": 955,
+      "pad_launch_attempt_count": 8,
       "agency_launch_attempt_count": 370,
-      "orbital_launch_attempt_count_year": 97,
-      "location_launch_attempt_count_year": 29,
-      "pad_launch_attempt_count_year": 9,
+      "orbital_launch_attempt_count_year": 98,
+      "location_launch_attempt_count_year": 28,
+      "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 59,
-      "pad_turnaround": "P7DT2H",
+      "pad_turnaround": "P0D",
       "mission_patches": [
         {
           "id": 7,
