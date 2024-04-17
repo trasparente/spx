@@ -1,6 +1,6 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-17T12%3A17%3A53Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-17T18%3A12%3A34Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-04-17T06:20:04Z",
+      "last_updated": "2024-04-17T18:03:22Z",
       "updates": [
         {
           "id": 7298,
@@ -417,7 +417,7 @@
       ],
       "vidURLs": [
         {
-          "priority": 9,
+          "priority": 7,
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "SpaceX - Falcon 9 - Starlink Group 6-51 - LC-39A - Kennedy Space Center - Space Affairs Live",
@@ -434,6 +434,46 @@
             "code": "en"
           },
           "start_time": "2024-04-17T21:16:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX launches 23 Starlink satellites on a Falcon 9 rocket from Florida",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with 23 second-generation Starlink internet satellites. Liftoff from pad 39A at NASA's Kennedy Space...",
+          "feature_image": "https://i.ytimg.com/vi/FATmc8aW4Uk/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=FATmc8aW4Uk",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-04-17T20:26:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 Launches Starlink 6-51",
+          "description": "SpaceX launch of a batch of Starlink v2-mini satellites for their second generation high-speed Low Earth Orbit internet satellite constellation.Window Opens:...",
+          "feature_image": "https://i.ytimg.com/vi/pOW4YkMvbIg/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=pOW4YkMvbIg",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-04-17T20:26:00Z",
           "end_time": null
         },
         {
@@ -723,8 +763,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-04-17T06:19:52Z",
+      "last_updated": "2024-04-17T12:31:53Z",
       "updates": [
+        {
+          "id": 7299,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 90%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-52%20L-1%20Forecast%20-%2018%20April%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2024-04-17T12:31:53Z"
+        },
         {
           "id": 7283,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -751,8 +799,8 @@
       },
       "window_end": "2024-04-19T03:11:00Z",
       "window_start": "2024-04-18T22:40:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Thick Cloud Layers Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
