@@ -1,6 +1,6 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-17T06%3A15%3A18Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-17T12%3A17%3A53Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-04-17T02:20:10Z",
+      "last_updated": "2024-04-17T06:20:04Z",
       "updates": [
+        {
+          "id": 7298,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Launch window accurate to the second",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Nosu",
+          "created_on": "2024-04-17T06:17:04Z"
+        },
         {
           "id": 7294,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -77,10 +85,10 @@
       ],
       "net": "2024-04-17T21:26:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2024-04-18T01:24:00Z",
       "window_start": "2024-04-17T21:26:00Z",
@@ -409,6 +417,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink Group 6-51 - LC-39A - Kennedy Space Center - Space Affairs Live",
+          "description": "SpaceX targets Wednesday, April 17, for a Falcon 9 launch of 23 Starlink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at NASA’s Kennedy Spa...",
+          "feature_image": "https://i.ytimg.com/vi/DpO6uwMWns8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=DpO6uwMWns8",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-04-17T21:16:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "twitter.com",
           "publisher": "",
@@ -695,7 +723,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-04-13T13:02:07Z",
+      "last_updated": "2024-04-17T06:19:52Z",
       "updates": [
         {
           "id": 7283,
@@ -1025,7 +1053,28 @@
         "orbital_launch_attempt_count": 235
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink Group 6-52 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "SpaceX is targeting April 18 for a Falcon 9 launch of 23 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space...",
+          "feature_image": "https://i.ytimg.com/vi/nUWehrNNBHM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=nUWehrNNBHM",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-04-18T22:30:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
@@ -1098,7 +1147,7 @@
       "id": "63e1a1f2-c5cd-4d73-8c16-302f9d8ad72f",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/63e1a1f2-c5cd-4d73-8c16-302f9d8ad72f/?format=json",
       "slug": "falcon-9-block-5-starlink-group-6-53",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=63e1a1f2-c5cd-4d73-8c16-302f9d8ad72f",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 6-53",
       "status": {
@@ -1107,7 +1156,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-04-16T06:25:21Z",
+      "last_updated": "2024-04-17T09:01:30Z",
       "updates": [
         {
           "id": 7289,
@@ -1126,15 +1175,15 @@
           "created_on": "2024-03-28T01:49:45Z"
         }
       ],
-      "net": "2024-04-22T22:00:00Z",
+      "net": "2024-04-22T22:40:00Z",
       "net_precision": {
         "id": 2,
         "name": "Hour",
         "abbrev": "HR",
         "description": "The T-0 is accurate to the hour."
       },
-      "window_end": "2024-04-22T22:00:00Z",
-      "window_start": "2024-04-22T22:00:00Z",
+      "window_end": "2024-04-22T22:40:00Z",
+      "window_start": "2024-04-22T22:40:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1437,7 +1486,28 @@
         "orbital_launch_attempt_count": 175
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink Group 6-53 - LC-39A - Kennedy Space Center - Space Affairs Live",
+          "description": "SpaceX targets Monday, April 22, for a Falcon 9 launch of 23 Starlink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at the Kennedy Space Cen...",
+          "feature_image": "https://i.ytimg.com/vi/-gGzs9MSqq0/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=-gGzs9MSqq0",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-04-22T22:30:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
@@ -1489,7 +1559,7 @@
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 42,
-      "pad_turnaround": "P5DT34M",
+      "pad_turnaround": "P5DT1H14M",
       "mission_patches": [
         {
           "id": 7,
