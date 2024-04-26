@@ -1,13 +1,13 @@
 {
   "count": 141,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-26T12%3A18%3A09Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-04-26T18%3A12%3A15Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
       "id": "974b4774-cda7-4373-abfc-40c1a1859cba",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/974b4774-cda7-4373-abfc-40c1a1859cba/?format=json",
       "slug": "falcon-9-block-5-2-x-galileo",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=974b4774-cda7-4373-abfc-40c1a1859cba",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | 2 x Galileo",
       "status": {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-04-23T13:45:48Z",
+      "last_updated": "2024-04-26T16:01:18Z",
       "updates": [
+        {
+          "id": 7386,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 75%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%202017%20L-1%20Forecast%20-%2027%20Apr%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2024-04-26T15:14:21Z"
+        },
         {
           "id": 7357,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -108,8 +116,8 @@
       },
       "window_end": "2024-04-28T01:11:00Z",
       "window_start": "2024-04-28T00:29:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 75,
+      "weather_concerns": "Cumulus Cloud Rule, Thick Cloud Layers Rule, Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -702,15 +710,15 @@
               "id": 1349,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on an ASDS after this flight.",
+              "description": "The Falcon 9 first stage will land on ASDS JRTI after this flight.",
               "downrange_distance": 600,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 79
               },
               "type": {
                 "id": 1,
