@@ -427,9 +427,56 @@
       "attempted_landings": 19,
       "successful_landings": 17,
       "failed_landings": 2,
-      "consecutive_successful_landings": 12
+      "consecutive_successful_landings": 10
     },
     "launcher_stage": [
+      {
+        "id": 222,
+        "type": "Strap-On Booster",
+        "reused": true,
+        "launcher_flight_number": 8,
+        "launcher": {
+          "id": 58,
+          "url": "https://ll.thespacedevs.com/2.2.0/launcher/58/?format=json",
+          "details": "Stage Expended",
+          "flight_proven": true,
+          "serial_number": "B1052",
+          "status": "expended",
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
+          "successful_landings": 7,
+          "attempted_landings": 7,
+          "flights": 8,
+          "last_launch_date": "2023-05-01T00:26:00Z",
+          "first_launch_date": "2019-04-11T22:35:00Z"
+        },
+        "landing": {
+          "id": 253,
+          "attempt": false,
+          "success": null,
+          "description": "B1052 was expended following its 8th flight.",
+          "downrange_distance": null,
+          "location": {
+            "id": 6,
+            "name": "Atlantic Ocean",
+            "abbrev": "ATL",
+            "description": "Atlantic Ocean",
+            "location": null,
+            "successful_landings": 0
+          },
+          "type": {
+            "id": 8,
+            "name": "Expended",
+            "abbrev": "EXP",
+            "description": "Vehicle did not perform any landing operations after launch"
+          }
+        },
+        "previous_flight_date": "2022-09-05T02:09:40Z",
+        "turn_around_time_days": 237,
+        "previous_flight": {
+          "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
+          "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM"
+        }
+      },
       {
         "id": 223,
         "type": "Strap-On Booster",
@@ -518,58 +565,86 @@
           }
         },
         "previous_flight_date": null,
-        "turn_around_time_days": 0,
+        "turn_around_time_days": null,
         "previous_flight": null
-      },
-      {
-        "id": 222,
-        "type": "Strap-On Booster",
-        "reused": true,
-        "launcher_flight_number": 8,
-        "launcher": {
-          "id": 58,
-          "url": "https://ll.thespacedevs.com/2.2.0/launcher/58/?format=json",
-          "details": "Stage Expended",
-          "flight_proven": true,
-          "serial_number": "B1052",
-          "status": "expended",
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
-          "successful_landings": 7,
-          "attempted_landings": 7,
-          "flights": 8,
-          "last_launch_date": "2023-05-01T00:26:00Z",
-          "first_launch_date": "2019-04-11T22:35:00Z"
-        },
-        "landing": {
-          "id": 253,
-          "attempt": false,
-          "success": null,
-          "description": "B1052 was expended following its 8th flight.",
-          "downrange_distance": null,
-          "location": {
-            "id": 6,
-            "name": "Atlantic Ocean",
-            "abbrev": "ATL",
-            "description": "Atlantic Ocean",
-            "location": null,
-            "successful_landings": 0
-          },
-          "type": {
-            "id": 8,
-            "name": "Expended",
-            "abbrev": "EXP",
-            "description": "Vehicle did not perform any landing operations after launch"
-          }
-        },
-        "previous_flight_date": "2022-09-05T02:09:40Z",
-        "turn_around_time_days": 237,
-        "previous_flight": {
-          "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
-          "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM"
-        }
       }
     ],
-    "spacecraft_stage": null
+    "spacecraft_stage": {
+      "id": null,
+      "mission_end": null,
+      "destination": "",
+      "launch_crew": [],
+      "onboard_crew": [],
+      "landing_crew": [],
+      "spacecraft": {
+        "name": "",
+        "serial_number": "",
+        "is_placeholder": false,
+        "in_space": false,
+        "flights_count": null,
+        "mission_ends_count": null,
+        "status": {
+          "name": ""
+        },
+        "description": "",
+        "spacecraft_config": {
+          "name": "",
+          "type": {
+            "name": ""
+          },
+          "agency": {
+            "name": "",
+            "featured": false,
+            "abbrev": "",
+            "description": "",
+            "administrator": "",
+            "founding_year": "",
+            "launchers": "",
+            "spacecraft": ""
+          },
+          "in_use": false,
+          "capability": "",
+          "history": "",
+          "details": "",
+          "maiden_flight": null,
+          "height": null,
+          "diameter": null,
+          "human_rated": false,
+          "crew_capacity": null,
+          "payload_capacity": null,
+          "payload_return_capacity": null,
+          "flight_life": "",
+          "nation_url": "",
+          "wiki_link": "",
+          "info_link": ""
+        }
+      },
+      "landing": {
+        "attempt": false,
+        "success": false,
+        "description": "",
+        "downrange_distance": null,
+        "location": {
+          "name": "",
+          "abbrev": "",
+          "description": "",
+          "location": {
+            "name": "",
+            "description": "",
+            "map_image": null,
+            "timezone_name": "",
+            "total_launch_count": null,
+            "total_landing_count": null
+          }
+        },
+        "type": {
+          "name": "",
+          "abbrev": "",
+          "description": ""
+        }
+      },
+      "docking_events": []
+    }
   },
   "mission": {
     "id": 699,
