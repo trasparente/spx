@@ -1,6 +1,6 @@
 {
   "count": 137,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-05-18T06%3A12%3A56Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-05-18T12%3A17%3A37Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1074,7 +1074,37 @@
               "last_launch_date": null,
               "first_launch_date": null
             },
-            "landing": null,
+            "landing": {
+              "id": 1368,
+              "attempt": true,
+              "success": null,
+              "description": "The F9 first stage will land at LZ-4 after its launch.",
+              "downrange_distance": null,
+              "location": {
+                "id": 7,
+                "name": "Landing Zone 4",
+                "abbrev": "LZ-4",
+                "description": "LZ at Vandenberg",
+                "location": {
+                  "id": 11,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
+                  "name": "Vandenberg SFB, CA, USA",
+                  "country_code": "USA",
+                  "description": "",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
+                  "timezone_name": "America/Los_Angeles",
+                  "total_launch_count": 755,
+                  "total_landing_count": 18
+                },
+                "successful_landings": 18
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
@@ -1190,11 +1220,11 @@
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6677,
+      "orbital_launch_attempt_count": 6679,
       "location_launch_attempt_count": 757,
       "pad_launch_attempt_count": 146,
       "agency_launch_attempt_count": 366,
-      "orbital_launch_attempt_count_year": 99,
+      "orbital_launch_attempt_count_year": 101,
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 18,
       "agency_launch_attempt_count_year": 55,
