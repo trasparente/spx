@@ -1,6 +1,6 @@
 {
   "count": 135,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-05-30T12%3A19%3A31Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-05-30T18%3A15%3A02Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-05-28T22:01:14Z",
+      "last_updated": "2024-05-30T14:25:24Z",
       "updates": [
+        {
+          "id": 7668,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather.",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-64%20L-1%20Forecast%20-%2031%20May%20Launch.pdf?ver=pv0QL4TyQ0Dbb55zJkfGNA%3d%3d",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-05-30T14:25:26Z"
+        },
         {
           "id": 7650,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -44,8 +52,8 @@
       },
       "window_end": "2024-06-01T02:43:00Z",
       "window_start": "2024-05-31T22:43:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Liftoff Winds, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -249,15 +257,15 @@
               "id": 1373,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on ASDS JRTI after this flight.",
+              "description": "The Falcon 9 first stage will land on ASDS ASOG after this flight.",
               "downrange_distance": null,
               "location": {
-                "id": 3,
-                "name": "Just Read the Instructions",
-                "abbrev": "JRTI",
-                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 82
+                "successful_landings": 72
               },
               "type": {
                 "id": 1,
