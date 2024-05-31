@@ -1,6 +1,6 @@
 {
   "count": 136,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-05-31T06%3A14%3A40Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-05-31T12%3A19%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1085,7 +1085,27 @@
               "last_launch_date": null,
               "first_launch_date": null
             },
-            "landing": null,
+            "landing": {
+              "id": 1375,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage will land on ASDS OCISLY after this flight",
+              "downrange_distance": 642,
+              "location": {
+                "id": 1,
+                "name": "Of Course I Still Love You",
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "location": null,
+                "successful_landings": 91
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
