@@ -1,6 +1,6 @@
 {
   "count": 136,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-01T18%3A13%3A12Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-02T00%3A53%3A03Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -398,15 +398,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6689,
-      "location_launch_attempt_count": 958,
+      "orbital_launch_attempt_count": 6687,
+      "location_launch_attempt_count": 957,
       "pad_launch_attempt_count": 246,
       "agency_launch_attempt_count": 370,
-      "orbital_launch_attempt_count_year": 111,
-      "location_launch_attempt_count_year": 31,
+      "orbital_launch_attempt_count_year": 109,
+      "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 59,
-      "pad_turnaround": "P3DT21H53M",
+      "pad_turnaround": "P3DT21H27M",
       "mission_patches": [
         {
           "id": 7,
@@ -802,11 +802,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6690,
+      "orbital_launch_attempt_count": 6689,
       "location_launch_attempt_count": 758,
       "pad_launch_attempt_count": 147,
       "agency_launch_attempt_count": 371,
-      "orbital_launch_attempt_count_year": 112,
+      "orbital_launch_attempt_count_year": 111,
       "location_launch_attempt_count_year": 19,
       "pad_launch_attempt_count_year": 19,
       "agency_launch_attempt_count_year": 60,
@@ -2424,6 +2424,50 @@
         },
         "launcher_stage": [
           {
+            "id": 406,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 147,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
+              "details": "Falcon Heavy core booster first used for the GOES-U mission.",
+              "flight_proven": false,
+              "serial_number": "B1087",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1305,
+              "attempt": false,
+              "success": null,
+              "description": "Core booster (B1087) expended on its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 425,
             "type": "Strap-On Booster",
             "reused": false,
@@ -2471,50 +2515,6 @@
                 "name": "Return to Launch Site",
                 "abbrev": "RTLS",
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
-            "id": 406,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 147,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
-              "details": "Falcon Heavy core booster first used for the GOES-U mission.",
-              "flight_proven": false,
-              "serial_number": "B1087",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1305,
-              "attempt": false,
-              "success": null,
-              "description": "Core booster (B1087) expended on its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
             "previous_flight_date": null,
@@ -3048,14 +3048,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6727,
-      "location_launch_attempt_count": 979,
+      "orbital_launch_attempt_count": 6728,
+      "location_launch_attempt_count": 980,
       "pad_launch_attempt_count": 9,
-      "agency_launch_attempt_count": 392,
-      "orbital_launch_attempt_count_year": 149,
-      "location_launch_attempt_count_year": 52,
+      "agency_launch_attempt_count": 393,
+      "orbital_launch_attempt_count_year": 150,
+      "location_launch_attempt_count_year": 53,
       "pad_launch_attempt_count_year": 9,
-      "agency_launch_attempt_count_year": 81,
+      "agency_launch_attempt_count_year": 82,
       "pad_turnaround": "P0D",
       "mission_patches": [
         {
@@ -3452,14 +3452,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6727,
+      "orbital_launch_attempt_count": 6728,
       "location_launch_attempt_count": 766,
       "pad_launch_attempt_count": 154,
-      "agency_launch_attempt_count": 392,
-      "orbital_launch_attempt_count_year": 149,
+      "agency_launch_attempt_count": 393,
+      "orbital_launch_attempt_count_year": 150,
       "location_launch_attempt_count_year": 27,
       "pad_launch_attempt_count_year": 26,
-      "agency_launch_attempt_count_year": 81,
+      "agency_launch_attempt_count_year": 82,
       "pad_turnaround": "P24DT18H48M",
       "mission_patches": [
         {
@@ -3856,14 +3856,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6727,
-      "location_launch_attempt_count": 979,
+      "orbital_launch_attempt_count": 6728,
+      "location_launch_attempt_count": 980,
       "pad_launch_attempt_count": 9,
-      "agency_launch_attempt_count": 392,
-      "orbital_launch_attempt_count_year": 149,
-      "location_launch_attempt_count_year": 52,
+      "agency_launch_attempt_count": 393,
+      "orbital_launch_attempt_count_year": 150,
+      "location_launch_attempt_count_year": 53,
       "pad_launch_attempt_count_year": 9,
-      "agency_launch_attempt_count_year": 81,
+      "agency_launch_attempt_count_year": 82,
       "pad_turnaround": "P0D",
       "mission_patches": [
         {
@@ -4260,14 +4260,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6727,
+      "orbital_launch_attempt_count": 6728,
       "location_launch_attempt_count": 766,
       "pad_launch_attempt_count": 154,
-      "agency_launch_attempt_count": 392,
-      "orbital_launch_attempt_count_year": 149,
+      "agency_launch_attempt_count": 393,
+      "orbital_launch_attempt_count_year": 150,
       "location_launch_attempt_count_year": 27,
       "pad_launch_attempt_count_year": 26,
-      "agency_launch_attempt_count_year": 81,
+      "agency_launch_attempt_count_year": 82,
       "pad_turnaround": "P24DT18H48M",
       "mission_patches": [
         {
