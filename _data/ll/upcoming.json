@@ -1,6 +1,6 @@
 {
   "count": 136,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-04T12%3A19%3A36Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-04T18%3A13%3A59Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-06-04T08:01:24Z",
+      "last_updated": "2024-06-04T16:37:54Z",
       "updates": [
+        {
+          "id": 7712,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Adjusted T-0.",
+          "info_url": "https://x.com/TSKelso/status/1798029154623058342",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-06-04T16:37:59Z"
+        },
         {
           "id": 7705,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -51,12 +59,12 @@
           "created_on": "2024-02-21T05:52:01Z"
         }
       ],
-      "net": "2024-06-05T00:04:00Z",
+      "net": "2024-06-05T02:16:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2024-06-05T03:27:00Z",
       "window_start": "2024-06-05T00:04:00Z",
@@ -292,7 +300,7 @@
       "mission": {
         "id": 6773,
         "name": "Starlink Group 8-5",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 20 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -362,7 +370,48 @@
         "orbital_launch_attempt_count": 245
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink Group 8-5 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date: June 4, 2024 (EDT)Launch Time: 10:16 p.m. EDT (0216 UTC, 04:16 CEST - June 5)Launch Window: 8:04 p.m. to 11:27 p.m. Launch Trajectory: North-Eas...",
+          "feature_image": "https://i.ytimg.com/vi/GYgdd1HpKqQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=GYgdd1HpKqQ",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-06-05T02:06:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "description": "Space Coast Live provides 24/7 views of SpaceX and NASA launch operations in Florida including the new Starship pad at LC-39A. The Kennedy Space Center-based...",
+          "feature_image": "https://i.ytimg.com/vi/Jm8wRjD3xVA/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2023-07-02T14:58:07Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
@@ -414,7 +463,7 @@
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 59,
-      "pad_turnaround": "P3DT21H27M",
+      "pad_turnaround": "P3DT23H39M",
       "mission_patches": [
         {
           "id": 7,
