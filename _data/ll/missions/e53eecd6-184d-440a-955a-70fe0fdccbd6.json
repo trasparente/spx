@@ -11,7 +11,7 @@
     "abbrev": "Success",
     "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
   },
-  "last_updated": "2023-06-05T16:13:09Z",
+  "last_updated": "2024-03-05T17:47:59Z",
   "updates": [
     {
       "id": 4286,
@@ -145,21 +145,21 @@
     "founding_year": "2002",
     "launchers": "Falcon | Starship",
     "spacecraft": "Dragon",
-    "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
-    "total_launch_count": 254,
-    "consecutive_successful_launches": 15,
-    "successful_launches": 244,
-    "failed_launches": 10,
-    "pending_launches": 114,
-    "consecutive_successful_landings": 123,
-    "successful_landings": 205,
-    "failed_landings": 17,
-    "attempted_landings": 222,
+    "launch_library_url": null,
+    "total_launch_count": 370,
+    "consecutive_successful_launches": 71,
+    "successful_launches": 359,
+    "failed_launches": 11,
+    "pending_launches": 132,
+    "consecutive_successful_landings": 33,
+    "successful_landings": 321,
+    "failed_landings": 24,
+    "attempted_landings": 344,
     "info_url": "http://www.spacex.com/",
     "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
-    "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
-    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
-    "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
+    "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+    "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
   },
   "rocket": {
     "id": 7460,
@@ -185,55 +185,23 @@
         "founding_year": "2002",
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
-        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
-        "total_launch_count": 254,
-        "consecutive_successful_launches": 15,
-        "successful_launches": 244,
-        "failed_launches": 10,
-        "pending_launches": 114,
-        "consecutive_successful_landings": 123,
-        "successful_landings": 205,
-        "failed_landings": 17,
-        "attempted_landings": 222,
+        "launch_library_url": null,
+        "total_launch_count": 370,
+        "consecutive_successful_launches": 71,
+        "successful_launches": 359,
+        "failed_launches": 11,
+        "pending_launches": 132,
+        "consecutive_successful_landings": 33,
+        "successful_landings": 321,
+        "failed_landings": 24,
+        "attempted_landings": 344,
         "info_url": "http://www.spacex.com/",
         "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
-        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
-        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "program": [
-        {
-          "id": 5,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
-          "name": "Commercial Crew Program",
-          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-          "agencies": [
-            {
-              "id": 80,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
-              "name": "Boeing",
-              "type": "Commercial"
-            },
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-              "name": "SpaceX",
-              "type": "Commercial"
-            }
-          ],
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20200820201209.png",
-          "start_date": "2011-04-18T00:00:00Z",
-          "end_date": null,
-          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-          "mission_patches": []
-        },
         {
           "id": 11,
           "url": "https://ll.thespacedevs.com/2.2.0/program/11/?format=json",
@@ -265,12 +233,52 @@
               "type": "Commercial"
             }
           ],
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20201129212219.png",
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
           "start_date": "2008-12-23T00:00:00Z",
           "end_date": null,
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-          "mission_patches": []
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        },
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
+          "name": "Commercial Crew Program",
+          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+          "agencies": [
+            {
+              "id": 80,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
+              "name": "Boeing",
+              "type": "Commercial"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+          "start_date": "2011-04-18T00:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
         }
       ],
       "variant": "Block 5",
@@ -287,18 +295,18 @@
       "to_thrust": 7607,
       "apogee": 200,
       "vehicle_range": null,
-      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
+      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "info_url": "https://www.spacex.com/vehicles/falcon-9/",
       "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-      "total_launch_count": 176,
-      "consecutive_successful_launches": 176,
-      "successful_launches": 176,
+      "total_launch_count": 287,
+      "consecutive_successful_launches": 287,
+      "successful_launches": 287,
       "failed_launches": 0,
-      "pending_launches": 103,
-      "attempted_landings": 171,
-      "successful_landings": 167,
+      "pending_launches": 121,
+      "attempted_landings": 281,
+      "successful_landings": 277,
       "failed_landings": 4,
-      "consecutive_successful_landings": 122
+      "consecutive_successful_landings": 232
     },
     "launcher_stage": [
       {
@@ -313,11 +321,11 @@
           "flight_proven": true,
           "serial_number": "B1077",
           "status": "active",
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/116_image_20221005161217.jpeg",
-          "successful_landings": 5,
-          "attempted_landings": 5,
-          "flights": 5,
-          "last_launch_date": "2023-06-05T15:47:00Z",
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/116_image_20240201065853.jpg",
+          "successful_landings": 13,
+          "attempted_landings": 13,
+          "flights": 13,
+          "last_launch_date": "2024-05-24T02:45:00Z",
           "first_launch_date": "2022-10-05T16:00:57Z"
         },
         "landing": {
@@ -325,14 +333,14 @@
           "attempt": true,
           "success": true,
           "description": "B1077 has successfully landed on ASDS ASOG after its fifth flight.",
-          "downrange_distance": null,
+          "downrange_distance": 667,
           "location": {
             "id": 17,
             "name": "A Shortfall of Gravitas",
             "abbrev": "ASOG",
             "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
             "location": null,
-            "successful_landings": 37
+            "successful_landings": 73
           },
           "type": {
             "id": 1,
@@ -352,7 +360,7 @@
     "spacecraft_stage": {
       "id": 809,
       "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/809/?format=json",
-      "mission_end": null,
+      "mission_end": "2023-06-30T14:30:00Z",
       "destination": "International Space Station",
       "launch_crew": [],
       "onboard_crew": [],
@@ -363,11 +371,11 @@
         "name": "Cargo Dragon C208",
         "serial_number": "C208",
         "is_placeholder": false,
-        "in_space": true,
-        "time_in_space": "P113DT21H32M44S",
-        "time_docked": "P105DT22H16M53S",
+        "in_space": false,
+        "time_in_space": "P132DT21H42M51S",
+        "time_docked": "P124DT27M",
         "flights_count": 4,
-        "mission_ends_count": 3,
+        "mission_ends_count": 4,
         "status": {
           "id": 1,
           "name": "Active"
@@ -378,8 +386,8 @@
           "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/7/?format=json",
           "name": "Cargo Dragon 2",
           "type": {
-            "id": 1,
-            "name": "Unknown"
+            "id": 2,
+            "name": "Capsule"
           },
           "agency": {
             "id": 121,
@@ -395,12 +403,12 @@
             "launchers": "Falcon | Starship",
             "spacecraft": "Dragon",
             "parent": null,
-            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
-            "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png"
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
           },
           "in_use": true,
           "capability": "Cargo Earth Orbit Logistics",
-          "history": "Cargo Dragon 2 is an updated version of the original Dragon spaceship designed to service the International Space Station with first flights conducted in 2020.",
+          "history": "Cargo Dragon 2 is an updated version of the original Dragon spaceship designed to service the International Space Station with first flights conducted in 2020.\r\n\r\nIn contrast to Dragon 1 it docks to the International Space Station instead of being berthed by the Canada Arm.",
           "details": "Cargo Dragon 2 is a autonomous spaceship capable of bringing science to and from the International Space Station with large pressurized and un-pressurized sections to support a variety of missions.",
           "maiden_flight": "2020-12-06",
           "height": 7.2,
@@ -408,8 +416,9 @@
           "human_rated": false,
           "crew_capacity": null,
           "payload_capacity": 6000,
+          "payload_return_capacity": 3000,
           "flight_life": "Able to fly for up to one week of free flight or two years docked.",
-          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/orbiter_images/cargo_dragon_2_image_20220905121632.jpg",
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg",
           "nation_url": null,
           "wiki_link": "https://en.wikipedia.org/wiki/Dragon_2",
           "info_link": "https://www.spacex.com/dragon"
@@ -418,7 +427,7 @@
       "landing": {
         "id": 1172,
         "attempt": true,
-        "success": null,
+        "success": true,
         "description": "Splashdown in the gulf of Mexico.",
         "downrange_distance": null,
         "location": {
@@ -438,6 +447,7 @@
       },
       "docking_events": [
         {
+          "id": 519,
           "spacestation": {
             "id": 4,
             "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/?format=json",
@@ -449,10 +459,10 @@
             "founded": "1998-11-20",
             "description": "The International Space Station (ISS) is a space station, or a habitable artificial satellite, in low Earth orbit. Its first component was launched into orbit in 1998, with the first long-term residents arriving in November 2000. It has been inhabited continuously since that date. The last pressurised module was fitted in 2011, and an experimental inflatable space habitat was added in 2016. The station is expected to operate until 2030. Development and assembly of the station continues, with several new elements scheduled for launch in 2019. The ISS is the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth. The ISS consists of pressurised habitation modules, structural trusses, solar arrays, radiators, docking ports, experiment bays and robotic arms. ISS components have been launched by Russian Proton and Soyuz rockets, and American Space Shuttles.",
             "orbit": "Low Earth Orbit",
-            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/international2520space2520station_image_20190220215716.jpeg"
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/international2520space2520station_image_20190220215716.jpeg"
           },
           "docking": "2023-06-06T09:54:00Z",
-          "departure": null,
+          "departure": "2023-06-29T16:30:00Z",
           "docking_location": {
             "id": 30,
             "name": "Harmony zenith",
@@ -476,13 +486,47 @@
       "id": 8,
       "name": "Low Earth Orbit",
       "abbrev": "LEO"
-    }
+    },
+    "agencies": [
+      {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+        "name": "National Aeronautics and Space Administration",
+        "featured": true,
+        "type": "Government",
+        "country_code": "USA",
+        "abbrev": "NASA",
+        "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+        "administrator": "Administrator: Bill Nelson",
+        "founding_year": "1958",
+        "launchers": "Space Shuttle | SLS",
+        "spacecraft": "Orion",
+        "launch_library_url": null,
+        "total_launch_count": 135,
+        "consecutive_successful_launches": 11,
+        "successful_launches": 115,
+        "failed_launches": 20,
+        "pending_launches": 6,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "http://www.nasa.gov",
+        "wiki_url": "http://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
+      }
+    ],
+    "info_urls": [],
+    "vid_urls": []
   },
   "pad": {
     "id": 87,
     "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
     "agency_id": 121,
     "name": "Launch Complex 39A",
+    "description": null,
     "info_url": null,
     "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
     "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
@@ -493,43 +537,60 @@
       "url": "https://ll.thespacedevs.com/2.2.0/location/27/?format=json",
       "name": "Kennedy Space Center, FL, USA",
       "country_code": "USA",
+      "description": "",
       "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
       "timezone_name": "America/New_York",
-      "total_launch_count": 220,
+      "total_launch_count": 238,
       "total_landing_count": 0
     },
     "country_code": "USA",
     "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
-    "total_launch_count": 162,
-    "orbital_launch_attempt_count": 161
+    "total_launch_count": 180,
+    "orbital_launch_attempt_count": 179
   },
   "infoURLs": [
     {
       "priority": 10,
+      "source": null,
       "title": "SpaceX",
       "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
       "feature_image": null,
-      "url": "https://www.spacex.com/launches/mission/?missionId=crs-28"
+      "url": "https://www.spacex.com/launches/mission/?missionId=crs-28",
+      "type": null,
+      "language": null
     }
   ],
   "vidURLs": [
     {
       "priority": 9,
+      "source": null,
+      "publisher": null,
       "title": "CRS-28 Mission",
       "description": "SpaceX is targeting Saturday, June 3 for Falcon 9’s launch of Dragon’s 28th Commercial Resupply Services (CRS-28) mission to the International Space Station ...",
       "feature_image": "https://i.ytimg.com/vi/Umx-gjHAXsc/maxresdefault_live.jpg",
-      "url": "https://www.youtube.com/watch?v=Umx-gjHAXsc"
+      "url": "https://www.youtube.com/watch?v=Umx-gjHAXsc",
+      "type": null,
+      "language": null,
+      "start_time": null,
+      "end_time": null
     },
     {
       "priority": 10,
+      "source": null,
+      "publisher": null,
       "title": "Watch SpaceX's 28th Cargo Launch to the International Space Station (Official NASA Broadcast)",
       "description": "SpaceX's 28th cargo resupply mission to the International Space Station is scheduled to lift off at 12:35 p.m. EDT on Saturday, June 3 (1635 UTC), from Launc...",
       "feature_image": "https://i.ytimg.com/vi/Z_h-ho2w_0Y/maxresdefault_live.jpg",
-      "url": "https://www.youtube.com/watch?v=Z_h-ho2w_0Y"
+      "url": "https://www.youtube.com/watch?v=Z_h-ho2w_0Y",
+      "type": null,
+      "language": null,
+      "start_time": null,
+      "end_time": null
     }
   ],
   "webcast_live": false,
-  "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20210922155355.jpeg",
+  "timeline": [],
+  "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
   "infographic": null,
   "program": [
     {
@@ -563,12 +624,16 @@
           "type": "Commercial"
         }
       ],
-      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20201129212219.png",
+      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
       "start_date": "2008-12-23T00:00:00Z",
       "end_date": null,
       "info_url": null,
       "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-      "mission_patches": []
+      "mission_patches": [],
+      "type": {
+        "id": 2,
+        "name": "Human Spaceflight"
+      }
     },
     {
       "id": 17,
@@ -607,22 +672,27 @@
           "type": "Government"
         }
       ],
-      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/international2_program_20201129184745.png",
+      "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
       "start_date": "1998-11-20T06:40:00Z",
       "end_date": null,
       "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
       "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
-      "mission_patches": []
+      "mission_patches": [],
+      "type": {
+        "id": 2,
+        "name": "Human Spaceflight"
+      }
     }
   ],
   "orbital_launch_attempt_count": 6443,
   "location_launch_attempt_count": 220,
   "pad_launch_attempt_count": 162,
   "agency_launch_attempt_count": 252,
-  "orbital_launch_attempt_count_year": 85,
+  "orbital_launch_attempt_count_year": 86,
   "location_launch_attempt_count_year": 7,
   "pad_launch_attempt_count_year": 7,
   "agency_launch_attempt_count_year": 39,
+  "pad_turnaround": "P14DT18H10M",
   "mission_patches": [
     {
       "id": 781,
@@ -636,5 +706,6 @@
         "type": "Commercial"
       }
     }
-  ]
+  ],
+  "type": "detailed"
 }
