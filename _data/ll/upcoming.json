@@ -1,6 +1,6 @@
 {
   "count": 134,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-07T00%3A51%3A49Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-07T06%3A15%3A41Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-06-06T20:01:16Z",
+      "last_updated": "2024-06-07T05:12:59Z",
       "updates": [
+        {
+          "id": 7747,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Adjusted T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-06-07T05:13:07Z"
+        },
         {
           "id": 7744,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -35,12 +43,12 @@
           "created_on": "2024-06-01T07:19:08Z"
         }
       ],
-      "net": "2024-06-07T22:58:00Z",
+      "net": "2024-06-08T00:00:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2024-06-08T02:21:00Z",
       "window_start": "2024-06-07T22:58:00Z",
@@ -276,7 +284,7 @@
       "mission": {
         "id": 6837,
         "name": "Starlink Group 10-1",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 22 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -398,7 +406,7 @@
       "location_launch_attempt_count_year": 32,
       "pad_launch_attempt_count_year": 29,
       "agency_launch_attempt_count_year": 61,
-      "pad_turnaround": "P2DT20H42M",
+      "pad_turnaround": "P2DT21H44M",
       "mission_patches": [
         {
           "id": 7,
