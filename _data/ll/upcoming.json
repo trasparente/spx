@@ -1,6 +1,6 @@
 {
   "count": 134,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-09T18%3A12%3A59Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-10T00%3A52%3A02Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1327,9 +1327,63 @@
           "attempted_landings": 19,
           "successful_landings": 17,
           "failed_landings": 2,
-          "consecutive_successful_landings": 10
+          "consecutive_successful_landings": 12
         },
         "launcher_stage": [
+          {
+            "id": 426,
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 111,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
+              "details": "Falcon Heavy side booster.",
+              "flight_proven": false,
+              "serial_number": "B1072",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1306,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy side booster B1072 will land back at the launch site after its 1st flight.",
+              "downrange_distance": 14.9,
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": "",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 959,
+                  "total_landing_count": 51
+                },
+                "successful_landings": 40
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
           {
             "id": 406,
             "type": "Core",
@@ -1416,60 +1470,6 @@
                   "total_landing_count": 51
                 },
                 "successful_landings": 10
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
-            "id": 426,
-            "type": "Strap-On Booster",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 111,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
-              "details": "Falcon Heavy side booster.",
-              "flight_proven": false,
-              "serial_number": "B1072",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1306,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy side booster B1072 will land back at the launch site after its 1st flight.",
-              "downrange_distance": 14.9,
-              "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": "",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 959,
-                  "total_landing_count": 51
-                },
-                "successful_landings": 40
               },
               "type": {
                 "id": 2,
@@ -3133,7 +3133,7 @@
       "location_launch_attempt_count_year": 39,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 77,
-      "pad_turnaround": "P15D",
+      "pad_turnaround": "P12DT2H30M",
       "mission_patches": [],
       "type": "detailed"
     },
