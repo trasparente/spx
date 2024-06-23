@@ -1,6 +1,6 @@
 {
   "count": 133,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-22T18%3A13%3A06Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-06-23T00%3A53%3A58Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-06-22T15:17:16Z",
+      "last_updated": "2024-06-22T21:54:59Z",
       "updates": [
+        {
+          "id": 7916,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "T-0 is accurate to the second",
+          "info_url": "https://twitter.com/TSKelso/status/1804633124170813751",
+          "created_by": "Nosu",
+          "created_on": "2024-06-22T21:55:01Z"
+        },
         {
           "id": 7913,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -229,10 +237,10 @@
       ],
       "net": "2024-06-23T17:15:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2024-06-23T21:01:00Z",
       "window_start": "2024-06-23T17:15:00Z",
@@ -1554,8 +1562,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-06-20T22:01:32Z",
+      "last_updated": "2024-06-22T18:34:59Z",
       "updates": [
+        {
+          "id": 7914,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather 30%",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20GOES-U%20L-3%20Day%20Forecast%20-%2025%20Jun%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2024-06-22T18:35:01Z"
+        },
         {
           "id": 7501,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1606,8 +1622,8 @@
       },
       "window_end": "2024-06-25T23:16:00Z",
       "window_start": "2024-06-25T21:16:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 30,
+      "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules, Surface Electric Fields Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1710,50 +1726,6 @@
         },
         "launcher_stage": [
           {
-            "id": 406,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 147,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
-              "details": "Falcon Heavy core booster first used for the GOES-U mission.",
-              "flight_proven": false,
-              "serial_number": "B1087",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1305,
-              "attempt": false,
-              "success": null,
-              "description": "Core booster (B1087) expended on its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 425,
             "type": "Strap-On Booster",
             "reused": false,
@@ -1801,6 +1773,50 @@
                 "name": "Return to Launch Site",
                 "abbrev": "RTLS",
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 406,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 147,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
+              "details": "Falcon Heavy core booster first used for the GOES-U mission.",
+              "flight_proven": false,
+              "serial_number": "B1087",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1305,
+              "attempt": false,
+              "success": null,
+              "description": "Core booster (B1087) expended on its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
             "previous_flight_date": null,
