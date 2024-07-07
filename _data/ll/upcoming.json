@@ -1,6 +1,6 @@
 {
   "count": 132,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-07-07T12%3A18%3A33Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-07-07T18%3A13%3A16Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-07-05T16:21:51Z",
+      "last_updated": "2024-07-07T13:59:43Z",
       "updates": [
+        {
+          "id": 8030,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather.",
+          "info_url": "https://www.patrick.spaceforce.mil//Portals/14/Weather/Falcon%209%20Turksat-6A%20L-1%20Forecast%20-%208%20JUL%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-07-07T13:59:05Z"
+        },
         {
           "id": 8024,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -108,8 +116,8 @@
       },
       "window_end": "2024-07-09T01:43:00Z",
       "window_start": "2024-07-08T21:20:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 30,
+      "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules, Surface Electric Fields Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -847,8 +855,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-07-07T07:05:24Z",
+      "last_updated": "2024-07-07T13:16:25Z",
       "updates": [
+        {
+          "id": 8029,
+          "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=61094.msg2606363#msg2606363",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-07-07T13:16:32Z"
+        },
         {
           "id": 8028,
           "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -858,15 +874,15 @@
           "created_on": "2024-07-07T04:34:18Z"
         }
       ],
-      "net": "2024-07-12T08:25:00Z",
+      "net": "2024-07-12T08:20:00Z",
       "net_precision": {
         "id": 2,
         "name": "Hour",
         "abbrev": "HR",
         "description": "The T-0 is accurate to the hour."
       },
-      "window_end": "2024-07-12T13:08:00Z",
-      "window_start": "2024-07-12T08:25:00Z",
+      "window_end": "2024-07-12T12:50:00Z",
+      "window_start": "2024-07-12T08:20:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1221,7 +1237,7 @@
       "location_launch_attempt_count_year": 38,
       "pad_launch_attempt_count_year": 35,
       "agency_launch_attempt_count_year": 73,
-      "pad_turnaround": "P3DT11H5M",
+      "pad_turnaround": "P3DT11H",
       "mission_patches": [
         {
           "id": 7,
