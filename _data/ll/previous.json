@@ -1,6 +1,6 @@
 {
   "count": 381,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-07-07T18%3A13%3A16Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-07-08T00%3A53%3A12Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -2538,50 +2538,6 @@
         },
         "launcher_stage": [
           {
-            "id": 406,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 147,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
-              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
-              "flight_proven": false,
-              "serial_number": "B1087",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2024-06-25T21:26:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "landing": {
-              "id": 1305,
-              "attempt": false,
-              "success": null,
-              "description": "Core booster B1087 was expended on its first flight.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 425,
             "type": "Strap-On Booster",
             "reused": false,
@@ -2629,6 +2585,50 @@
                 "name": "Return to Launch Site",
                 "abbrev": "RTLS",
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 406,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 147,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
+              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
+              "flight_proven": false,
+              "serial_number": "B1087",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2024-06-25T21:26:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "landing": {
+              "id": 1305,
+              "attempt": false,
+              "success": null,
+              "description": "Core booster B1087 was expended on its first flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
             "previous_flight_date": null,
