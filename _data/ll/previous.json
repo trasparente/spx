@@ -1,6 +1,6 @@
 {
   "count": 386,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-08-01T18%3A14%3A29Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-08-02T00%3A52%3A51Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -6568,47 +6568,57 @@
           "attempted_landings": 21,
           "successful_landings": 19,
           "failed_landings": 2,
-          "consecutive_successful_landings": 14
+          "consecutive_successful_landings": 13
         },
         "launcher_stage": [
           {
-            "id": 406,
-            "type": "Core",
+            "id": 426,
+            "type": "Strap-On Booster",
             "reused": false,
             "launcher_flight_number": 1,
             "launcher": {
-              "id": 147,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
-              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
-              "flight_proven": false,
-              "serial_number": "B1087",
-              "status": "expended",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
+              "id": 111,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "status": "active",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+              "successful_landings": 1,
+              "attempted_landings": 1,
               "flights": 1,
               "last_launch_date": "2024-06-25T21:26:00Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
             "landing": {
-              "id": 1305,
-              "attempt": false,
-              "success": null,
-              "description": "Core booster B1087 was expended on its first flight.",
-              "downrange_distance": null,
+              "id": 1306,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site after its 1st flight.",
+              "downrange_distance": 14.9,
               "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 0
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral, FL, USA",
+                  "country_code": "USA",
+                  "description": "",
+                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 966,
+                  "total_landing_count": 53
+                },
+                "successful_landings": 41
               },
               "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
             "previous_flight_date": null,
@@ -6670,53 +6680,43 @@
             "previous_flight": null
           },
           {
-            "id": 426,
-            "type": "Strap-On Booster",
+            "id": 406,
+            "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
             "launcher": {
-              "id": 111,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "status": "active",
-              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-              "successful_landings": 1,
-              "attempted_landings": 1,
+              "id": 147,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/147/?format=json",
+              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
+              "flight_proven": false,
+              "serial_number": "B1087",
+              "status": "expended",
+              "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
               "flights": 1,
               "last_launch_date": "2024-06-25T21:26:00Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
             "landing": {
-              "id": 1306,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site after its 1st flight.",
-              "downrange_distance": 14.9,
+              "id": 1305,
+              "attempt": false,
+              "success": null,
+              "description": "Core booster B1087 was expended on its first flight.",
+              "downrange_distance": null,
               "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral, FL, USA",
-                  "country_code": "USA",
-                  "description": "",
-                  "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 966,
-                  "total_landing_count": 53
-                },
-                "successful_landings": 41
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 0
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
             "previous_flight_date": null,
