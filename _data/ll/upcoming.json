@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-08-18T12%3A21%3A10Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-08-18T18%3A13%3A33Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-08-13T22:52:49Z",
+      "last_updated": "2024-08-18T15:49:10Z",
       "updates": [
+        {
+          "id": 8345,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked launch window.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-08-18T15:49:13Z"
+        },
         {
           "id": 8308,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -43,15 +51,15 @@
           "created_on": "2024-03-08T05:33:15Z"
         }
       ],
-      "net": "2024-08-20T09:20:00Z",
+      "net": "2024-08-20T09:36:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2024-08-20T13:20:00Z",
-      "window_start": "2024-08-20T09:20:00Z",
+      "window_end": "2024-08-20T12:48:00Z",
+      "window_start": "2024-08-20T09:36:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -257,15 +265,15 @@
               "id": 1326,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after this flight.",
-              "downrange_distance": null,
+              "description": "The Falcon 9 first stage will land ASDS ASOG after this flight.",
+              "downrange_distance": 618,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 79
               },
               "type": {
                 "id": 1,
@@ -284,7 +292,7 @@
       "mission": {
         "id": 6784,
         "name": "Starlink Group 10-5",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 22 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -406,7 +414,7 @@
       "location_launch_attempt_count_year": 43,
       "pad_launch_attempt_count_year": 39,
       "agency_launch_attempt_count_year": 84,
-      "pad_turnaround": "P4DT20H20M",
+      "pad_turnaround": "P4DT20H36M",
       "mission_patches": [
         {
           "id": 7,
@@ -427,7 +435,7 @@
       "id": "1bf11245-99d7-4178-8bf8-408730e21b36",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/1bf11245-99d7-4178-8bf8-408730e21b36/?format=json",
       "slug": "falcon-9-block-5-starlink-group-9-5",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=1bf11245-99d7-4178-8bf8-408730e21b36",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 9-5",
       "status": {
@@ -436,7 +444,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-08-14T17:44:09Z",
+      "last_updated": "2024-08-18T15:02:03Z",
       "updates": [
         {
           "id": 8313,
@@ -2137,7 +2145,7 @@
       "id": "95bff87b-38c6-4db0-8b2f-e3952c95f383",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/95bff87b-38c6-4db0-8b2f-e3952c95f383/?format=json",
       "slug": "falcon-9-block-5-starlink-group-8-10",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=95bff87b-38c6-4db0-8b2f-e3952c95f383",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 8-10",
       "status": {
@@ -2146,7 +2154,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-08-17T01:57:41Z",
+      "last_updated": "2024-08-18T15:02:07Z",
       "updates": [
         {
           "id": 8340,
@@ -2549,7 +2557,7 @@
       "id": "a0809bf8-a2f2-48e1-92da-1d8c21180e25",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/a0809bf8-a2f2-48e1-92da-1d8c21180e25/?format=json",
       "slug": "falcon-9-block-5-gsat-20",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=a0809bf8-a2f2-48e1-92da-1d8c21180e25",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | GSAT-20",
       "status": {
@@ -2558,7 +2566,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-06-19T05:30:00Z",
+      "last_updated": "2024-08-18T15:02:00Z",
       "updates": [
         {
           "id": 7886,
