@@ -1,13 +1,13 @@
 {
   "count": 120,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-14T06%3A15%3A56Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-14T12%3A20%3A32Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
       "id": "b9c44ac9-e201-4042-9f08-bd517cd2e6a5",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/b9c44ac9-e201-4042-9f08-bd517cd2e6a5/?format=json",
       "slug": "falcon-9-block-5-galileo-l13-foc-fm26-fm32",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=b9c44ac9-e201-4042-9f08-bd517cd2e6a5",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Galileo L13 (FOC FM26 & FM32)",
       "status": {
@@ -16,7 +16,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-09-14T04:46:00Z",
+      "last_updated": "2024-09-14T10:01:57Z",
       "updates": [
         {
           "id": 8570,
@@ -435,7 +435,7 @@
       "id": "facd46c6-5197-4c27-939a-2b6b3f08d39d",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/facd46c6-5197-4c27-939a-2b6b3f08d39d/?format=json",
       "slug": "falcon-9-block-5-starlink-group-9-17",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=facd46c6-5197-4c27-939a-2b6b3f08d39d",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 9-17",
       "status": {
@@ -444,7 +444,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-09-13T16:39:34Z",
+      "last_updated": "2024-09-14T10:01:50Z",
       "updates": [
         {
           "id": 8567,
@@ -3350,6 +3350,50 @@
         },
         "launcher_stage": [
           {
+            "id": 277,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 154,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/154/?format=json",
+              "details": "Falcon Heavy core booster to be expended during the Europa Clipper mission.",
+              "flight_proven": false,
+              "serial_number": "B1090",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 305,
+              "attempt": false,
+              "success": null,
+              "description": "The FH for this launch will be fully expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 35
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 279,
             "type": "Strap-On Booster",
             "reused": true,
@@ -3442,50 +3486,6 @@
               "id": "0098c032-73de-4c6f-8d73-5d68b9a12fdf",
               "name": "Falcon Heavy | OTV-7 (X-37B) (USSF-52)"
             }
-          },
-          {
-            "id": 277,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 305,
-              "attempt": false,
-              "success": null,
-              "description": "The FH for this launch will be fully expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 35
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
