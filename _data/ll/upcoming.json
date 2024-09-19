@@ -1,6 +1,6 @@
 {
   "count": 120,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-19T06%3A17%3A23Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-19T12%3A23%3A06Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-09-18T23:17:34Z",
+      "last_updated": "2024-09-19T07:58:53Z",
       "updates": [
+        {
+          "id": 8652,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-09-19T07:58:00Z"
+        },
         {
           "id": 8647,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -59,12 +67,12 @@
           "created_on": "2024-09-13T16:39:00Z"
         }
       ],
-      "net": "2024-09-20T12:00:00Z",
+      "net": "2024-09-20T13:50:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2024-09-20T16:38:00Z",
       "window_start": "2024-09-20T12:00:00Z",
@@ -422,7 +430,7 @@
       "location_launch_attempt_count_year": 32,
       "pad_launch_attempt_count_year": 31,
       "agency_launch_attempt_count_year": 94,
-      "pad_turnaround": "P7DT10H15M",
+      "pad_turnaround": "P7DT12H5M",
       "mission_patches": [
         {
           "id": 7,
