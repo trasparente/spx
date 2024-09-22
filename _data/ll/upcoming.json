@@ -1,6 +1,6 @@
 {
   "count": 119,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-22T06%3A15%3A35Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-22T12%3A20%3A59Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1138,7 +1138,7 @@
             "consecutive_successful_launches": 49,
             "successful_launches": 314,
             "failed_launches": 11,
-            "pending_launches": 9,
+            "pending_launches": 10,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -1158,7 +1158,7 @@
         "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
         "agency_id": 121,
         "name": "Space Launch Complex 40",
-        "description": null,
+        "description": "",
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
         "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
@@ -1908,7 +1908,27 @@
               "last_launch_date": null,
               "first_launch_date": null
             },
-            "landing": null,
+            "landing": {
+              "id": 1453,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon 9 booster will be expended during this mission.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 36
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
@@ -1966,7 +1986,7 @@
         "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
         "agency_id": 121,
         "name": "Space Launch Complex 40",
-        "description": null,
+        "description": "",
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
         "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
@@ -2325,7 +2345,7 @@
         "url": "https://ll.thespacedevs.com/2.2.0/pad/87/?format=json",
         "agency_id": 121,
         "name": "Launch Complex 39A",
-        "description": null,
+        "description": "",
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
         "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
@@ -3380,7 +3400,7 @@
         "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
         "agency_id": 121,
         "name": "Space Launch Complex 40",
-        "description": null,
+        "description": "",
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
         "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
