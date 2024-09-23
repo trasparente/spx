@@ -1,6 +1,6 @@
 {
   "count": 119,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-23T12%3A23%3A52Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-23T18%3A16%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -436,8 +436,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-09-18T22:55:09Z",
+      "last_updated": "2024-09-23T14:43:31Z",
       "updates": [
+        {
+          "id": 8680,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://nasa-public-data.s3.amazonaws.com/iss-coords/current/ISS_OEM/ISS.OEM_J2K_EPH.txt",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-09-23T14:43:00Z"
+        },
         {
           "id": 8641,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -503,15 +511,15 @@
           "created_on": "2023-10-12T15:22:30Z"
         }
       ],
-      "net": "2024-09-26T18:05:00Z",
+      "net": "2024-09-26T18:05:35Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2024-09-26T18:05:00Z",
-      "window_start": "2024-09-26T18:05:00Z",
+      "window_end": "2024-09-26T18:05:35Z",
+      "window_start": "2024-09-26T18:05:35Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1272,15 +1280,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6769,
+      "orbital_launch_attempt_count": 6770,
       "location_launch_attempt_count": 976,
       "pad_launch_attempt_count": 263,
       "agency_launch_attempt_count": 407,
-      "orbital_launch_attempt_count_year": 180,
+      "orbital_launch_attempt_count_year": 181,
       "location_launch_attempt_count_year": 49,
       "pad_launch_attempt_count_year": 45,
       "agency_launch_attempt_count_year": 96,
-      "pad_turnaround": "P8DT19H14M11S",
+      "pad_turnaround": "P8DT19H14M46S",
       "mission_patches": [],
       "type": "detailed"
     },
