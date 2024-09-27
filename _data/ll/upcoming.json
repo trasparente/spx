@@ -1,6 +1,6 @@
 {
   "count": 120,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-27T06%3A18%3A24Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-09-27T12%3A23%3A54Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1980,7 +1980,27 @@
               "last_launch_date": null,
               "first_launch_date": null
             },
-            "landing": null,
+            "landing": {
+              "id": 1456,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 Booster will land on one of two East Coast ASDS after its flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
@@ -3675,7 +3695,32 @@
           "failed_landings": 5,
           "consecutive_successful_landings": 10
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 598,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -3752,7 +3797,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-09-12T00:37:05Z",
+      "last_updated": "2024-09-27T09:10:13Z",
       "updates": [
         {
           "id": 8546,
@@ -3969,7 +4014,32 @@
           "failed_landings": 5,
           "consecutive_successful_landings": 10
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 597,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -4021,14 +4091,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6783,
-      "location_launch_attempt_count": 983,
+      "orbital_launch_attempt_count": 6784,
+      "location_launch_attempt_count": 984,
       "pad_launch_attempt_count": 2,
-      "agency_launch_attempt_count": 414,
-      "orbital_launch_attempt_count_year": 194,
-      "location_launch_attempt_count_year": 56,
+      "agency_launch_attempt_count": 415,
+      "orbital_launch_attempt_count_year": 195,
+      "location_launch_attempt_count_year": 57,
       "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 103,
+      "agency_launch_attempt_count_year": 104,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
