@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-10-11T12%3A23%3A23Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-10-11T18%3A16%3A10Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -751,8 +751,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-10-09T00:57:48Z",
+      "last_updated": "2024-10-11T13:16:32Z",
       "updates": [
+        {
+          "id": 8819,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Weather is 70% favorable for launch.",
+          "info_url": "https://www.patrick.spaceforce.mil//Portals/14/Weather/Falcon%20Heavy%20Europa%20Clipper%20L-2%20Forecast%20-%2013%20Oct%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-10-11T13:16:00Z"
+        },
         {
           "id": 8800,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -795,8 +803,8 @@
       },
       "window_end": "2024-10-13T16:12:00Z",
       "window_start": "2024-10-13T16:12:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 70,
+      "weather_concerns": "Cumulus Cloud Rule , Thick Cloud Layers Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
