@@ -1,6 +1,6 @@
 {
   "count": 412,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-10-17T18%3A15%3A35Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-10-18T00%3A59%3A41Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -1806,6 +1806,53 @@
         },
         "launcher_stage": [
           {
+            "id": 278,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 6,
+            "launcher": {
+              "id": 85,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
+              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "flight_proven": true,
+              "serial_number": "B1064",
+              "status": "expended",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 6,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "landing": {
+              "id": 306,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy side booster B1064 for this launch has been expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 36
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": "2023-12-29T01:07:00Z",
+            "turn_around_time_days": 290,
+            "previous_flight": {
+              "id": "0098c032-73de-4c6f-8d73-5d68b9a12fdf",
+              "name": "Falcon Heavy | OTV-7 (X-37B) (USSF-52)"
+            }
+          },
+          {
             "id": 279,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1895,53 +1942,6 @@
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
-          },
-          {
-            "id": 278,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 6,
-            "launcher": {
-              "id": 85,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/?format=json",
-              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
-              "flight_proven": true,
-              "serial_number": "B1064",
-              "status": "expended",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 6,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "landing": {
-              "id": 306,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy side booster B1064 for this launch has been expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 36
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": "2023-12-29T01:07:00Z",
-            "turn_around_time_days": 290,
-            "previous_flight": {
-              "id": "0098c032-73de-4c6f-8d73-5d68b9a12fdf",
-              "name": "Falcon Heavy | OTV-7 (X-37B) (USSF-52)"
-            }
           }
         ],
         "spacecraft_stage": null
