@@ -1,6 +1,6 @@
 {
   "count": 121,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-10-29T12%3A24%3A35Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-10-29T18%3A17%3A06Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -266,7 +266,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 1st stage B1075 will land on ASDS OCISLY after its 14th flight.",
-              "downrange_distance": 642,
+              "downrange_distance": 574,
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
@@ -691,8 +691,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-10-29T07:24:37Z",
+      "last_updated": "2024-10-29T13:09:29Z",
       "updates": [
+        {
+          "id": 9027,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather is 75% favorable for launch.",
+          "info_url": "https://www.patrick.spaceforce.mil//Portals/14/Weather/Falcon%209%20Starlink%2010-13%20L-1%20Forecast%20-%2030%20Oct%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2024-10-29T13:09:00Z"
+        },
         {
           "id": 9025,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -719,8 +727,8 @@
       },
       "window_end": "2024-10-31T01:08:00Z",
       "window_start": "2024-10-30T21:10:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 75,
+      "weather_concerns": "Liftoff Winds, Cumulus Clouds Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
