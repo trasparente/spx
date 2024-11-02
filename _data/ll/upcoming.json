@@ -1,6 +1,6 @@
 {
   "count": 120,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-02T12%3A21%3A54Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-02T18%3A15%3A01Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-11-02T09:56:14Z",
+      "last_updated": "2024-11-02T13:20:15Z",
       "updates": [
+        {
+          "id": 9057,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Weather is 90% favorable for launch.",
+          "info_url": "https://www.patrick.spaceforce.mil//Portals/14/Weather/Falcon%209%20Starlink%206-77%20L-1%20Forecast%20-%203%20Nov%20Launch.pdf",
+          "created_by": "hitura-nobad",
+          "created_on": "2024-11-02T13:20:00Z"
+        },
         {
           "id": 9056,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -44,8 +52,8 @@
       },
       "window_end": "2024-11-04T01:03:00Z",
       "window_start": "2024-11-03T21:57:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Liftoff  Winds, Cumulus Cloud s Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -713,27 +721,27 @@
           {
             "id": 416,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 5,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 126,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/126/?format=json",
+              "details": "Booster first flown during the Crew-8 mission.",
+              "flight_proven": true,
+              "serial_number": "B1083",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/126_image_20240304081131.jpeg",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2024-09-10T09:23:49Z",
+              "first_launch_date": "2024-03-04T03:53:38Z"
             },
             "landing": {
               "id": 1458,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land back at the launch site after its flight.",
+              "description": "The Falcon 9 first stage B1083 will land back at the launch site after its 5th flight.",
               "downrange_distance": 14.9,
               "location": {
                 "id": 4,
@@ -760,9 +768,12 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2024-09-10T09:23:49Z",
+            "turn_around_time_days": 55,
+            "previous_flight": {
+              "id": "b69cfada-3320-4331-89e1-aaa8b49e6a9c",
+              "name": "Falcon 9 Block 5 | Polaris Dawn"
+            }
           }
         ],
         "spacecraft_stage": {
