@@ -1,6 +1,6 @@
 {
   "count": 120,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-03T12%3A21%3A18Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-03T18%3A16%3A13Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-11-02T13:20:15Z",
+      "last_updated": "2024-11-03T16:25:24Z",
       "updates": [
+        {
+          "id": 9065,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-6-77",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-11-03T17:19:00Z"
+        },
         {
           "id": 9057,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -227,7 +235,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -237,27 +245,27 @@
           {
             "id": 608,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 3,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 151,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/151/?format=json",
+              "details": "Booster to be flown during the Crew-9 mission.",
+              "flight_proven": true,
+              "serial_number": "B1085",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2024-09-28T17:17:21Z",
+              "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "landing": {
               "id": 1471,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 1st stage will attempt to land on ASDS JRTI after its flight.",
+              "description": "The Falcon 9 1st stage B1085 will attempt to land on ASDS JRTI after its 3rd flight.",
               "downrange_distance": 600,
               "location": {
                 "id": 3,
@@ -274,9 +282,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2024-09-28T17:17:21Z",
+            "turn_around_time_days": 36,
+            "previous_flight": {
+              "id": "0102940a-4a60-4686-b34d-ced3fed6c595",
+              "name": "Falcon 9 Block 5 | Crew-9"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -353,10 +364,274 @@
         "total_launch_count": 269,
         "orbital_launch_attempt_count": 269
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-6-77",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink 6-77 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date:  November 3, 2024\nLaunch Time: 4:57 p.m. EST, 2157 UTC, 22:57 CET\nLaunch Window:  up til 8:27 p.m. EST\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida, USA\nTargeted Orbi...",
+          "feature_image": "https://i.ytimg.com/vi/1zTBnc-NGvQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=1zTBnc-NGvQ",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-11-03T21:47:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX Falcon 9 rocket launches Starlink satellites from Cape Canaveral",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with another batch of satellites for the company’s Starlink internet service. Liftoff from pad 40 at Cape Canaveral Space Force Station is sche...",
+          "feature_image": "https://i.ytimg.com/vi/Mj2ntCc7JXA/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=Mj2ntCc7JXA",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-11-03T20:57:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/GbT17bMW4AAnSQS.jpg",
+          "url": "https://x.com/i/broadcasts/1vAGRONPeNvJl",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-11-03T21:50:00Z",
+          "end_time": "2024-11-03T22:50:00Z"
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M10S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M29S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M35S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M57S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M2S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M26S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M43S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M11S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M37S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT54M"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT54M2S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT1H5M8S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [
@@ -719,7 +994,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -1327,7 +1602,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -1739,7 +2014,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -1936,43 +2211,51 @@
       "type": "detailed"
     },
     {
-      "id": "6632587d-9290-4cee-8a9c-ef91c61a7064",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/6632587d-9290-4cee-8a9c-ef91c61a7064/?format=json",
-      "slug": "falcon-9-block-5-worldview-legion-5-6",
-      "flightclub_url": null,
+      "id": "a9fa3ed5-4988-4a72-b262-454e7b03ab50",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/a9fa3ed5-4988-4a72-b262-454e7b03ab50/?format=json",
+      "slug": "falcon-9-block-5-koreasat-6a",
+      "flightclub_url": "https://flightclub.io/result?llId=a9fa3ed5-4988-4a72-b262-454e7b03ab50",
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | WorldView Legion 5 & 6",
+      "name": "Falcon 9 Block 5 | Koreasat 6A",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-09-19T23:41:19Z",
+      "last_updated": "2024-11-03T12:01:41Z",
       "updates": [
         {
-          "id": 8653,
+          "id": 8892,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET Mid-November.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=61525.msg2626071#msg2626071",
+          "comment": "NET early November.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2024-09-19T23:41:00Z"
+          "created_on": "2024-10-15T01:24:00Z"
         },
         {
-          "id": 6845,
+          "id": 8546,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET 2H 2024.",
-          "info_url": "https://www.shephardmedia.com/news/digital-battlespace/world-defense-show-2024-maxar-on-course-to-have-six-observation-satellites-in-orbit-this-year/",
+          "comment": "NET October 2024.",
+          "info_url": "https://www.linkedin.com/pulse/space-spotlight-world-knowledge-forum-herve-derrey-dhyre/",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2024-03-02T00:42:11Z"
+          "created_on": "2024-09-12T00:37:00Z"
         },
         {
-          "id": 5772,
+          "id": 5784,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET early 2024.",
-          "info_url": "https://spaceflightnow.com/launch-schedule/",
+          "comment": "Moved forward to late 2024.",
+          "info_url": "https://twitter.com/thales_alenia_s/status/1729137129408925862",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2023-11-25T08:19:13Z"
+          "created_on": "2023-11-27T14:41:52Z"
+        },
+        {
+          "id": 5551,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch for NET 2025.",
+          "info_url": "https://www.prnewswire.co.uk/news-releases/kt-sat-to-unveil-the-multi-orbit-satellite-business-strategy-at-wsbw-2022-in-paris-863822497.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-10-31T11:49:12Z"
         }
       ],
       "net": "2024-11-30T00:00:00Z",
@@ -2019,7 +2302,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7547,
+        "id": 8058,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -2159,7 +2442,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -2167,7 +2450,7 @@
         },
         "launcher_stage": [
           {
-            "id": 397,
+            "id": 597,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -2194,47 +2477,17 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 5974,
-        "name": "WorldView Legion 5 & 6",
-        "description": "WorldView Legion is a constellation of Earth observation satellites built and operated by Maxar. Constellation is planned to consist of 6 satellites in both polar and mid-inclination orbits, providing 30 cm-class resolution.",
+        "id": 6611,
+        "name": "Koreasat 6A",
+        "description": "The Koreasat 6A spacecraft, built by Thales Alenia Space, will have 20 transponders for fixed satellite services and six for TV broadcasting to replace the Koreasat 6 launched in 2010.\r\n\r\nKoreasat 6A will be based on the manufacturer’s Spacebus 4000B2 platform and is expected to weigh about 3.5 metric tons at launch. It will be designed to operate for at least 15 years.",
         "launch_designator": null,
-        "type": "Earth Science",
+        "type": "Communications",
         "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
+          "id": 2,
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO"
         },
-        "agencies": [
-          {
-            "id": 1057,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1057/?format=json",
-            "name": "Maxar Technologies",
-            "featured": false,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "Maxar",
-            "description": "Maxar Technologies Inc. is a space technology company headquartered in Westminster, Colorado, United States, specializing in manufacturing communication, Earth observation, radar, and on-orbit servicing satellites, satellite products, and related services.",
-            "administrator": "President & CEO: Daniel Jablonsky",
-            "founding_year": "2017",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://maxar.com",
-            "wiki_url": "https://en.wikipedia.org/wiki/Maxar_Technologies",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/maxar2520technologies_logo_20230806171500.png",
-            "image_url": null,
-            "nation_url": null
-          }
-        ],
+        "agencies": [],
         "info_urls": [],
         "vid_urls": []
       },
@@ -2508,7 +2761,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -2604,51 +2857,43 @@
       "type": "detailed"
     },
     {
-      "id": "a9fa3ed5-4988-4a72-b262-454e7b03ab50",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/a9fa3ed5-4988-4a72-b262-454e7b03ab50/?format=json",
-      "slug": "falcon-9-block-5-koreasat-6a",
-      "flightclub_url": "https://flightclub.io/result?llId=a9fa3ed5-4988-4a72-b262-454e7b03ab50",
+      "id": "6632587d-9290-4cee-8a9c-ef91c61a7064",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/6632587d-9290-4cee-8a9c-ef91c61a7064/?format=json",
+      "slug": "falcon-9-block-5-worldview-legion-5-6",
+      "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Koreasat 6A",
+      "name": "Falcon 9 Block 5 | WorldView Legion 5 & 6",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-11-03T12:01:41Z",
+      "last_updated": "2024-09-19T23:41:19Z",
       "updates": [
         {
-          "id": 8892,
+          "id": 8653,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET early November.",
-          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "comment": "NET Mid-November.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=61525.msg2626071#msg2626071",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2024-10-15T01:24:00Z"
+          "created_on": "2024-09-19T23:41:00Z"
         },
         {
-          "id": 8546,
+          "id": 6845,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET October 2024.",
-          "info_url": "https://www.linkedin.com/pulse/space-spotlight-world-knowledge-forum-herve-derrey-dhyre/",
+          "comment": "NET 2H 2024.",
+          "info_url": "https://www.shephardmedia.com/news/digital-battlespace/world-defense-show-2024-maxar-on-course-to-have-six-observation-satellites-in-orbit-this-year/",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2024-09-12T00:37:00Z"
+          "created_on": "2024-03-02T00:42:11Z"
         },
         {
-          "id": 5784,
+          "id": 5772,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Moved forward to late 2024.",
-          "info_url": "https://twitter.com/thales_alenia_s/status/1729137129408925862",
+          "comment": "NET early 2024.",
+          "info_url": "https://spaceflightnow.com/launch-schedule/",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2023-11-27T14:41:52Z"
-        },
-        {
-          "id": 5551,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch for NET 2025.",
-          "info_url": "https://www.prnewswire.co.uk/news-releases/kt-sat-to-unveil-the-multi-orbit-satellite-business-strategy-at-wsbw-2022-in-paris-863822497.html",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2023-10-31T11:49:12Z"
+          "created_on": "2023-11-25T08:19:13Z"
         }
       ],
       "net": "2024-11-30T00:00:00Z",
@@ -2695,7 +2940,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 8058,
+        "id": 7547,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -2835,7 +3080,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -2843,7 +3088,7 @@
         },
         "launcher_stage": [
           {
-            "id": 597,
+            "id": 397,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -2870,17 +3115,47 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 6611,
-        "name": "Koreasat 6A",
-        "description": "The Koreasat 6A spacecraft, built by Thales Alenia Space, will have 20 transponders for fixed satellite services and six for TV broadcasting to replace the Koreasat 6 launched in 2010.\r\n\r\nKoreasat 6A will be based on the manufacturer’s Spacebus 4000B2 platform and is expected to weigh about 3.5 metric tons at launch. It will be designed to operate for at least 15 years.",
+        "id": 5974,
+        "name": "WorldView Legion 5 & 6",
+        "description": "WorldView Legion is a constellation of Earth observation satellites built and operated by Maxar. Constellation is planned to consist of 6 satellites in both polar and mid-inclination orbits, providing 30 cm-class resolution.",
         "launch_designator": null,
-        "type": "Communications",
+        "type": "Earth Science",
         "orbit": {
-          "id": 2,
-          "name": "Geostationary Transfer Orbit",
-          "abbrev": "GTO"
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         },
-        "agencies": [],
+        "agencies": [
+          {
+            "id": 1057,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1057/?format=json",
+            "name": "Maxar Technologies",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "Maxar",
+            "description": "Maxar Technologies Inc. is a space technology company headquartered in Westminster, Colorado, United States, specializing in manufacturing communication, Earth observation, radar, and on-orbit servicing satellites, satellite products, and related services.",
+            "administrator": "President & CEO: Daniel Jablonsky",
+            "founding_year": "2017",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://maxar.com",
+            "wiki_url": "https://en.wikipedia.org/wiki/Maxar_Technologies",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/maxar2520technologies_logo_20230806171500.png",
+            "image_url": null,
+            "nation_url": null
+          }
+        ],
         "info_urls": [],
         "vid_urls": []
       },
@@ -3170,7 +3445,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -3539,7 +3814,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
@@ -3951,7 +4226,7 @@
           "consecutive_successful_launches": 34,
           "successful_launches": 331,
           "failed_launches": 1,
-          "pending_launches": 107,
+          "pending_launches": 108,
           "attempted_landings": 325,
           "successful_landings": 320,
           "failed_landings": 5,
