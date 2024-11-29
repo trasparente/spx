@@ -1,6 +1,6 @@
 {
   "count": 125,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-29T12%3A25%3A55Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-29T18%3A17%3A26Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-11-29T00:33:14Z",
+      "last_updated": "2024-11-29T16:49:34Z",
       "updates": [
+        {
+          "id": 9369,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather is 85% favorable for launch.",
+          "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Starlink%206-65%20L-1%20Forecast%20-%2030%20Nov%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2024-11-29T16:49:00Z"
+        },
         {
           "id": 9367,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -44,8 +52,8 @@
       },
       "window_end": "2024-11-30T09:00:00Z",
       "window_start": "2024-11-30T05:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 85,
+      "weather_concerns": "Thick Cloud Layers  Rule, Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -662,7 +670,7 @@
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage will land on ASDS OCISLY after its flight.",
-              "downrange_distance": 610,
+              "downrange_distance": 600,
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
