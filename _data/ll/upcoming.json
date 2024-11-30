@@ -1,6 +1,6 @@
 {
   "count": 125,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-29T18%3A17%3A26Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-11-30T01%3A02%3A25Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 6-65",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-11-29T16:49:34Z",
+      "last_updated": "2024-11-29T20:21:58Z",
       "updates": [
+        {
+          "id": 9370,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Setting GO",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-6-65",
+          "created_by": "Nosu",
+          "created_on": "2024-11-29T20:21:00Z"
+        },
         {
           "id": 9369,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -75,7 +83,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -115,7 +123,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -227,7 +235,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -237,27 +245,27 @@
           {
             "id": 624,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 6,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 126,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/126/?format=json",
+              "details": "Booster first flown during the Crew-8 mission.",
+              "flight_proven": true,
+              "serial_number": "B1083",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/126_image_20240304081131.jpeg",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2024-11-05T02:29:31Z",
+              "first_launch_date": "2024-03-04T03:53:38Z"
             },
             "landing": {
               "id": 1488,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 1st stage will attempt to land on ASDS JRTI after its flight.",
+              "description": "The Falcon 9 1st stage B1083 will land on ASDS JRTI after its 6th flight.",
               "downrange_distance": 600,
               "location": {
                 "id": 3,
@@ -274,9 +282,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2024-11-05T02:29:31Z",
+            "turn_around_time_days": 25,
+            "previous_flight": {
+              "id": "f97bce95-052e-4fa9-80e8-dbedf16bc516",
+              "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-31"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -284,7 +295,7 @@
       "mission": {
         "id": 7009,
         "name": "Starlink Group 6-65",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -311,7 +322,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -353,10 +364,254 @@
         "total_launch_count": 275,
         "orbital_launch_attempt_count": 275
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-6-65",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "On Go! - SpaceX - Falcon 9 - Starlink 6-65 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date: November 30, 2024 \nLaunch Time: 12:00 a.m. ET, 0500 UTC, 06:00 CET\nLaunch Window:  up til 4:00 a.m. \nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida, USA\nTargeted Orbit:...",
+          "feature_image": "https://i.ytimg.com/vi/v2_K-iFPz-Q/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=v2_K-iFPz-Q",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-11-30T04:50:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/GdlAIPDboAMCPWB.jpg",
+          "url": "https://x.com/i/broadcasts/1ZkJzRkmYoyJv",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2024-11-30T04:54:00Z",
+          "end_time": "2024-11-30T05:54:00Z"
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M10S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M29S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M36S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M58S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M4S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M25S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M51S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M13S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M39S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT53M56S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT53M58S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT1H5M5S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [
@@ -487,7 +742,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -527,7 +782,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -639,7 +894,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -888,7 +1143,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -928,7 +1183,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -1040,7 +1295,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -1124,7 +1379,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -1292,7 +1547,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -1332,7 +1587,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -1444,7 +1699,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -1528,7 +1783,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -1768,7 +2023,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -1808,7 +2063,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -1920,7 +2175,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -2071,7 +2326,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -2111,7 +2366,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -2223,7 +2478,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -2307,7 +2562,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -2483,7 +2738,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -2523,7 +2778,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -2635,7 +2890,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -2699,7 +2954,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -2748,11 +3003,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6831,
+      "orbital_launch_attempt_count": 6832,
       "location_launch_attempt_count": 784,
       "pad_launch_attempt_count": 172,
       "agency_launch_attempt_count": 441,
-      "orbital_launch_attempt_count_year": 242,
+      "orbital_launch_attempt_count_year": 243,
       "location_launch_attempt_count_year": 45,
       "pad_launch_attempt_count_year": 44,
       "agency_launch_attempt_count_year": 130,
@@ -2761,67 +3016,26 @@
       "type": "detailed"
     },
     {
-      "id": "33bf462e-796f-441c-bc36-206ba52bb90e",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/33bf462e-796f-441c-bc36-206ba52bb90e/?format=json",
-      "slug": "falcon-9-block-5-4x-astranis-microgeo",
+      "id": "2d5f2335-c3c2-4306-9dde-8ec37f348ccf",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/2d5f2335-c3c2-4306-9dde-8ec37f348ccf/?format=json",
+      "slug": "falcon-9-block-5-ussf-36",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | 4x Astranis MicroGEO",
+      "name": "Falcon 9 Block 5 | USSF-36",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-11-01T09:06:12Z",
-      "updates": [
-        {
-          "id": 8814,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET November.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=56128.msg2631174#msg2631174",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2024-10-10T15:34:00Z"
-        },
-        {
-          "id": 7799,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET Q3 2024.",
-          "info_url": "https://x.com/pbdes/status/1801326778667123146",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2024-06-14T00:19:14Z"
-        },
-        {
-          "id": 6762,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET mid-2024.",
-          "info_url": "https://www.anuvu.com/our-company/press-releases/detail/306/anuvu-announces-nuview-alpha-and-nuview-bravo-as-anuvu-constellation-prepares-for-launch",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2024-02-21T23:29:17Z"
-        },
-        {
-          "id": 5693,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET Q1 2024.",
-          "info_url": "https://twitter.com/Astranis/status/1724941941291548962",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2023-11-16T07:13:35Z"
-        },
-        {
-          "id": 1537,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Adding launch TBD 2023",
-          "info_url": "https://www.businesswire.com/news/home/20220405005129/en/Astranis-Space-Technologies-Signs-Contract-with-SpaceX-for-Dedicated-Multi-Satellite-Launch-in-2023",
-          "created_by": "Nosu",
-          "created_on": "2022-04-05T20:13:09Z"
-        }
-      ],
+      "last_updated": "2023-09-06T07:58:29Z",
+      "updates": [],
       "net": "2024-12-31T00:00:00Z",
       "net_precision": {
-        "id": 7,
-        "name": "Month",
-        "abbrev": "M",
-        "description": "The T-0 is expected in the given month."
+        "id": 14,
+        "name": "Year",
+        "abbrev": "Y",
+        "description": "The T-0 is expected in the given year."
       },
       "window_end": "2024-12-31T00:00:00Z",
       "window_start": "2024-12-31T00:00:00Z",
@@ -2848,7 +3062,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -2860,7 +3074,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7561,
+        "id": 7857,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -2888,7 +3102,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -3000,7 +3214,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -3008,7 +3222,7 @@
         },
         "launcher_stage": [
           {
-            "id": 388,
+            "id": 382,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -3035,30 +3249,30 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 5986,
-        "name": "4x Astranis MicroGEO",
-        "description": "Four Astranis MicroGEO communications satellite inserted in a custom geostationary orbit, from where they conduct on-orbit maneuvers to reach their individual slots.",
+        "id": 6365,
+        "name": "USSF-36",
+        "description": "Classified payload for the US Space Force.",
         "launch_designator": null,
-        "type": "Communications",
+        "type": "Government/Top Secret",
         "orbit": {
-          "id": 2,
-          "name": "Geostationary Transfer Orbit",
-          "abbrev": "GTO"
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
         },
         "agencies": [
           {
-            "id": 1063,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1063/?format=json",
-            "name": "Astranis Space Technologies Corp.",
+            "id": 1041,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/?format=json",
+            "name": "United States Space Force",
             "featured": false,
-            "type": "Private",
+            "type": "Government",
             "country_code": "USA",
-            "abbrev": "Astranis",
-            "description": "Astranis Space Technologies Corp. is a private American geostationary communications satellite operator and manufacturer headquartered in San Francisco,",
-            "administrator": "CEO:  John Gedmark",
-            "founding_year": "2015",
+            "abbrev": "USSF",
+            "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
+            "administrator": null,
+            "founding_year": "2019",
             "launchers": "",
-            "spacecraft": "Small geostationary communications satellites",
+            "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 0,
             "consecutive_successful_launches": 0,
@@ -3069,27 +3283,27 @@
             "successful_landings": 0,
             "failed_landings": 0,
             "attempted_landings": 0,
-            "info_url": "https://www.astranis.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Astranis",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astranis2520space2520technologies2520corp._logo_20230807093654.png",
+            "info_url": "https://www.spaceforce.mil/",
+            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Space_Force",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
             "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astranis2520space2520technologies2520corp._nation_20230807093654.jpg"
+            "nation_url": null
           }
         ],
         "info_urls": [],
         "vid_urls": []
       },
       "pad": {
-        "id": 80,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
-        "agency_id": 121,
-        "name": "Space Launch Complex 40",
-        "description": "",
+        "id": 72,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
+        "agency_id": null,
+        "name": "Unknown Pad",
+        "description": null,
         "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
-        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
-        "latitude": "28.56194122",
-        "longitude": "-80.57735736",
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
+        "latitude": "28.458",
+        "longitude": "-80.528",
         "location": {
           "id": 12,
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -3102,9 +3316,9 @@
           "total_landing_count": 59
         },
         "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
-        "total_launch_count": 275,
-        "orbital_launch_attempt_count": 275
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -3113,15 +3327,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6862,
+      "orbital_launch_attempt_count": 6863,
       "location_launch_attempt_count": 998,
-      "pad_launch_attempt_count": 279,
+      "pad_launch_attempt_count": 4,
       "agency_launch_attempt_count": 453,
-      "orbital_launch_attempt_count_year": 273,
+      "orbital_launch_attempt_count_year": 274,
       "location_launch_attempt_count_year": 71,
-      "pad_launch_attempt_count_year": 61,
+      "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 142,
-      "pad_turnaround": "P26DT15H31M",
+      "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -3181,7 +3395,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -3221,7 +3435,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -3333,7 +3547,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -3459,51 +3673,67 @@
       "type": "detailed"
     },
     {
-      "id": "84a2a107-1e44-4994-ad9f-430ee81a741a",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/84a2a107-1e44-4994-ad9f-430ee81a741a/?format=json",
-      "slug": "falcon-9-block-5-nusantara-lima",
+      "id": "33bf462e-796f-441c-bc36-206ba52bb90e",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/33bf462e-796f-441c-bc36-206ba52bb90e/?format=json",
+      "slug": "falcon-9-block-5-4x-astranis-microgeo",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Nusantara Lima",
+      "name": "Falcon 9 Block 5 | 4x Astranis MicroGEO",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-06-14T01:32:02Z",
+      "last_updated": "2024-11-01T09:06:12Z",
       "updates": [
         {
-          "id": 5861,
+          "id": 8814,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET November.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=56128.msg2631174#msg2631174",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-10-10T15:34:00Z"
+        },
+        {
+          "id": 7799,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET Q3 2024.",
+          "info_url": "https://x.com/pbdes/status/1801326778667123146",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-06-14T00:19:14Z"
+        },
+        {
+          "id": 6762,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
           "comment": "NET mid-2024.",
-          "info_url": "https://teknologi.bisnis.com/read/20231202/101/1720272/satelit-nusantara-5-mengorbit-pertengahan-2024-meleset-dari-target",
+          "info_url": "https://www.anuvu.com/our-company/press-releases/detail/306/anuvu-announces-nuview-alpha-and-nuview-bravo-as-anuvu-constellation-prepares-for-launch",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2023-12-04T02:51:31Z"
+          "created_on": "2024-02-21T23:29:17Z"
         },
         {
-          "id": 5103,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Targeting December 2023",
-          "info_url": "https://www.majalahict.com/grup-psn-memperluas-akses-layanan-satelit-di-kawasan-asean-untuk-mendukung-digitalisasi-di-filipina/",
-          "created_by": "Nosu",
-          "created_on": "2023-09-09T11:54:40Z"
+          "id": 5693,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET Q1 2024.",
+          "info_url": "https://twitter.com/Astranis/status/1724941941291548962",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-11-16T07:13:35Z"
         },
         {
-          "id": 1446,
+          "id": 1537,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
           "comment": "Adding launch TBD 2023",
-          "info_url": "https://www.prnewswire.com/news-releases/psn-group-builds-nusantara-lima-satellite-301508376.html",
+          "info_url": "https://www.businesswire.com/news/home/20220405005129/en/Astranis-Space-Technologies-Signs-Contract-with-SpaceX-for-Dedicated-Multi-Satellite-Launch-in-2023",
           "created_by": "Nosu",
-          "created_on": "2022-03-24T07:16:43Z"
+          "created_on": "2022-04-05T20:13:09Z"
         }
       ],
       "net": "2024-12-31T00:00:00Z",
       "net_precision": {
-        "id": 14,
-        "name": "Year",
-        "abbrev": "Y",
-        "description": "The T-0 is expected in the given year."
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
       },
       "window_end": "2024-12-31T00:00:00Z",
       "window_start": "2024-12-31T00:00:00Z",
@@ -3530,7 +3760,7 @@
         "consecutive_successful_launches": 51,
         "successful_launches": 422,
         "failed_launches": 12,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 4,
         "successful_landings": 382,
         "failed_landings": 26,
@@ -3542,7 +3772,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7545,
+        "id": 7561,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -3570,7 +3800,7 @@
             "consecutive_successful_launches": 51,
             "successful_launches": 422,
             "failed_launches": 12,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 4,
             "successful_landings": 382,
             "failed_landings": 26,
@@ -3682,7 +3912,7 @@
           "consecutive_successful_launches": 48,
           "successful_launches": 345,
           "failed_launches": 1,
-          "pending_launches": 108,
+          "pending_launches": 109,
           "attempted_landings": 339,
           "successful_landings": 334,
           "failed_landings": 5,
@@ -3690,7 +3920,7 @@
         },
         "launcher_stage": [
           {
-            "id": 393,
+            "id": 388,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -3717,9 +3947,9 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 5972,
-        "name": "Nusantara Lima",
-        "description": "Nusantara Lima is an Indonesian geostationary communications satellite with a capacity of more than 160 Gbps.",
+        "id": 5986,
+        "name": "4x Astranis MicroGEO",
+        "description": "Four Astranis MicroGEO communications satellite inserted in a custom geostationary orbit, from where they conduct on-orbit maneuvers to reach their individual slots.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -3729,18 +3959,18 @@
         },
         "agencies": [
           {
-            "id": 1070,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1070/?format=json",
-            "name": "PT Pasifik Satelit Nusantara",
+            "id": 1063,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1063/?format=json",
+            "name": "Astranis Space Technologies Corp.",
             "featured": false,
             "type": "Private",
-            "country_code": "IDN",
-            "abbrev": "PSN",
-            "description": "PT Pasifik Satelit Nusantara (PSN) is a private Indonesian satellite telecommunications company.\r\n\r\nIt was formed in 1991 and was the first satellite-based telecommunications company in Indonesia. In 1995, a collaboration started what was to become ACeS (Asia Cellular Satellite system). In 1998, a WAN-based service for corporate customers was introduced.",
-            "administrator": "CEO: Adi Rahman Adiwoso",
-            "founding_year": "1991",
+            "country_code": "USA",
+            "abbrev": "Astranis",
+            "description": "Astranis Space Technologies Corp. is a private American geostationary communications satellite operator and manufacturer headquartered in San Francisco,",
+            "administrator": "CEO:  John Gedmark",
+            "founding_year": "2015",
             "launchers": "",
-            "spacecraft": "",
+            "spacecraft": "Small geostationary communications satellites",
             "launch_library_url": null,
             "total_launch_count": 0,
             "consecutive_successful_launches": 0,
@@ -3751,27 +3981,27 @@
             "successful_landings": 0,
             "failed_landings": 0,
             "attempted_landings": 0,
-            "info_url": "https://www.psn.co.id",
-            "wiki_url": "https://en.wikipedia.org/wiki/PT_Pasifik_Satelit_Nusantara",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pt2520pasifik2520satelit2520nusantara_logo_20230821053114.png",
+            "info_url": "https://www.astranis.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Astranis",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astranis2520space2520technologies2520corp._logo_20230807093654.png",
             "image_url": null,
-            "nation_url": null
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astranis2520space2520technologies2520corp._nation_20230807093654.jpg"
           }
         ],
         "info_urls": [],
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
-        "agency_id": null,
-        "name": "Unknown Pad",
-        "description": null,
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/?format=json",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
         "location": {
           "id": 12,
           "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -3784,9 +4014,9 @@
           "total_landing_count": 59
         },
         "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -3795,15 +4025,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6862,
+      "orbital_launch_attempt_count": 6863,
       "location_launch_attempt_count": 998,
-      "pad_launch_attempt_count": 4,
+      "pad_launch_attempt_count": 279,
       "agency_launch_attempt_count": 453,
-      "orbital_launch_attempt_count_year": 273,
+      "orbital_launch_attempt_count_year": 274,
       "location_launch_attempt_count_year": 71,
-      "pad_launch_attempt_count_year": 4,
+      "pad_launch_attempt_count_year": 61,
       "agency_launch_attempt_count_year": 142,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P26DT15H31M",
       "mission_patches": [],
       "type": "detailed"
     }
