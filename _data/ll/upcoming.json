@@ -1,6 +1,6 @@
 {
   "count": 124,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-12-03T18%3A16%3A15Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-12-04T01%3A05%3A37Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -353,10 +353,213 @@
         "total_launch_count": 276,
         "orbital_launch_attempt_count": 276
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-6-70",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M10S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M29S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M36S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M58S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M4S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M25S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M51S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M13S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M39S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT53M56S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT53M58S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT1H5M5S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [
@@ -1654,7 +1857,7 @@
       "id": "d1b5f507-66a9-450a-86ac-b7b86c34eee4",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/d1b5f507-66a9-450a-86ac-b7b86c34eee4/?format=json",
       "slug": "falcon-9-block-5-starlink-group-12-5",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=d1b5f507-66a9-450a-86ac-b7b86c34eee4",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 12-5",
       "status": {
@@ -1663,7 +1866,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2024-12-01T19:22:29Z",
+      "last_updated": "2024-12-03T22:01:54Z",
       "updates": [
         {
           "id": 9385,
@@ -2396,51 +2599,59 @@
       "type": "detailed"
     },
     {
-      "id": "84a2a107-1e44-4994-ad9f-430ee81a741a",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/84a2a107-1e44-4994-ad9f-430ee81a741a/?format=json",
-      "slug": "falcon-9-block-5-nusantara-lima",
+      "id": "0a9a511a-7ea1-4402-8555-e087f580a5c4",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/0a9a511a-7ea1-4402-8555-e087f580a5c4/?format=json",
+      "slug": "falcon-9-block-5-thuraya-4-ngs",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Nusantara Lima",
+      "name": "Falcon 9 Block 5 | Thuraya 4-NGS",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-06-14T01:32:02Z",
+      "last_updated": "2024-11-01T09:06:36Z",
       "updates": [
         {
-          "id": 5861,
+          "id": 8741,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET mid-2024.",
-          "info_url": "https://teknologi.bisnis.com/read/20231202/101/1720272/satelit-nusantara-5-mengorbit-pertengahan-2024-meleset-dari-target",
+          "comment": "NET November.",
+          "info_url": "https://spacenews.com/yahsat-and-bayanat-forge-ai-powered-space-technology-champion/",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2023-12-04T02:51:31Z"
+          "created_on": "2024-10-02T02:56:00Z"
         },
         {
-          "id": 5103,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Targeting December 2023",
-          "info_url": "https://www.majalahict.com/grup-psn-memperluas-akses-layanan-satelit-di-kawasan-asean-untuk-mendukung-digitalisasi-di-filipina/",
-          "created_by": "Nosu",
-          "created_on": "2023-09-09T11:54:40Z"
+          "id": 6877,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET 2H 2024",
+          "info_url": "https://www.zawya.com/en/press-release/companies-news/yahsat-reports-strongest-ever-financial-results-for-2023-f12whu89",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-03-05T12:32:47Z"
         },
         {
-          "id": 1446,
+          "id": 4517,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Adding launch TBD 2023",
-          "info_url": "https://www.prnewswire.com/news-releases/psn-group-builds-nusantara-lima-satellite-301508376.html",
+          "comment": "NET H1 2024",
+          "info_url": "https://www.zawya.com/en/press-release/companies-news/yahsat-embarks-on-an-action-packed-week-of-activities-in-singapore-as-it-targets-international-market-expansion-g5pie0y0",
           "created_by": "Nosu",
-          "created_on": "2022-03-24T07:16:43Z"
+          "created_on": "2023-07-03T19:35:27Z"
+        },
+        {
+          "id": 2759,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "NET 2024",
+          "info_url": "https://spacenews.com/yahsat-invests-in-direct-to-cell-enabler-esat-global/",
+          "created_by": "Nosu",
+          "created_on": "2022-11-07T08:44:46Z"
         }
       ],
       "net": "2024-12-31T00:00:00Z",
       "net_precision": {
-        "id": 14,
-        "name": "Year",
-        "abbrev": "Y",
-        "description": "The T-0 is expected in the given year."
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
       },
       "window_end": "2024-12-31T00:00:00Z",
       "window_start": "2024-12-31T00:00:00Z",
@@ -2479,7 +2690,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7545,
+        "id": 7447,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -2627,7 +2838,7 @@
         },
         "launcher_stage": [
           {
-            "id": 393,
+            "id": 410,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -2654,9 +2865,9 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 5972,
-        "name": "Nusantara Lima",
-        "description": "Nusantara Lima is an Indonesian geostationary communications satellite with a capacity of more than 160 Gbps.",
+        "id": 6725,
+        "name": "Thuraya 4-NGS",
+        "description": "Thuraya 4-NGS is a communication satellite being built by Airbus Defense and Space for the UAE based Yahsat. Based on the all-electric Airbus Eurostar-Neo Platform, Thuraya 4-NGS will incorporate a large 12-meter L-band antenna and a payload with on-board processing providing advanced routing flexibility of up to 3200 channels with dynamic power allocation over a large number of spot beams.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -2664,37 +2875,7 @@
           "name": "Geostationary Transfer Orbit",
           "abbrev": "GTO"
         },
-        "agencies": [
-          {
-            "id": 1070,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1070/?format=json",
-            "name": "PT Pasifik Satelit Nusantara",
-            "featured": false,
-            "type": "Private",
-            "country_code": "IDN",
-            "abbrev": "PSN",
-            "description": "PT Pasifik Satelit Nusantara (PSN) is a private Indonesian satellite telecommunications company.\r\n\r\nIt was formed in 1991 and was the first satellite-based telecommunications company in Indonesia. In 1995, a collaboration started what was to become ACeS (Asia Cellular Satellite system). In 1998, a WAN-based service for corporate customers was introduced.",
-            "administrator": "CEO: Adi Rahman Adiwoso",
-            "founding_year": "1991",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.psn.co.id",
-            "wiki_url": "https://en.wikipedia.org/wiki/PT_Pasifik_Satelit_Nusantara",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pt2520pasifik2520satelit2520nusantara_logo_20230821053114.png",
-            "image_url": null,
-            "nation_url": null
-          }
-        ],
+        "agencies": [],
         "info_urls": [],
         "vid_urls": []
       },
@@ -2745,29 +2926,20 @@
       "type": "detailed"
     },
     {
-      "id": "c291c5e9-391e-45e9-a2cf-73c46345a7c2",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/c291c5e9-391e-45e9-a2cf-73c46345a7c2/?format=json",
-      "slug": "falcon-9-block-5-osam-2",
+      "id": "2d5f2335-c3c2-4306-9dde-8ec37f348ccf",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/2d5f2335-c3c2-4306-9dde-8ec37f348ccf/?format=json",
+      "slug": "falcon-9-block-5-ussf-36",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | OSAM-2",
+      "name": "Falcon 9 Block 5 | USSF-36",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2023-09-11T17:50:19Z",
-      "updates": [
-        {
-          "id": 5137,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET 2024.",
-          "info_url": "https://www.nasa.gov/mission_pages/tdm/osam-2.html",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2023-09-11T17:50:20Z"
-        }
-      ],
+      "last_updated": "2023-09-06T07:58:29Z",
+      "updates": [],
       "net": "2024-12-31T00:00:00Z",
       "net_precision": {
         "id": 14,
@@ -2777,7 +2949,7 @@
       },
       "window_end": "2024-12-31T00:00:00Z",
       "window_start": "2024-12-31T00:00:00Z",
-      "probability": -1,
+      "probability": null,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
@@ -2812,7 +2984,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 2506,
+        "id": 7857,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -2960,7 +3132,7 @@
         },
         "launcher_stage": [
           {
-            "id": 395,
+            "id": 382,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -2987,45 +3159,45 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 1023,
-        "name": "OSAM-2",
-        "description": "OSAM-2 is a mission to demonstrate the ability of small spacecraft to manufacture and assemble spacecraft components in low-Earth orbit. Once itâ€™s positioned in low-Earth orbit, the spacecraft will 3D-print two beams that extend 32 feet (10 meters) out from each side of the spacecraft. As manufacturing progresses, each beam will unfurl two solar arrays that generate as much as five times more power than traditional solar panels on spacecraft of similar size.",
+        "id": 6365,
+        "name": "USSF-36",
+        "description": "Classified payload for the US Space Force.",
         "launch_designator": null,
-        "type": "Technology",
+        "type": "Government/Top Secret",
         "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
         },
         "agencies": [
           {
-            "id": 44,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-            "name": "National Aeronautics and Space Administration",
-            "featured": true,
+            "id": 1041,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/?format=json",
+            "name": "United States Space Force",
+            "featured": false,
             "type": "Government",
             "country_code": "USA",
-            "abbrev": "NASA",
-            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
-            "administrator": "Administrator: Bill Nelson",
-            "founding_year": "1958",
-            "launchers": "Space Shuttle | SLS",
-            "spacecraft": "Orion",
+            "abbrev": "USSF",
+            "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
+            "administrator": null,
+            "founding_year": "2019",
+            "launchers": "",
+            "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 141,
-            "consecutive_successful_launches": 11,
-            "successful_launches": 121,
-            "failed_launches": 20,
-            "pending_launches": 6,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
             "attempted_landings": 0,
-            "info_url": "http://www.nasa.gov",
-            "wiki_url": "http://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
+            "info_url": "https://www.spaceforce.mil/",
+            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Space_Force",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
+            "image_url": null,
+            "nation_url": null
           }
         ],
         "info_urls": [],
