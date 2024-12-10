@@ -1,6 +1,6 @@
 {
   "count": 440,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-12-10T12%3A27%3A06Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2024-12-10T18%3A18%3A44Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -277,27 +277,27 @@
           {
             "id": 638,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 2,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 148,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/148/?format=json",
+              "details": "Falcon 9 booster that started out as a Falcon Heavy side booster flown during the GOES-U mission.",
+              "flight_proven": true,
+              "serial_number": "B1086",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2024-12-08T05:12:30Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
             },
             "landing": {
               "id": 1499,
               "attempt": true,
               "success": true,
-              "description": "The Falcon 9 1st stage B1072 or B1086 has landed on ASDS ASOG after its 2nd flight.",
+              "description": "The Falcon 9 1st stage B1086 has landed on ASDS ASOG after its 2nd flight.",
               "downrange_distance": 600,
               "location": {
                 "id": 17,
@@ -314,9 +314,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2024-06-25T21:26:00Z",
+            "turn_around_time_days": 165,
+            "previous_flight": {
+              "id": "ad53f165-a118-43a6-ad46-6021accdaabd",
+              "name": "Falcon Heavy | GOES-U"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -3005,7 +3008,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2024-12-01T04:16:39Z",
+      "last_updated": "2024-12-10T13:07:39Z",
       "updates": [
         {
           "id": 9381,
@@ -3680,20 +3683,7 @@
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 125,
       "pad_turnaround": "P6DT2H44M30S",
-      "mission_patches": [
-        {
-          "id": 1042,
-          "name": "NROL-113 Patch",
-          "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-1132520pa_mission_patch_20240905150626.png",
-          "agency": {
-            "id": 181,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/181/?format=json",
-            "name": "National Reconnaissance Office",
-            "type": "Government"
-          }
-        }
-      ],
+      "mission_patches": [],
       "type": "detailed"
     },
     {
