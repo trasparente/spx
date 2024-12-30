@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-12-30T12%3A23%3A49Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2024-12-30T18%3A16%3A42Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2024-12-30T04:14:11Z",
+      "last_updated": "2024-12-30T14:12:36Z",
       "updates": [
+        {
+          "id": 9670,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-12-30T14:12:00Z"
+        },
+        {
+          "id": 9669,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Dec 31 at 05:39 UTC",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-12-6",
+          "created_by": "hitura-nobad",
+          "created_on": "2024-12-30T13:59:00Z"
+        },
         {
           "id": 9667,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -75,15 +91,15 @@
           "created_on": "2024-12-23T16:06:00Z"
         }
       ],
-      "net": "2024-12-31T05:34:40Z",
+      "net": "2024-12-31T05:39:10Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2024-12-31T06:28:00Z",
-      "window_start": "2024-12-31T05:34:40Z",
+      "window_end": "2024-12-31T06:28:10Z",
+      "window_start": "2024-12-31T05:39:10Z",
       "probability": 90,
       "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
@@ -413,7 +429,7 @@
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "Go! - SpaceX - Falcon 9 - Starlink 12-6 - LC-39A - Kennedy Space Center - Space Affairs Live",
-          "description": "Launch Date: December 31, 2024 \nLaunch Time: 12:34 a.m. ET, 0534 UTC, 06:34 CET\nLaunch Window:  up til 3:28 a.m. \nLaunch Site: LC-39A - Kennedy Space Center, Florida\nTargeted Orbit: Low Earth Orbit (L...",
+          "description": "Launch Date: December 31, 2024 \nLaunch Time: 12:39 a.m. ET, 0539 UTC, 06:39 CET\nLaunch Window:  up til 1:28 a.m. \nLaunch Site: LC-39A - Kennedy Space Center, Florida\nTargeted Orbit: Low Earth Orbit (L...",
           "feature_image": "https://i.ytimg.com/vi/nmCGcTvWi-o/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=nmCGcTvWi-o",
           "type": {
@@ -425,7 +441,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2024-12-31T05:24:00Z",
+          "start_time": "2024-12-31T05:29:00Z",
           "end_time": null
         },
         {
@@ -445,7 +461,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2024-12-31T08:27:00Z",
+          "start_time": "2024-12-31T05:33:00Z",
           "end_time": "2024-12-31T09:28:00Z"
         }
       ],
@@ -685,7 +701,7 @@
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 26,
       "agency_launch_attempt_count_year": 138,
-      "pad_turnaround": "P7DT23H59M10S",
+      "pad_turnaround": "P8DT3M40S",
       "mission_patches": [
         {
           "id": 7,
@@ -1391,7 +1407,37 @@
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
         },
-        "agencies": [],
+        "agencies": [
+          {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 448,
+            "consecutive_successful_launches": 65,
+            "successful_launches": 436,
+            "failed_launches": 12,
+            "pending_launches": 113,
+            "consecutive_successful_landings": 18,
+            "successful_landings": 396,
+            "failed_landings": 26,
+            "attempted_landings": 421,
+            "info_url": "http://www.spacex.com/",
+            "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+          }
+        ],
         "info_urls": [],
         "vid_urls": []
       },
