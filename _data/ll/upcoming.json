@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-01-09T18%3A17%3A23Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-01-10T01%3A01%3A52Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-01-09T03:39:50Z",
+      "last_updated": "2025-01-09T21:14:12Z",
       "updates": [
+        {
+          "id": 9744,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Jan 10 at 03:53 UTC",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=nrol-153",
+          "created_by": "hitura-nobad",
+          "created_on": "2025-01-09T21:14:00Z"
+        },
         {
           "id": 9734,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -51,7 +59,7 @@
           "created_on": "2024-11-28T06:55:00Z"
         }
       ],
-      "net": "2025-01-10T03:52:00Z",
+      "net": "2025-01-10T03:53:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
@@ -389,7 +397,7 @@
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "On Go! - SpaceX - Falcon 9 - NROL-153 - SLC-4E - Vandenberg Space Force Base - Space Affairs Live",
-          "description": "Launch Date: January 9, 2025 PT\nLaunch Time: 7:52 p.m. PT - January 10, 0352 UTC, 04:52 CET\nLaunch Window: 7:52 p.m.\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California, USA\nTargeted Orbit: ...",
+          "description": "Launch Date: January 9, 2025 PT\nLaunch Time: 7:53 p.m. PT - January 10, 0353 UTC, 04:53 CET\nLaunch Window: 7:52 p.m.\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California, USA\nTargeted Orbit: ...",
           "feature_image": "https://i.ytimg.com/vi/UhDr6PsRfik/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=UhDr6PsRfik",
           "type": {
@@ -421,7 +429,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-01-10T03:22:00Z",
+          "start_time": "2025-01-10T03:23:00Z",
           "end_time": null
         },
         {
@@ -441,8 +449,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-01-10T03:42:00Z",
-          "end_time": "2025-01-10T04:42:00Z"
+          "start_time": "2025-01-10T03:43:00Z",
+          "end_time": "2025-01-10T04:43:00Z"
         }
       ],
       "webcast_live": false,
@@ -457,17 +465,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -635,7 +643,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 4,
-      "pad_turnaround": "P12DT1H53M30S",
+      "pad_turnaround": "P12DT1H54M30S",
       "mission_patches": [
         {
           "id": 1057,
@@ -1010,10 +1018,213 @@
         "total_launch_count": 282,
         "orbital_launch_attempt_count": 282
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-12-12",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M10S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M24S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M28S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M36S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M2S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M5S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M32S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M46S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M16S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M39S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT54M2S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT54M3S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT1H5M10S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [
@@ -2601,7 +2812,7 @@
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 8,
-      "pad_turnaround": "P4DT14H57M",
+      "pad_turnaround": "P4DT14H56M",
       "mission_patches": [
         {
           "id": 49,
@@ -4132,14 +4343,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6864,
+      "orbital_launch_attempt_count": 6865,
       "location_launch_attempt_count": 1001,
       "pad_launch_attempt_count": 285,
-      "agency_launch_attempt_count": 460,
-      "orbital_launch_attempt_count_year": 15,
+      "agency_launch_attempt_count": 461,
+      "orbital_launch_attempt_count_year": 16,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 5,
-      "agency_launch_attempt_count_year": 11,
+      "agency_launch_attempt_count_year": 12,
       "pad_turnaround": "P17DT9H1M",
       "mission_patches": [
         {
