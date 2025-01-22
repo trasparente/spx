@@ -1,6 +1,6 @@
 {
   "count": 112,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-01-22T12%3A23%3A56Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-01-22T18%3A17%3A08Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -832,8 +832,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2025-01-22T01:05:25Z",
+      "last_updated": "2025-01-22T17:24:33Z",
       "updates": [
+        {
+          "id": 9865,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-01-22T17:24:00Z"
+        },
         {
           "id": 9863,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -915,15 +923,15 @@
           "created_on": "2023-06-05T14:50:31Z"
         }
       ],
-      "net": "2025-01-29T04:00:00Z",
+      "net": "2025-01-29T03:34:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-01-29T06:00:00Z",
-      "window_start": "2025-01-29T04:00:00Z",
+      "window_end": "2025-01-29T03:34:00Z",
+      "window_start": "2025-01-29T03:34:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1190,7 +1198,7 @@
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 14,
-      "pad_turnaround": "P7DT22H35M10S",
+      "pad_turnaround": "P7DT22H9M10S",
       "mission_patches": [],
       "type": "detailed"
     },
