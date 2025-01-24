@@ -1,6 +1,6 @@
 {
   "count": 112,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-01-24T00%3A58%3A45Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-01-24T06%3A17%3A04Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -245,8 +245,8 @@
           {
             "id": 650,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 23,
             "launcher": {
               "id": 84,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/84/?format=json",
@@ -282,9 +282,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2024-12-17T13:19:00Z",
+            "turn_around_time_days": 38,
+            "previous_flight": {
+              "id": "a889a7d1-844f-40c5-adcc-4bc54f43a51d",
+              "name": "Falcon 9 Block 5 | NROL-149"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -2585,15 +2588,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6881,
+      "orbital_launch_attempt_count": 6877,
       "location_launch_attempt_count": 791,
       "pad_launch_attempt_count": 179,
-      "agency_launch_attempt_count": 469,
-      "orbital_launch_attempt_count_year": 32,
+      "agency_launch_attempt_count": 466,
+      "orbital_launch_attempt_count_year": 28,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 5,
-      "agency_launch_attempt_count_year": 20,
-      "pad_turnaround": "P34DT10H6M",
+      "agency_launch_attempt_count_year": 17,
+      "pad_turnaround": "P33DT9H53M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -2893,11 +2896,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6881,
+      "orbital_launch_attempt_count": 6882,
       "location_launch_attempt_count": 1004,
       "pad_launch_attempt_count": 2,
       "agency_launch_attempt_count": 469,
-      "orbital_launch_attempt_count_year": 32,
+      "orbital_launch_attempt_count_year": 33,
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 20,
@@ -3258,11 +3261,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6881,
+      "orbital_launch_attempt_count": 6882,
       "location_launch_attempt_count": 1004,
       "pad_launch_attempt_count": 2,
       "agency_launch_attempt_count": 469,
-      "orbital_launch_attempt_count_year": 32,
+      "orbital_launch_attempt_count_year": 33,
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 20,
