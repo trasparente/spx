@@ -1,6 +1,6 @@
 {
   "count": 466,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-02-05T12%3A23%3A59Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-02-05T18%3A17%3A07Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2025-02-05T08:06:54Z",
+      "last_updated": "2025-02-05T16:48:42Z",
       "updates": [
         {
           "id": 10020,
@@ -862,7 +862,20 @@
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 17,
       "pad_turnaround": "P5DT21H39M",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1096,
+          "name": "Worldview Legion 5 & 6",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/worldview2520l_mission_patch_20250205164836.png",
+          "agency": {
+            "id": 1057,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1057/?format=json",
+            "name": "Maxar Technologies",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
