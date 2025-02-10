@@ -1,6 +1,6 @@
 {
   "count": 112,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-10T12%3A24%3A22Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-10T18%3A17%3A24Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -723,8 +723,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2025-02-05T13:02:09Z",
+      "last_updated": "2025-02-10T16:59:46Z",
       "updates": [
+        {
+          "id": 10065,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather.",
+          "info_url": "https://afspc.github.io/45th-Weather-Squadron/assets/LaunchForecasts/Falcon%209%20Starlink%2012-18%20L-1%20Forecast%20-%2011%20Feb%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-02-10T16:59:00Z"
+        },
         {
           "id": 10006,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -743,8 +751,8 @@
       },
       "window_end": "2025-02-11T21:31:00Z",
       "window_start": "2025-02-11T17:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 95,
+      "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
