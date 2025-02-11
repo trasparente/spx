@@ -1,6 +1,6 @@
 {
   "count": 114,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-11T12%3A24%3A31Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-11T18%3A15%3A42Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-02-11T05:08:06Z",
+      "last_updated": "2025-02-11T17:53:29Z",
       "updates": [
+        {
+          "id": 10081,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-02-11T14:40:00Z"
+        },
         {
           "id": 10073,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -51,15 +59,15 @@
           "created_on": "2025-02-04T16:44:00Z"
         }
       ],
-      "net": "2025-02-11T18:53:10Z",
+      "net": "2025-02-11T18:53:20Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2025-02-11T20:43:59Z",
-      "window_start": "2025-02-11T18:53:10Z",
+      "window_end": "2025-02-11T20:44:29Z",
+      "window_start": "2025-02-11T18:53:20Z",
       "probability": 95,
       "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
@@ -405,6 +413,26 @@
           "end_time": null
         },
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 21 Starlink satellites",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with 21 satellites for Elon Musk's Starlink internet service. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is sch...",
+          "feature_image": "https://i.ytimg.com/vi/mAabLYNXSvM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=mAabLYNXSvM",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-02-11T17:54:05Z",
+          "end_time": null
+        },
+        {
           "priority": 9,
           "source": "youtube.com",
           "publisher": "NASASpaceflight",
@@ -421,7 +449,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-02-11T16:00:00Z",
+          "start_time": "2025-02-11T17:53:06Z",
           "end_time": null
         },
         {
@@ -445,7 +473,7 @@
           "end_time": "2025-02-11T21:00:00Z"
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [
         {
           "type": {
@@ -681,7 +709,7 @@
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 20,
-      "pad_turnaround": "P2DT23H34M40S",
+      "pad_turnaround": "P2DT23H34M50S",
       "mission_patches": [
         {
           "id": 7,
