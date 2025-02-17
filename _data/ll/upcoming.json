@@ -1,6 +1,6 @@
 {
   "count": 114,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-17T12%3A25%3A12Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-17T18%3A16%3A47Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-02-16T04:29:28Z",
+      "last_updated": "2025-02-17T17:23:21Z",
       "updates": [
+        {
+          "id": 10112,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-02-17T17:23:00Z"
+        },
+        {
+          "id": 10111,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Weather is 95% favorable for launch.",
+          "info_url": "https://afspc.github.io/45th-Weather-Squadron/assets/LaunchForecasts/Falcon%209%20Starlink%2010-12%20L-1%20Forecast%20-%2018%20Feb%20Launch.pdf",
+          "created_by": "Nosu",
+          "created_on": "2025-02-17T16:58:00Z"
+        },
         {
           "id": 10108,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -59,7 +75,7 @@
           "created_on": "2025-01-16T18:21:00Z"
         }
       ],
-      "net": "2025-02-18T23:15:00Z",
+      "net": "2025-02-18T23:06:00Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -68,8 +84,8 @@
       },
       "window_end": "2025-02-19T03:00:00Z",
       "window_start": "2025-02-18T23:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 95,
+      "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -661,15 +677,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6883,
+      "orbital_launch_attempt_count": 6882,
       "location_launch_attempt_count": 1005,
       "pad_launch_attempt_count": 290,
       "agency_launch_attempt_count": 471,
-      "orbital_launch_attempt_count_year": 34,
+      "orbital_launch_attempt_count_year": 33,
       "location_launch_attempt_count_year": 11,
       "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 22,
-      "pad_turnaround": "P3DT17H50S",
+      "pad_turnaround": "P3DT16H51M50S",
       "mission_patches": [
         {
           "id": 7,
