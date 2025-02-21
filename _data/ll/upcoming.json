@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-21T06%3A18%3A01Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-21T12%3A24%3A14Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -381,7 +381,7 @@
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "SpaceX - Falcon 9 - Starlink 12-14 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
-          "description": "Launch Date:  February 21, 2025 (ET)\nLaunch Time: 6:31 a.m. ET - 1131 UTC, 12:31 CET\nLaunch Window:  Open until 10:31 a.m. ET\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida, USA\nTar...",
+          "description": "Launch Date:  February 21, 2025 (ET)\nLaunch Time: 10:19 a.m. ET - 1519 UTC, 16:19 CET\nLaunch Window:  Open until 10:31 a.m. ET\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida, USA\nTa...",
           "feature_image": "https://i.ytimg.com/vi/oyY_Qmemo0Y/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=oyY_Qmemo0Y",
           "type": {
@@ -393,15 +393,15 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-02-21T11:21:00Z",
+          "start_time": "2025-02-21T15:09:00Z",
           "end_time": null
         },
         {
           "priority": 8,
           "source": "youtube.com",
           "publisher": "Spaceflight Now",
-          "title": "Watch live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 21 Starlink satellites",
-          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with 21 satellites for Elon Musk's Starlink internet service. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is sch...",
+          "title": "Watch live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 23 Starlink satellites",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with 23 satellites for Elon Musk's Starlink internet service. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is sch...",
           "feature_image": "https://i.ytimg.com/vi/ilYBPUZCnjw/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=ilYBPUZCnjw",
           "type": {
@@ -413,7 +413,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-02-21T09:19:00Z",
+          "start_time": "2025-02-21T14:19:00Z",
           "end_time": null
         },
         {
@@ -1694,8 +1694,152 @@
           "failed_landings": 3,
           "consecutive_successful_landings": 1
         },
-        "launcher_stage": [],
-        "spacecraft_stage": null
+        "launcher_stage": [
+          {
+            "id": 704,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 191,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/191/?format=json",
+              "details": "Super Heavy booster used for the eighth Starship flight test.",
+              "flight_proven": false,
+              "serial_number": "Booster 15",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_booste_image_20250221071521.jpg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1576,
+              "attempt": true,
+              "success": null,
+              "description": "The Super Heavy Booster 15 will return to the launch site for a catch attempt by the tower. Alternatively, it will perform a soft splashdown in the Gulf of Mexico.",
+              "downrange_distance": 0,
+              "location": {
+                "id": 39,
+                "name": "Orbital Launch Mount A",
+                "abbrev": "OLM-A",
+                "description": "",
+                "location": {
+                  "id": 143,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/143/?format=json",
+                  "name": "SpaceX Starbase, TX, USA",
+                  "country_code": "USA",
+                  "description": "Starbase is an industrial complex for Starship rockets and the headquarters of the American aerospace manufacturer company SpaceX. Located near Brownsville, Texas, United States, it has been under construction since the late 2010s by SpaceX. Starbase is composed of a spaceport near the Gulf of Mexico, a production facility at the Boca Chica village, and a small structure test site along the Texas State Highway 4.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_143_20200803142438.jpg",
+                  "timezone_name": "America/Chicago",
+                  "total_launch_count": 16,
+                  "total_landing_count": 12
+                },
+                "successful_landings": 2
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
+        "spacecraft_stage": {
+          "id": 871,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/871/?format=json",
+          "mission_end": null,
+          "destination": "Suborbital",
+          "launch_crew": [],
+          "onboard_crew": [],
+          "landing_crew": [],
+          "spacecraft": {
+            "id": 606,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/606/?format=json",
+            "name": "Ship 34",
+            "serial_number": "S34",
+            "is_placeholder": false,
+            "in_space": false,
+            "time_in_space": "P0D",
+            "time_docked": "P0D",
+            "flights_count": 0,
+            "mission_ends_count": 0,
+            "status": {
+              "id": 1,
+              "name": "Active"
+            },
+            "description": "Ship 34 (S34) is the 2nd stage vehicle used for the eighth Starship flight test. It is the second \"Block 2\" Starship spacecraft with lengthened propellant tanks and forward flaps with a new design, among other enhancements.",
+            "spacecraft_config": {
+              "id": 26,
+              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/26/?format=json",
+              "name": "Starship",
+              "type": {
+                "id": 6,
+                "name": "Reuseable Upper Stage"
+              },
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "parent": null,
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
+              },
+              "in_use": true,
+              "capability": "More than 100 tons to Earth orbit",
+              "history": "The Starship second stage was testing during a number of low and high altitude suborbital flights before the first orbital launch attempt.",
+              "details": "Second stage of the two-stage Starship super heavy-lift launch vehicle.",
+              "maiden_flight": "2023-04-20",
+              "height": 50,
+              "diameter": 9,
+              "human_rated": false,
+              "crew_capacity": 0,
+              "payload_capacity": 100000,
+              "payload_return_capacity": null,
+              "flight_life": "Unknown at this stage",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_image_20231116184708.jpeg",
+              "nation_url": null,
+              "wiki_link": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+              "info_link": "https://www.spacex.com/vehicles/starship/"
+            }
+          },
+          "landing": {
+            "id": 1577,
+            "attempt": true,
+            "success": null,
+            "description": "Starship Ship 34 will make an atmospheric re-entry and soft landing over the Indian Ocean.",
+            "downrange_distance": null,
+            "location": {
+              "id": 32,
+              "name": "Indian Ocean",
+              "abbrev": "IND",
+              "description": "Indian Ocean",
+              "location": null,
+              "successful_landings": 6
+            },
+            "type": {
+              "id": 3,
+              "name": "Ocean",
+              "abbrev": "Ocean",
+              "description": "No recovery attempt"
+            }
+          },
+          "docking_events": []
+        }
       },
       "mission": {
         "id": 7124,
