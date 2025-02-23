@@ -1,6 +1,6 @@
 {
   "count": 115,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-23T12%3A21%3A27Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-23T18%3A15%3A17Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-02-22T03:08:31Z",
+      "last_updated": "2025-02-23T18:10:20Z",
       "updates": [
+        {
+          "id": 10160,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to February 25 UTC.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-12-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-02-23T18:07:00Z"
+        },
         {
           "id": 10153,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -43,17 +51,17 @@
           "created_on": "2025-02-18T05:46:00Z"
         }
       ],
-      "net": "2025-02-24T04:42:00Z",
+      "net": "2025-02-25T04:26:00Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2025-02-24T08:42:00Z",
-      "window_start": "2025-02-24T04:42:00Z",
-      "probability": 75,
-      "weather_concerns": "Thick Cloud Layers Rule",
+      "window_end": "2025-02-25T08:06:00Z",
+      "window_start": "2025-02-25T04:26:00Z",
+      "probability": 60,
+      "weather_concerns": "Thick Cloud Layers Rule, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -394,6 +402,26 @@
           "end_time": null
         },
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX launches 21 Starlink satellites from Cape Canaveral on Falcon 9 rocket",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with 21 second-generation Starlink internet satellites. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for Monday, Febr...",
+          "feature_image": "https://i.ytimg.com/vi/QaFv3aDbNhk/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=QaFv3aDbNhk",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-02-25T03:14:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -410,8 +438,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-02-24T04:35:00Z",
-          "end_time": "2025-02-24T05:35:00Z"
+          "start_time": "2025-02-25T04:20:00Z",
+          "end_time": "2025-02-25T05:21:00Z"
         }
       ],
       "webcast_live": false,
@@ -650,7 +678,7 @@
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 12,
       "agency_launch_attempt_count_year": 25,
-      "pad_turnaround": "P2DT13H23M",
+      "pad_turnaround": "P3DT13H7M",
       "mission_patches": [
         {
           "id": 7,
