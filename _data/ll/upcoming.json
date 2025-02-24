@@ -1,6 +1,6 @@
 {
   "count": 115,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-24T06%3A19%3A02Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-02-24T12%3A25%3A16Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-02-24T02:40:26Z",
+      "last_updated": "2025-02-24T06:44:54Z",
       "updates": [
+        {
+          "id": 10163,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-02-24T06:44:00Z"
+        },
         {
           "id": 10161,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -59,7 +67,7 @@
           "created_on": "2025-02-18T05:46:00Z"
         }
       ],
-      "net": "2025-02-25T04:26:50Z",
+      "net": "2025-02-25T04:26:20Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -67,7 +75,7 @@
         "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-02-25T08:06:49Z",
-      "window_start": "2025-02-25T04:26:50Z",
+      "window_start": "2025-02-25T04:26:20Z",
       "probability": 60,
       "weather_concerns": "Thick Cloud Layers Rule, Cumulus Cloud Rule",
       "holdreason": "",
@@ -686,7 +694,7 @@
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 12,
       "agency_launch_attempt_count_year": 25,
-      "pad_turnaround": "P3DT13H7M50S",
+      "pad_turnaround": "P3DT13H7M20S",
       "mission_patches": [
         {
           "id": 7,
@@ -1536,7 +1544,7 @@
       "id": "a2b94add-d1e8-4b1d-9f25-afe7904580d3",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/a2b94add-d1e8-4b1d-9f25-afe7904580d3/?format=json",
       "slug": "starship-flight-8",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=a2b94add-d1e8-4b1d-9f25-afe7904580d3",
       "r_spacex_api_id": null,
       "name": "Starship | Flight 8",
       "status": {
@@ -1545,7 +1553,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2025-02-24T02:47:41Z",
+      "last_updated": "2025-02-24T12:02:16Z",
       "updates": [
         {
           "id": 10162,
@@ -1989,8 +1997,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-02-21T16:35:07Z",
+      "last_updated": "2025-02-24T07:33:43Z",
       "updates": [
+        {
+          "id": 10165,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.nasa.gov/news-release/nasa-sets-launch-coverage-for-missions-studying-cosmic-origins-sun/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-02-24T07:33:00Z"
+        },
         {
           "id": 10136,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -2072,7 +2088,7 @@
           "created_on": "2021-02-04T22:05:14Z"
         }
       ],
-      "net": "2025-03-01T03:10:00Z",
+      "net": "2025-03-01T03:09:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
@@ -2080,7 +2096,7 @@
         "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2025-03-01T03:10:00Z",
-      "window_start": "2025-03-01T03:10:00Z",
+      "window_start": "2025-03-01T03:09:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -2330,9 +2346,9 @@
         "launch_designator": null,
         "type": "Astrophysics",
         "orbit": {
-          "id": 13,
-          "name": "Polar Orbit",
-          "abbrev": "PO"
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
         },
         "agencies": [],
         "info_urls": [],
@@ -2413,15 +2429,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6894,
+      "orbital_launch_attempt_count": 6893,
       "location_launch_attempt_count": 794,
       "pad_launch_attempt_count": 182,
       "agency_launch_attempt_count": 478,
-      "orbital_launch_attempt_count_year": 45,
+      "orbital_launch_attempt_count_year": 44,
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 29,
-      "pad_turnaround": "P6DT1H31M40S",
+      "pad_turnaround": "P6DT1H30M40S",
       "mission_patches": [],
       "type": "detailed"
     },
