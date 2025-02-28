@@ -1,6 +1,6 @@
 {
   "count": 475,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-02-28T12%3A24%3A36Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-02-28T18%3A17%3A24Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -365,27 +365,27 @@
           {
             "id": 700,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 192,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/192/?format=json",
+              "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
+              "flight_proven": true,
+              "serial_number": "B1092",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2025-02-27T03:34:20Z",
+              "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "landing": {
               "id": 1572,
               "attempt": true,
               "success": true,
-              "description": "The Falcon 9 1st stage B109x has landed on ASDS JRTI after its 1st flight.",
+              "description": "The Falcon 9 1st stage B1092 has landed on ASDS JRTI after its 1st flight.",
               "downrange_distance": 600,
               "location": {
                 "id": 3,
@@ -1685,7 +1685,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2025-02-24T19:15:00Z",
+      "last_updated": "2025-02-28T13:06:58Z",
       "updates": [
         {
           "id": 10159,
@@ -2104,26 +2104,6 @@
           },
           "start_time": "2025-02-24T17:03:20Z",
           "end_time": "2025-02-24T17:19:55Z"
-        },
-        {
-          "priority": 7,
-          "source": "youtube.com",
-          "publisher": "The Space Devs",
-          "title": "SpaceX Starlink Group 15-1",
-          "description": "On Sunday February 23, 2025, SpaceX launched the Starlink Group 15-1 mission with a Falcon 9 Block 5 from Space Launch Complex 4E at Vandenberg SFB, CA, USA.\n\nDescription generated from the Launch Lib...",
-          "feature_image": "https://i.ytimg.com/vi/HSXw_WisffU/hqdefault.jpg",
-          "url": "https://www.youtube.com/watch?v=HSXw_WisffU",
-          "type": {
-            "id": 4,
-            "name": "Unofficial Re-stream"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2025-02-23T01:52:45Z",
-          "end_time": "2025-02-23T02:09:20Z"
         },
         {
           "priority": 8,
