@@ -1,6 +1,6 @@
 {
   "count": 477,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-03-07T12%3A24%3A28Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-03-07T18%3A17%3A17Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -350,7 +350,7 @@
         "spacecraft_stage": {
           "id": 871,
           "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/871/?format=json",
-          "mission_end": null,
+          "mission_end": "2025-03-06T23:43:00Z",
           "destination": "Suborbital",
           "launch_crew": [],
           "onboard_crew": [],
@@ -361,14 +361,14 @@
             "name": "Ship 34",
             "serial_number": "S34",
             "is_placeholder": false,
-            "in_space": true,
-            "time_in_space": "PT3H2M41S",
+            "in_space": false,
+            "time_in_space": "PT13M",
             "time_docked": "P0D",
             "flights_count": 1,
-            "mission_ends_count": 0,
+            "mission_ends_count": 1,
             "status": {
-              "id": 1,
-              "name": "Active"
+              "id": 3,
+              "name": "Destroyed"
             },
             "description": "Ship 34 (S34) is the 2nd stage vehicle used for the eighth Starship flight test. It is the second \"Block 2\" Starship spacecraft with lengthened propellant tanks and forward flaps with a new design, among other enhancements.",
             "spacecraft_config": {
