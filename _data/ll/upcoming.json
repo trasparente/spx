@@ -1,6 +1,6 @@
 {
   "count": 115,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-14T12%3A24%3A45Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-14T18%3A17%3A25Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-03-14T05:10:09Z",
+      "last_updated": "2025-03-14T16:06:33Z",
       "updates": [
+        {
+          "id": 10436,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://x.com/_mgde_/status/1900569579690029056",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-03-14T16:06:00Z"
+        },
         {
           "id": 10426,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -123,15 +131,15 @@
           "created_on": "2024-04-02T13:26:14Z"
         }
       ],
-      "net": "2025-03-14T23:03:46Z",
+      "net": "2025-03-14T23:03:48Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2025-03-14T23:03:46Z",
-      "window_start": "2025-03-14T23:03:46Z",
+      "window_end": "2025-03-14T23:03:48Z",
+      "window_start": "2025-03-14T23:03:48Z",
       "probability": 99,
       "weather_concerns": null,
       "holdreason": "",
@@ -788,7 +796,95 @@
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
         },
-        "agencies": [],
+        "agencies": [
+          {
+            "id": 37,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/?format=json",
+            "name": "Japan Aerospace Exploration Agency",
+            "featured": true,
+            "type": "Government",
+            "country_code": "JPN",
+            "abbrev": "JAXA",
+            "description": "The Japan Aerospace Exploration Agency (JAXA) is Japan's national aero-space agency. Through the merger of three previously independent organizations, JAXA was formed on 1 October 2003. JAXA is responsible for research, technology development and the launch of satellites into orbit, and is involved in many more advanced missions, such as asteroid exploration and possible manned exploration of the Moon. JAXA launch their Epsilon vehicle from the Uchinoura Space Center and their H-II vehicles from the Tanegashima Space Center.",
+            "administrator": "Administrator: Hiroshi Yamakawa",
+            "founding_year": "2003",
+            "launchers": "H-II",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 36,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 32,
+            "failed_launches": 4,
+            "pending_launches": 4,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "http://www.jaxa.jp/",
+            "wiki_url": "http://en.wikipedia.org/wiki/Japan_Aerospace_Exploration_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_logo_20190207032440.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_image_20190207032440.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_nation_20230531052930.png"
+          },
+          {
+            "id": 44,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+            "name": "National Aeronautics and Space Administration",
+            "featured": true,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "NASA",
+            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+            "administrator": "Acting Administrator:  James Free",
+            "founding_year": "1958",
+            "launchers": "Space Shuttle | SLS",
+            "spacecraft": "Orion",
+            "launch_library_url": null,
+            "total_launch_count": 141,
+            "consecutive_successful_launches": 11,
+            "successful_launches": 121,
+            "failed_launches": 20,
+            "pending_launches": 6,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "http://www.nasa.gov",
+            "wiki_url": "http://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
+          },
+          {
+            "id": 63,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/?format=json",
+            "name": "Russian Federal Space Agency (ROSCOSMOS)",
+            "featured": true,
+            "type": "Government",
+            "country_code": "RUS",
+            "abbrev": "RFSA",
+            "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+            "administrator": "Administrator: Yuri Borisov",
+            "founding_year": "1992",
+            "launchers": "Soyuz",
+            "spacecraft": "Soyuz",
+            "launch_library_url": null,
+            "total_launch_count": 330,
+            "consecutive_successful_launches": 54,
+            "successful_launches": 319,
+            "failed_launches": 11,
+            "pending_launches": 10,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "http://en.roscosmos.ru/",
+            "wiki_url": "http://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
+          }
+        ],
         "info_urls": [],
         "vid_urls": []
       },
@@ -916,7 +1012,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-03-14T19:15:00Z",
+          "start_time": "2025-03-14T18:45:00Z",
           "end_time": null
         },
         {
@@ -1247,7 +1343,7 @@
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 7,
       "agency_launch_attempt_count_year": 31,
-      "pad_turnaround": "P15DT22H47M16S",
+      "pad_turnaround": "P15DT22H47M18S",
       "mission_patches": [
         {
           "id": 1105,
@@ -1803,8 +1899,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2025-03-14T02:13:47Z",
+      "last_updated": "2025-03-14T14:11:58Z",
       "updates": [
+        {
+          "id": 10435,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather.",
+          "info_url": "https://afspc.github.io/45th-Weather-Squadron/assets/LaunchForecasts/Falcon%209%20Starlink%20g12-16%20L-1%20Forecast%20-%2015%20Mar%20Launch.docx",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-03-14T14:11:00Z"
+        },
         {
           "id": 10430,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1879,8 +1983,8 @@
       },
       "window_end": "2025-03-15T14:59:00Z",
       "window_start": "2025-03-15T10:28:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 99,
+      "weather_concerns": "Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
