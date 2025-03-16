@@ -1,6 +1,6 @@
 {
   "count": 112,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-15T18%3A16%3A13Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-16T01%3A08%3A03Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -822,7 +822,7 @@
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 35,
-      "pad_turnaround": "P4DT23H23M",
+      "pad_turnaround": "P4DT23H19M",
       "mission_patches": [
         {
           "id": 1057,
@@ -3644,51 +3644,27 @@
       "type": "detailed"
     },
     {
-      "id": "84a2a107-1e44-4994-ad9f-430ee81a741a",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/84a2a107-1e44-4994-ad9f-430ee81a741a/?format=json",
-      "slug": "falcon-9-block-5-nusantara-lima",
+      "id": "41d2ac1b-a506-47ae-8e44-8b65f5d6f239",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/41d2ac1b-a506-47ae-8e44-8b65f5d6f239/?format=json",
+      "slug": "falcon-9-block-5-bandwagon-4-dedicated-mid-inclina",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Nusantara Lima",
+      "name": "Falcon 9 Block 5 | Bandwagon 4 (Dedicated Mid-Inclination Rideshare)",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2025-02-12T16:17:53Z",
+      "last_updated": "2023-08-16T07:18:28Z",
       "updates": [
         {
-          "id": 10094,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET May 2025.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=56065.msg2664234#msg2664234",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-02-12T16:17:00Z"
-        },
-        {
-          "id": 5861,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET mid-2024.",
-          "info_url": "https://teknologi.bisnis.com/read/20231202/101/1720272/satelit-nusantara-5-mengorbit-pertengahan-2024-meleset-dari-target",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2023-12-04T02:51:31Z"
-        },
-        {
-          "id": 5103,
+          "id": 4874,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Targeting December 2023",
-          "info_url": "https://www.majalahict.com/grup-psn-memperluas-akses-layanan-satelit-di-kawasan-asean-untuk-mendukung-digitalisasi-di-filipina/",
+          "comment": "Adding launch",
+          "info_url": "https://spacenews.com/spacex-to-offer-mid-inclination-smallsat-rideshare-launches/",
           "created_by": "Nosu",
-          "created_on": "2023-09-09T11:54:40Z"
-        },
-        {
-          "id": 1446,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Adding launch TBD 2023",
-          "info_url": "https://www.prnewswire.com/news-releases/psn-group-builds-nusantara-lima-satellite-301508376.html",
-          "created_by": "Nosu",
-          "created_on": "2022-03-24T07:16:43Z"
+          "created_on": "2023-08-16T07:18:29Z"
         }
       ],
       "net": "2025-05-31T00:00:00Z",
@@ -3735,7 +3711,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7545,
+        "id": 7988,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -3881,74 +3857,49 @@
           "failed_landings": 5,
           "consecutive_successful_landings": 79
         },
-        "launcher_stage": [
-          {
-            "id": 393,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": null,
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          }
-        ],
+        "launcher_stage": [],
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 5972,
-        "name": "Nusantara Lima",
-        "description": "Nusantara Lima is an Indonesian geostationary communications satellite with a capacity of more than 160 Gbps.",
+        "id": 6514,
+        "name": "Bandwagon 4 (Dedicated Mid-Inclination Rideshare)",
+        "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
         "launch_designator": null,
-        "type": "Communications",
+        "type": "Dedicated Rideshare",
         "orbit": {
-          "id": 2,
-          "name": "Geostationary Transfer Orbit",
-          "abbrev": "GTO"
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         },
         "agencies": [
           {
-            "id": 1070,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1070/?format=json",
-            "name": "PT Pasifik Satelit Nusantara",
-            "featured": false,
-            "type": "Private",
-            "country_code": "IDN",
-            "abbrev": "PSN",
-            "description": "PT Pasifik Satelit Nusantara (PSN) is a private Indonesian satellite telecommunications company.\r\n\r\nIt was formed in 1991 and was the first satellite-based telecommunications company in Indonesia. In 1995, a collaboration started what was to become ACeS (Asia Cellular Satellite system). In 1998, a WAN-based service for corporate customers was introduced.",
-            "administrator": "CEO: Adi Rahman Adiwoso",
-            "founding_year": "1991",
-            "launchers": "",
-            "spacecraft": "",
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
             "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.psn.co.id",
-            "wiki_url": "https://en.wikipedia.org/wiki/PT_Pasifik_Satelit_Nusantara",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pt2520pasifik2520satelit2520nusantara_logo_20230821053114.png",
-            "image_url": null,
-            "nation_url": null
+            "total_launch_count": 482,
+            "consecutive_successful_launches": 5,
+            "successful_launches": 468,
+            "failed_launches": 14,
+            "pending_launches": 108,
+            "consecutive_successful_landings": 51,
+            "successful_landings": 429,
+            "failed_landings": 26,
+            "attempted_landings": 454,
+            "info_url": "http://www.spacex.com/",
+            "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
           }
         ],
         "info_urls": [],
@@ -3988,11 +3939,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6929,
+      "orbital_launch_attempt_count": 6930,
       "location_launch_attempt_count": 1020,
       "pad_launch_attempt_count": 6,
       "agency_launch_attempt_count": 494,
-      "orbital_launch_attempt_count_year": 80,
+      "orbital_launch_attempt_count_year": 81,
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 45,
