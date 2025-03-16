@@ -1,6 +1,6 @@
 {
   "count": 112,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-16T12%3A22%3A28Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-16T18%3A16%3A31Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2025-03-13T17:32:58Z",
+      "last_updated": "2025-03-16T15:59:19Z",
       "updates": [
+        {
+          "id": 10465,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather.",
+          "info_url": "https://afspc.github.io/45th-Weather-Squadron/assets/LaunchForecasts/Falcon%209%20Starlink%2012-25%20L-2%20Forecast%20-%2018%20Mar%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-03-16T15:59:00Z"
+        },
         {
           "id": 10424,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -68,8 +76,8 @@
       },
       "window_end": "2025-03-18T22:40:00Z",
       "window_start": "2025-03-18T18:09:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -300,7 +308,7 @@
       "mission": {
         "id": 7140,
         "name": "Starlink Group 12-25",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 23 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
