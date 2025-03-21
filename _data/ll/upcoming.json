@@ -1,6 +1,6 @@
 {
   "count": 111,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-21T01%3A04%3A19Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-21T06%3A20%3A28Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-03-20T16:53:01Z",
+      "last_updated": "2025-03-21T06:17:53Z",
       "updates": [
         {
           "id": 10510,
@@ -431,6 +431,26 @@
           "end_time": null
         },
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX Falcon 9 rocket launches from California on U.S. spy satellite agency mission",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket thought to be carrying an undisclosed number of Starshield satellites for the U.S. National Reconnaissance Office (NRO). Liftoff of the NROL-57...",
+          "feature_image": "https://i.ytimg.com/vi/2nkJIjdSCuw/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=2nkJIjdSCuw",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-03-21T06:17:25Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -451,7 +471,7 @@
           "end_time": "2025-03-21T07:38:00Z"
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [
         {
           "type": {
@@ -3546,7 +3566,7 @@
       "location_launch_attempt_count_year": 23,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 42,
-      "pad_turnaround": "P38DT21H",
+      "pad_turnaround": "P39DT21H",
       "mission_patches": [],
       "type": "detailed"
     },
