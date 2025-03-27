@@ -1,6 +1,6 @@
 {
   "count": 110,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-27T06%3A18%3A40Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-03-27T12%3A26%3A57Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1119,23 +1119,23 @@
             },
             "landing": {
               "id": 1402,
-              "attempt": false,
+              "attempt": true,
               "success": null,
-              "description": "Unknown.",
-              "downrange_distance": null,
+              "description": "The Falcon 9 1st stage will attempt to land on one of two East Coast ASDS after its flight.",
+              "downrange_distance": 600,
               "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
                 "location": null,
-                "successful_landings": 37
+                "successful_landings": 0
               },
               "type": {
-                "id": 3,
-                "name": "Ocean",
-                "abbrev": "Ocean",
-                "description": "No recovery attempt"
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
             "previous_flight_date": "2025-01-15T06:11:39Z",
@@ -1321,11 +1321,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210914155606.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6921,
+      "orbital_launch_attempt_count": 6920,
       "location_launch_attempt_count": 260,
       "pad_launch_attempt_count": 202,
       "agency_launch_attempt_count": 489,
-      "orbital_launch_attempt_count_year": 72,
+      "orbital_launch_attempt_count_year": 71,
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 40,
