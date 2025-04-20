@@ -1,6 +1,6 @@
 {
   "count": 124,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-04-20T06%3A18%3A03Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-04-20T12%3A23%3A56Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-04-19T03:46:04Z",
+      "last_updated": "2025-04-20T12:00:57Z",
       "updates": [
+        {
+          "id": 10770,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Unofficial Re-stream by SPACE AFFAIRS has started",
+          "info_url": "https://www.youtube.com/watch?v=p3Ov9W_GYZA",
+          "created_by": "LL2",
+          "created_on": "2025-04-20T12:14:00Z"
+        },
         {
           "id": 10762,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -409,7 +417,27 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-04-20T12:14:00Z",
+          "start_time": "2025-04-20T12:14:05Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX Falcon 9 rocket launches on U.S. spy satellite agency mission from California",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket thought to be carrying an undisclosed number of Starshield satellites for the U.S. National Reconnaissance Office (NRO). Liftoff of the NROL-14...",
+          "feature_image": "https://i.ytimg.com/vi/pslkd1qtzts/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=pslkd1qtzts",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-04-20T12:00:16Z",
           "end_time": null
         },
         {
@@ -429,11 +457,11 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-04-20T12:17:00Z",
+          "start_time": "2025-04-20T12:16:55Z",
           "end_time": "2025-04-20T13:17:00Z"
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [
         {
           "type": {
@@ -653,8 +681,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-04-20T01:38:27Z",
+      "last_updated": "2025-04-20T11:57:42Z",
       "updates": [
+        {
+          "id": 10769,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Weather 95% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20CRS-32%20L-1%20Forecast%20-%2021%20Apr%20Launch.pdf",
+          "created_by": "hitura-nobad",
+          "created_on": "2025-04-20T11:57:00Z"
+        },
         {
           "id": 10767,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -729,8 +765,8 @@
       },
       "window_end": "2025-04-21T08:15:42Z",
       "window_start": "2025-04-21T08:15:42Z",
-      "probability": 90,
-      "weather_concerns": null,
+      "probability": 95,
+      "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
