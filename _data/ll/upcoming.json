@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-04-24T01%3A06%3A57Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-04-24T06%3A20%3A10Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-04-23T20:50:19Z",
+      "last_updated": "2025-04-24T02:52:09Z",
       "updates": [
+        {
+          "id": 10796,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-04-24T02:52:00Z"
+        },
         {
           "id": 10795,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -43,15 +51,15 @@
           "created_on": "2025-04-09T17:24:00Z"
         }
       ],
-      "net": "2025-04-25T01:52:00Z",
+      "net": "2025-04-25T01:52:40Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2025-04-25T06:39:00Z",
-      "window_start": "2025-04-25T01:32:00Z",
+      "window_end": "2025-04-25T05:28:59Z",
+      "window_start": "2025-04-25T01:52:40Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -237,27 +245,27 @@
           {
             "id": 725,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 23,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 105,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "flight_proven": true,
+              "serial_number": "B1069",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/105_image_20211220081646.jpeg",
+              "successful_landings": 22,
+              "attempted_landings": 22,
+              "flights": 22,
+              "last_launch_date": "2025-03-13T02:35:30Z",
+              "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "landing": {
               "id": 1606,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 1st stage will attempt to land on ASDS ASOG after its flight.",
+              "description": "The Falcon 9 1st stage B1069 will attempt to land on ASDS ASOG after its 23rd flight.",
               "downrange_distance": 600,
               "location": {
                 "id": 17,
@@ -274,9 +282,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-03-13T02:35:30Z",
+            "turn_around_time_days": 42,
+            "previous_flight": {
+              "id": "f616e759-a083-442d-bd10-328ace929e9b",
+              "name": "Falcon 9 Block 5 | Starlink Group 12-21"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -372,7 +383,88 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink 6-74 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date:  April 24, 2025 (EDT)\nLaunch Time: 9:32 p.m. EDT - April 25, 0132 UTC, 0332 UTC\nLaunch Window:  Open  until April 25, 1:32 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Statio...",
+          "feature_image": "https://i.ytimg.com/vi/oq2DvxHvQiE/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=oq2DvxHvQiE",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-04-25T01:22:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: 28 Starlink satellites launch from Cape Canaveral on SpaceX Falcon 9 rocket",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with 28 satellites for the company's Starlink internet service. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is s...",
+          "feature_image": "https://i.ytimg.com/vi/D863hGDym6w/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=D863hGDym6w",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-04-25T00:52:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "🚀 SpaceX Falcon 9 Launches Starlink 6-74 Mission",
+          "description": "SpaceX launches a new batch of Starlink V2 Mini satellites aboard Falcon 9, expanding its second-generation low Earth orbit (LEO) internet constellation. These next-gen Starlink satellites are designe...",
+          "feature_image": "https://i.ytimg.com/vi/BQVCKbDTKr8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=BQVCKbDTKr8",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-04-25T00:32:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/GpPvkyXW4AAXMXY.jpg",
+          "url": "https://x.com/i/broadcasts/1vOxwXRZMdVKB",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-04-25T01:45:00Z",
+          "end_time": "2025-04-25T03:25:00Z"
+        }
+      ],
       "webcast_live": false,
       "timeline": [
         {
@@ -609,7 +701,7 @@
       "location_launch_attempt_count_year": 23,
       "pad_launch_attempt_count_year": 22,
       "agency_launch_attempt_count_year": 49,
-      "pad_turnaround": "P3DT1H3M26S",
+      "pad_turnaround": "P3DT1H4M6S",
       "mission_patches": [
         {
           "id": 7,
@@ -1441,7 +1533,7 @@
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 23,
       "agency_launch_attempt_count_year": 51,
-      "pad_turnaround": "P3DT32M",
+      "pad_turnaround": "P3DT12M",
       "mission_patches": [
         {
           "id": 7,
@@ -3019,15 +3111,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6944,
+      "orbital_launch_attempt_count": 6946,
       "location_launch_attempt_count": 806,
       "pad_launch_attempt_count": 192,
-      "agency_launch_attempt_count": 503,
-      "orbital_launch_attempt_count_year": 95,
+      "agency_launch_attempt_count": 504,
+      "orbital_launch_attempt_count_year": 97,
       "location_launch_attempt_count_year": 20,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 54,
-      "pad_turnaround": "P11DT4H52M",
+      "agency_launch_attempt_count_year": 55,
+      "pad_turnaround": "P9DT5H20M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -4235,14 +4327,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6951,
+      "orbital_launch_attempt_count": 6953,
       "location_launch_attempt_count": 1022,
       "pad_launch_attempt_count": 1,
-      "agency_launch_attempt_count": 506,
-      "orbital_launch_attempt_count_year": 102,
+      "agency_launch_attempt_count": 507,
+      "orbital_launch_attempt_count_year": 104,
       "location_launch_attempt_count_year": 28,
       "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 57,
+      "agency_launch_attempt_count_year": 58,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
