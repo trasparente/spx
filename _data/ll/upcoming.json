@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-05-05T12%3A27%3A52Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-05-05T18%3A15%3A50Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2025-05-04T15:10:10Z",
+      "last_updated": "2025-05-05T16:28:00Z",
       "updates": [
+        {
+          "id": 10905,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%206-93%20L-1%20Forecast%20-%206%20May%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-05-05T16:28:00Z"
+        },
         {
           "id": 10902,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -60,8 +68,8 @@
       },
       "window_end": "2025-05-07T04:22:00Z",
       "window_start": "2025-05-07T00:22:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 85,
+      "weather_concerns": "Anvil Cloud Rules, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -406,11 +414,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6946,
+      "orbital_launch_attempt_count": 6945,
       "location_launch_attempt_count": 1021,
       "pad_launch_attempt_count": 305,
       "agency_launch_attempt_count": 504,
-      "orbital_launch_attempt_count_year": 97,
+      "orbital_launch_attempt_count_year": 96,
       "location_launch_attempt_count_year": 27,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 55,
