@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-05-23T01%3A09%3A27Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-05-23T06%3A20%3A22Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-05-22T15:58:01Z",
+      "last_updated": "2025-05-23T03:07:39Z",
       "updates": [
+        {
+          "id": 11060,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch time is accurate to the second.",
+          "info_url": "https://celestrak.org/NORAD/elements/supplemental/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-05-23T03:07:00Z"
+        },
         {
           "id": 11059,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -61,10 +69,10 @@
       ],
       "net": "2025-05-23T20:36:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-05-24T00:36:00Z",
       "window_start": "2025-05-23T20:36:00Z",
@@ -932,15 +940,15 @@
               "id": 1623,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 1st stage will attempt to land on one of two East Coast ASDS after its flight.",
+              "description": "The Falcon 9 1st stage will attempt to land on ASDS ASOG after its flight.",
               "downrange_distance": 600,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 109
               },
               "type": {
                 "id": 1,
@@ -3470,11 +3478,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 6971,
+      "orbital_launch_attempt_count": 6972,
       "location_launch_attempt_count": 1027,
       "pad_launch_attempt_count": 311,
       "agency_launch_attempt_count": 519,
-      "orbital_launch_attempt_count_year": 122,
+      "orbital_launch_attempt_count_year": 123,
       "location_launch_attempt_count_year": 33,
       "pad_launch_attempt_count_year": 31,
       "agency_launch_attempt_count_year": 70,
