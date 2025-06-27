@@ -1,6 +1,6 @@
 {
   "count": 121,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-06-26T18%3A20%3A24Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-06-27T01%3A12%3A33Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 10-34",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-06-25T08:02:06Z",
+      "last_updated": "2025-06-27T00:53:54Z",
       "updates": [
+        {
+          "id": 11415,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/mission/?missionId=sl-10-34",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-06-27T00:53:00Z"
+        },
         {
           "id": 11373,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -53,10 +61,10 @@
       ],
       "net": "2025-06-28T04:26:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-06-28T08:26:00Z",
       "window_start": "2025-06-28T04:26:00Z",
@@ -248,24 +256,24 @@
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 192,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/192/?format=json",
+              "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
+              "flight_proven": true,
+              "serial_number": "B1092",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1092_landing_a_image_20250325084800.jpg",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2025-05-30T17:37:59Z",
+              "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "landing": {
               "id": 1642,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 1st stage will attempt to land on ASDS ASOG after its flight.",
+              "description": "The Falcon 9 1st stage B1092 will attempt to land on ASDS ASOG after its 5th flight.",
               "downrange_distance": 600,
               "location": {
                 "id": 17,
@@ -292,7 +300,7 @@
       "mission": {
         "id": 7235,
         "name": "Starlink Group 10-34",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -361,10 +369,274 @@
         "total_launch_count": 317,
         "orbital_launch_attempt_count": 317
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-10-34",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Starlink 10-34 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date:  June 28, 2025\nLaunch Time: 12:26 a.m. EDT, 0426 UTC, 06:26 CEST\nLaunch Window:  Open until 4:26 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida, USA\nTargeted O...",
+          "feature_image": "https://i.ytimg.com/vi/6vvWnioWIXc/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=6vvWnioWIXc",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-06-28T04:16:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": null,
+          "publisher": "",
+          "title": null,
+          "description": null,
+          "feature_image": null,
+          "url": "https://www.youtube.com/watch?v=ZS8i29BE63I",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": null,
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/GuaBhgtbkAA2W2B.jpg",
+          "url": "https://x.com/i/broadcasts/1LyGBWNrennJN",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-06-28T04:19:00Z",
+          "end_time": "2025-06-28T05:19:00Z"
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M10S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M23S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M27S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M35S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M55S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M1S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M29S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M55S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M21S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M40S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT54M45S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT54M47S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT1H4M9S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [
@@ -810,11 +1082,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6994,
+      "orbital_launch_attempt_count": 6995,
       "location_launch_attempt_count": 816,
       "pad_launch_attempt_count": 202,
       "agency_launch_attempt_count": 533,
-      "orbital_launch_attempt_count_year": 145,
+      "orbital_launch_attempt_count_year": 146,
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 84,
@@ -1214,11 +1486,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 6999,
+      "orbital_launch_attempt_count": 6998,
       "location_launch_attempt_count": 268,
       "pad_launch_attempt_count": 210,
       "agency_launch_attempt_count": 534,
-      "orbital_launch_attempt_count_year": 150,
+      "orbital_launch_attempt_count_year": 149,
       "location_launch_attempt_count_year": 16,
       "pad_launch_attempt_count_year": 16,
       "agency_launch_attempt_count_year": 85,
@@ -1252,8 +1524,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2025-06-23T21:11:35Z",
+      "last_updated": "2025-06-27T00:15:04Z",
       "updates": [
+        {
+          "id": 11414,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked launch window.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-06-27T00:15:00Z"
+        },
         {
           "id": 11367,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1326,7 +1606,7 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-07-02T00:15:00Z",
+      "window_end": "2025-07-01T23:45:00Z",
       "window_start": "2025-07-01T21:03:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -4068,43 +4348,59 @@
       "type": "detailed"
     },
     {
-      "id": "5221eb56-ccb1-498c-a757-89e34cc099d7",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/5221eb56-ccb1-498c-a757-89e34cc099d7/?format=json",
-      "slug": "falcon-9-block-5-o3b-mpower-9-11",
+      "id": "c1dc33ba-c9cc-4c1d-ad9f-120096f60be3",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/c1dc33ba-c9cc-4c1d-ad9f-120096f60be3/?format=json",
+      "slug": "falcon-9-block-5-tracers",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | O3b mPower 9-11",
+      "name": "Falcon 9 Block 5 | TRACERS",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2025-04-30T07:02:21Z",
+      "last_updated": "2025-05-02T14:46:27Z",
       "updates": [
         {
-          "id": 10867,
+          "id": 10882,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET Summer 2025.",
-          "info_url": "https://www.ses.com/sites/default/files/2025-04/2504-Q1-2025-Results-Analyst-Presentation.pdf",
+          "comment": "NET summer.",
+          "info_url": "https://science.nasa.gov/blogs/tracers/2025/05/01/nasas-tracers-mission-now-targeting-no-earlier-than-summer-for-launch/",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2025-04-30T07:02:00Z"
+          "created_on": "2025-05-02T14:46:00Z"
         },
         {
-          "id": 9115,
+          "id": 10852,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET mid-2025.",
-          "info_url": "https://www.ses.com/sites/default/files/2024-11/Q3-2024-Results-Analyst-Presentation.pdf",
+          "comment": "NET Spring 2025.",
+          "info_url": "https://tracers.physics.uiowa.edu/",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2024-11-07T07:18:00Z"
+          "created_on": "2025-04-29T02:55:00Z"
         },
         {
-          "id": 5549,
+          "id": 10605,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET 2025.",
-          "info_url": "https://www.ses.com/sites/default/files/2023-10/2310_Q3%202023%20Press%20Release_FINAL.pdf",
+          "comment": "Changed launch site.",
+          "info_url": "https://magazine.foriowa.org/story.php?ed=true&storyid=2513",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2023-10-31T11:24:49Z"
+          "created_on": "2025-04-02T15:49:00Z"
+        },
+        {
+          "id": 10481,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET May 11.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=62129.msg2667006#msg2667006",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-03-18T02:08:00Z"
+        },
+        {
+          "id": 9963,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch (previously thought to be launching on a Transporter mission but appears to be now flying separately as primary payload of its ride-share - see https://forum.nasaspaceflight.com/index.php?topic=62129.0).",
+          "info_url": "https://tracers.physics.uiowa.edu/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-01-31T03:00:00Z"
         }
       ],
       "net": "2025-09-30T00:00:00Z",
@@ -4151,7 +4447,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7553,
+        "id": 8510,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -4299,7 +4595,7 @@
         },
         "launcher_stage": [
           {
-            "id": 424,
+            "id": 690,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -4326,48 +4622,66 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 6158,
-        "name": "O3b mPower 9-11",
-        "description": "Last three of a constellation of eleven high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES.",
+        "id": 7100,
+        "name": "TRACERS",
+        "description": "NASA's Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites (TRACERS) mission, consisting of two identical satellites that will orbit Earth in tandem (one following the other), will help understand magnetic re-connection and its effects in Earth’s atmosphere. Magnetic re-connection occurs when activity from the Sun interacts with Earth’s magnetic field. By understanding this process, scientists will be able to better understand and prepare for impacts of solar activity on Earth.",
         "launch_designator": null,
-        "type": "Communications",
+        "type": "Heliophysics",
         "orbit": {
-          "id": 12,
-          "name": "Medium Earth Orbit",
-          "abbrev": "MEO"
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
         },
         "agencies": [],
         "info_urls": [],
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
         "agency_id": null,
-        "name": "Unknown Pad",
-        "description": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
         "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral SFS, FL, USA",
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
+          "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
-          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 1034,
-          "total_landing_count": 65
+          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 815,
+          "total_landing_count": 26
         },
         "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 201,
+        "orbital_launch_attempt_count": 201
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "tracers.physics.uiowa.edu",
+          "title": "The University of Iowa",
+          "description": "TRACERS is a satellite mission led by the University of Iowa, funded by NASA, to study the mysterious, powerful interactions between the magnetic fields of the Sun and Earth. This mission will help us better understand space weather and its impact on our planet. TRACERS is funded as a Small",
+          "feature_image": null,
+          "url": "https://tracers.physics.uiowa.edu/",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -4375,14 +4689,14 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 7028,
-      "location_launch_attempt_count": 1048,
-      "pad_launch_attempt_count": 7,
+      "location_launch_attempt_count": 819,
+      "pad_launch_attempt_count": 205,
       "agency_launch_attempt_count": 547,
       "orbital_launch_attempt_count_year": 179,
-      "location_launch_attempt_count_year": 54,
-      "pad_launch_attempt_count_year": 7,
+      "location_launch_attempt_count_year": 33,
+      "pad_launch_attempt_count_year": 31,
       "agency_launch_attempt_count_year": 98,
-      "pad_turnaround": "P30D",
+      "pad_turnaround": "P93DT7H17M",
       "mission_patches": [],
       "type": "detailed"
     }
