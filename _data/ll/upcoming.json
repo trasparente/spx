@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-07-19T18%3A19%3A30Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-07-20T01%3A22%3A46Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1086,7 +1086,7 @@
       "location_launch_attempt_count_year": 33,
       "pad_launch_attempt_count_year": 31,
       "agency_launch_attempt_count_year": 93,
-      "pad_turnaround": "P3DT14H21M",
+      "pad_turnaround": "P3DT14H20M1S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -1477,7 +1477,7 @@
       "location_launch_attempt_count_year": 47,
       "pad_launch_attempt_count_year": 44,
       "agency_launch_attempt_count_year": 94,
-      "pad_turnaround": "P2DT12H12M",
+      "pad_turnaround": "P2DT12H",
       "mission_patches": [
         {
           "id": 7,
@@ -1889,7 +1889,7 @@
       "location_launch_attempt_count_year": 34,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 95,
-      "pad_turnaround": "P3DT8H4M",
+      "pad_turnaround": "P3DT7H56M",
       "mission_patches": [
         {
           "id": 7,
@@ -3175,6 +3175,535 @@
       "type": "detailed"
     },
     {
+      "id": "e8e93778-657c-401c-9c88-3cd4c7c45c9d",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/e8e93778-657c-401c-9c88-3cd4c7c45c9d/?format=json",
+      "slug": "falcon-9-block-5-dragon-crs-2-spx-33",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-33",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2025-05-14T18:59:16Z",
+      "updates": [
+        {
+          "id": 10992,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET late August.",
+          "info_url": "https://www.nasa.gov/blogs/commercialcrew/2025/05/14/nasa-partners-adjust-summer-2025-space-station-flight-planning/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-05-14T18:59:00Z"
+        },
+        {
+          "id": 10501,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET Q3 2025.",
+          "info_url": "https://www.youtube.com/watch?v=XJVKM90SdKs",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-03-19T06:08:00Z"
+        },
+        {
+          "id": 10330,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET 2H 2025.",
+          "info_url": "https://www.youtube.com/watch?v=Xq5CH-d4IuU",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-03-08T02:58:00Z"
+        }
+      ],
+      "net": "2025-08-31T00:00:00Z",
+      "net_precision": {
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
+      },
+      "window_end": "2025-08-31T00:00:00Z",
+      "window_start": "2025-08-31T00:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 540,
+        "consecutive_successful_launches": 25,
+        "successful_launches": 525,
+        "failed_launches": 15,
+        "pending_launches": 119,
+        "consecutive_successful_landings": 25,
+        "successful_landings": 486,
+        "failed_landings": 27,
+        "attempted_landings": 512,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+      },
+      "rocket": {
+        "id": 7746,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
+          "name": "Falcon 9",
+          "active": true,
+          "reusable": true,
+          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "manufacturer": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 540,
+            "consecutive_successful_launches": 25,
+            "successful_launches": 525,
+            "failed_launches": 15,
+            "pending_launches": 119,
+            "consecutive_successful_landings": 25,
+            "successful_landings": 486,
+            "failed_landings": 27,
+            "attempted_landings": 512,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+          },
+          "program": [
+            {
+              "id": 5,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
+              "name": "Commercial Crew Program",
+              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+              "agencies": [
+                {
+                  "id": 80,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
+                  "name": "Boeing",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+              "start_date": "2011-04-18T00:00:00Z",
+              "end_date": null,
+              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            },
+            {
+              "id": 11,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/11/?format=json",
+              "name": "Commercial Resupply Services",
+              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+              "agencies": [
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 257,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/?format=json",
+                  "name": "Northrop Grumman Space Systems",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 1020,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/?format=json",
+                  "name": "Sierra Nevada Corporation",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+              "start_date": "2008-12-23T00:00:00Z",
+              "end_date": null,
+              "info_url": null,
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            }
+          ],
+          "variant": "Block 5",
+          "alias": "",
+          "min_stage": 1,
+          "max_stage": 2,
+          "length": 70,
+          "diameter": 3.65,
+          "maiden_flight": "2018-05-11",
+          "launch_cost": "52000000",
+          "launch_mass": 549,
+          "leo_capacity": 22800,
+          "gto_capacity": 8300,
+          "to_thrust": 7607,
+          "apogee": 200,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+          "total_launch_count": 449,
+          "consecutive_successful_launches": 151,
+          "successful_launches": 448,
+          "failed_launches": 1,
+          "pending_launches": 105,
+          "attempted_landings": 441,
+          "successful_landings": 436,
+          "failed_landings": 5,
+          "consecutive_successful_landings": 136
+        },
+        "launcher_stage": [
+          {
+            "id": 716,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
+        "spacecraft_stage": {
+          "id": 878,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/878/?format=json",
+          "mission_end": null,
+          "destination": "ISS",
+          "launch_crew": [],
+          "onboard_crew": [],
+          "landing_crew": [],
+          "spacecraft": {
+            "id": 569,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/569/?format=json",
+            "name": "Cargo Dragon",
+            "serial_number": "TBD",
+            "is_placeholder": true,
+            "in_space": false,
+            "time_in_space": "P0D",
+            "time_docked": "P0D",
+            "flights_count": 0,
+            "mission_ends_count": 0,
+            "status": {
+              "id": 1,
+              "name": "Active"
+            },
+            "description": "The specific spacecraft for this launch is currently unknown.",
+            "spacecraft_config": {
+              "id": 7,
+              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/7/?format=json",
+              "name": "Cargo Dragon 2",
+              "type": {
+                "id": 2,
+                "name": "Capsule"
+              },
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "parent": null,
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
+              },
+              "in_use": true,
+              "capability": "Cargo Earth Orbit Logistics",
+              "history": "Cargo Dragon 2 is an updated version of the original Dragon spaceship designed to service the International Space Station with first flights conducted in 2020.\r\n\r\nIn contrast to Dragon 1 it docks to the International Space Station instead of being berthed by the Canada Arm.",
+              "details": "Cargo Dragon 2 is a autonomous spaceship capable of bringing science to and from the International Space Station with large pressurized and un-pressurized sections to support a variety of missions.",
+              "maiden_flight": "2020-12-06",
+              "height": 7.2,
+              "diameter": 3.7,
+              "human_rated": false,
+              "crew_capacity": null,
+              "payload_capacity": 6000,
+              "payload_return_capacity": 3000,
+              "flight_life": "Able to fly for up to one week of free flight or two years docked.",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg",
+              "nation_url": null,
+              "wiki_link": "https://en.wikipedia.org/wiki/Dragon_2",
+              "info_link": "https://www.spacex.com/dragon"
+            }
+          },
+          "landing": {
+            "id": 1599,
+            "attempt": true,
+            "success": null,
+            "description": "The Cargo Dragon spacecraft will splash down in the Pacific Ocean.",
+            "downrange_distance": null,
+            "location": {
+              "id": 18,
+              "name": "Pacific Ocean",
+              "abbrev": "PAC",
+              "description": "Pacific Ocean",
+              "location": null,
+              "successful_landings": 48
+            },
+            "type": {
+              "id": 4,
+              "name": "Parachute Landing",
+              "abbrev": "PCL",
+              "description": "Unpowered landing using parachute(s)."
+            }
+          },
+          "docking_events": []
+        }
+      },
+      "mission": {
+        "id": 6264,
+        "name": "Dragon CRS-2 SpX-33",
+        "description": "33rd commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 44,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+            "name": "National Aeronautics and Space Administration",
+            "featured": true,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "NASA",
+            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+            "administrator": "Acting Administrator:  James Free",
+            "founding_year": "1958",
+            "launchers": "Space Shuttle | SLS",
+            "spacecraft": "Orion",
+            "launch_library_url": null,
+            "total_launch_count": 141,
+            "consecutive_successful_launches": 11,
+            "successful_launches": 121,
+            "failed_launches": 20,
+            "pending_launches": 6,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.nasa.gov",
+            "wiki_url": "https://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 72,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
+        "agency_id": null,
+        "name": "Unknown Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
+        "latitude": "28.458",
+        "longitude": "-80.528",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1039,
+          "total_landing_count": 65
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/11/?format=json",
+          "name": "Commercial Resupply Services",
+          "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+          "agencies": [
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 257,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/?format=json",
+              "name": "Northrop Grumman Space Systems",
+              "type": "Commercial"
+            },
+            {
+              "id": 1020,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/?format=json",
+              "name": "Sierra Nevada Corporation",
+              "type": "Commercial"
+            },
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+          "start_date": "2008-12-23T00:00:00Z",
+          "end_date": null,
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        },
+        {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/17/?format=json",
+          "name": "International Space Station",
+          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+          "agencies": [
+            {
+              "id": 16,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/?format=json",
+              "name": "Canadian Space Agency",
+              "type": "Government"
+            },
+            {
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/?format=json",
+              "name": "European Space Agency",
+              "type": "Multinational"
+            },
+            {
+              "id": 37,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/?format=json",
+              "name": "Japan Aerospace Exploration Agency",
+              "type": "Government"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/?format=json",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "type": "Government"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+          "start_date": "1998-11-20T06:40:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7023,
+      "location_launch_attempt_count": 1045,
+      "pad_launch_attempt_count": 3,
+      "agency_launch_attempt_count": 551,
+      "orbital_launch_attempt_count_year": 174,
+      "location_launch_attempt_count_year": 51,
+      "pad_launch_attempt_count_year": 3,
+      "agency_launch_attempt_count_year": 102,
+      "pad_turnaround": "P0D",
+      "mission_patches": [],
+      "type": "detailed"
+    },
+    {
       "id": "41d2ac1b-a506-47ae-8e44-8b65f5d6f239",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/41d2ac1b-a506-47ae-8e44-8b65f5d6f239/?format=json",
       "slug": "falcon-9-block-5-bandwagon-4-dedicated-mid-inclina",
@@ -3877,535 +4406,6 @@
       "pad_launch_attempt_count_year": 34,
       "agency_launch_attempt_count_year": 102,
       "pad_turnaround": "P32DT8H21M",
-      "mission_patches": [],
-      "type": "detailed"
-    },
-    {
-      "id": "e8e93778-657c-401c-9c88-3cd4c7c45c9d",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/e8e93778-657c-401c-9c88-3cd4c7c45c9d/?format=json",
-      "slug": "falcon-9-block-5-dragon-crs-2-spx-33",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-33",
-      "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
-      },
-      "last_updated": "2025-05-14T18:59:16Z",
-      "updates": [
-        {
-          "id": 10992,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET late August.",
-          "info_url": "https://www.nasa.gov/blogs/commercialcrew/2025/05/14/nasa-partners-adjust-summer-2025-space-station-flight-planning/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-05-14T18:59:00Z"
-        },
-        {
-          "id": 10501,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET Q3 2025.",
-          "info_url": "https://www.youtube.com/watch?v=XJVKM90SdKs",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-03-19T06:08:00Z"
-        },
-        {
-          "id": 10330,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET 2H 2025.",
-          "info_url": "https://www.youtube.com/watch?v=Xq5CH-d4IuU",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-03-08T02:58:00Z"
-        }
-      ],
-      "net": "2025-08-31T00:00:00Z",
-      "net_precision": {
-        "id": 7,
-        "name": "Month",
-        "abbrev": "M",
-        "description": "The T-0 is expected in the given month."
-      },
-      "window_end": "2025-08-31T00:00:00Z",
-      "window_start": "2025-08-31T00:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 121,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-        "name": "SpaceX",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "SpX",
-        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-        "administrator": "CEO: Elon Musk",
-        "founding_year": "2002",
-        "launchers": "Falcon | Starship",
-        "spacecraft": "Dragon",
-        "launch_library_url": null,
-        "total_launch_count": 540,
-        "consecutive_successful_launches": 25,
-        "successful_launches": 525,
-        "failed_launches": 15,
-        "pending_launches": 119,
-        "consecutive_successful_landings": 25,
-        "successful_landings": 486,
-        "failed_landings": 27,
-        "attempted_landings": 512,
-        "info_url": "https://www.spacex.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
-      },
-      "rocket": {
-        "id": 7746,
-        "configuration": {
-          "id": 164,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
-          "name": "Falcon 9",
-          "active": true,
-          "reusable": true,
-          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
-          "family": "Falcon",
-          "full_name": "Falcon 9 Block 5",
-          "manufacturer": {
-            "id": 121,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-            "name": "SpaceX",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "SpX",
-            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-            "administrator": "CEO: Elon Musk",
-            "founding_year": "2002",
-            "launchers": "Falcon | Starship",
-            "spacecraft": "Dragon",
-            "launch_library_url": null,
-            "total_launch_count": 540,
-            "consecutive_successful_launches": 25,
-            "successful_launches": 525,
-            "failed_launches": 15,
-            "pending_launches": 119,
-            "consecutive_successful_landings": 25,
-            "successful_landings": 486,
-            "failed_landings": 27,
-            "attempted_landings": 512,
-            "info_url": "https://www.spacex.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
-          },
-          "program": [
-            {
-              "id": 5,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
-              "name": "Commercial Crew Program",
-              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-              "agencies": [
-                {
-                  "id": 80,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
-                  "name": "Boeing",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
-              "start_date": "2011-04-18T00:00:00Z",
-              "end_date": null,
-              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            },
-            {
-              "id": 11,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/11/?format=json",
-              "name": "Commercial Resupply Services",
-              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
-              "agencies": [
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 257,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/?format=json",
-                  "name": "Northrop Grumman Space Systems",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 1020,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/?format=json",
-                  "name": "Sierra Nevada Corporation",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
-              "start_date": "2008-12-23T00:00:00Z",
-              "end_date": null,
-              "info_url": null,
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            }
-          ],
-          "variant": "Block 5",
-          "alias": "",
-          "min_stage": 1,
-          "max_stage": 2,
-          "length": 70,
-          "diameter": 3.65,
-          "maiden_flight": "2018-05-11",
-          "launch_cost": "52000000",
-          "launch_mass": 549,
-          "leo_capacity": 22800,
-          "gto_capacity": 8300,
-          "to_thrust": 7607,
-          "apogee": 200,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-          "total_launch_count": 449,
-          "consecutive_successful_launches": 151,
-          "successful_launches": 448,
-          "failed_launches": 1,
-          "pending_launches": 105,
-          "attempted_landings": 441,
-          "successful_landings": 436,
-          "failed_landings": 5,
-          "consecutive_successful_landings": 136
-        },
-        "launcher_stage": [
-          {
-            "id": 716,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": null,
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          }
-        ],
-        "spacecraft_stage": {
-          "id": 878,
-          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/878/?format=json",
-          "mission_end": null,
-          "destination": "ISS",
-          "launch_crew": [],
-          "onboard_crew": [],
-          "landing_crew": [],
-          "spacecraft": {
-            "id": 569,
-            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/569/?format=json",
-            "name": "Cargo Dragon",
-            "serial_number": "TBD",
-            "is_placeholder": true,
-            "in_space": false,
-            "time_in_space": "P0D",
-            "time_docked": "P0D",
-            "flights_count": 0,
-            "mission_ends_count": 0,
-            "status": {
-              "id": 1,
-              "name": "Active"
-            },
-            "description": "The specific spacecraft for this launch is currently unknown.",
-            "spacecraft_config": {
-              "id": 7,
-              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/7/?format=json",
-              "name": "Cargo Dragon 2",
-              "type": {
-                "id": 2,
-                "name": "Capsule"
-              },
-              "agency": {
-                "id": 121,
-                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-                "name": "SpaceX",
-                "featured": true,
-                "type": "Commercial",
-                "country_code": "USA",
-                "abbrev": "SpX",
-                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-                "administrator": "CEO: Elon Musk",
-                "founding_year": "2002",
-                "launchers": "Falcon | Starship",
-                "spacecraft": "Dragon",
-                "parent": null,
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
-              },
-              "in_use": true,
-              "capability": "Cargo Earth Orbit Logistics",
-              "history": "Cargo Dragon 2 is an updated version of the original Dragon spaceship designed to service the International Space Station with first flights conducted in 2020.\r\n\r\nIn contrast to Dragon 1 it docks to the International Space Station instead of being berthed by the Canada Arm.",
-              "details": "Cargo Dragon 2 is a autonomous spaceship capable of bringing science to and from the International Space Station with large pressurized and un-pressurized sections to support a variety of missions.",
-              "maiden_flight": "2020-12-06",
-              "height": 7.2,
-              "diameter": 3.7,
-              "human_rated": false,
-              "crew_capacity": null,
-              "payload_capacity": 6000,
-              "payload_return_capacity": 3000,
-              "flight_life": "Able to fly for up to one week of free flight or two years docked.",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg",
-              "nation_url": null,
-              "wiki_link": "https://en.wikipedia.org/wiki/Dragon_2",
-              "info_link": "https://www.spacex.com/dragon"
-            }
-          },
-          "landing": {
-            "id": 1599,
-            "attempt": true,
-            "success": null,
-            "description": "The Cargo Dragon spacecraft will splash down in the Pacific Ocean.",
-            "downrange_distance": null,
-            "location": {
-              "id": 18,
-              "name": "Pacific Ocean",
-              "abbrev": "PAC",
-              "description": "Pacific Ocean",
-              "location": null,
-              "successful_landings": 48
-            },
-            "type": {
-              "id": 4,
-              "name": "Parachute Landing",
-              "abbrev": "PCL",
-              "description": "Unpowered landing using parachute(s)."
-            }
-          },
-          "docking_events": []
-        }
-      },
-      "mission": {
-        "id": 6264,
-        "name": "Dragon CRS-2 SpX-33",
-        "description": "33rd commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
-        "launch_designator": null,
-        "type": "Resupply",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [
-          {
-            "id": 44,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-            "name": "National Aeronautics and Space Administration",
-            "featured": true,
-            "type": "Government",
-            "country_code": "USA",
-            "abbrev": "NASA",
-            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
-            "administrator": "Acting Administrator:  James Free",
-            "founding_year": "1958",
-            "launchers": "Space Shuttle | SLS",
-            "spacecraft": "Orion",
-            "launch_library_url": null,
-            "total_launch_count": 141,
-            "consecutive_successful_launches": 11,
-            "successful_launches": 121,
-            "failed_launches": 20,
-            "pending_launches": 6,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.nasa.gov",
-            "wiki_url": "https://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
-        "agency_id": null,
-        "name": "Unknown Pad",
-        "description": null,
-        "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
-        "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral SFS, FL, USA",
-          "country_code": "USA",
-          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 1039,
-          "total_landing_count": 65
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
-      "infographic": null,
-      "program": [
-        {
-          "id": 11,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/11/?format=json",
-          "name": "Commercial Resupply Services",
-          "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
-          "agencies": [
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 257,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/?format=json",
-              "name": "Northrop Grumman Space Systems",
-              "type": "Commercial"
-            },
-            {
-              "id": 1020,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/?format=json",
-              "name": "Sierra Nevada Corporation",
-              "type": "Commercial"
-            },
-            {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-              "name": "SpaceX",
-              "type": "Commercial"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
-          "start_date": "2008-12-23T00:00:00Z",
-          "end_date": null,
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-          "mission_patches": [],
-          "type": {
-            "id": 2,
-            "name": "Human Spaceflight"
-          }
-        },
-        {
-          "id": 17,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/17/?format=json",
-          "name": "International Space Station",
-          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
-          "agencies": [
-            {
-              "id": 16,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/?format=json",
-              "name": "Canadian Space Agency",
-              "type": "Government"
-            },
-            {
-              "id": 27,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/?format=json",
-              "name": "European Space Agency",
-              "type": "Multinational"
-            },
-            {
-              "id": 37,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/?format=json",
-              "name": "Japan Aerospace Exploration Agency",
-              "type": "Government"
-            },
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 63,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/?format=json",
-              "name": "Russian Federal Space Agency (ROSCOSMOS)",
-              "type": "Government"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
-          "start_date": "1998-11-20T06:40:00Z",
-          "end_date": null,
-          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
-          "mission_patches": [],
-          "type": {
-            "id": 2,
-            "name": "Human Spaceflight"
-          }
-        }
-      ],
-      "orbital_launch_attempt_count": 7023,
-      "location_launch_attempt_count": 1045,
-      "pad_launch_attempt_count": 3,
-      "agency_launch_attempt_count": 551,
-      "orbital_launch_attempt_count_year": 174,
-      "location_launch_attempt_count_year": 51,
-      "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 102,
-      "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
     },
