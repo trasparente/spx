@@ -1,6 +1,6 @@
 {
   "count": 542,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-07-24T06%3A23%3A06Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-07-24T12%3A32%3A13Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2025-07-24T06:06:37Z",
+      "last_updated": "2025-07-24T09:00:43Z",
       "updates": [
         {
           "id": 11607,
@@ -879,7 +879,32 @@
       "pad_launch_attempt_count_year": 31,
       "agency_launch_attempt_count_year": 93,
       "pad_turnaround": "P4DT14H20M1S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1168,
+          "name": "TRACERS NASA patch",
+          "priority": 9,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/tracers2520nas_mission_patch_20250724090237.png",
+          "agency": {
+            "id": 44,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+            "name": "National Aeronautics and Space Administration",
+            "type": "Government"
+          }
+        },
+        {
+          "id": 1169,
+          "name": "TRACERS SpaceX patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/tracers2520spa_mission_patch_20250724090035.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
