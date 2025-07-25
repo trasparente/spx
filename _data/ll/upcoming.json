@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-07-25T01%3A15%3A49Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-07-25T06%3A23%3A24Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -91,7 +91,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -131,7 +131,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -243,7 +243,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -253,8 +253,8 @@
           {
             "id": 774,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 22,
             "launcher": {
               "id": 120,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/120/?format=json",
@@ -290,9 +290,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-06-13T15:29:00Z",
+            "turn_around_time_days": 42,
+            "previous_flight": {
+              "id": "f52bce97-24cc-4ee5-9140-480c68bd65cf",
+              "name": "Falcon 9 Block 5 | Starlink Group 12-26"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -327,7 +330,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -440,7 +443,7 @@
       "location_launch_attempt_count_year": 47,
       "pad_launch_attempt_count_year": 44,
       "agency_launch_attempt_count_year": 94,
-      "pad_turnaround": "P3DT11H16M",
+      "pad_turnaround": "P3DT11H22M20S",
       "mission_patches": [
         {
           "id": 7,
@@ -537,7 +540,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -577,7 +580,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -689,7 +692,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -699,8 +702,8 @@
           {
             "id": 772,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 19,
             "launcher": {
               "id": 114,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
@@ -736,9 +739,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-05-23T22:32:20Z",
+            "turn_around_time_days": 64,
+            "previous_flight": {
+              "id": "b37179f7-1d22-4398-bd58-1d50d9d58344",
+              "name": "Falcon 9 Block 5 | Starlink Group 11-16"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -773,7 +779,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -878,15 +884,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7013,
+      "orbital_launch_attempt_count": 7012,
       "location_launch_attempt_count": 820,
       "pad_launch_attempt_count": 206,
       "agency_launch_attempt_count": 544,
-      "orbital_launch_attempt_count_year": 164,
+      "orbital_launch_attempt_count_year": 163,
       "location_launch_attempt_count_year": 34,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 95,
-      "pad_turnaround": "P3DT7H56M",
+      "pad_turnaround": "P3DT9H42M40S",
       "mission_patches": [
         {
           "id": 7,
@@ -975,7 +981,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -1015,7 +1021,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -1127,7 +1133,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -1137,8 +1143,8 @@
           {
             "id": 777,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 26,
             "launcher": {
               "id": 105,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/?format=json",
@@ -1174,9 +1180,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-06-23T05:58:30Z",
+            "turn_around_time_days": 36,
+            "previous_flight": {
+              "id": "f78364d9-3c60-4c72-a410-84a499233db0",
+              "name": "Falcon 9 Block 5 | Starlink Group 10-23"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -1211,7 +1220,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -1413,7 +1422,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -1453,7 +1462,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -1565,7 +1574,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -1575,8 +1584,8 @@
           {
             "id": 775,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 27,
             "launcher": {
               "id": 107,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/?format=json",
@@ -1612,9 +1621,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-06-23T21:25:30Z",
+            "turn_around_time_days": 36,
+            "previous_flight": {
+              "id": "0d3c2ff0-3b31-4066-8b33-5759b6866c39",
+              "name": "Falcon 9 Block 5 | Transporter 14 (Dedicated SSO Rideshare)"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -1649,7 +1661,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -1875,7 +1887,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -1915,7 +1927,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -2027,7 +2039,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -2767,7 +2779,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -2807,7 +2819,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -2919,7 +2931,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -2929,8 +2941,8 @@
           {
             "id": 778,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 9,
             "launcher": {
               "id": 153,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/153/?format=json",
@@ -2966,9 +2978,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-06-28T17:13:00Z",
+            "turn_around_time_days": 35,
+            "previous_flight": {
+              "id": "903b888d-7633-4104-9db3-ed3e5263759c",
+              "name": "Falcon 9 Block 5 | Starlink Group 15-7"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -3003,7 +3018,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -3221,7 +3236,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -3261,7 +3276,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -3373,7 +3388,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -3437,7 +3452,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -3570,7 +3585,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -3610,7 +3625,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -3722,7 +3737,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -3919,7 +3934,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -3959,7 +3974,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -4357,7 +4372,7 @@
         "consecutive_successful_launches": 27,
         "successful_launches": 527,
         "failed_launches": 15,
-        "pending_launches": 117,
+        "pending_launches": 122,
         "consecutive_successful_landings": 27,
         "successful_landings": 488,
         "failed_landings": 27,
@@ -4397,7 +4412,7 @@
             "consecutive_successful_launches": 27,
             "successful_launches": 527,
             "failed_launches": 15,
-            "pending_launches": 117,
+            "pending_launches": 122,
             "consecutive_successful_landings": 27,
             "successful_landings": 488,
             "failed_landings": 27,
@@ -4509,7 +4524,7 @@
           "consecutive_successful_launches": 153,
           "successful_launches": 450,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 108,
           "attempted_landings": 443,
           "successful_landings": 438,
           "failed_landings": 5,
@@ -4622,11 +4637,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7028,
+      "orbital_launch_attempt_count": 7030,
       "location_launch_attempt_count": 1047,
       "pad_launch_attempt_count": 4,
       "agency_launch_attempt_count": 554,
-      "orbital_launch_attempt_count_year": 179,
+      "orbital_launch_attempt_count_year": 181,
       "location_launch_attempt_count_year": 53,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 105,
