@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-07-24T18%3A21%3A46Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-07-25T01%3A15%3A49Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 10-26",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-07-24T18:21:39Z",
+      "last_updated": "2025-07-25T00:52:13Z",
       "updates": [
+        {
+          "id": 11616,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/sl-10-26",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-07-25T00:52:00Z"
+        },
         {
           "id": 11614,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -51,12 +59,12 @@
           "created_on": "2025-07-16T17:08:00Z"
         }
       ],
-      "net": "2025-07-26T08:28:00Z",
+      "net": "2025-07-26T08:34:20Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-07-26T12:28:00Z",
       "window_start": "2025-07-26T08:28:00Z",
@@ -248,32 +256,32 @@
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 120,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/120/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
+              "flight_proven": true,
+              "serial_number": "B1078",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/120_image_20230227075809.jpeg",
+              "successful_landings": 21,
+              "attempted_landings": 21,
+              "flights": 21,
+              "last_launch_date": "2025-06-13T15:29:00Z",
+              "first_launch_date": "2023-03-02T05:34:14Z"
             },
             "landing": {
               "id": 1660,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 1st stage will attempt to land on one of two East Coast ASDS after its flight.",
+              "description": "The Falcon 9 1st stage B1078 will attempt to land on ASDS ASOG after its 22nd flight.",
               "downrange_distance": 600,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 118
               },
               "type": {
                 "id": 1,
@@ -292,7 +300,7 @@
       "mission": {
         "id": 7254,
         "name": "Starlink Group 10-26",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 28 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -361,7 +369,25 @@
         "total_launch_count": 323,
         "orbital_launch_attempt_count": 323
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-10-26",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -406,11 +432,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7011,
+      "orbital_launch_attempt_count": 7010,
       "location_launch_attempt_count": 1041,
       "pad_launch_attempt_count": 324,
       "agency_launch_attempt_count": 543,
-      "orbital_launch_attempt_count_year": 162,
+      "orbital_launch_attempt_count_year": 161,
       "location_launch_attempt_count_year": 47,
       "pad_launch_attempt_count_year": 44,
       "agency_launch_attempt_count_year": 94,
@@ -439,13 +465,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 17-2",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-07-23T15:30:56Z",
+      "last_updated": "2025-07-25T00:55:11Z",
       "updates": [
+        {
+          "id": 11617,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/sl-17-2",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-07-25T00:55:00Z"
+        },
         {
           "id": 11600,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -471,14 +505,14 @@
           "created_on": "2025-07-11T01:22:00Z"
         }
       ],
-      "net": "2025-07-27T02:09:00Z",
+      "net": "2025-07-27T03:55:40Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2025-07-27T05:43:00Z",
+      "window_end": "2025-07-27T05:00:00Z",
       "window_start": "2025-07-27T02:09:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -668,24 +702,24 @@
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 114,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission.",
+              "flight_proven": true,
+              "serial_number": "B1075",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/114_image_20230807183155.jpeg",
+              "successful_landings": 18,
+              "attempted_landings": 18,
+              "flights": 18,
+              "last_launch_date": "2025-05-23T22:32:20Z",
+              "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "landing": {
               "id": 1656,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after its flight.",
+              "description": "The Falcon 9 first stage B1075 will attempt to land on ASDS OCISLY after its 19th flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -712,7 +746,7 @@
       "mission": {
         "id": 7251,
         "name": "Starlink Group 17-2",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -781,7 +815,25 @@
         "total_launch_count": 205,
         "orbital_launch_attempt_count": 205
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-17-2",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -859,13 +911,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 10-29",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-07-23T15:33:34Z",
+      "last_updated": "2025-07-25T00:57:49Z",
       "updates": [
+        {
+          "id": 11618,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/sl-10-29",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-07-25T00:57:00Z"
+        },
         {
           "id": 11601,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -885,12 +945,12 @@
       ],
       "net": "2025-07-30T03:30:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-07-30T08:12:00Z",
+      "window_end": "2025-07-30T07:30:00Z",
       "window_start": "2025-07-30T03:30:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -1080,32 +1140,32 @@
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 105,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "flight_proven": true,
+              "serial_number": "B1069",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/105_image_20211220081646.jpeg",
+              "successful_landings": 25,
+              "attempted_landings": 25,
+              "flights": 25,
+              "last_launch_date": "2025-06-23T05:58:30Z",
+              "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "landing": {
               "id": 1664,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 1st stage will attempt to land on one of two East Coast ASDS after its flight.",
+              "description": "The Falcon 9 1st stage B1069 will attempt to land on ASDS JRTI after its 26th flight.",
               "downrange_distance": 600,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 128
               },
               "type": {
                 "id": 1,
@@ -1124,7 +1184,7 @@
       "mission": {
         "id": 7258,
         "name": "Starlink Group 10-29",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -1193,7 +1253,25 @@
         "total_launch_count": 323,
         "orbital_launch_attempt_count": 323
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-10-29",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -1246,7 +1324,7 @@
       "location_launch_attempt_count_year": 48,
       "pad_launch_attempt_count_year": 45,
       "agency_launch_attempt_count_year": 96,
-      "pad_turnaround": "P3DT19H2M",
+      "pad_turnaround": "P3DT18H55M40S",
       "mission_patches": [
         {
           "id": 7,
@@ -1271,13 +1349,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 13-4",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-07-23T15:34:13Z",
+      "last_updated": "2025-07-25T01:00:08Z",
       "updates": [
+        {
+          "id": 11619,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/sl-13-4",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-07-25T01:00:00Z"
+        },
         {
           "id": 11602,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1297,12 +1383,12 @@
       ],
       "net": "2025-07-30T15:39:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-07-30T20:22:00Z",
+      "window_end": "2025-07-30T19:39:00Z",
       "window_start": "2025-07-30T15:39:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -1492,24 +1578,24 @@
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 107,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
+              "flight_proven": true,
+              "serial_number": "B1071",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1071_on_slc-4e_image_20240407145834.jpeg",
+              "successful_landings": 26,
+              "attempted_landings": 26,
+              "flights": 26,
+              "last_launch_date": "2025-06-23T21:25:30Z",
+              "first_launch_date": "2022-02-02T20:27:26Z"
             },
             "landing": {
               "id": 1661,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after its flight.",
+              "description": "The Falcon 9 first stage B1071 will attempt to land on ASDS OCISLY after its 27th flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -1536,7 +1622,7 @@
       "mission": {
         "id": 7255,
         "name": "Starlink Group 13-4",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 19 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -1605,7 +1691,25 @@
         "total_launch_count": 205,
         "orbital_launch_attempt_count": 205
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-13-4",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -1650,15 +1754,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7017,
+      "orbital_launch_attempt_count": 7018,
       "location_launch_attempt_count": 821,
       "pad_launch_attempt_count": 207,
       "agency_launch_attempt_count": 546,
-      "orbital_launch_attempt_count_year": 168,
+      "orbital_launch_attempt_count_year": 169,
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 33,
       "agency_launch_attempt_count_year": 97,
-      "pad_turnaround": "P3DT13H30M",
+      "pad_turnaround": "P3DT11H43M20S",
       "mission_patches": [
         {
           "id": 7,
@@ -1688,7 +1792,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-07-19T04:57:23Z",
+      "last_updated": "2025-07-25T01:06:24Z",
       "updates": [
         {
           "id": 11567,
@@ -2435,8 +2539,47 @@
         "total_launch_count": 210,
         "orbital_launch_attempt_count": 209
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/crew11",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "plus.nasa.gov",
+          "publisher": "NASA",
+          "title": "NASA’s SpaceX Crew-11 Launch",
+          "description": "Coverage of the Launch of the NASA/SpaceX Dragon and Crew-11 to the International Space Station (Cardman, Fincke, Yui, Platonov; launch scheduled at 12:09 p.m. EDT).",
+          "feature_image": "https://plus.nasa.gov/wp-content/uploads/2025/07/crew-11-launch-day-option-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
+          "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-crew-11-launch/",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-07-31T12:00:00Z",
+          "end_time": "2025-07-31T18:00:00Z"
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
@@ -2536,7 +2679,20 @@
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 98,
       "pad_turnaround": "P29DT19H5M20S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1170,
+          "name": "Crew-11 Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/crew-112520pat_mission_patch_20250725010448.PNG",
+          "agency": {
+            "id": 44,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+            "name": "National Aeronautics and Space Administration",
+            "type": "Government"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
@@ -2547,13 +2703,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 17-4",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-07-24T14:47:53Z",
+      "last_updated": "2025-07-25T01:08:25Z",
       "updates": [
+        {
+          "id": 11620,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/sl-17-4",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-07-25T01:08:00Z"
+        },
         {
           "id": 11609,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -2573,12 +2737,12 @@
       ],
       "net": "2025-08-03T02:05:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-08-03T06:28:00Z",
+      "window_end": "2025-08-03T06:05:00Z",
       "window_start": "2025-08-03T02:05:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -2768,24 +2932,24 @@
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 153,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/153/?format=json",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1088",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 8,
+              "attempted_landings": 8,
+              "flights": 8,
+              "last_launch_date": "2025-06-28T17:13:00Z",
+              "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "landing": {
               "id": 1665,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after its flight.",
+              "description": "The Falcon 9 first stage B1088 will attempt to land on ASDS OCISLY after its 9th flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -2812,7 +2976,7 @@
       "mission": {
         "id": 7260,
         "name": "Starlink Group 17-4",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -2881,7 +3045,25 @@
         "total_launch_count": 205,
         "orbital_launch_attempt_count": 205
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "www.spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-17-4",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -2926,11 +3108,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7019,
+      "orbital_launch_attempt_count": 7020,
       "location_launch_attempt_count": 822,
       "pad_launch_attempt_count": 208,
       "agency_launch_attempt_count": 548,
-      "orbital_launch_attempt_count_year": 170,
+      "orbital_launch_attempt_count_year": 171,
       "location_launch_attempt_count_year": 36,
       "pad_launch_attempt_count_year": 34,
       "agency_launch_attempt_count_year": 99,
@@ -3304,12 +3486,12 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7022,
-      "location_launch_attempt_count": 1044,
+      "orbital_launch_attempt_count": 7023,
+      "location_launch_attempt_count": 1043,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 549,
-      "orbital_launch_attempt_count_year": 173,
-      "location_launch_attempt_count_year": 50,
+      "orbital_launch_attempt_count_year": 174,
+      "location_launch_attempt_count_year": 49,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 100,
       "pad_turnaround": "P0D",
@@ -3317,35 +3499,43 @@
       "type": "detailed"
     },
     {
-      "id": "594ae0c5-2039-4a1a-a6be-7b0940b2ed2c",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/594ae0c5-2039-4a1a-a6be-7b0940b2ed2c/?format=json",
-      "slug": "falcon-9-block-5-project-kuiper-kf-02",
+      "id": "4ed83998-e8bc-4e53-9e07-1ae931ae712f",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/4ed83998-e8bc-4e53-9e07-1ae931ae712f/?format=json",
+      "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-b",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Project Kuiper (KF-02)",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer B",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2025-07-22T15:32:49Z",
+      "last_updated": "2025-07-18T17:15:42Z",
       "updates": [
         {
-          "id": 11584,
+          "id": 11539,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET August.",
-          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "comment": "NET July.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=47145.msg2700803#msg2700803",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2025-07-22T15:32:00Z"
+          "created_on": "2025-07-15T13:51:00Z"
         },
         {
-          "id": 5823,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Adding launch NET 2025",
-          "info_url": "https://www.aboutamazon.com/news/innovation-at-amazon/amazon-project-kuiper-spacex-launch",
-          "created_by": "Nosu",
-          "created_on": "2023-12-02T07:28:42Z"
+          "id": 10331,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET late summer. (order of launches per https://sam.gov/opp/7111789df59149cd81596402c35e33d3/view P.12)",
+          "info_url": "https://x.com/SemperCitiusSDA/status/1898122762402533748",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-03-08T03:03:00Z"
+        },
+        {
+          "id": 4316,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+          "comment": "Adding launch",
+          "info_url": "https://spacenews.com/space-force-assigns-12-national-security-missions-to-spacex-and-ula/",
+          "created_by": "Jay",
+          "created_on": "2023-06-09T12:39:48Z"
         }
       ],
       "net": "2025-08-31T00:00:00Z",
@@ -3392,7 +3582,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 8112,
+        "id": 7892,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -3538,31 +3728,56 @@
           "failed_landings": 5,
           "consecutive_successful_landings": 138
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 773,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 6670,
-        "name": "Project Kuiper (KF-02)",
-        "description": "Second of a three launches contract for Amazon's Kuiper low Earth orbit satellite internet constellation.",
+        "id": 6401,
+        "name": "SDA Tranche 1 Transport Layer B",
+        "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 1 Transport Layer.",
         "launch_designator": null,
-        "type": "Communications",
+        "type": "Government/Top Secret",
         "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
+          "id": 13,
+          "name": "Polar Orbit",
+          "abbrev": "PO"
         },
         "agencies": [
           {
-            "id": 1058,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1058/?format=json",
-            "name": "Kuiper Systems LLC",
+            "id": 1056,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1056/?format=json",
+            "name": "Space Development Agency",
             "featured": false,
-            "type": "Private",
+            "type": "Government",
             "country_code": "USA",
-            "abbrev": "Amazon",
-            "description": "Kuiper Systems LLC, also known as Project Kuiper, is a subsidiary of Amazon that was established in 2019 to deploy a large satellite internet constellation to provide low-latency broadband internet connectivity.",
-            "administrator": "President: Rajeev Badyal",
+            "abbrev": "SDA",
+            "description": "The Space Development Agency (SDA) is a United States Space Force direct-reporting unit tasked with deploying disruptive space technology. A primary focus is space-based missile defense using large global satellite constellations made up of industry-procured low-cost satellites.",
+            "administrator": "Director: Derek Tournear",
             "founding_year": "2019",
             "launchers": "",
             "spacecraft": "",
@@ -3576,9 +3791,9 @@
             "successful_landings": 0,
             "failed_landings": 0,
             "attempted_landings": 0,
-            "info_url": null,
-            "wiki_url": "https://en.wikipedia.org/wiki/Kuiper_Systems",
-            "logo_url": null,
+            "info_url": "https://www.sda.mil/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Development_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520development2520agency_logo_20230806170522.jpg",
             "image_url": null,
             "nation_url": null
           }
@@ -3587,31 +3802,31 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 72,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
         "agency_id": null,
-        "name": "Unknown Pad",
-        "description": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
         "info_url": null,
-        "wiki_url": "",
-        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
-        "latitude": "28.458",
-        "longitude": "-80.528",
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
         "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-          "name": "Cape Canaveral SFS, FL, USA",
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
+          "name": "Vandenberg SFB, CA, USA",
           "country_code": "USA",
-          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 1040,
-          "total_landing_count": 65
+          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 819,
+          "total_landing_count": 27
         },
         "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 205,
+        "orbital_launch_attempt_count": 205
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -3619,41 +3834,16 @@
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
-      "program": [
-        {
-          "id": 27,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/27/?format=json",
-          "name": "Project Kuiper",
-          "description": "Amazon's Kuiper Project is a satellite internet initiative aimed at providing high-speed, low-latency broadband connectivity to underserved and remote areas globally. The project involves deploying a constellation of low Earth orbit (LEO) satellites to create a satellite internet network capable of delivering reliable internet access.",
-          "agencies": [
-            {
-              "id": 1058,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/1058/?format=json",
-              "name": "Kuiper Systems LLC",
-              "type": "Private"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/project2520kui_program_20231228165031.jpeg",
-          "start_date": "2023-10-16T18:06:00Z",
-          "end_date": null,
-          "info_url": "https://en.wikipedia.org/wiki/Kuiper_Systems",
-          "wiki_url": "http://aboutamazon.com/what-we-do/devices-services/project-kuiper",
-          "mission_patches": [],
-          "type": {
-            "id": 3,
-            "name": "Communication Constellation"
-          }
-        }
-      ],
-      "orbital_launch_attempt_count": 7028,
-      "location_launch_attempt_count": 1047,
-      "pad_launch_attempt_count": 4,
+      "program": [],
+      "orbital_launch_attempt_count": 7030,
+      "location_launch_attempt_count": 823,
+      "pad_launch_attempt_count": 209,
       "agency_launch_attempt_count": 554,
-      "orbital_launch_attempt_count_year": 179,
-      "location_launch_attempt_count_year": 53,
-      "pad_launch_attempt_count_year": 4,
+      "orbital_launch_attempt_count_year": 181,
+      "location_launch_attempt_count_year": 37,
+      "pad_launch_attempt_count_year": 35,
       "agency_launch_attempt_count_year": 105,
-      "pad_turnaround": "P7D",
+      "pad_turnaround": "P27DT21H55M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -4080,43 +4270,59 @@
       "type": "detailed"
     },
     {
-      "id": "4ed83998-e8bc-4e53-9e07-1ae931ae712f",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/4ed83998-e8bc-4e53-9e07-1ae931ae712f/?format=json",
-      "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-b",
+      "id": "84a2a107-1e44-4994-ad9f-430ee81a741a",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/84a2a107-1e44-4994-ad9f-430ee81a741a/?format=json",
+      "slug": "falcon-9-block-5-nusantara-lima",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer B",
+      "name": "Falcon 9 Block 5 | Nusantara Lima",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2025-07-18T17:15:42Z",
+      "last_updated": "2025-06-03T23:07:42Z",
       "updates": [
         {
-          "id": 11539,
+          "id": 11182,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET July.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=47145.msg2700803#msg2700803",
+          "comment": "NET late August.",
+          "info_url": "https://teknologi.bisnis.com/read/20250603/101/1881980/satelit-nusantara-5-psn-siap-meluncur-agustus-2025-bawa-kapasitas-160-gbps",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2025-07-15T13:51:00Z"
+          "created_on": "2025-06-03T23:07:00Z"
         },
         {
-          "id": 10331,
+          "id": 10094,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET late summer. (order of launches per https://sam.gov/opp/7111789df59149cd81596402c35e33d3/view P.12)",
-          "info_url": "https://x.com/SemperCitiusSDA/status/1898122762402533748",
+          "comment": "NET May 2025.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=56065.msg2664234#msg2664234",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2025-03-08T03:03:00Z"
+          "created_on": "2025-02-12T16:17:00Z"
         },
         {
-          "id": 4316,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
-          "comment": "Adding launch",
-          "info_url": "https://spacenews.com/space-force-assigns-12-national-security-missions-to-spacex-and-ula/",
-          "created_by": "Jay",
-          "created_on": "2023-06-09T12:39:48Z"
+          "id": 5861,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET mid-2024.",
+          "info_url": "https://teknologi.bisnis.com/read/20231202/101/1720272/satelit-nusantara-5-mengorbit-pertengahan-2024-meleset-dari-target",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-04T02:51:31Z"
+        },
+        {
+          "id": 5103,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Targeting December 2023",
+          "info_url": "https://www.majalahict.com/grup-psn-memperluas-akses-layanan-satelit-di-kawasan-asean-untuk-mendukung-digitalisasi-di-filipina/",
+          "created_by": "Nosu",
+          "created_on": "2023-09-09T11:54:40Z"
+        },
+        {
+          "id": 1446,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding launch TBD 2023",
+          "info_url": "https://www.prnewswire.com/news-releases/psn-group-builds-nusantara-lima-satellite-301508376.html",
+          "created_by": "Nosu",
+          "created_on": "2022-03-24T07:16:43Z"
         }
       ],
       "net": "2025-08-31T00:00:00Z",
@@ -4163,7 +4369,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7892,
+        "id": 7545,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -4311,7 +4517,7 @@
         },
         "launcher_stage": [
           {
-            "id": 773,
+            "id": 393,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -4338,28 +4544,28 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 6401,
-        "name": "SDA Tranche 1 Transport Layer B",
-        "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 1 Transport Layer.",
+        "id": 5972,
+        "name": "Nusantara Lima",
+        "description": "Nusantara Lima is an Indonesian geostationary communications satellite with a capacity of more than 160 Gbps.",
         "launch_designator": null,
-        "type": "Government/Top Secret",
+        "type": "Communications",
         "orbit": {
-          "id": 13,
-          "name": "Polar Orbit",
-          "abbrev": "PO"
+          "id": 2,
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO"
         },
         "agencies": [
           {
-            "id": 1056,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1056/?format=json",
-            "name": "Space Development Agency",
+            "id": 1070,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1070/?format=json",
+            "name": "PT Pasifik Satelit Nusantara",
             "featured": false,
-            "type": "Government",
-            "country_code": "USA",
-            "abbrev": "SDA",
-            "description": "The Space Development Agency (SDA) is a United States Space Force direct-reporting unit tasked with deploying disruptive space technology. A primary focus is space-based missile defense using large global satellite constellations made up of industry-procured low-cost satellites.",
-            "administrator": "Director: Derek Tournear",
-            "founding_year": "2019",
+            "type": "Private",
+            "country_code": "IDN",
+            "abbrev": "PSN",
+            "description": "PT Pasifik Satelit Nusantara (PSN) is a private Indonesian satellite telecommunications company.\r\n\r\nIt was formed in 1991 and was the first satellite-based telecommunications company in Indonesia. In 1995, a collaboration started what was to become ACeS (Asia Cellular Satellite system). In 1998, a WAN-based service for corporate customers was introduced.",
+            "administrator": "CEO: Adi Rahman Adiwoso",
+            "founding_year": "1991",
             "launchers": "",
             "spacecraft": "",
             "launch_library_url": null,
@@ -4372,9 +4578,9 @@
             "successful_landings": 0,
             "failed_landings": 0,
             "attempted_landings": 0,
-            "info_url": "https://www.sda.mil/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Space_Development_Agency",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520development2520agency_logo_20230806170522.jpg",
+            "info_url": "https://www.psn.co.id",
+            "wiki_url": "https://en.wikipedia.org/wiki/PT_Pasifik_Satelit_Nusantara",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pt2520pasifik2520satelit2520nusantara_logo_20230821053114.png",
             "image_url": null,
             "nation_url": null
           }
@@ -4383,31 +4589,31 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 16,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/?format=json",
+        "id": 72,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/?format=json",
         "agency_id": null,
-        "name": "Space Launch Complex 4E",
-        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
+        "name": "Unknown Pad",
+        "description": null,
         "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
-        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
-        "latitude": "34.632",
-        "longitude": "-120.611",
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
+        "latitude": "28.458",
+        "longitude": "-80.528",
         "location": {
-          "id": 11,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/11/?format=json",
-          "name": "Vandenberg SFB, CA, USA",
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+          "name": "Cape Canaveral SFS, FL, USA",
           "country_code": "USA",
-          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
-          "timezone_name": "America/Los_Angeles",
-          "total_launch_count": 819,
-          "total_landing_count": 27
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1040,
+          "total_landing_count": 65
         },
         "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
-        "total_launch_count": 205,
-        "orbital_launch_attempt_count": 205
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -4417,14 +4623,14 @@
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 7028,
-      "location_launch_attempt_count": 823,
-      "pad_launch_attempt_count": 209,
+      "location_launch_attempt_count": 1047,
+      "pad_launch_attempt_count": 4,
       "agency_launch_attempt_count": 554,
       "orbital_launch_attempt_count_year": 179,
-      "location_launch_attempt_count_year": 37,
-      "pad_launch_attempt_count_year": 35,
+      "location_launch_attempt_count_year": 53,
+      "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 105,
-      "pad_turnaround": "P28DT21H55M",
+      "pad_turnaround": "P7D",
       "mission_patches": [],
       "type": "detailed"
     }
