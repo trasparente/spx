@@ -1,6 +1,6 @@
 {
   "count": 547,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-08-02T06%3A20%3A43Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2025-08-02T12%3A28%3A48Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -442,7 +442,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "PT10H9M45S",
+                "time_in_space": "PT15H5M47S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -481,7 +481,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P382DT1H17M34S",
+                "time_in_space": "P382DT6H14M45S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -520,7 +520,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "PT10H12M33S",
+                "time_in_space": "PT15H5M47S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -559,7 +559,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P142DT2H14M55S",
+                "time_in_space": "P142DT7H15M1S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -601,7 +601,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "PT10H9M45S",
+                "time_in_space": "PT15H5M47S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -640,7 +640,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P382DT1H17M34S",
+                "time_in_space": "P382DT6H14M45S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -679,7 +679,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "PT10H12M33S",
+                "time_in_space": "PT15H5M47S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -718,7 +718,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P142DT2H14M55S",
+                "time_in_space": "P142DT7H15M1S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -749,8 +749,8 @@
             "serial_number": "C206",
             "is_placeholder": false,
             "in_space": true,
-            "time_in_space": "P702DT7H31M24S",
-            "time_docked": "P692DT23H37M",
+            "time_in_space": "P702DT12H22M54S",
+            "time_docked": "P693DT5S",
             "flights_count": 6,
             "mission_ends_count": 5,
             "status": {
@@ -822,7 +822,35 @@
               "description": "Unpowered landing using parachute(s)."
             }
           },
-          "docking_events": []
+          "docking_events": [
+            {
+              "id": 627,
+              "spacestation": {
+                "id": 4,
+                "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/?format=json",
+                "name": "International Space Station",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "founded": "1998-11-20",
+                "description": "The International Space Station (ISS) is a space station, or a habitable artificial satellite, in low Earth orbit. Its first component was launched into orbit in 1998, with the first long-term residents arriving in November 2000. It has been inhabited continuously since that date. The last pressurised module was fitted in 2011, and an experimental inflatable space habitat was added in 2016. The station is expected to operate until 2030. Development and assembly of the station continues, with several new elements scheduled for launch in 2019. The ISS is the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth. The ISS consists of pressurised habitation modules, structural trusses, solar arrays, radiators, docking ports, experiment bays and robotic arms. ISS components have been launched by Russian Proton and Soyuz rockets, and American Space Shuttles.",
+                "orbit": "Low Earth Orbit",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2520space2520station_image_20190220215716.jpeg"
+              },
+              "docking": "2025-08-02T06:26:56Z",
+              "departure": null,
+              "docking_location": {
+                "id": 30,
+                "name": "Harmony zenith",
+                "spacestation": {
+                  "id": 4,
+                  "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/?format=json",
+                  "name": "International Space Station"
+                }
+              }
+            }
+          ]
         }
       },
       "mission": {
