@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-08-09T01%3A12%3A03Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-08-09T06%3A20%3A55Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -790,8 +790,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-07-29T17:35:26Z",
+      "last_updated": "2025-08-09T03:50:04Z",
       "updates": [
+        {
+          "id": 11808,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.spacex.com/launches/sl-17-4",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-08-09T03:50:00Z"
+        },
         {
           "id": 11661,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -825,12 +833,12 @@
           "created_on": "2025-07-22T23:50:00Z"
         }
       ],
-      "net": "2025-08-10T02:05:00Z",
+      "net": "2025-08-10T03:43:30Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-08-10T06:05:00Z",
       "window_start": "2025-08-10T02:05:00Z",
@@ -1057,7 +1065,7 @@
               }
             },
             "previous_flight_date": "2025-07-16T02:05:20Z",
-            "turn_around_time_days": 24,
+            "turn_around_time_days": 25,
             "previous_flight": {
               "id": "8a06f398-67af-409e-9fac-8de4ef3a42c4",
               "name": "Falcon 9 Block 5 | Starlink Group 15-2"
@@ -1139,23 +1147,6 @@
         "orbital_launch_attempt_count": 207
       },
       "infoURLs": [
-        {
-          "priority": 10,
-          "source": "www.spacex.com",
-          "title": "SpaceX",
-          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
-          "feature_image": null,
-          "url": "https://www.spacex.com/launches/sl-17-4",
-          "type": {
-            "id": 1,
-            "name": "Official Page"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          }
-        },
         {
           "priority": 10,
           "source": "www.spacex.com",
@@ -1411,7 +1402,7 @@
       "location_launch_attempt_count_year": 36,
       "pad_launch_attempt_count_year": 34,
       "agency_launch_attempt_count_year": 101,
-      "pad_turnaround": "P9DT7H29M51S",
+      "pad_turnaround": "P9DT9H8M21S",
       "mission_patches": [
         {
           "id": 7,
@@ -4917,15 +4908,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7035,
+      "orbital_launch_attempt_count": 7036,
       "location_launch_attempt_count": 1048,
       "pad_launch_attempt_count": 330,
       "agency_launch_attempt_count": 556,
-      "orbital_launch_attempt_count_year": 186,
+      "orbital_launch_attempt_count_year": 187,
       "location_launch_attempt_count_year": 54,
       "pad_launch_attempt_count_year": 50,
       "agency_launch_attempt_count_year": 107,
-      "pad_turnaround": "P7DT19H16M",
+      "pad_turnaround": "P5DT20H",
       "mission_patches": [],
       "type": "detailed"
     },
