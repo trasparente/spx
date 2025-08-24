@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-08-24T12%3A26%3A14Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-08-24T18%3A17%3A59Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-08-23T23:23:00Z",
+      "last_updated": "2025-08-24T16:52:03Z",
       "updates": [
+        {
+          "id": 11966,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding seconds to T-0",
+          "info_url": "https://www.spacex.com/launches/starship-flight-10",
+          "created_by": "Nosu",
+          "created_on": "2025-08-24T16:52:00Z"
+        },
         {
           "id": 11961,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -67,12 +75,12 @@
           "created_on": "2025-06-18T17:37:00Z"
         }
       ],
-      "net": "2025-08-24T23:30:00Z",
+      "net": "2025-08-24T23:30:01Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-08-25T00:30:00Z",
       "window_start": "2025-08-24T23:30:00Z",
@@ -403,6 +411,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Starship - Suborbital Test Flight 10  - OLP-A - Starbase Texas - Space Affairs Live",
+          "description": "Launch Date: August 24, 2025 (CDT)\nLaunch Status: The launch window will open at 6:30 p.m. CDT, 2330 UTC - August 25, 01:30 CEST.\nLaunch Window: Open until 8:00 p.m. CDT\nStatus: Scheduled and announce...",
+          "feature_image": "https://i.ytimg.com/vi/mczsxVZn2_Q/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=mczsxVZn2_Q",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-08-24T21:52:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -421,6 +449,46 @@
           },
           "start_time": "2025-08-24T22:55:00Z",
           "end_time": "2025-08-25T02:55:00Z"
+        },
+        {
+          "priority": 12,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Starship Flight 10",
+          "description": "SpaceX launches the 10th flight of Starship from Starbase, Texas. The launch window for Booster 16 and Ship 37 opens at 6:30PM CT local time (23:30 UTC) on Sunday, August 24, 2025 from Pad A.\n\nThis mi...",
+          "feature_image": "https://i.ytimg.com/vi/C7WmlTp7ue0/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=C7WmlTp7ue0",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-08-24T20:30:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 13,
+          "source": "youtube.com",
+          "publisher": "Everyday Astronaut",
+          "title": "[4K] Watch the largest and most powerful rocket launch live! Starship Flight 10",
+          "description": "[TIME SUBJECT TO CHANGE] SpaceX is launching the 10th full stack Starship with its Super Heavy booster. The booster will not be caught as SpaceX will attempt some more hazardous engine out scenarios w...",
+          "feature_image": "https://i.ytimg.com/vi/Xv97hecvwfI/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=Xv97hecvwfI",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-08-24T21:30:00Z",
+          "end_time": null
         }
       ],
       "webcast_live": false,
@@ -710,7 +778,7 @@
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 107,
-      "pad_turnaround": "P88DT23H54M",
+      "pad_turnaround": "P88DT23H54M1S",
       "mission_patches": [
         {
           "id": 773,
@@ -731,7 +799,7 @@
       "id": "cad4ded9-6f24-4b6c-b4ed-b5dca4613cdd",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/cad4ded9-6f24-4b6c-b4ed-b5dca4613cdd/?format=json",
       "slug": "falcon-9-block-5-naos",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=cad4ded9-6f24-4b6c-b4ed-b5dca4613cdd",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | NAOS",
       "status": {
@@ -740,7 +808,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-08-18T18:37:59Z",
+      "last_updated": "2025-08-24T15:01:45Z",
       "updates": [
         {
           "id": 11908,
@@ -2687,7 +2755,7 @@
       "id": "b7b6c516-70cc-443a-aec9-f97ae4333152",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/b7b6c516-70cc-443a-aec9-f97ae4333152/?format=json",
       "slug": "falcon-9-block-5-starlink-group-17-7",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=b7b6c516-70cc-443a-aec9-f97ae4333152",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 17-7",
       "status": {
@@ -2696,7 +2764,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-08-20T02:57:30Z",
+      "last_updated": "2025-08-24T16:01:42Z",
       "updates": [
         {
           "id": 11916,
@@ -3345,7 +3413,7 @@
       "id": "e0427db4-5314-4766-9471-0c70859beb7a",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/e0427db4-5314-4766-9471-0c70859beb7a/?format=json",
       "slug": "falcon-9-block-5-starlink-group-10-14",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=e0427db4-5314-4766-9471-0c70859beb7a",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 10-14",
       "status": {
@@ -3354,7 +3422,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-08-20T23:28:54Z",
+      "last_updated": "2025-08-24T16:01:40Z",
       "updates": [
         {
           "id": 11924,
