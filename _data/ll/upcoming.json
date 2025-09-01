@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-01T01%3A16%3A50Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-01T06%3A23%3A09Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1524,7 +1524,7 @@
                 "abbrev": "JRTI",
                 "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 132
+                "successful_landings": 133
               },
               "type": {
                 "id": 1,
@@ -4514,43 +4514,35 @@
       "type": "detailed"
     },
     {
-      "id": "86d62815-9266-481b-951e-e53670d27341",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/86d62815-9266-481b-951e-e53670d27341/?format=json",
-      "slug": "falcon-9-block-5-nrol-48",
-      "flightclub_url": null,
+      "id": "880a7824-95c4-4724-91bf-83f2a5cba740",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/880a7824-95c4-4724-91bf-83f2a5cba740/?format=json",
+      "slug": "falcon-9-block-5-starlink-group-11-25",
+      "flightclub_url": "https://flightclub.io/result?llId=880a7824-95c4-4724-91bf-83f2a5cba740",
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | NROL-48",
+      "name": "Falcon 9 Block 5 | Starlink Group 11-25",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2025-08-02T00:47:21Z",
+      "last_updated": "2025-08-18T20:44:31Z",
       "updates": [
         {
-          "id": 11721,
+          "id": 11725,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET early September.",
-          "info_url": "https://www.nro.gov/Portals/135/Documents/news/speeches/2025/DDNRO%20Potomac%20Officers%20Club.pdf",
+          "comment": "Reverted back to NET August TBD with lack of confirmation.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=63312.msg2705832#msg2705832",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2025-08-02T00:47:00Z"
+          "created_on": "2025-08-03T01:10:00Z"
         },
         {
-          "id": 10657,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET April.",
-          "info_url": "https://www.nro.gov/news-media-featured-stories/news-media-archive/News-Article/Article/4148782/nro-director-calls-for-leveraging-full-potential-of-cutting-edge-space-capabili/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-04-09T03:43:00Z"
-        },
-        {
-          "id": 10075,
+          "id": 11688,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
           "comment": "Added launch.",
-          "info_url": "https://www.nro.gov/Portals/135/Documents/news/Press%20Kits/10388_Press%20Kit%20book_Launch_NROL-126_12.23.24.pdf",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=63312.msg2704892#msg2704892",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2025-02-11T05:01:00Z"
+          "created_on": "2025-07-31T01:29:00Z"
         }
       ],
       "net": "2025-09-30T00:00:00Z",
@@ -4597,7 +4589,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 8523,
+        "id": 8671,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -4745,7 +4737,7 @@
         },
         "launcher_stage": [
           {
-            "id": 696,
+            "id": 781,
             "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
@@ -4764,11 +4756,11 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1568,
+              "id": 1670,
               "attempt": true,
               "success": null,
               "description": "The Falcon 9 first stage will attempt to land on ASDS OCISLY after its flight.",
-              "downrange_distance": 610,
+              "downrange_distance": 574,
               "location": {
                 "id": 1,
                 "name": "Of Course I Still Love You",
@@ -4792,45 +4784,45 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 7113,
-        "name": "NROL-48",
-        "description": "Eleventh batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+        "id": 7263,
+        "name": "Starlink Group 11-25",
+        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
-        "type": "Government/Top Secret",
+        "type": "Communications",
         "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         },
         "agencies": [
           {
-            "id": 181,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/181/?format=json",
-            "name": "National Reconnaissance Office",
-            "featured": false,
-            "type": "Government",
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
             "country_code": "USA",
-            "abbrev": "NRO",
-            "description": "The National Reconnaissance Office (NRO) is a member of the United States Intelligence Community and an agency of the United States Department of Defense which designs, builds, launches, and operates the reconnaissance satellites of the U.S. federal government, and provides satellite intelligence to several government agencies, particularly signals intelligence (SIGINT) to the NSA, imagery intelligence (IMINT) to the NGA, and measurement and signature intelligence (MASINT) to the DIA.",
-            "administrator": "Director: Christopher Scolese",
-            "founding_year": "1961",
-            "launchers": "",
-            "spacecraft": "",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
             "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.nro.gov/",
-            "wiki_url": "https://en.wikipedia.org/wiki/National_Reconnaissance_Office",
-            "logo_url": null,
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520reconnaissance2520office_nation_20240228092125.png"
+            "total_launch_count": 561,
+            "consecutive_successful_launches": 46,
+            "successful_launches": 546,
+            "failed_launches": 15,
+            "pending_launches": 116,
+            "consecutive_successful_landings": 46,
+            "successful_landings": 507,
+            "failed_landings": 27,
+            "attempted_landings": 533,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
           }
         ],
         "info_urls": [],
@@ -4867,9 +4859,47 @@
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241024165956.jpg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
-      "program": [],
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/?format=json",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
+        }
+      ],
       "orbital_launch_attempt_count": 7064,
       "location_launch_attempt_count": 832,
       "pad_launch_attempt_count": 218,
@@ -4881,15 +4911,15 @@
       "pad_turnaround": "P20D",
       "mission_patches": [
         {
-          "id": 1057,
-          "name": "NROL-146",
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
           "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-146_mission_patch_20241020111152.png",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
           "agency": {
-            "id": 181,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/181/?format=json",
-            "name": "National Reconnaissance Office",
-            "type": "Government"
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+            "name": "SpaceX",
+            "type": "Commercial"
           }
         }
       ],
