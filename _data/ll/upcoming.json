@@ -1,6 +1,6 @@
 {
   "count": 116,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-02T12%3A28%3A36Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-02T18%3A17%3A25Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-09-02T07:26:29Z",
+      "last_updated": "2025-09-02T17:01:22Z",
       "updates": [
+        {
+          "id": 12057,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Sep 03 at 03:51 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-8",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-09-02T17:01:00Z"
+        },
         {
           "id": 12051,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -51,7 +59,7 @@
           "created_on": "2025-08-26T16:04:00Z"
         }
       ],
-      "net": "2025-09-03T03:21:10Z",
+      "net": "2025-09-03T03:51:26Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -397,7 +405,48 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 17-8 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+          "description": "Launch Date: September 2, 2025 (PDT)\nLaunch Time:  8:51 p.m. PDT (September 3, 03:51 UTC, 05:51 CEST)\nLaunch Window:  Open until 11:33 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, Calif...",
+          "feature_image": "https://i.ytimg.com/vi/b6E4BsVTtCw/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=b6E4BsVTtCw",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-09-03T03:41:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/Gzer64QWsAAcWcn.jpg",
+          "url": "https://x.com/i/broadcasts/1vOxwdLnbRvKB",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-09-03T03:14:00Z",
+          "end_time": "2025-09-03T04:26:00Z"
+        }
+      ],
       "webcast_live": false,
       "timeline": [
         {
@@ -634,7 +683,7 @@
       "location_launch_attempt_count_year": 41,
       "pad_launch_attempt_count_year": 39,
       "agency_launch_attempt_count_year": 113,
-      "pad_turnaround": "P3DT22H21M56S",
+      "pad_turnaround": "P3DT22H52M12S",
       "mission_patches": [
         {
           "id": 7,
@@ -664,8 +713,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-08-30T21:01:40Z",
+      "last_updated": "2025-09-02T16:12:30Z",
       "updates": [
+        {
+          "id": 12056,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch time is to the second.",
+          "info_url": "https://www.spacex.com/launches/sl-10-22",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-09-02T16:12:00Z"
+        },
+        {
+          "id": 12052,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Weather is 70% favorable for launch.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%2010-22%20L-1%20Forecast%20-%203%20Sep%20Launch.pdf",
+          "created_by": "hitura-nobad",
+          "created_on": "2025-09-02T13:19:00Z"
+        },
         {
           "id": 12020,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -685,15 +750,15 @@
       ],
       "net": "2025-09-03T11:06:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-09-03T15:06:00Z",
       "window_start": "2025-09-03T11:06:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 70,
+      "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1032,7 +1097,68 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 10-22 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date:  September 3, 2025\nLaunch Time: 7:06 a.m. EDT (1106 UTC, 13:06 CEST)\nLaunch Window:  Open until 11:06 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida, USA\nTarge...",
+          "feature_image": "https://i.ytimg.com/vi/W2_TfIaDekg/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=W2_TfIaDekg",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-09-03T10:56:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Launches Starlink 10-22 Mission",
+          "description": "SpaceX launch of a batch of Starlink 28 v2-mini satellites for their second-generation high-speed low earth orbit internet satellite constellation.\n\n⚡ Become a member of NASASpaceflight's channel for ...",
+          "feature_image": "https://i.ytimg.com/vi/J9BFlyn-z_g/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=J9BFlyn-z_g",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-09-03T10:06:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/GzeEcjGaoAABvbF.jpg",
+          "url": "https://x.com/i/broadcasts/1LyGBXvebYzxN",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-09-03T10:59:00Z",
+          "end_time": "2025-09-03T12:00:00Z"
+        }
+      ],
       "webcast_live": false,
       "timeline": [
         {
@@ -1299,8 +1425,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-08-31T20:01:36Z",
+      "last_updated": "2025-09-02T15:36:18Z",
       "updates": [
+        {
+          "id": 12053,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Sep 05 at 10:56 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-10-57",
+          "created_by": "hitura-nobad",
+          "created_on": "2025-09-02T15:36:00Z"
+        },
         {
           "id": 12021,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1318,15 +1452,15 @@
           "created_on": "2025-08-28T17:58:00Z"
         }
       ],
-      "net": "2025-09-04T11:18:00Z",
+      "net": "2025-09-05T10:56:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-09-04T15:18:00Z",
-      "window_start": "2025-09-04T11:18:00Z",
+      "window_end": "2025-09-05T14:56:00Z",
+      "window_start": "2025-09-05T10:56:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1550,7 +1684,7 @@
               }
             },
             "previous_flight_date": "2025-07-30T03:37:50Z",
-            "turn_around_time_days": 36,
+            "turn_around_time_days": 37,
             "previous_flight": {
               "id": "760cea4c-78f9-4b98-83a5-231fc098c5ab",
               "name": "Falcon 9 Block 5 | Starlink Group 10-29"
@@ -1904,7 +2038,7 @@
       "location_launch_attempt_count_year": 20,
       "pad_launch_attempt_count_year": 20,
       "agency_launch_attempt_count_year": 115,
-      "pad_turnaround": "P7DT3H6M",
+      "pad_turnaround": "P8DT2H44M",
       "mission_patches": [
         {
           "id": 7,
