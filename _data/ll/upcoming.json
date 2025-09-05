@@ -1,6 +1,6 @@
 {
   "count": 115,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-05T01%3A04%3A05Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-05T06%3A20%3A27Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -2178,8 +2178,8 @@
           {
             "id": 773,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 6,
             "launcher": {
               "id": 193,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/193/?format=json",
@@ -2215,9 +2215,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-08-14T05:05:37Z",
+            "turn_around_time_days": 27,
+            "previous_flight": {
+              "id": "258dd7cc-3e26-45bd-ac48-b58f8a501fb3",
+              "name": "Falcon 9 Block 5 | Starlink Group 17-4"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -2517,7 +2520,7 @@
       "location_launch_attempt_count_year": 43,
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 118,
-      "pad_turnaround": "P3DT20H16M",
+      "pad_turnaround": "P3DT22H30M",
       "mission_patches": [],
       "type": "detailed"
     },
