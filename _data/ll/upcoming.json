@@ -1,6 +1,6 @@
 {
   "count": 117,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-25T01%3A04%3A35Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-09-25T06%3A21%3A06Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -409,7 +409,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-09-25T08:31:00Z",
+          "start_time": "2025-09-25T08:32:00Z",
           "end_time": "2025-09-25T12:29:00Z"
         }
       ],
@@ -679,8 +679,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-09-19T21:01:48Z",
+      "last_updated": "2025-09-25T05:16:36Z",
       "updates": [
+        {
+          "id": 12370,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Sep 26 at 04:17 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-11",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-09-25T05:16:00Z"
+        },
         {
           "id": 12300,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -698,12 +706,12 @@
           "created_on": "2025-09-15T00:56:00Z"
         }
       ],
-      "net": "2025-09-26T01:57:00Z",
+      "net": "2025-09-26T04:17:40Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2025-09-26T05:57:00Z",
       "window_start": "2025-09-26T01:57:00Z",
@@ -1250,7 +1258,7 @@
       "location_launch_attempt_count_year": 47,
       "pad_launch_attempt_count_year": 45,
       "agency_launch_attempt_count_year": 127,
-      "pad_turnaround": "P3DT8H19M",
+      "pad_turnaround": "P3DT10H39M40S",
       "mission_patches": [
         {
           "id": 7,
@@ -1529,7 +1537,7 @@
                 "abbrev": "JRTI",
                 "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Atlantic Ocean.",
                 "location": null,
-                "successful_landings": 135
+                "successful_landings": 136
               },
               "type": {
                 "id": 1,
@@ -1897,7 +1905,7 @@
       "location_launch_attempt_count_year": 63,
       "pad_launch_attempt_count_year": 58,
       "agency_launch_attempt_count_year": 128,
-      "pad_turnaround": "P2DT22H54M",
+      "pad_turnaround": "P2DT22H51M20S",
       "mission_patches": [
         {
           "id": 7,
@@ -2141,7 +2149,7 @@
             "id": 811,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 29,
+            "launcher_flight_number": 28,
             "launcher": {
               "id": 84,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/84/?format=json",
@@ -2177,11 +2185,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2025-09-26T01:57:00Z",
-            "turn_around_time_days": 2,
+            "previous_flight_date": "2025-08-26T18:53:41Z",
+            "turn_around_time_days": 33,
             "previous_flight": {
-              "id": "018c85ab-533f-4a9c-8b25-a03ca8e824d1",
-              "name": "Falcon 9 Block 5 | Starlink Group 17-11"
+              "id": "cad4ded9-6f24-4b6c-b4ed-b5dca4613cdd",
+              "name": "Falcon 9 Block 5 | NAOS"
             }
           }
         ],
@@ -5126,15 +5134,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7084,
-      "location_launch_attempt_count": 836,
-      "pad_launch_attempt_count": 222,
-      "agency_launch_attempt_count": 583,
-      "orbital_launch_attempt_count_year": 235,
-      "location_launch_attempt_count_year": 50,
-      "pad_launch_attempt_count_year": 48,
-      "agency_launch_attempt_count_year": 134,
-      "pad_turnaround": "P32DT28M",
+      "orbital_launch_attempt_count": 7086,
+      "location_launch_attempt_count": 837,
+      "pad_launch_attempt_count": 223,
+      "agency_launch_attempt_count": 584,
+      "orbital_launch_attempt_count_year": 237,
+      "location_launch_attempt_count_year": 51,
+      "pad_launch_attempt_count_year": 49,
+      "agency_launch_attempt_count_year": 135,
+      "pad_turnaround": "P27DT11H",
       "mission_patches": [
         {
           "id": 7,
