@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-10-05T06%3A18%3A14Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-10-05T12%3A24%3A31Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -419,10 +419,10 @@
         {
           "priority": 10,
           "source": "x.com",
-          "publisher": "SpaceX",
-          "title": "Starlink Mission",
+          "publisher": "X",
+          "title": "Livestream on X",
           "description": "Livestream on X",
-          "feature_image": "https://pbs.twimg.com/media/G2XKieOXoAA_jcT.jpg",
+          "feature_image": null,
           "url": "https://x.com/i/broadcasts/1mnxeNPXOdRKX",
           "type": {
             "id": 1,
@@ -433,8 +433,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2025-10-07T07:03:00Z",
-          "end_time": "2025-10-07T08:03:00Z"
+          "start_time": null,
+          "end_time": null
         }
       ],
       "webcast_live": false,
@@ -3103,8 +3103,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-10-02T00:21:02Z",
+      "last_updated": "2025-10-05T12:03:02Z",
       "updates": [
+        {
+          "id": 12477,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Now targeting Oct 14 at 23:02 UTC",
+          "info_url": "https://www.spacex.com/launches/sda-t1tl-c",
+          "created_by": "Nosu",
+          "created_on": "2025-10-05T12:03:00Z"
+        },
         {
           "id": 12444,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -3130,15 +3138,15 @@
           "created_on": "2023-06-09T12:44:06Z"
         }
       ],
-      "net": "2025-10-14T23:11:00Z",
+      "net": "2025-10-14T23:02:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-10-14T23:11:00Z",
-      "window_start": "2025-10-14T23:11:00Z",
+      "window_end": "2025-10-14T23:24:00Z",
+      "window_start": "2025-10-14T23:02:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -3497,7 +3505,7 @@
       "location_launch_attempt_count_year": 52,
       "pad_launch_attempt_count_year": 50,
       "agency_launch_attempt_count_year": 136,
-      "pad_turnaround": "P2DT3H12M",
+      "pad_turnaround": "P2DT3H3M",
       "mission_patches": [],
       "type": "detailed"
     },
