@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-10-07T12%3A29%3A00Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-10-07T18%3A20%3A13Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -83,7 +83,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -123,7 +123,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -235,7 +235,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -322,7 +322,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -437,17 +437,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -469,17 +469,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -691,8 +691,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-10-07T01:08:01Z",
+      "last_updated": "2025-10-07T17:43:43Z",
       "updates": [
+        {
+          "id": 12500,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 55% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20KF-3%20L-2%20Forecast%20-%20%209%20Oct%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-10-07T17:43:00Z"
+        },
         {
           "id": 12464,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -791,8 +799,8 @@
       },
       "window_end": "2025-10-10T03:48:00Z",
       "window_start": "2025-10-10T01:34:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 55,
+      "weather_concerns": "Cumulus Cloud Rule, Lightning Rule, Surface Electric Field Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -814,7 +822,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -854,7 +862,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -966,7 +974,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -1188,17 +1196,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -1220,17 +1228,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -1407,7 +1415,7 @@
       "location_launch_attempt_count_year": 64,
       "pad_launch_attempt_count_year": 59,
       "agency_launch_attempt_count_year": 132,
-      "pad_turnaround": "P2DT21H20M20S",
+      "pad_turnaround": "P2DT18H47M50S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -1491,7 +1499,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -1531,7 +1539,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -1643,7 +1651,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -1730,7 +1738,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -1845,17 +1853,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -1877,17 +1885,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -2166,7 +2174,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -2206,7 +2214,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -2440,7 +2448,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -2927,7 +2935,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -2967,7 +2975,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -3079,7 +3087,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -3350,7 +3358,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -3390,7 +3398,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -3502,7 +3510,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -3589,7 +3597,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -3736,17 +3744,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -3953,13 +3961,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 11-19",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-10-07T00:09:35Z",
+      "last_updated": "2025-10-07T18:01:32Z",
       "updates": [
+        {
+          "id": 12501,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/sl-11-19",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-10-07T18:01:00Z"
+        },
         {
           "id": 12492,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -3977,15 +3993,15 @@
           "created_on": "2025-10-02T17:25:00Z"
         }
       ],
-      "net": "2025-10-17T18:09:00Z",
+      "net": "2025-10-18T02:09:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-10-17T22:09:00Z",
-      "window_start": "2025-10-17T18:09:00Z",
+      "window_end": "2025-10-18T06:09:00Z",
+      "window_start": "2025-10-18T02:09:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -4009,7 +4025,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -4049,7 +4065,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -4161,7 +4177,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -4171,27 +4187,27 @@
           {
             "id": 821,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 11,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 153,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/153/?format=json",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1088",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1088_landing_o_image_20250912151209.jpeg",
+              "successful_landings": 10,
+              "attempted_landings": 10,
+              "flights": 10,
+              "last_launch_date": "2025-09-19T16:31:39Z",
+              "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "landing": {
               "id": 1713,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt landing on ASDS OCISLY after its flight.",
+              "description": "The Falcon 9 first stage B1088 will attempt landing on ASDS OCISLY after its 11th flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -4208,9 +4224,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-09-19T16:31:39Z",
+            "turn_around_time_days": 28,
+            "previous_flight": {
+              "id": "64b19cd9-9b2a-4724-890b-6a7001eb3644",
+              "name": "Falcon 9 Block 5 | Starlink Group 17-12"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -4218,7 +4237,7 @@
       "mission": {
         "id": 7337,
         "name": "Starlink Group 11-19",
-        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "description": "A batch of 28 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
         "orbit": {
@@ -4245,7 +4264,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -4287,10 +4306,234 @@
         "total_launch_count": 221,
         "orbital_launch_attempt_count": 221
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-11-19",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/G2rA0CBXYAA4qQr.jpg",
+          "url": "https://x.com/i/broadcasts/1yNGabwwBmvJj",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-10-18T00:02:00Z",
+          "end_time": "2025-10-18T01:02:00Z"
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M12S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M28S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M35S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M56S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M5S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M31S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT8M"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M24S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M38S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT52M57S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT52M58S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT59M48S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [
@@ -4332,15 +4575,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7087,
+      "orbital_launch_attempt_count": 7088,
       "location_launch_attempt_count": 838,
       "pad_launch_attempt_count": 224,
       "agency_launch_attempt_count": 586,
-      "orbital_launch_attempt_count_year": 238,
+      "orbital_launch_attempt_count_year": 239,
       "location_launch_attempt_count_year": 52,
       "pad_launch_attempt_count_year": 50,
       "agency_launch_attempt_count_year": 137,
-      "pad_turnaround": "P2DT18H58M",
+      "pad_turnaround": "P3DT2H58M",
       "mission_patches": [
         {
           "id": 7,
@@ -4413,7 +4656,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -4453,7 +4696,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -4565,7 +4808,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -4652,7 +4895,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -4779,17 +5022,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -5076,7 +5319,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -5116,7 +5359,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -5228,7 +5471,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -5387,7 +5630,7 @@
         "consecutive_successful_launches": 64,
         "successful_launches": 564,
         "failed_launches": 15,
-        "pending_launches": 122,
+        "pending_launches": 123,
         "consecutive_successful_landings": 64,
         "successful_landings": 525,
         "failed_landings": 27,
@@ -5427,7 +5670,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
@@ -5539,7 +5782,7 @@
           "consecutive_successful_launches": 189,
           "successful_launches": 486,
           "failed_launches": 1,
-          "pending_launches": 103,
+          "pending_launches": 104,
           "attempted_landings": 479,
           "successful_landings": 474,
           "failed_landings": 5,
@@ -5623,7 +5866,7 @@
             "consecutive_successful_launches": 64,
             "successful_launches": 564,
             "failed_launches": 15,
-            "pending_launches": 122,
+            "pending_launches": 123,
             "consecutive_successful_landings": 64,
             "successful_landings": 525,
             "failed_landings": 27,
