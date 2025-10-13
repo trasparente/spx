@@ -1,6 +1,6 @@
 {
   "count": 123,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-10-13T12%3A29%3A02Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-10-13T18%3A19%3A20Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-10-12T21:22:11Z",
+      "last_updated": "2025-10-13T17:20:17Z",
       "updates": [
         {
           "id": 12546,
@@ -113,14 +113,14 @@
       "rocket": {
         "id": 8696,
         "configuration": {
-          "id": 464,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/464/?format=json",
+          "id": 527,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/527/?format=json",
           "name": "Starship",
           "active": true,
           "reusable": true,
-          "description": "Fully reusable two-stage super heavy-lift launch vehicle.",
+          "description": "Second development version of the Starship reusable two-stage super heavy-lift launch vehicle.",
           "family": "Starship",
-          "full_name": "Starship",
+          "full_name": "Starship V2",
           "manufacturer": {
             "id": 121,
             "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
@@ -176,31 +176,31 @@
               }
             }
           ],
-          "variant": "",
+          "variant": "V2",
           "alias": "",
           "min_stage": 2,
           "max_stage": 2,
-          "length": 120,
+          "length": 123.3,
           "diameter": 9,
-          "maiden_flight": "2023-04-20",
+          "maiden_flight": "2025-01-16",
           "launch_cost": null,
           "launch_mass": 5000,
-          "leo_capacity": 100000,
-          "gto_capacity": 21000,
-          "to_thrust": 72000,
+          "leo_capacity": 35000,
+          "gto_capacity": null,
+          "to_thrust": 73550,
           "apogee": null,
           "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_20240314160301.jpg",
-          "info_url": "https://www.spacex.com/vehicles/starship/index.html",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+          "info_url": "https://www.spacex.com/vehicles/starship",
           "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
-          "total_launch_count": 10,
+          "total_launch_count": 4,
           "consecutive_successful_launches": 1,
-          "successful_launches": 5,
-          "failed_launches": 5,
-          "pending_launches": 3,
-          "attempted_landings": 9,
-          "successful_landings": 5,
-          "failed_landings": 4,
+          "successful_launches": 1,
+          "failed_launches": 3,
+          "pending_launches": 1,
+          "attempted_landings": 4,
+          "successful_landings": 3,
+          "failed_landings": 1,
           "consecutive_successful_landings": 1
         },
         "launcher_stage": [
@@ -456,6 +456,46 @@
           "end_time": null
         },
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch live: SpaceX launches Starship Flight 11, finale of Block 2 upper stage",
+          "description": "Watch live as a SpaceX Super Heavy booster and Starship upper stage launch on the final flight of this iteration of the rocket. This is also the final planned launch for the Starship program of 2025.\n...",
+          "feature_image": "https://i.ytimg.com/vi/YrcLIvoiKfw/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=YrcLIvoiKfw",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-10-13T21:15:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Starship Flight 11 - LAUNCH STREAM",
+          "description": "SpaceX is set to launch the 11th flight of Starship from Starbase, Texas. The launch window for Booster 15-2 and Ship 38 opens at 6:15PM CT local time (23:15 UTC) on Monday, October 13, from Pad A.\n\nT...",
+          "feature_image": "https://i.ytimg.com/vi/7bcpnn_PO-A/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=7bcpnn_PO-A",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-10-13T20:15:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -474,6 +514,26 @@
           },
           "start_time": "2025-10-13T22:43:00Z",
           "end_time": "2025-10-14T02:43:00Z"
+        },
+        {
+          "priority": 11,
+          "source": "youtube.com",
+          "publisher": "Everyday Astronaut",
+          "title": "[4K] Watch the last Starship Version 2 launch // #Flight11",
+          "description": "SpaceX is launching the 11th full stack Starship with its Super Heavy booster, B15.2. This previously flown booster will again not be caught as SpaceX will attempt some more hazardous engine out scena...",
+          "feature_image": "https://i.ytimg.com/vi/VMD-Wo8jz90/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=VMD-Wo8jz90",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2025-10-13T20:45:00Z",
+          "end_time": null
         }
       ],
       "webcast_live": false,
@@ -1598,8 +1658,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2025-10-09T21:01:57Z",
+      "last_updated": "2025-10-13T17:21:39Z",
       "updates": [
+        {
+          "id": 12547,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/sda-t1tl-c",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-10-13T17:21:00Z"
+        },
         {
           "id": 12444,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1625,15 +1693,15 @@
           "created_on": "2023-06-09T12:44:06Z"
         }
       ],
-      "net": "2025-10-14T23:11:00Z",
+      "net": "2025-10-14T23:12:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2025-10-14T23:11:00Z",
-      "window_start": "2025-10-14T23:11:00Z",
+      "window_end": "2025-10-14T23:12:00Z",
+      "window_start": "2025-10-14T23:12:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -2012,7 +2080,7 @@
       "location_launch_attempt_count_year": 51,
       "pad_launch_attempt_count_year": 49,
       "agency_launch_attempt_count_year": 134,
-      "pad_turnaround": "P6DT19H17M",
+      "pad_turnaround": "P6DT19H18M",
       "mission_patches": [],
       "type": "detailed"
     },
