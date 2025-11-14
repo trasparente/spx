@@ -1,6 +1,6 @@
 {
   "count": 120,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-11-14T12%3A29%3A32Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2025-11-14T18%3A20%3A43Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -1065,8 +1065,8 @@
           "priority": 9,
           "source": "youtube.com",
           "publisher": "NASASpaceflight",
-          "title": "SpaceX Launches Starlink 6-89 Mission",
-          "description": "SpaceX launch of a batch of 29 Starlink v2-mini satellites for their second-generation high-speed low earth orbit internet satellite constellation.\n\nLaunch window: November 14th from 10:01PM EST to 2:...",
+          "title": "SpaceX Falcon 9 Cape Doubleheader with Starlinks 6-89 and 6-85",
+          "description": "Potential doubleheader of two SpaceX Falcon 9's launching in the same window from 39A and SLC-40, both carrying 29 Starlink v2-mini satellites for their second-generation high-speed low earth orbit in...",
           "feature_image": "https://i.ytimg.com/vi/HsJcGy3KhoM/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=HsJcGy3KhoM",
           "type": {
@@ -4959,27 +4959,43 @@
       "type": "detailed"
     },
     {
-      "id": "d9adedc4-8fa1-4a36-84f9-43b8893a6865",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/d9adedc4-8fa1-4a36-84f9-43b8893a6865/?format=json",
-      "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-e",
+      "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/?format=json",
+      "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-a",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
       "status": {
         "id": 2,
         "name": "To Be Determined",
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2024-03-05T18:12:33Z",
+      "last_updated": "2025-03-08T03:02:03Z",
       "updates": [
         {
-          "id": 4319,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+          "id": 9389,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET March 2025.",
+          "info_url": "https://www.satellitetoday.com/government-military/2024/11/20/tournear-majority-of-dod-systems-could-use-sda-acquisition-approach/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-12-02T18:55:00Z"
+        },
+        {
+          "id": 8515,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET late 2024.",
+          "info_url": "https://www.defensenews.com/space/2024/09/05/production-scaling-woes-delay-next-space-development-agency-launches/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-09-08T02:19:00Z"
+        },
+        {
+          "id": 1754,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
           "comment": "Adding launch",
-          "info_url": "https://spacenews.com/space-force-assigns-12-national-security-missions-to-spacex-and-ula/",
-          "created_by": "Jay",
-          "created_on": "2023-06-09T12:51:56Z"
+          "info_url": "https://www.ssc.spaceforce.mil/Portals/3/Documents/PRESS%20RELEASES/SSC%20Issues%20Launch%20Task%20Orders%20for%20FY22%20NSS%20Missions.pdf",
+          "created_by": "Nosu",
+          "created_on": "2022-05-27T10:19:13Z"
         }
       ],
       "net": "2025-12-31T00:00:00Z",
@@ -5026,7 +5042,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
       },
       "rocket": {
-        "id": 7895,
+        "id": 7589,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/?format=json",
@@ -5172,13 +5188,38 @@
           "failed_landings": 5,
           "consecutive_successful_landings": 191
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 559,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 6404,
-        "name": "SDA Tranche 1 Transport Layer E",
-        "description": "Tranche 1 Transport Layer E is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellation will be interconnected with Optical Inter-Satellite Links (OISLs) which have significantly increased performance over existing radio frequency crosslinks. It is expected to operate over Ka band, have stereo coverage and be dynamically networked for simpler hand-offs, greater bandwidth and fault tolerance.",
+        "id": 6031,
+        "name": "SDA Tranche 1 Transport Layer A",
+        "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellation will be interconnected with Optical Inter-Satellite Links (OISLs) which have significantly increased performance over existing radio frequency crosslinks. It is expected to operate over Ka band, have stereo coverage and be dynamically networked for simpler hand-offs, greater bandwidth and fault tolerance.\r\n\r\nThis launch carries 21 satellites manufactured by Northrop Grumman.",
         "launch_designator": null,
         "type": "Government/Top Secret",
         "orbit": {
