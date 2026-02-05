@@ -178,17 +178,17 @@
     "launchers": "Falcon | Starship",
     "spacecraft": "Dragon",
     "launch_library_url": null,
-    "total_launch_count": 468,
-    "consecutive_successful_launches": 10,
-    "successful_launches": 455,
-    "failed_launches": 13,
-    "pending_launches": 111,
-    "consecutive_successful_landings": 37,
-    "successful_landings": 415,
-    "failed_landings": 26,
-    "attempted_landings": 440,
-    "info_url": "http://www.spacex.com/",
-    "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+    "total_launch_count": 633,
+    "consecutive_successful_launches": 118,
+    "successful_launches": 618,
+    "failed_launches": 15,
+    "pending_launches": 124,
+    "consecutive_successful_landings": 117,
+    "successful_landings": 578,
+    "failed_landings": 27,
+    "attempted_landings": 604,
+    "info_url": "https://www.spacex.com/",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
     "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
     "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
     "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
@@ -218,17 +218,17 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": null,
-        "total_launch_count": 468,
-        "consecutive_successful_launches": 10,
-        "successful_launches": 455,
-        "failed_launches": 13,
-        "pending_launches": 111,
-        "consecutive_successful_landings": 37,
-        "successful_landings": 415,
-        "failed_landings": 26,
-        "attempted_landings": 440,
-        "info_url": "http://www.spacex.com/",
-        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "total_launch_count": 633,
+        "consecutive_successful_launches": 118,
+        "successful_launches": 618,
+        "failed_launches": 15,
+        "pending_launches": 124,
+        "consecutive_successful_landings": 117,
+        "successful_landings": 578,
+        "failed_landings": 27,
+        "attempted_landings": 604,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
         "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
@@ -315,7 +315,7 @@
       ],
       "variant": "Block 5",
       "alias": "",
-      "min_stage": 1,
+      "min_stage": 2,
       "max_stage": 2,
       "length": 70,
       "diameter": 3.65,
@@ -330,15 +330,15 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "info_url": "https://www.spacex.com/vehicles/falcon-9/",
       "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-      "total_launch_count": 379,
-      "consecutive_successful_launches": 81,
-      "successful_launches": 378,
+      "total_launch_count": 540,
+      "consecutive_successful_launches": 242,
+      "successful_launches": 539,
       "failed_launches": 1,
-      "pending_launches": 101,
-      "attempted_landings": 371,
-      "successful_landings": 366,
+      "pending_launches": 105,
+      "attempted_landings": 531,
+      "successful_landings": 526,
       "failed_landings": 5,
-      "consecutive_successful_landings": 66
+      "consecutive_successful_landings": 226
     },
     "launcher_stage": [
       {
@@ -349,15 +349,15 @@
         "launcher": {
           "id": 148,
           "url": "https://ll.thespacedevs.com/2.2.0/launcher/148/?format=json",
-          "details": "Falcon 9 booster that started out as a Falcon Heavy side booster flown during the GOES-U mission.",
+          "details": "Falcon 9 booster that started out as a Falcon Heavy side booster flown during the GOES-U mission.\r\n\r\nWritten off on 3 March 2025 after safely landing aboard JRTI due to post-landing aft end fire damaging one of the landing legs and tipping it overboard.",
           "flight_proven": true,
           "serial_number": "B1086",
-          "status": "active",
+          "status": "lost",
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-          "successful_landings": 4,
-          "attempted_landings": 4,
-          "flights": 4,
-          "last_launch_date": "2025-02-04T23:13:00Z",
+          "successful_landings": 5,
+          "attempted_landings": 5,
+          "flights": 5,
+          "last_launch_date": "2025-03-03T02:24:00Z",
           "first_launch_date": "2024-06-25T21:26:00Z"
         },
         "landing": {
@@ -370,7 +370,7 @@
             "id": 4,
             "name": "Landing Zone 1",
             "abbrev": "LZ-1",
-            "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+            "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
             "location": {
               "id": 12,
               "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
@@ -379,10 +379,10 @@
               "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
               "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
               "timezone_name": "America/New_York",
-              "total_launch_count": 1002,
-              "total_landing_count": 60
+              "total_launch_count": 1083,
+              "total_landing_count": 70
             },
-            "successful_landings": 48
+            "successful_landings": 53
           },
           "type": {
             "id": 2,
@@ -465,13 +465,13 @@
       "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
       "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
       "timezone_name": "America/New_York",
-      "total_launch_count": 257,
+      "total_launch_count": 279,
       "total_landing_count": 0
     },
     "country_code": "USA",
     "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
-    "total_launch_count": 199,
-    "orbital_launch_attempt_count": 198
+    "total_launch_count": 221,
+    "orbital_launch_attempt_count": 220
   },
   "infoURLs": [
     {
@@ -495,7 +495,7 @@
   "vidURLs": [
     {
       "priority": 6,
-      "source": null,
+      "source": "youtube.com",
       "publisher": "The Space Devs",
       "title": "SpaceX WorldView Legion 5 & 6",
       "description": "On Tuesday February 04, 2025, SpaceX launched the WorldView Legion 5 & 6 mission with a Falcon 9 Block 5 from Launch Complex 39A at Kennedy Space Center, FL, USA.\n\nDescription generated from the Launc...",
@@ -510,8 +510,8 @@
         "name": "English",
         "code": "en"
       },
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-02-05T02:17:38Z",
+      "end_time": "2025-02-05T04:22:11Z"
     },
     {
       "priority": 7,
