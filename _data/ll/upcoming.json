@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-04-11T18%3A35%3A37Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-04-12T02%3A02%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -912,7 +912,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 189
+                "successful_landings": 190
               },
               "type": {
                 "id": 1,
@@ -1040,8 +1040,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-11T01:50:00Z",
-          "end_time": "2026-04-11T03:50:00Z"
+          "start_time": "2026-04-15T01:50:00Z",
+          "end_time": "2026-04-15T04:50:00Z"
         }
       ],
       "webcast_live": false,
@@ -1280,7 +1280,7 @@
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 22,
       "agency_launch_attempt_count_year": 46,
-      "pad_turnaround": "P3DT22H50M41S",
+      "pad_turnaround": "P3DT20H55M41S",
       "mission_patches": [
         {
           "id": 7,
@@ -1543,7 +1543,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 189
+                "successful_landings": 190
               },
               "type": {
                 "id": 1,
@@ -2174,7 +2174,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 189
+                "successful_landings": 190
               },
               "type": {
                 "id": 1,
@@ -2720,8 +2720,8 @@
         },
         "launcher_stage": [
           {
-            "id": 871,
-            "type": "Strap-On Booster",
+            "id": 870,
+            "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
@@ -2739,34 +2739,24 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1836,
-              "attempt": true,
+              "id": 1835,
+              "attempt": false,
               "success": null,
-              "description": "The Falcon Heavy side booster will land back at the launch site after its flight.",
-              "downrange_distance": 14.6,
+              "description": "The Falcon Heavy center core will be expended.",
+              "downrange_distance": null,
               "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1101,
-                  "total_landing_count": 72
-                },
-                "successful_landings": 16
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 38
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
               }
             },
             "previous_flight_date": null,
@@ -2814,7 +2804,7 @@
                   "total_launch_count": 1101,
                   "total_landing_count": 72
                 },
-                "successful_landings": 1
+                "successful_landings": 2
               },
               "type": {
                 "id": 2,
@@ -2828,8 +2818,8 @@
             "previous_flight": null
           },
           {
-            "id": 870,
-            "type": "Core",
+            "id": 871,
+            "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
@@ -2847,24 +2837,34 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1835,
-              "attempt": false,
+              "id": 1836,
+              "attempt": true,
               "success": null,
-              "description": "The Falcon Heavy center core will be expended.",
-              "downrange_distance": null,
+              "description": "The Falcon Heavy side booster will land back at the launch site after its flight.",
+              "downrange_distance": 14.6,
               "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 38
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1101,
+                  "total_landing_count": 72
+                },
+                "successful_landings": 16
               },
               "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
             "previous_flight_date": null,
@@ -2953,11 +2953,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7275,
+      "orbital_launch_attempt_count": 7279,
       "location_launch_attempt_count": 281,
       "pad_launch_attempt_count": 222,
       "agency_launch_attempt_count": 669,
-      "orbital_launch_attempt_count_year": 102,
+      "orbital_launch_attempt_count_year": 106,
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 50,
@@ -3355,11 +3355,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7275,
+      "orbital_launch_attempt_count": 7279,
       "location_launch_attempt_count": 1105,
       "pad_launch_attempt_count": 379,
       "agency_launch_attempt_count": 669,
-      "orbital_launch_attempt_count_year": 102,
+      "orbital_launch_attempt_count_year": 106,
       "location_launch_attempt_count_year": 29,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 50,
@@ -3658,11 +3658,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7283,
+      "orbital_launch_attempt_count": 7284,
       "location_launch_attempt_count": 879,
       "pad_launch_attempt_count": 263,
       "agency_launch_attempt_count": 672,
-      "orbital_launch_attempt_count_year": 110,
+      "orbital_launch_attempt_count_year": 111,
       "location_launch_attempt_count_year": 27,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 53,
@@ -4171,14 +4171,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7279,
+      "orbital_launch_attempt_count": 7284,
       "location_launch_attempt_count": 1106,
       "pad_launch_attempt_count": 1,
-      "agency_launch_attempt_count": 671,
-      "orbital_launch_attempt_count_year": 106,
+      "agency_launch_attempt_count": 672,
+      "orbital_launch_attempt_count_year": 111,
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 52,
+      "agency_launch_attempt_count_year": 53,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -4607,11 +4607,11 @@
       "orbital_launch_attempt_count": null,
       "location_launch_attempt_count": 21,
       "pad_launch_attempt_count": 1,
-      "agency_launch_attempt_count": 671,
+      "agency_launch_attempt_count": 672,
       "orbital_launch_attempt_count_year": null,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 52,
+      "agency_launch_attempt_count_year": 53,
       "pad_turnaround": "P0D",
       "mission_patches": [
         {
@@ -4925,15 +4925,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7308,
-      "location_launch_attempt_count": 893,
-      "pad_launch_attempt_count": 276,
-      "agency_launch_attempt_count": 688,
-      "orbital_launch_attempt_count_year": 135,
-      "location_launch_attempt_count_year": 41,
-      "pad_launch_attempt_count_year": 38,
-      "agency_launch_attempt_count_year": 69,
-      "pad_turnaround": "P68DT22H",
+      "orbital_launch_attempt_count": 7313,
+      "location_launch_attempt_count": 894,
+      "pad_launch_attempt_count": 277,
+      "agency_launch_attempt_count": 689,
+      "orbital_launch_attempt_count_year": 140,
+      "location_launch_attempt_count_year": 42,
+      "pad_launch_attempt_count_year": 39,
+      "agency_launch_attempt_count_year": 70,
+      "pad_turnaround": "P30D",
       "mission_patches": [],
       "type": "detailed"
     }
