@@ -1,6 +1,6 @@
 {
   "count": 122,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-04-22T19%3A04%3A58Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-04-23T02%3A05%3A17Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-22T15:30:12Z",
+      "last_updated": "2026-04-23T01:00:11Z",
       "updates": [
+        {
+          "id": 14783,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Apr 23 at 02:56 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-14",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-23T01:00:00Z"
+        },
         {
           "id": 14781,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -51,7 +59,7 @@
           "created_on": "2026-04-09T16:35:00Z"
         }
       ],
-      "net": "2026-04-23T02:55:20Z",
+      "net": "2026-04-23T02:56:39Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -405,6 +413,26 @@
           "end_time": null
         },
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches from Vandenberg, California, with 25 Starlink satellites",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 25 satellites for SpaceX's space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Wednesday, April 22 at 7:56 p.m. PDT (10:56 pm EDT / 0256 UTC).\n\nThe first-stage booster, making its fifth flight, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-14 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-TJ82PJOHSrsZLQ/join",
+          "feature_image": "https://i.ytimg.com/vi/hFMW7UC-6Q4/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=hFMW7UC-6Q4",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-23T02:26:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -661,7 +689,7 @@
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 24,
       "agency_launch_attempt_count_year": 49,
-      "pad_turnaround": "P3DT10H52M11S",
+      "pad_turnaround": "P3DT10H53M30S",
       "mission_patches": [
         {
           "id": 7,
@@ -1300,7 +1328,7 @@
       "location_launch_attempt_count_year": 27,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 50,
-      "pad_turnaround": "P3DT12H",
+      "pad_turnaround": "P3DT11H3M21S",
       "mission_patches": [
         {
           "id": 7,
@@ -1321,7 +1349,7 @@
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/4cc237b2-c61a-491e-9532-466cce81f524/?format=json",
       "slug": "falcon-heavy-viasat-3-f3-viasat-3-asia-pacific",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=4cc237b2-c61a-491e-9532-466cce81f524",
       "r_spacex_api_id": null,
       "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
       "status": {
@@ -1330,7 +1358,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-20T14:34:11Z",
+      "last_updated": "2026-04-22T20:03:57Z",
       "updates": [
         {
           "id": 14758,
@@ -1486,6 +1514,50 @@
         },
         "launcher_stage": [
           {
+            "id": 870,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1835,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy center core will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 38
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 872,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1598,50 +1670,6 @@
               "id": "67c287d7-199e-4811-a43a-b540b3c4d186",
               "name": "Falcon 9 Block 5 | Starlink Group 11-5"
             }
-          },
-          {
-            "id": 870,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1835,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy center core will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 38
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -4123,11 +4151,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7288,
+      "orbital_launch_attempt_count": 7289,
       "location_launch_attempt_count": 881,
       "pad_launch_attempt_count": 265,
       "agency_launch_attempt_count": 675,
-      "orbital_launch_attempt_count_year": 115,
+      "orbital_launch_attempt_count_year": 116,
       "location_launch_attempt_count_year": 29,
       "pad_launch_attempt_count_year": 27,
       "agency_launch_attempt_count_year": 56,
@@ -4913,11 +4941,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7316,
+      "orbital_launch_attempt_count": 7317,
       "location_launch_attempt_count": 896,
       "pad_launch_attempt_count": 279,
       "agency_launch_attempt_count": 692,
-      "orbital_launch_attempt_count_year": 143,
+      "orbital_launch_attempt_count_year": 144,
       "location_launch_attempt_count_year": 44,
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 73,
@@ -5221,11 +5249,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7316,
+      "orbital_launch_attempt_count": 7317,
       "location_launch_attempt_count": 896,
       "pad_launch_attempt_count": 279,
       "agency_launch_attempt_count": 692,
-      "orbital_launch_attempt_count_year": 143,
+      "orbital_launch_attempt_count_year": 144,
       "location_launch_attempt_count_year": 44,
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 73,
