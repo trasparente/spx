@@ -1,6 +1,6 @@
 {
   "count": 121,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-04-27T19%3A09%3A24Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-04-28T02%3A27%3A01Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -228,6 +228,50 @@
         },
         "launcher_stage": [
           {
+            "id": 870,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 201,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/?format=json",
+              "details": "Falcon Heavy core booster.",
+              "flight_proven": false,
+              "serial_number": "B1098",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1835,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy center core B1098 will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 38
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 872,
             "type": "Strap-On Booster",
             "reused": true,
@@ -265,7 +309,7 @@
                   "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
-                  "total_launch_count": 1104,
+                  "total_launch_count": 1105,
                   "total_landing_count": 72
                 },
                 "successful_landings": 2
@@ -322,7 +366,7 @@
                   "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
-                  "total_launch_count": 1104,
+                  "total_launch_count": 1105,
                   "total_landing_count": 72
                 },
                 "successful_landings": 16
@@ -340,50 +384,6 @@
               "id": "67c287d7-199e-4811-a43a-b540b3c4d186",
               "name": "Falcon 9 Block 5 | Starlink Group 11-5"
             }
-          },
-          {
-            "id": 870,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 201,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/?format=json",
-              "details": "Falcon Heavy core booster.",
-              "flight_proven": false,
-              "serial_number": "B1098",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1835,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy center core B1098 will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 38
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -1804,7 +1804,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1104,
+          "total_launch_count": 1105,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -3523,7 +3523,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1104,
+          "total_launch_count": 1105,
           "total_landing_count": 72
         },
         "country_code": "USA",
