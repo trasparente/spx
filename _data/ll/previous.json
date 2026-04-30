@@ -1,6 +1,6 @@
 {
   "count": 670,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-04-29T19%3A15%3A32Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-04-30T02%3A28%3A18Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -11,13 +11,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "Launch in Flight"
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-29T19:12:03Z",
+      "last_updated": "2026-04-29T20:11:56Z",
       "updates": [
+        {
+          "id": 14849,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success with spacecraft signals acquisition.",
+          "info_url": "https://x.com/viasat/status/2049581740243472750",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-29T20:11:00Z"
+        },
         {
           "id": 14848,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -192,8 +200,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -232,8 +240,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -265,8 +273,8 @@
           "info_url": "https://www.spacex.com/vehicles/falcon-heavy/index.html",
           "wiki_url": "https://en.wikipedia.org/wiki/Falcon_Heavy",
           "total_launch_count": 12,
-          "consecutive_successful_launches": 11,
-          "successful_launches": 11,
+          "consecutive_successful_launches": 12,
+          "successful_launches": 12,
           "failed_launches": 0,
           "pending_launches": 14,
           "attempted_landings": 23,
@@ -275,120 +283,6 @@
           "consecutive_successful_landings": 16
         },
         "launcher_stage": [
-          {
-            "id": 872,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
-            "launcher": {
-              "id": 111,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 1,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "landing": {
-              "id": 1837,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 2nd flight.",
-              "downrange_distance": 14.6,
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1105,
-                  "total_landing_count": 72
-                },
-                "successful_landings": 16
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2024-06-25T21:26:00Z",
-            "turn_around_time_days": 672,
-            "previous_flight": {
-              "id": "ad53f165-a118-43a6-ad46-6021accdaabd",
-              "name": "Falcon Heavy | GOES-U"
-            }
-          },
-          {
-            "id": 871,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 22,
-            "launcher": {
-              "id": 114,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
-              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "flight_proven": true,
-              "serial_number": "B1075",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
-              "successful_landings": 22,
-              "attempted_landings": 22,
-              "flights": 21,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2023-01-19T15:43:10Z"
-            },
-            "landing": {
-              "id": 1836,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1075 has landed back at the launch site at Landing Zone 40 after its 22nd flight.",
-              "downrange_distance": 5.8,
-              "location": {
-                "id": 62,
-                "name": "Landing Zone 40",
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1105,
-                  "total_landing_count": 72
-                },
-                "successful_landings": 2
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2025-10-22T14:16:20Z",
-            "turn_around_time_days": 188,
-            "previous_flight": {
-              "id": "67c287d7-199e-4811-a43a-b540b3c4d186",
-              "name": "Falcon 9 Block 5 | Starlink Group 11-5"
-            }
-          },
           {
             "id": 870,
             "type": "Core",
@@ -401,10 +295,10 @@
               "flight_proven": false,
               "serial_number": "B1098",
               "status": "expended",
-              "image_url": null,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_20260429200823.jpg",
               "successful_landings": 0,
               "attempted_landings": 0,
-              "flights": 0,
+              "flights": 1,
               "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2026-04-29T14:13:00Z"
             },
@@ -432,6 +326,120 @@
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
+          },
+          {
+            "id": 871,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 22,
+            "launcher": {
+              "id": 114,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
+              "flight_proven": true,
+              "serial_number": "B1075",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
+              "successful_landings": 22,
+              "attempted_landings": 22,
+              "flights": 22,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2023-01-19T15:43:10Z"
+            },
+            "landing": {
+              "id": 1836,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1075 has landed back at the launch site at Landing Zone 40 after its 22nd flight.",
+              "downrange_distance": 5.8,
+              "location": {
+                "id": 62,
+                "name": "Landing Zone 40",
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1105,
+                  "total_landing_count": 74
+                },
+                "successful_landings": 3
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2025-10-22T14:16:20Z",
+            "turn_around_time_days": 188,
+            "previous_flight": {
+              "id": "67c287d7-199e-4811-a43a-b540b3c4d186",
+              "name": "Falcon 9 Block 5 | Starlink Group 11-5"
+            }
+          },
+          {
+            "id": 872,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "id": 111,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "landing": {
+              "id": 1837,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 2nd flight.",
+              "downrange_distance": 14.6,
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1105,
+                  "total_landing_count": 74
+                },
+                "successful_landings": 17
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2024-06-25T21:26:00Z",
+            "turn_around_time_days": 672,
+            "previous_flight": {
+              "id": "ad53f165-a118-43a6-ad46-6021accdaabd",
+              "name": "Falcon Heavy | GOES-U"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -531,11 +539,11 @@
         {
           "priority": 7,
           "source": "youtube.com",
-          "publisher": "SPACE AFFAIRS",
-          "title": "GO! - SpaceX - Falcon Heavy - ViaSat-3 F3 - LC-39A - Kennedy Space Center - Space Affairs Live",
-          "description": "Launch Date:  April 29, 2026\nLaunch Time: 10:13 a.m., 1413 UTC, 16:13 CEST\nLaunch Window:  11:38 a.m. EDT\nLaunch Site: LC-39A - Kennedy Space Center\nTargeted Orbit: Geosynchronous Transfer Orbit (GTO) \nLaunch Inclination: East\nLaunch Status: Scheduled and announced \n\nMission: ViaSat-3 F3\nLaunch Provider: SpaceX\nPayload manufracturer/Operator: ViaSat\n\nLauncher System: Falcon Heavy\nSide Booster 1 (B1075 - Turnaround 187 days) \nFlight for the Booster: 22\nPrevious Flights of the Booster: 21 -  SDA-0A, SARah-2, Transporter-11, and 18 Starlink missions\nSide Booster 2 (B1072 - Turnaround 671 days)\nFlight for the Booster: 2\nPrivious Flights of the Booster: 1 - GOES-U Mission\nLanding of Side Booster 1 & 2: Landing Zone 2 and 40 (LZ-2 and LZ-40), Cape Canaveral Space Force Station, Florida\nFirs...",
-          "feature_image": "https://i.ytimg.com/vi/c3rYiKPViSk/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=c3rYiKPViSk",
+          "publisher": "The Space Devs",
+          "title": "SpaceX ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+          "description": "On Wednesday April 29, 2026 at 14:13 UTC, SpaceX launched the ViaSat-3 F3 (ViaSat-3 Asia-Pacific) mission with a Falcon Heavy from Launch Complex 39A at Kennedy Space Center, FL, USA.\n\nDescription generated from the Launch Library 2 API.\n——————————————————————\nObject in the Launch Library 2 API: https://ll.thespacedevs.com/2.3.0/launches/4cc237b2-c61a-491e-9532-466cce81f524/?format=json\nRelated news in the Spaceflight News API: https://api.spaceflightnewsapi.net/v4/articles/?launch=4cc237b2-c61a-491e-9532-466cce81f524\n——————————————————————\n\nRehosted on YouTube by The Space Devs.\nSupport our work on https://www.patreon.com/TheSpaceDevs\n——————————————————————\nWebsite: https://thespacedevs.com\nX: https://x.com/thespacedevs\nDiscord: https://discord.com/invite/p7ntkNA\n————————————————————...",
+          "feature_image": "https://i.ytimg.com/vi/vdLb-RlctaY/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=vdLb-RlctaY",
           "type": {
             "id": 4,
             "name": "Unofficial Re-stream"
@@ -545,8 +553,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-29T13:54:13Z",
-          "end_time": null
+          "start_time": "2026-04-29T19:52:50Z",
+          "end_time": "2026-04-29T19:52:50Z"
         },
         {
           "priority": 8,
@@ -554,7 +562,7 @@
           "publisher": "Spaceflight Now",
           "title": "Live: SpaceX Falcon Heavy rocket launches Viasat-3 F3 satellite",
           "description": "Watch live coverage as a Falcon Heavy rocket launches carrying the Viasat-3 F3 satellite. Liftoff from Launch Complex 39A at NASA's Kennedy Space Center is scheduled for 10:13 a.m. EDT (1413 UTC) on Wednesday, April 29. \n\nThe rocket features two Falcon side boosters and one core booster. The two side boosters, B1072 (launching for a second time) and B1075 (launching for a 22nd time) will target landings back at Landing Zone 2 and Landing Zone 40 at Cape Canaveral Space Force Station. The core stage is brand new and will be expended on this mission.\n\nThe Viasat-3 F3 satellite features a mesh antenna that unfolds to the size of a football field. Once in geostationary orbit, the  broadband satellite is capable of delivering a data speed of terabit-per-second (Tbps).\n\nThe mission will tak...",
-          "feature_image": "https://i.ytimg.com/vi/7ZLs184OBwE/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/7ZLs184OBwE/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=7ZLs184OBwE",
           "type": {
             "id": 3,
@@ -566,7 +574,7 @@
             "code": "en"
           },
           "start_time": "2026-04-29T12:13:01Z",
-          "end_time": null
+          "end_time": "2026-04-29T19:26:43Z"
         },
         {
           "priority": 9,
@@ -609,7 +617,7 @@
           "end_time": "2026-04-29T19:14:40Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -1005,8 +1013,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -1045,8 +1053,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -1244,8 +1252,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -1740,8 +1748,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -1780,8 +1788,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -1979,8 +1987,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -2515,8 +2523,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -2555,8 +2563,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -2792,7 +2800,7 @@
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 1105,
-          "total_landing_count": 72
+          "total_landing_count": 74
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
@@ -3281,8 +3289,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -3321,8 +3329,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -3520,8 +3528,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -4024,8 +4032,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -4064,8 +4072,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -4263,8 +4271,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -4775,8 +4783,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -4815,8 +4823,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -5014,8 +5022,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -5052,7 +5060,7 @@
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 1105,
-          "total_landing_count": 72
+          "total_landing_count": 74
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
@@ -5582,8 +5590,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -5622,8 +5630,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -5783,9 +5791,9 @@
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
                   "total_launch_count": 1105,
-                  "total_landing_count": 72
+                  "total_landing_count": 74
                 },
-                "successful_landings": 2
+                "successful_landings": 3
               },
               "type": {
                 "id": 2,
@@ -5817,8 +5825,8 @@
             "serial_number": null,
             "is_placeholder": false,
             "in_space": true,
-            "time_in_space": "P17DT14H6M13S",
-            "time_docked": "P15DT8H27M34S",
+            "time_in_space": "P18DT14H4M16S",
+            "time_docked": "P16DT8H25M37S",
             "flights_count": 1,
             "mission_ends_count": 0,
             "status": {
@@ -6015,7 +6023,7 @@
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 1105,
-          "total_landing_count": 72
+          "total_landing_count": 74
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
@@ -6619,8 +6627,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -6659,8 +6667,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -6858,8 +6866,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -7374,8 +7382,8 @@
         "spacecraft": "Dragon",
         "launch_library_url": null,
         "total_launch_count": 670,
-        "consecutive_successful_launches": 154,
-        "successful_launches": 654,
+        "consecutive_successful_launches": 155,
+        "successful_launches": 655,
         "failed_launches": 15,
         "pending_launches": 120,
         "consecutive_successful_landings": 155,
@@ -7414,8 +7422,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
@@ -7610,8 +7618,8 @@
             "spacecraft": "Dragon",
             "launch_library_url": null,
             "total_launch_count": 670,
-            "consecutive_successful_launches": 154,
-            "successful_launches": 654,
+            "consecutive_successful_launches": 155,
+            "successful_launches": 655,
             "failed_launches": 15,
             "pending_launches": 120,
             "consecutive_successful_landings": 155,
