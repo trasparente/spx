@@ -1,6 +1,6 @@
 {
   "count": 671,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-04-30T19%3A10%3A30Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-05-01T02%3A33%3A41Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -321,7 +321,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 194
+                "successful_landings": 195
               },
               "type": {
                 "id": 1,
@@ -1027,6 +1027,63 @@
         },
         "launcher_stage": [
           {
+            "id": 872,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "id": 111,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "landing": {
+              "id": 1837,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 2nd flight.",
+              "downrange_distance": 14.6,
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1105,
+                  "total_landing_count": 74
+                },
+                "successful_landings": 17
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2024-06-25T21:26:00Z",
+            "turn_around_time_days": 672,
+            "previous_flight": {
+              "id": "ad53f165-a118-43a6-ad46-6021accdaabd",
+              "name": "Falcon Heavy | GOES-U"
+            }
+          },
+          {
             "id": 870,
             "type": "Core",
             "reused": false,
@@ -1125,63 +1182,6 @@
             "previous_flight": {
               "id": "67c287d7-199e-4811-a43a-b540b3c4d186",
               "name": "Falcon 9 Block 5 | Starlink Group 11-5"
-            }
-          },
-          {
-            "id": 872,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
-            "launcher": {
-              "id": 111,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "landing": {
-              "id": 1837,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 2nd flight.",
-              "downrange_distance": 14.6,
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1105,
-                  "total_landing_count": 74
-                },
-                "successful_landings": 17
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2024-06-25T21:26:00Z",
-            "turn_around_time_days": 672,
-            "previous_flight": {
-              "id": "ad53f165-a118-43a6-ad46-6021accdaabd",
-              "name": "Falcon Heavy | GOES-U"
             }
           }
         ],
@@ -1949,7 +1949,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 194
+                "successful_landings": 195
               },
               "type": {
                 "id": 1,
@@ -2684,7 +2684,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 194
+                "successful_landings": 195
               },
               "type": {
                 "id": 1,
@@ -4225,7 +4225,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 194
+                "successful_landings": 195
               },
               "type": {
                 "id": 1,
@@ -4968,7 +4968,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 194
+                "successful_landings": 195
               },
               "type": {
                 "id": 1,
@@ -6568,8 +6568,8 @@
             "serial_number": null,
             "is_placeholder": false,
             "in_space": true,
-            "time_in_space": "P18DT14H4M16S",
-            "time_docked": "P16DT8H25M37S",
+            "time_in_space": "P19DT14H10M",
+            "time_docked": "P17DT8H31M21S",
             "flights_count": 1,
             "mission_ends_count": 0,
             "status": {
@@ -7563,7 +7563,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 194
+                "successful_landings": 195
               },
               "type": {
                 "id": 1,
