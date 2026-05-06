@@ -1,6 +1,6 @@
 {
   "count": 673,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-05-05T19%3A10%3A23Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-05-06T02%3A22%3A56Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-05-03T09:56:26Z",
+      "last_updated": "2026-05-06T00:25:40Z",
       "updates": [
         {
           "id": 14881,
@@ -757,7 +757,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-05-01T19:12:21Z",
+      "last_updated": "2026-05-05T23:23:56Z",
       "updates": [
         {
           "id": 14876,
@@ -1496,7 +1496,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-30T05:13:48Z",
+      "last_updated": "2026-05-05T21:20:37Z",
       "updates": [
         {
           "id": 14855,
@@ -2239,7 +2239,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-29T20:11:56Z",
+      "last_updated": "2026-05-05T21:18:25Z",
       "updates": [
         {
           "id": 14849,
@@ -2507,6 +2507,50 @@
         },
         "launcher_stage": [
           {
+            "id": 870,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 201,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/?format=json",
+              "details": "Falcon Heavy core booster expended during the ViaSat-3 F3 mission.",
+              "flight_proven": false,
+              "serial_number": "B1098",
+              "status": "expended",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_20260429200823.jpg",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2026-04-29T14:13:00Z"
+            },
+            "landing": {
+              "id": 1835,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy center core B1098 has been expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 38
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 872,
             "type": "Strap-On Booster",
             "reused": true,
@@ -2619,50 +2663,6 @@
               "id": "67c287d7-199e-4811-a43a-b540b3c4d186",
               "name": "Falcon 9 Block 5 | Starlink Group 11-5"
             }
-          },
-          {
-            "id": 870,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 201,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/?format=json",
-              "details": "Falcon Heavy core booster expended during the ViaSat-3 F3 mission.",
-              "flight_proven": false,
-              "serial_number": "B1098",
-              "status": "expended",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_20260429200823.jpg",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2026-04-29T14:13:00Z"
-            },
-            "landing": {
-              "id": 1835,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy center core B1098 has been expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 38
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
