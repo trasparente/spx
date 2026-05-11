@@ -1,6 +1,6 @@
 {
   "count": 121,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-05-11T02%3A37%3A40Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-05-11T09%3A29%3A59Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-07T20:12:53Z",
+      "last_updated": "2026-05-11T08:48:59Z",
       "updates": [
+        {
+          "id": 14931,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting May 12 at 02:13 UTC",
+          "info_url": "https://www.spacex.com/launches/nrol172",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-05-11T08:48:00Z"
+        },
         {
           "id": 14911,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -67,12 +75,12 @@
           "created_on": "2026-05-01T16:48:00Z"
         }
       ],
-      "net": "2026-05-11T22:28:00Z",
+      "net": "2026-05-12T02:13:50Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-05-12T02:28:00Z",
       "window_start": "2026-05-11T22:28:00Z",
@@ -587,7 +595,7 @@
       "location_launch_attempt_count_year": 31,
       "pad_launch_attempt_count_year": 29,
       "agency_launch_attempt_count_year": 56,
-      "pad_turnaround": "P5DT18H28M41S",
+      "pad_turnaround": "P5DT22H14M31S",
       "mission_patches": [],
       "type": "detailed"
     },
