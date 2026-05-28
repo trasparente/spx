@@ -130,32 +130,32 @@
     "launchers": "Falcon | Starship",
     "spacecraft": "Dragon",
     "launch_library_url": null,
-    "total_launch_count": 517,
-    "consecutive_successful_launches": 1,
-    "successful_launches": 501,
+    "total_launch_count": 681,
+    "consecutive_successful_launches": 166,
+    "successful_launches": 666,
     "failed_launches": 15,
-    "pending_launches": 114,
-    "consecutive_successful_landings": 0,
-    "successful_landings": 462,
-    "failed_landings": 27,
-    "attempted_landings": 489,
-    "info_url": "http://www.spacex.com/",
-    "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+    "pending_launches": 124,
+    "consecutive_successful_landings": 2,
+    "successful_landings": 626,
+    "failed_landings": 28,
+    "attempted_landings": 653,
+    "info_url": "https://www.spacex.com/",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
     "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-    "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+    "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
   },
   "rocket": {
     "id": 8567,
     "configuration": {
-      "id": 464,
-      "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/464/?format=json",
+      "id": 527,
+      "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/527/?format=json",
       "name": "Starship",
-      "active": true,
+      "active": false,
       "reusable": true,
-      "description": "Fully reusable two-stage super heavy-lift launch vehicle.",
+      "description": "Second development version of the Starship reusable two-stage super heavy-lift launch vehicle.",
       "family": "Starship",
-      "full_name": "Starship",
+      "full_name": "Starship V2",
       "manufacturer": {
         "id": 121,
         "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
@@ -170,20 +170,20 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": null,
-        "total_launch_count": 517,
-        "consecutive_successful_launches": 1,
-        "successful_launches": 501,
+        "total_launch_count": 681,
+        "consecutive_successful_launches": 166,
+        "successful_launches": 666,
         "failed_launches": 15,
-        "pending_launches": 114,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 462,
-        "failed_landings": 27,
-        "attempted_landings": 489,
-        "info_url": "http://www.spacex.com/",
-        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "pending_launches": 124,
+        "consecutive_successful_landings": 2,
+        "successful_landings": 626,
+        "failed_landings": 28,
+        "attempted_landings": 653,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
       },
       "program": [
         {
@@ -199,7 +199,7 @@
               "type": "Commercial"
             }
           ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex2520star_program_20201129204513.png",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
           "start_date": "2019-03-01T05:00:00Z",
           "end_date": null,
           "info_url": "https://www.spacex.com/vehicles/starship/",
@@ -211,32 +211,32 @@
           }
         }
       ],
-      "variant": "",
+      "variant": "V2",
       "alias": "",
       "min_stage": 2,
       "max_stage": 2,
-      "length": 120,
+      "length": 123.3,
       "diameter": 9,
-      "maiden_flight": "2023-04-20",
+      "maiden_flight": "2025-01-16",
       "launch_cost": null,
       "launch_mass": 5000,
-      "leo_capacity": 100000,
-      "gto_capacity": 21000,
-      "to_thrust": 72000,
+      "leo_capacity": 35000,
+      "gto_capacity": null,
+      "to_thrust": 73550,
       "apogee": null,
       "vehicle_range": null,
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_20240314160301.jpg",
-      "info_url": "https://www.spacex.com/vehicles/starship/index.html",
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+      "info_url": "https://www.spacex.com/vehicles/starship",
       "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
-      "total_launch_count": 9,
-      "consecutive_successful_launches": 0,
-      "successful_launches": 4,
-      "failed_launches": 5,
-      "pending_launches": 2,
-      "attempted_landings": 8,
+      "total_launch_count": 5,
+      "consecutive_successful_launches": 2,
+      "successful_launches": 2,
+      "failed_launches": 3,
+      "pending_launches": 0,
+      "attempted_landings": 5,
       "successful_landings": 4,
-      "failed_landings": 4,
-      "consecutive_successful_landings": 0
+      "failed_landings": 1,
+      "consecutive_successful_landings": 2
     },
     "launcher_stage": [
       {
@@ -247,10 +247,10 @@
         "launcher": {
           "id": 189,
           "url": "https://ll.thespacedevs.com/2.2.0/launcher/189/?format=json",
-          "details": "Super Heavy booster used for the seventh Starship flight test. Successfully caught by the launch tower.",
+          "details": "Super Heavy booster used for the 7th Starship flight test. Successfully caught by the launch tower. Reused on the 9th Starship flight test for a planned high speed water splashdown but destroyed during landing burn.",
           "flight_proven": true,
           "serial_number": "Booster 14",
-          "status": "active",
+          "status": "destroyed",
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_booste_image_20250221071829.jpg",
           "successful_landings": 1,
           "attempted_landings": 2,
@@ -270,7 +270,7 @@
             "abbrev": "GOM",
             "description": "Gulf of Mexico",
             "location": null,
-            "successful_landings": 16
+            "successful_landings": 18
           },
           "type": {
             "id": 3,
@@ -290,7 +290,7 @@
     "spacecraft_stage": {
       "id": 883,
       "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/883/?format=json",
-      "mission_end": null,
+      "mission_end": "2025-05-28T00:23:18Z",
       "destination": "Suborbital",
       "launch_crew": [],
       "onboard_crew": [],
@@ -301,20 +301,20 @@
         "name": "Ship 35",
         "serial_number": "S35",
         "is_placeholder": false,
-        "in_space": true,
-        "time_in_space": "P2DT2H34M12S",
+        "in_space": false,
+        "time_in_space": "PT47M18S",
         "time_docked": "P0D",
         "flights_count": 1,
-        "mission_ends_count": 0,
+        "mission_ends_count": 1,
         "status": {
-          "id": 1,
-          "name": "Active"
+          "id": 3,
+          "name": "Destroyed"
         },
-        "description": "Ship 35 (S35) is the 2nd stage vehicle to be used for the ninth Starship flight test. It is the third \"Block 2\" Starship spacecraft with lengthened propellant tanks and forward flaps with a new design, among other enhancements.",
+        "description": "Ship 35 (S35) is the 2nd stage vehicle used for the ninth Starship flight test. It is the third \"Block 2\" Starship spacecraft with lengthened propellant tanks and forward flaps with a new design, among other enhancements. The spacecraft lost attitude control during its sub-orbital flight and burnt up during re-entry.",
         "spacecraft_config": {
-          "id": 26,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/26/?format=json",
-          "name": "Starship",
+          "id": 45,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/45/?format=json",
+          "name": "Starship V2",
           "type": {
             "id": 6,
             "name": "Reuseable Upper Stage"
@@ -333,25 +333,25 @@
             "launchers": "Falcon | Starship",
             "spacecraft": "Dragon",
             "parent": null,
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
           },
-          "in_use": true,
+          "in_use": false,
           "capability": "More than 100 tons to Earth orbit",
-          "history": "The Starship second stage was testing during a number of low and high altitude suborbital flights before the first orbital launch attempt.",
-          "details": "Second stage of the two-stage Starship super heavy-lift launch vehicle.",
-          "maiden_flight": "2023-04-20",
-          "height": 50,
+          "history": "The second-generation Starship upper stage was introduced on flight 7.",
+          "details": "Second-generation second stage of the two-stage Starship super heavy-lift launch vehicle. It features a thinner forward flap design, flaps that are positioned more leeward, a 25% increase in propellant capacity, integrated vented interstage, redesigned avionics, two raceways, and an increase in thrust.",
+          "maiden_flight": "2025-01-16",
+          "height": 52.1,
           "diameter": 9,
           "human_rated": false,
-          "crew_capacity": 0,
-          "payload_capacity": 100000,
+          "crew_capacity": null,
+          "payload_capacity": 35000,
           "payload_return_capacity": null,
-          "flight_life": "Unknown at this stage",
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_image_20231116184708.jpeg",
+          "flight_life": "Never used for orbital flights.",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_during_image_20250824175325.jpg",
           "nation_url": null,
-          "wiki_link": "https://en.wikipedia.org/wiki/SpaceX_Starship",
-          "info_link": "https://www.spacex.com/vehicles/starship/"
+          "wiki_link": "",
+          "info_link": "https://www.spacex.com/vehicles/starship"
         }
       },
       "landing": {
@@ -366,7 +366,7 @@
           "abbrev": "IND",
           "description": "Indian Ocean",
           "location": null,
-          "successful_landings": 6
+          "successful_landings": 9
         },
         "type": {
           "id": 3,
@@ -397,10 +397,10 @@
     "id": 188,
     "url": "https://ll.thespacedevs.com/2.2.0/pad/188/?format=json",
     "agency_id": 121,
-    "name": "Orbital Launch Mount A",
-    "description": "The first launch and landing pad of the full version of the combined SpaceX Starship and Superheavy booster. First used for launch in April 2023.",
+    "name": "Orbital Launch Pad 1",
+    "description": "The first launch and landing pad of the full version of the combined SpaceX Starship and Superheavy booster. First used for launch in April 2023.\r\n\r\nThe launch mount itself is named Orbital Launch Mount A.",
     "info_url": null,
-    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starbase#Launch_site_(Orbital_Launch_Pad_A_and_B)",
+    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starbase#Launch_site_(Orbital_Launch_Mount_(Pad_1_and_2))",
     "map_url": "https://www.google.com/maps?q=25.9962,-97.154423",
     "latitude": "25.9962",
     "longitude": "-97.154423",
@@ -412,12 +412,12 @@
       "description": "Starbase is an industrial complex for Starship rockets and the headquarters of the American aerospace manufacturer company SpaceX. Located near Brownsville, Texas, United States, it has been under construction since the late 2010s by SpaceX. Starbase is composed of a spaceport near the Gulf of Mexico, a production facility at the Boca Chica village, and a small structure test site along the Texas State Highway 4.",
       "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_143_20200803142438.jpg",
       "timezone_name": "America/Chicago",
-      "total_launch_count": 18,
+      "total_launch_count": 21,
       "total_landing_count": 13
     },
     "country_code": "USA",
     "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_orbital_launch_mount_a_20210514061342.jpg",
-    "total_launch_count": 9,
+    "total_launch_count": 11,
     "orbital_launch_attempt_count": 0
   },
   "infoURLs": [
@@ -442,7 +442,7 @@
   "vidURLs": [
     {
       "priority": 6,
-      "source": null,
+      "source": "youtube.com",
       "publisher": "The Space Devs",
       "title": "SpaceX Flight 9",
       "description": "On Tuesday May 27, 2025, SpaceX launched the Flight 9 mission with a Starship from Orbital Launch Mount A at SpaceX Starbase, TX, USA.\n\nDescription generated from the Launch Library 2 API.\n———————————...",
@@ -457,8 +457,8 @@
         "name": "English",
         "code": "en"
       },
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-05-28T01:18:20Z",
+      "end_time": "2025-05-28T02:58:22Z"
     },
     {
       "priority": 7,
@@ -820,7 +820,7 @@
           "type": "Commercial"
         }
       ],
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex2520star_program_20201129204513.png",
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
       "start_date": "2019-03-01T05:00:00Z",
       "end_date": null,
       "info_url": "https://www.spacex.com/vehicles/starship/",
@@ -836,7 +836,7 @@
   "location_launch_attempt_count": 18,
   "pad_launch_attempt_count": 9,
   "agency_launch_attempt_count": 515,
-  "orbital_launch_attempt_count_year": 0,
+  "orbital_launch_attempt_count_year": null,
   "location_launch_attempt_count_year": 3,
   "pad_launch_attempt_count_year": 3,
   "agency_launch_attempt_count_year": 66,
