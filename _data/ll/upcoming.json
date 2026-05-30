@@ -1,6 +1,6 @@
 {
   "count": 125,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-05-29T20%3A11%3A25Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-05-30T02%3A35%3A40Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-23T19:03:55Z",
+      "last_updated": "2026-05-29T22:45:22Z",
       "updates": [
+        {
+          "id": 15131,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting May 30 at 15:25 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-41",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-29T22:45:00Z"
+        },
         {
           "id": 15050,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -43,12 +51,12 @@
           "created_on": "2026-05-15T19:04:00Z"
         }
       ],
-      "net": "2026-05-30T14:00:00Z",
+      "net": "2026-05-30T15:25:10Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-05-30T18:00:00Z",
       "window_start": "2026-05-30T14:00:00Z",
@@ -377,6 +385,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 17-41 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+          "description": "Launch Date: May 30, 2026 \nLaunch Time: 8:25 a.m. PDT, 1525 UTC, 17:25 CEST\nLaunch Window: Open until 11:00 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Nominal orbit insertion, booster landed successfully th 24th time on a droneship. \n\nMission: Starlink Group 17-41\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1082 - Turnaround time 42 days)\nFlight for the Booster: 22\nPrevious Flights of the Booster: 21 - USSF-62, OneWeb Launch 20, NROL-145, and 18 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: D...",
+          "feature_image": "https://i.ytimg.com/vi/PNTtpjYDYt8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=PNTtpjYDYt8",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-30T15:15:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -633,7 +661,7 @@
       "location_launch_attempt_count_year": 34,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 64,
-      "pad_turnaround": "P3DT23H9M26S",
+      "pad_turnaround": "P4DT34M36S",
       "mission_patches": [
         {
           "id": 7,
@@ -896,7 +924,7 @@
                 "abbrev": "ASOG",
                 "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 152
+                "successful_landings": 153
               },
               "type": {
                 "id": 1,
@@ -979,7 +1007,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1110,
+          "total_launch_count": 1111,
           "total_landing_count": 75
         },
         "country_code": "USA",
@@ -1264,7 +1292,7 @@
       "location_launch_attempt_count_year": 36,
       "pad_launch_attempt_count_year": 31,
       "agency_launch_attempt_count_year": 65,
-      "pad_turnaround": "P4DT19H58M51S",
+      "pad_turnaround": "P4DT19H4M45S",
       "mission_patches": [
         {
           "id": 7,
@@ -1943,7 +1971,7 @@
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 33,
       "agency_launch_attempt_count_year": 66,
-      "pad_turnaround": "P4D",
+      "pad_turnaround": "P3DT22H34M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -2206,7 +2234,7 @@
                 "abbrev": "ASOG",
                 "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 152
+                "successful_landings": 153
               },
               "type": {
                 "id": 1,
@@ -2289,7 +2317,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1110,
+          "total_launch_count": 1111,
           "total_landing_count": 75
         },
         "country_code": "USA",
@@ -2381,12 +2409,12 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7305,
-      "location_launch_attempt_count": 1114,
+      "orbital_launch_attempt_count": 7304,
+      "location_launch_attempt_count": 1113,
       "pad_launch_attempt_count": 386,
       "agency_launch_attempt_count": 686,
-      "orbital_launch_attempt_count_year": 132,
-      "location_launch_attempt_count_year": 38,
+      "orbital_launch_attempt_count_year": 131,
+      "location_launch_attempt_count_year": 37,
       "pad_launch_attempt_count_year": 32,
       "agency_launch_attempt_count_year": 67,
       "pad_turnaround": "P5DT2H5M",
@@ -3136,7 +3164,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1110,
+          "total_launch_count": 1111,
           "total_landing_count": 75
         },
         "country_code": "USA",
@@ -3151,12 +3179,12 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7327,
-      "location_launch_attempt_count": 1118,
+      "orbital_launch_attempt_count": 7326,
+      "location_launch_attempt_count": 1116,
       "pad_launch_attempt_count": 389,
       "agency_launch_attempt_count": 698,
-      "orbital_launch_attempt_count_year": 154,
-      "location_launch_attempt_count_year": 42,
+      "orbital_launch_attempt_count_year": 153,
+      "location_launch_attempt_count_year": 40,
       "pad_launch_attempt_count_year": 35,
       "agency_launch_attempt_count_year": 79,
       "pad_turnaround": "P21DT13H53M",
@@ -3516,11 +3544,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7327,
+      "orbital_launch_attempt_count": 7326,
       "location_launch_attempt_count": 895,
       "pad_launch_attempt_count": 279,
       "agency_launch_attempt_count": 698,
-      "orbital_launch_attempt_count_year": 154,
+      "orbital_launch_attempt_count_year": 153,
       "location_launch_attempt_count_year": 43,
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 79,
@@ -3846,7 +3874,7 @@
                 "abbrev": "ASOG",
                 "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 152
+                "successful_landings": 153
               },
               "type": {
                 "id": 1,
@@ -3926,7 +3954,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1110,
+          "total_launch_count": 1111,
           "total_landing_count": 75
         },
         "country_code": "USA",
@@ -4173,12 +4201,12 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7327,
-      "location_launch_attempt_count": 1118,
+      "orbital_launch_attempt_count": 7326,
+      "location_launch_attempt_count": 1116,
       "pad_launch_attempt_count": 389,
       "agency_launch_attempt_count": 698,
-      "orbital_launch_attempt_count_year": 154,
-      "location_launch_attempt_count_year": 42,
+      "orbital_launch_attempt_count_year": 153,
+      "location_launch_attempt_count_year": 40,
       "pad_launch_attempt_count_year": 35,
       "agency_launch_attempt_count_year": 79,
       "pad_turnaround": "P21DT13H53M",
@@ -4481,11 +4509,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7327,
+      "orbital_launch_attempt_count": 7326,
       "location_launch_attempt_count": 895,
       "pad_launch_attempt_count": 279,
       "agency_launch_attempt_count": 698,
-      "orbital_launch_attempt_count_year": 154,
+      "orbital_launch_attempt_count_year": 153,
       "location_launch_attempt_count_year": 43,
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 79,
@@ -4789,11 +4817,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7327,
+      "orbital_launch_attempt_count": 7326,
       "location_launch_attempt_count": 895,
       "pad_launch_attempt_count": 279,
       "agency_launch_attempt_count": 698,
-      "orbital_launch_attempt_count_year": 154,
+      "orbital_launch_attempt_count_year": 153,
       "location_launch_attempt_count_year": 43,
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 79,
