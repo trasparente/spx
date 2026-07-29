@@ -1,6 +1,6 @@
 {
   "count": 129,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-07-29T13%3A54%3A56Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-07-29T19%3A04%3A06Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -419,17 +419,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -451,17 +451,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -627,8 +627,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-27T19:28:57Z",
+      "last_updated": "2026-07-29T15:18:15Z",
       "updates": [
+        {
+          "id": 15690,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 01 at 02:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-52",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-29T15:18:00Z"
+        },
         {
           "id": 15675,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -662,15 +670,15 @@
           "created_on": "2026-07-16T20:06:00Z"
         }
       ],
-      "net": "2026-07-31T02:00:00Z",
+      "net": "2026-08-01T02:00:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-07-31T06:00:00Z",
-      "window_start": "2026-07-31T02:00:00Z",
+      "window_end": "2026-08-01T06:00:00Z",
+      "window_start": "2026-08-01T02:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -894,7 +902,7 @@
               }
             },
             "previous_flight_date": "2026-06-25T03:30:38Z",
-            "turn_around_time_days": 35,
+            "turn_around_time_days": 36,
             "previous_flight": {
               "id": "a4fb0d1a-2655-4552-b950-f2f6340ef85a",
               "name": "Falcon 9 Block 5 | Starlink Group 17-45"
@@ -1012,8 +1020,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-31T01:50:00Z",
-          "end_time": "2026-07-31T07:50:00Z"
+          "start_time": "2026-08-01T01:50:00Z",
+          "end_time": "2026-08-01T07:50:00Z"
         }
       ],
       "webcast_live": false,
@@ -1028,17 +1036,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -1060,17 +1068,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -1244,15 +1252,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7355,
+      "orbital_launch_attempt_count": 7354,
       "location_launch_attempt_count": 902,
       "pad_launch_attempt_count": 286,
       "agency_launch_attempt_count": 711,
-      "orbital_launch_attempt_count_year": 182,
+      "orbital_launch_attempt_count_year": 181,
       "location_launch_attempt_count_year": 50,
       "pad_launch_attempt_count_year": 48,
       "agency_launch_attempt_count_year": 92,
-      "pad_turnaround": "P5DT10H8M5S",
+      "pad_turnaround": "P6DT10H8M5S",
       "mission_patches": [
         {
           "id": 7,
@@ -1282,8 +1290,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-27T19:29:38Z",
+      "last_updated": "2026-07-29T15:18:43Z",
       "updates": [
+        {
+          "id": 15692,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 04 at 14:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-53",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-29T15:18:00Z"
+        },
         {
           "id": 15676,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1309,15 +1325,15 @@
           "created_on": "2026-07-23T16:40:00Z"
         }
       ],
-      "net": "2026-08-03T14:00:00Z",
+      "net": "2026-08-04T14:00:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-08-03T18:00:00Z",
-      "window_start": "2026-08-03T14:00:00Z",
+      "window_end": "2026-08-04T18:00:00Z",
+      "window_start": "2026-08-04T14:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1541,7 +1557,7 @@
               }
             },
             "previous_flight_date": "2026-06-21T16:39:06Z",
-            "turn_around_time_days": 42,
+            "turn_around_time_days": 43,
             "previous_flight": {
               "id": "de5fbae3-66b9-4bbf-8938-4d55f3318c07",
               "name": "Falcon 9 Block 5 | Starlink Group 17-28"
@@ -1675,17 +1691,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -1707,17 +1723,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -1891,11 +1907,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7356,
+      "orbital_launch_attempt_count": 7357,
       "location_launch_attempt_count": 903,
       "pad_launch_attempt_count": 287,
       "agency_launch_attempt_count": 712,
-      "orbital_launch_attempt_count_year": 183,
+      "orbital_launch_attempt_count_year": 184,
       "location_launch_attempt_count_year": 51,
       "pad_launch_attempt_count_year": 49,
       "agency_launch_attempt_count_year": 93,
@@ -1929,8 +1945,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-28T12:23:30Z",
+      "last_updated": "2026-07-29T16:09:49Z",
       "updates": [
+        {
+          "id": 15694,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked launch window.",
+          "info_url": "https://www.spacex.com/launches/bluebird11-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-29T16:09:00Z"
+        },
         {
           "id": 15681,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1963,7 +1987,7 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-08-05T09:10:00Z",
+      "window_end": "2026-08-05T09:18:00Z",
       "window_start": "2026-08-05T07:42:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -2150,27 +2174,27 @@
           {
             "id": 941,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 30,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 116,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/116/?format=json",
+              "details": "Falcon 9 Block 5 booster first used for the Crew-5 mission.",
+              "flight_proven": true,
+              "serial_number": "B1077",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/116_image_20240201065853.jpg",
+              "successful_landings": 29,
+              "attempted_landings": 29,
+              "flights": 29,
+              "last_launch_date": "2026-06-17T06:39:00Z",
+              "first_launch_date": "2022-10-05T16:00:57Z"
             },
             "landing": {
               "id": 1883,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight.",
+              "description": "The Falcon 9 first stage B1077 will land on ASDS ASOG after its 30th flight.",
               "downrange_distance": 635,
               "location": {
                 "id": 17,
@@ -2187,9 +2211,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2026-06-17T06:39:00Z",
+            "turn_around_time_days": 49,
+            "previous_flight": {
+              "id": "c3f48f48-0e0a-4bca-917e-de494cfca35b",
+              "name": "Falcon 9 Block 5 | BlueBird Block 2 #3-5"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -2236,10 +2263,221 @@
         "total_launch_count": 394,
         "orbital_launch_attempt_count": 394
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/bluebird11-13",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M13S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M27S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M30S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M38S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M15S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M25S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M50S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT8M19S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M33S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M43S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT46M16S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT46M21S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT53M45S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT59M5S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
       "infographic": null,
       "program": [],
@@ -2251,7 +2489,7 @@
       "location_launch_attempt_count_year": 48,
       "pad_launch_attempt_count_year": 42,
       "agency_launch_attempt_count_year": 94,
-      "pad_turnaround": "P6DT33M",
+      "pad_turnaround": "P6DT32M59S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -2268,8 +2506,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-27T19:30:56Z",
+      "last_updated": "2026-07-29T15:18:20Z",
       "updates": [
+        {
+          "id": 15691,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Now targeting Aug 08 at 14:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-38",
+          "created_by": "Nosu",
+          "created_on": "2026-07-29T15:18:00Z"
+        },
         {
           "id": 15677,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -2287,15 +2533,15 @@
           "created_on": "2026-07-27T16:04:00Z"
         }
       ],
-      "net": "2026-08-07T14:00:00Z",
+      "net": "2026-08-08T14:00:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-08-07T18:00:00Z",
-      "window_start": "2026-08-07T14:00:00Z",
+      "window_end": "2026-08-08T18:00:00Z",
+      "window_start": "2026-08-08T14:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -2519,7 +2765,7 @@
               }
             },
             "previous_flight_date": "2026-07-14T01:28:17Z",
-            "turn_around_time_days": 24,
+            "turn_around_time_days": 25,
             "previous_flight": {
               "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
               "name": "Falcon 9 Block 5 | Starlink Group 15-14"
@@ -2653,17 +2899,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -3316,17 +3562,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -3538,8 +3784,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-27T19:32:10Z",
+      "last_updated": "2026-07-29T15:19:39Z",
       "updates": [
+        {
+          "id": 15693,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 12 at 02:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-49",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-29T15:19:00Z"
+        },
         {
           "id": 15678,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -3557,15 +3811,15 @@
           "created_on": "2026-07-27T16:12:00Z"
         }
       ],
-      "net": "2026-08-11T02:00:00Z",
+      "net": "2026-08-12T02:00:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-08-11T06:00:00Z",
-      "window_start": "2026-08-11T02:00:00Z",
+      "window_end": "2026-08-12T06:00:00Z",
+      "window_start": "2026-08-12T02:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -3789,7 +4043,7 @@
               }
             },
             "previous_flight_date": "2026-06-28T16:09:18Z",
-            "turn_around_time_days": 43,
+            "turn_around_time_days": 44,
             "previous_flight": {
               "id": "0740c699-9877-4331-8aef-4e29ea6281c0",
               "name": "Falcon 9 Block 5 | Starlink Group 17-40"
@@ -3923,17 +4177,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -4983,17 +5237,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -5015,17 +5269,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
