@@ -1,6 +1,6 @@
 {
   "count": 128,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-08-10T18%3A47%3A18Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-08-11T01%3A13%3A13Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-10T14:26:54Z",
+      "last_updated": "2026-08-10T23:37:34Z",
       "updates": [
+        {
+          "id": 15798,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 11 at 14:54 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-10-19",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-10T23:37:00Z"
+        },
         {
           "id": 15788,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -91,12 +99,12 @@
           "created_on": "2026-07-27T16:40:00Z"
         }
       ],
-      "net": "2026-08-11T14:26:00Z",
+      "net": "2026-08-11T14:54:41Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-08-11T18:26:00Z",
       "window_start": "2026-08-11T14:26:00Z",
@@ -123,7 +131,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -163,7 +171,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -275,7 +283,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -362,7 +370,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -445,6 +453,26 @@
           "end_time": null
         },
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 29 Starlink satellites",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-45 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled during a window that opens on Tuesday, August 11 at 10:26 a.m. EDT (1426 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1085, launching for a 18th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to...",
+          "feature_image": "https://i.ytimg.com/vi/grXTQnopJ80/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=grXTQnopJ80",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-08-11T13:26:00Z",
+          "end_time": null
+        },
+        {
           "priority": 9,
           "source": "youtube.com",
           "publisher": "NASASpaceflight",
@@ -461,7 +489,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-11T13:26:00Z",
+          "start_time": "2026-08-11T13:54:00Z",
           "end_time": null
         },
         {
@@ -481,8 +509,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-11T14:16:00Z",
-          "end_time": "2026-08-12T14:16:00Z"
+          "start_time": "2026-08-11T14:44:00Z",
+          "end_time": "2026-08-12T14:44:00Z"
         }
       ],
       "webcast_live": false,
@@ -713,15 +741,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7364,
+      "orbital_launch_attempt_count": 7363,
       "location_launch_attempt_count": 1125,
       "pad_launch_attempt_count": 397,
       "agency_launch_attempt_count": 715,
-      "orbital_launch_attempt_count_year": 191,
+      "orbital_launch_attempt_count_year": 190,
       "location_launch_attempt_count_year": 49,
       "pad_launch_attempt_count_year": 43,
       "agency_launch_attempt_count_year": 96,
-      "pad_turnaround": "P6DT6H37M",
+      "pad_turnaround": "P6DT7H5M41S",
       "mission_patches": [
         {
           "id": 7,
@@ -810,7 +838,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -850,7 +878,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -962,7 +990,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -1049,7 +1077,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -1144,17 +1172,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -1176,17 +1204,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -1360,11 +1388,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7365,
+      "orbital_launch_attempt_count": 7364,
       "location_launch_attempt_count": 905,
       "pad_launch_attempt_count": 289,
       "agency_launch_attempt_count": 716,
-      "orbital_launch_attempt_count_year": 192,
+      "orbital_launch_attempt_count_year": 191,
       "location_launch_attempt_count_year": 53,
       "pad_launch_attempt_count_year": 51,
       "agency_launch_attempt_count_year": 97,
@@ -1388,18 +1416,26 @@
     {
       "id": "55b79515-ddbf-4198-8a59-29a12ed21330",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/55b79515-ddbf-4198-8a59-29a12ed21330/?format=json",
-      "slug": "falcon-9-block-5-r-1",
+      "slug": "falcon-9-block-5-ussf-366",
       "flightclub_url": "https://flightclub.io/result?llId=55b79515-ddbf-4198-8a59-29a12ed21330",
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | R-1",
+      "name": "Falcon 9 Block 5 | USSF-366",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-08T20:04:15Z",
+      "last_updated": "2026-08-10T20:50:44Z",
       "updates": [
+        {
+          "id": 15795,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/ussf366",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-10T20:39:00Z"
+        },
         {
           "id": 15766,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1416,7 +1452,7 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-08-16T02:35:00Z",
+      "window_end": "2026-08-16T01:52:00Z",
       "window_start": "2026-08-15T21:52:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -1441,7 +1477,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -1481,7 +1517,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -1593,7 +1629,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -1603,27 +1639,27 @@
           {
             "id": 972,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 18,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 153,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/153/?format=json",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1088",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1088_landing_o_image_20250912151209.jpeg",
+              "successful_landings": 17,
+              "attempted_landings": 17,
+              "flights": 17,
+              "last_launch_date": "2026-06-28T16:09:18Z",
+              "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "landing": {
               "id": 1905,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on ASDS OCISLY after its flight.",
+              "description": "The Falcon 9 first stage B1088 will land on ASDS OCISLY after its 18th flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -1640,25 +1676,58 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2026-06-28T16:09:18Z",
+            "turn_around_time_days": 48,
+            "previous_flight": {
+              "id": "0740c699-9877-4331-8aef-4e29ea6281c0",
+              "name": "Falcon 9 Block 5 | Starlink Group 17-40"
+            }
           }
         ],
         "spacecraft_stage": null
       },
       "mission": {
         "id": 7704,
-        "name": "R-1",
-        "description": "Possibly a batch of classified LEO satellites for a US government entity based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches. Details TBD.",
+        "name": "USSF-366",
+        "description": "USSF-366 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites for a US government entity based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
         "launch_designator": null,
-        "type": "Unknown",
+        "type": "Government/Top Secret",
         "orbit": {
           "id": 8,
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
         },
-        "agencies": [],
+        "agencies": [
+          {
+            "id": 1041,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/?format=json",
+            "name": "United States Space Force",
+            "featured": false,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "USSF",
+            "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
+            "administrator": null,
+            "founding_year": "2019",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.spaceforce.mil/",
+            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Space_Force",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_states_s_image_20250916065613.jpg"
+          }
+        ],
         "info_urls": [],
         "vid_urls": []
       },
@@ -1689,18 +1758,210 @@
         "total_launch_count": 288,
         "orbital_launch_attempt_count": 288
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/ussf366",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "USSF-366 Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/HPYEORTXcAA1G2z.jpg",
+          "url": "https://x.com/i/broadcasts/1DxleVErQBdKL",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-08-15T21:40:00Z",
+          "end_time": "2026-08-16T21:40:00Z"
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M7S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M29S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M36S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M58S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M1S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M25S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M58S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M20S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7366,
+      "orbital_launch_attempt_count": 7365,
       "location_launch_attempt_count": 906,
       "pad_launch_attempt_count": 290,
       "agency_launch_attempt_count": 717,
-      "orbital_launch_attempt_count_year": 193,
+      "orbital_launch_attempt_count_year": 192,
       "location_launch_attempt_count_year": 54,
       "pad_launch_attempt_count_year": 52,
       "agency_launch_attempt_count_year": 98,
@@ -1884,7 +2145,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -1924,7 +2185,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -2036,7 +2297,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -2228,17 +2489,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -2260,17 +2521,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -2438,15 +2699,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7367,
+      "orbital_launch_attempt_count": 7366,
       "location_launch_attempt_count": 1126,
       "pad_launch_attempt_count": 398,
       "agency_launch_attempt_count": 718,
-      "orbital_launch_attempt_count_year": 194,
+      "orbital_launch_attempt_count_year": 193,
       "location_launch_attempt_count_year": 50,
       "pad_launch_attempt_count_year": 44,
       "agency_launch_attempt_count_year": 99,
-      "pad_turnaround": "P5DT10H4M32S",
+      "pad_turnaround": "P4DT10H17M19S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -2506,7 +2767,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -2546,7 +2807,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -2658,7 +2919,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -2745,7 +3006,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -3056,11 +3317,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7369,
+      "orbital_launch_attempt_count": 7368,
       "location_launch_attempt_count": 907,
       "pad_launch_attempt_count": 291,
       "agency_launch_attempt_count": 719,
-      "orbital_launch_attempt_count_year": 196,
+      "orbital_launch_attempt_count_year": 195,
       "location_launch_attempt_count_year": 55,
       "pad_launch_attempt_count_year": 53,
       "agency_launch_attempt_count_year": 100,
@@ -3137,7 +3398,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -3177,7 +3438,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -3289,7 +3550,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -3376,7 +3637,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -3419,6 +3680,23 @@
         "orbital_launch_attempt_count": 396
       },
       "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-10-39",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        },
         {
           "priority": 10,
           "source": "spacex.com",
@@ -3687,11 +3965,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7370,
+      "orbital_launch_attempt_count": 7369,
       "location_launch_attempt_count": 1127,
       "pad_launch_attempt_count": 399,
       "agency_launch_attempt_count": 720,
-      "orbital_launch_attempt_count_year": 197,
+      "orbital_launch_attempt_count_year": 196,
       "location_launch_attempt_count_year": 51,
       "pad_launch_attempt_count_year": 45,
       "agency_launch_attempt_count_year": 101,
@@ -3725,16 +4003,8 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-06T17:34:13Z",
+      "last_updated": "2026-08-10T21:10:44Z",
       "updates": [
-        {
-          "id": 15765,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Tweaked T-0.",
-          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-08-06T17:34:00Z"
-        },
         {
           "id": 15679,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -3808,15 +4078,15 @@
           "created_on": "2022-07-20T07:04:29Z"
         }
       ],
-      "net": "2026-08-30T11:25:00Z",
+      "net": "2026-08-30T11:26:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-08-30T11:25:00Z",
-      "window_start": "2026-08-30T11:25:00Z",
+      "window_end": "2026-08-30T11:26:00Z",
+      "window_start": "2026-08-30T11:26:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -3840,7 +4110,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -3880,7 +4150,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -4047,12 +4317,12 @@
       "orbital_launch_attempt_count": 7372,
       "location_launch_attempt_count": 282,
       "pad_launch_attempt_count": 223,
-      "agency_launch_attempt_count": 720,
+      "agency_launch_attempt_count": 721,
       "orbital_launch_attempt_count_year": 199,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 101,
-      "pad_turnaround": "P122DT21H12M",
+      "agency_launch_attempt_count_year": 102,
+      "pad_turnaround": "P122DT21H13M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -4128,7 +4398,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -4168,7 +4438,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -4280,7 +4550,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -4972,15 +5242,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7382,
-      "location_launch_attempt_count": 1127,
-      "pad_launch_attempt_count": 399,
-      "agency_launch_attempt_count": 721,
-      "orbital_launch_attempt_count_year": 209,
-      "location_launch_attempt_count_year": 51,
-      "pad_launch_attempt_count_year": 45,
-      "agency_launch_attempt_count_year": 102,
-      "pad_turnaround": "P27DT21H22M",
+      "orbital_launch_attempt_count": 7383,
+      "location_launch_attempt_count": 1128,
+      "pad_launch_attempt_count": 400,
+      "agency_launch_attempt_count": 722,
+      "orbital_launch_attempt_count_year": 210,
+      "location_launch_attempt_count_year": 52,
+      "pad_launch_attempt_count_year": 46,
+      "agency_launch_attempt_count_year": 103,
+      "pad_turnaround": "P23DT7H15M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -5040,7 +5310,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -5080,7 +5350,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -5192,7 +5462,7 @@
           "consecutive_successful_launches": 320,
           "successful_launches": 617,
           "failed_launches": 1,
-          "pending_launches": 110,
+          "pending_launches": 111,
           "attempted_landings": 608,
           "successful_landings": 603,
           "failed_landings": 5,
@@ -5280,14 +5550,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7398,
+      "orbital_launch_attempt_count": 7399,
       "location_launch_attempt_count": 915,
       "pad_launch_attempt_count": 297,
-      "agency_launch_attempt_count": 729,
-      "orbital_launch_attempt_count_year": 225,
+      "agency_launch_attempt_count": 730,
+      "orbital_launch_attempt_count_year": 226,
       "location_launch_attempt_count_year": 63,
       "pad_launch_attempt_count_year": 59,
-      "agency_launch_attempt_count_year": 110,
+      "agency_launch_attempt_count_year": 111,
       "pad_turnaround": "P41DT22H",
       "mission_patches": [],
       "type": "detailed"
@@ -5348,7 +5618,7 @@
         "consecutive_successful_launches": 199,
         "successful_launches": 699,
         "failed_launches": 15,
-        "pending_launches": 127,
+        "pending_launches": 128,
         "consecutive_successful_landings": 6,
         "successful_landings": 657,
         "failed_landings": 29,
@@ -5388,7 +5658,7 @@
             "consecutive_successful_launches": 199,
             "successful_launches": 699,
             "failed_launches": 15,
-            "pending_launches": 127,
+            "pending_launches": 128,
             "consecutive_successful_landings": 6,
             "successful_landings": 657,
             "failed_landings": 29,
@@ -5529,14 +5799,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7398,
+      "orbital_launch_attempt_count": 7399,
       "location_launch_attempt_count": 23,
       "pad_launch_attempt_count": 3,
-      "agency_launch_attempt_count": 729,
-      "orbital_launch_attempt_count_year": 225,
+      "agency_launch_attempt_count": 730,
+      "orbital_launch_attempt_count_year": 226,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 110,
+      "agency_launch_attempt_count_year": 111,
       "pad_turnaround": "P67DT1H9M",
       "mission_patches": [
         {
