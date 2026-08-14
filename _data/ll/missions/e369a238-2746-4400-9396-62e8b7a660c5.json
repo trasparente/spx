@@ -11,7 +11,7 @@
     "abbrev": "Success",
     "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
   },
-  "last_updated": "2025-08-14T13:44:40Z",
+  "last_updated": "2025-08-26T11:41:40Z",
   "updates": [
     {
       "id": 11875,
@@ -138,20 +138,20 @@
     "launchers": "Falcon | Starship",
     "spacecraft": "Dragon",
     "launch_library_url": null,
-    "total_launch_count": 553,
-    "consecutive_successful_launches": 37,
-    "successful_launches": 537,
+    "total_launch_count": 716,
+    "consecutive_successful_launches": 201,
+    "successful_launches": 701,
     "failed_launches": 15,
-    "pending_launches": 119,
-    "consecutive_successful_landings": 38,
-    "successful_landings": 499,
-    "failed_landings": 27,
-    "attempted_landings": 525,
+    "pending_launches": 127,
+    "consecutive_successful_landings": 8,
+    "successful_landings": 659,
+    "failed_landings": 29,
+    "attempted_landings": 687,
     "info_url": "https://www.spacex.com/",
     "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
     "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-    "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+    "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
   },
   "rocket": {
     "id": 8672,
@@ -178,20 +178,20 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": null,
-        "total_launch_count": 553,
-        "consecutive_successful_launches": 37,
-        "successful_launches": 537,
+        "total_launch_count": 716,
+        "consecutive_successful_launches": 201,
+        "successful_launches": 701,
         "failed_launches": 15,
-        "pending_launches": 119,
-        "consecutive_successful_landings": 38,
-        "successful_landings": 499,
-        "failed_landings": 27,
-        "attempted_landings": 525,
+        "pending_launches": 127,
+        "consecutive_successful_landings": 8,
+        "successful_landings": 659,
+        "failed_landings": 29,
+        "attempted_landings": 687,
         "info_url": "https://www.spacex.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
       },
       "program": [
         {
@@ -275,7 +275,7 @@
       ],
       "variant": "Block 5",
       "alias": "",
-      "min_stage": 1,
+      "min_stage": 2,
       "max_stage": 2,
       "length": 70,
       "diameter": 3.65,
@@ -290,15 +290,15 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "info_url": "https://www.spacex.com/vehicles/falcon-9/",
       "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-      "total_launch_count": 462,
-      "consecutive_successful_launches": 163,
-      "successful_launches": 460,
+      "total_launch_count": 620,
+      "consecutive_successful_launches": 322,
+      "successful_launches": 619,
       "failed_launches": 1,
-      "pending_launches": 105,
-      "attempted_landings": 454,
-      "successful_landings": 449,
+      "pending_launches": 110,
+      "attempted_landings": 610,
+      "successful_landings": 605,
       "failed_landings": 5,
-      "consecutive_successful_landings": 149
+      "consecutive_successful_landings": 305
     },
     "launcher_stage": [
       {
@@ -309,15 +309,15 @@
         "launcher": {
           "id": 151,
           "url": "https://ll.thespacedevs.com/2.2.0/launcher/151/?format=json",
-          "details": "Booster to be flown during the Crew-9 mission.",
+          "details": "Booster used during the Crew-9 and Fram2 mission.",
           "flight_proven": true,
           "serial_number": "B1085",
           "status": "active",
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1085_during_la_image_20241217151951.jpg",
-          "successful_landings": 10,
-          "attempted_landings": 10,
-          "flights": 10,
-          "last_launch_date": "2025-08-14T12:29:30Z",
+          "successful_landings": 18,
+          "attempted_landings": 18,
+          "flights": 18,
+          "last_launch_date": "2026-08-11T15:58:26Z",
           "first_launch_date": "2024-08-20T13:20:00Z"
         },
         "landing": {
@@ -330,9 +330,9 @@
             "id": 3,
             "name": "Just Read the Instructions",
             "abbrev": "JRTI",
-            "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+            "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Atlantic Ocean.",
             "location": null,
-            "successful_landings": 131
+            "successful_landings": 156
           },
           "type": {
             "id": 1,
@@ -377,20 +377,20 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": null,
-        "total_launch_count": 553,
-        "consecutive_successful_launches": 37,
-        "successful_launches": 537,
+        "total_launch_count": 716,
+        "consecutive_successful_launches": 201,
+        "successful_launches": 701,
         "failed_launches": 15,
-        "pending_launches": 119,
-        "consecutive_successful_landings": 38,
-        "successful_landings": 499,
-        "failed_landings": 27,
-        "attempted_landings": 525,
+        "pending_launches": 127,
+        "consecutive_successful_landings": 8,
+        "successful_landings": 659,
+        "failed_landings": 29,
+        "attempted_landings": 687,
         "info_url": "https://www.spacex.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
       }
     ],
     "info_urls": [],
@@ -415,13 +415,13 @@
       "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
       "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
       "timezone_name": "America/New_York",
-      "total_launch_count": 1046,
-      "total_landing_count": 66
+      "total_launch_count": 1125,
+      "total_landing_count": 76
     },
     "country_code": "USA",
     "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
-    "total_launch_count": 328,
-    "orbital_launch_attempt_count": 328
+    "total_launch_count": 397,
+    "orbital_launch_attempt_count": 397
   },
   "infoURLs": [
     {
