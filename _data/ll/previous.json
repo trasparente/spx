@@ -1,6 +1,6 @@
 {
   "count": 724,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-08-30T20%3A23%3A16Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-08-31T02%3A58%3A23Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -284,63 +284,6 @@
         },
         "launcher_stage": [
           {
-            "id": 918,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "id": 111,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-              "successful_landings": 3,
-              "attempted_landings": 3,
-              "flights": 3,
-              "last_launch_date": "2026-08-30T11:26:04Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "landing": {
-              "id": 1913,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 3rd flight.",
-              "downrange_distance": 14.6,
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1128,
-                  "total_landing_count": 77
-                },
-                "successful_landings": 18
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2026-04-29T14:13:00Z",
-            "turn_around_time_days": 122,
-            "previous_flight": {
-              "id": "4cc237b2-c61a-491e-9532-466cce81f524",
-              "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)"
-            }
-          },
-          {
             "id": 917,
             "type": "Strap-On Booster",
             "reused": false,
@@ -379,9 +322,9 @@
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
                   "total_launch_count": 1128,
-                  "total_landing_count": 77
+                  "total_landing_count": 79
                 },
-                "successful_landings": 5
+                "successful_landings": 6
               },
               "type": {
                 "id": 2,
@@ -393,6 +336,63 @@
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
+          },
+          {
+            "id": 918,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 111,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 3,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "landing": {
+              "id": 1913,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 3rd flight.",
+              "downrange_distance": 14.6,
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1128,
+                  "total_landing_count": 79
+                },
+                "successful_landings": 19
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2026-04-29T14:13:00Z",
+            "turn_around_time_days": 122,
+            "previous_flight": {
+              "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+              "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)"
+            }
           },
           {
             "id": 916,
@@ -1956,7 +1956,7 @@
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 1128,
-          "total_landing_count": 77
+          "total_landing_count": 79
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
@@ -3482,7 +3482,7 @@
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 1128,
-          "total_landing_count": 77
+          "total_landing_count": 79
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
@@ -5665,9 +5665,9 @@
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
                   "total_launch_count": 1128,
-                  "total_landing_count": 77
+                  "total_landing_count": 79
                 },
-                "successful_landings": 5
+                "successful_landings": 6
               },
               "type": {
                 "id": 2,
@@ -5751,7 +5751,7 @@
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 1128,
-          "total_landing_count": 77
+          "total_landing_count": 79
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
@@ -7262,7 +7262,7 @@
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
           "total_launch_count": 1128,
-          "total_landing_count": 77
+          "total_landing_count": 79
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
