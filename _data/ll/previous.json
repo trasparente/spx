@@ -1,6 +1,6 @@
 {
   "count": 726,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-09-08T20%3A34%3A29Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-09-09T02%3A36%3A52Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -1758,6 +1758,60 @@
         },
         "launcher_stage": [
           {
+            "id": 917,
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 250,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/250/?format=json",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1104",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2026-08-30T11:26:04Z"
+            },
+            "landing": {
+              "id": 1912,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1104 has landed back at the launch site at Landing Zone 40 after its 1st flight.",
+              "downrange_distance": 5.8,
+              "location": {
+                "id": 62,
+                "name": "Landing Zone 40",
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1128,
+                  "total_landing_count": 79
+                },
+                "successful_landings": 6
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 918,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1813,60 +1867,6 @@
               "id": "4cc237b2-c61a-491e-9532-466cce81f524",
               "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)"
             }
-          },
-          {
-            "id": 917,
-            "type": "Strap-On Booster",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 250,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/250/?format=json",
-              "details": "Falcon 9 booster.",
-              "flight_proven": true,
-              "serial_number": "B1104",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 1,
-              "attempted_landings": 1,
-              "flights": 1,
-              "last_launch_date": "2026-08-30T11:26:04Z",
-              "first_launch_date": "2026-08-30T11:26:04Z"
-            },
-            "landing": {
-              "id": 1912,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1104 has landed back at the launch site at Landing Zone 40 after its 1st flight.",
-              "downrange_distance": 5.8,
-              "location": {
-                "id": 62,
-                "name": "Landing Zone 40",
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1128,
-                  "total_landing_count": 79
-                },
-                "successful_landings": 6
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
           },
           {
             "id": 916,
