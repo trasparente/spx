@@ -1,6 +1,6 @@
 {
   "count": 130,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-09-20T20%3A09%3A14Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-09-21T02%3A52%3A01Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -265,7 +265,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 226
+                "successful_landings": 227
               },
               "type": {
                 "id": 1,
@@ -1688,7 +1688,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 226
+                "successful_landings": 227
               },
               "type": {
                 "id": 1,
@@ -3013,12 +3013,12 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7410,
-      "location_launch_attempt_count": 1131,
+      "orbital_launch_attempt_count": 7408,
+      "location_launch_attempt_count": 1130,
       "pad_launch_attempt_count": 402,
       "agency_launch_attempt_count": 734,
-      "orbital_launch_attempt_count_year": 237,
-      "location_launch_attempt_count_year": 55,
+      "orbital_launch_attempt_count_year": 235,
+      "location_launch_attempt_count_year": 54,
       "pad_launch_attempt_count_year": 48,
       "agency_launch_attempt_count_year": 115,
       "pad_turnaround": "P17DT20H21M6S",
@@ -4324,7 +4324,7 @@
       "location_launch_attempt_count_year": 66,
       "pad_launch_attempt_count_year": 64,
       "agency_launch_attempt_count_year": 120,
-      "pad_turnaround": "P30DT10H",
+      "pad_turnaround": "P30DT8H",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -4508,6 +4508,30 @@
             }
           },
           {
+            "id": 987,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 988,
             "type": "Strap-On Booster",
             "reused": true,
@@ -4533,30 +4557,6 @@
               "id": "521f3a1c-f977-4306-9b7f-495858719adf",
               "name": "Falcon Heavy | Nancy Grace Roman Space Telescope"
             }
-          },
-          {
-            "id": 987,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/?format=json",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": null,
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
@@ -4981,7 +4981,7 @@
       "location_launch_attempt_count_year": 66,
       "pad_launch_attempt_count_year": 64,
       "agency_launch_attempt_count_year": 120,
-      "pad_turnaround": "P30DT10H",
+      "pad_turnaround": "P30DT8H",
       "mission_patches": [
         {
           "id": 761,
@@ -5199,7 +5199,7 @@
         },
         "launcher_stage": [
           {
-            "id": 419,
+            "id": 418,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -5218,7 +5218,7 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1216,
+              "id": 1215,
               "attempt": true,
               "success": null,
               "description": "the sidebooster will attempt to land at the launch site after launch.",
@@ -5243,7 +5243,7 @@
             "previous_flight": null
           },
           {
-            "id": 418,
+            "id": 419,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -5262,7 +5262,7 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1215,
+              "id": 1216,
               "attempt": true,
               "success": null,
               "description": "the sidebooster will attempt to land at the launch site after launch.",
