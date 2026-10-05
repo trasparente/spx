@@ -1,6 +1,6 @@
 {
   "count": 131,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-10-04T20%3A45%3A45Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-10-05T03%3A34%3A18Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -16,8 +16,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-10-03T21:02:07Z",
+      "last_updated": "2026-10-04T23:28:48Z",
       "updates": [
+        {
+          "id": 16414,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/sda-t1tl-a",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-10-04T23:28:00Z"
+        },
         {
           "id": 16334,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -99,15 +107,15 @@
           "created_on": "2022-05-27T10:19:13Z"
         }
       ],
-      "net": "2026-10-05T08:17:00Z",
+      "net": "2026-10-05T08:17:21Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-10-05T08:17:00Z",
-      "window_start": "2026-10-05T08:17:00Z",
+      "window_end": "2026-10-05T08:17:21Z",
+      "window_start": "2026-10-05T08:17:21Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -443,6 +451,46 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "SpaceX - Falcon 9 - Tranche 1 Transport Layer A - SLC-4E - VSFB, CA - Space Affairs Live",
+          "description": "Launch Date: October 5, 2026 \nLaunch Time:  1:17 a.m. PDT, 0817 UTC, 10:17 CEST \nLaunch Window: Open until 2:11 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Polar Orbit\nLaunch Inclination: South\nLaunch Status: Scheduled\n\nMission: Tranche 1 Transport Layer A\nClient: United States Space Force Development Agency (SDA)\nLaunch Provider: SpaceX\n\nLauncher System: Falcon 9 (Booster 1103 - Turnaround time 54 days)\nFlight for the Booster: 6\nPrevious Flights of the Booster: 5 - NROL-179, SDA-T1TL-E, and three Starlink missions\nBooster Landing: Landing Zone 4 (LZ-4) Vandenberg Space Force Base\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diamete...",
+          "feature_image": "https://i.ytimg.com/vi/-SYfgSTJsyM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=-SYfgSTJsyM",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-10-05T08:04:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches from California for U.S. Military's Space Development Agency",
+          "description": "Watch a live coverage as SpaceX launches a Falcon 9 rocket from California carrying satellites for the Space Development Agency's Proliferated Warfighter Space Architecture satellite constellation. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Monday, Oct. 5, at 1:17 a.m. PDT (4:17 a.m. EDT / 0817 UTC).\n\nThe first-stage booster, serial number B1103, making its sixth flight, will return to a land at LZ-4 at Vandenberg.\n\nThe SDA T1TL-A mission will head out across the Pacific Ocean on a southerly trajectory upon departure from Vandenberg.\n\nLive commentary will be provided by Spaceflight Now's Will Robinson-Smith starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel t...",
+          "feature_image": "https://i.ytimg.com/vi/FJpcyVk9vaI/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=FJpcyVk9vaI",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-10-05T07:47:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -645,7 +693,7 @@
       "location_launch_attempt_count_year": 65,
       "pad_launch_attempt_count_year": 63,
       "agency_launch_attempt_count_year": 117,
-      "pad_turnaround": "P3DT13H45M",
+      "pad_turnaround": "P3DT13H45M21S",
       "mission_patches": [
         {
           "id": 1349,
@@ -1325,7 +1373,7 @@
       "location_launch_attempt_count_year": 66,
       "pad_launch_attempt_count_year": 64,
       "agency_launch_attempt_count_year": 118,
-      "pad_turnaround": "P5DT14H43M",
+      "pad_turnaround": "P5DT14H42M39S",
       "mission_patches": [
         {
           "id": 7,
