@@ -1,6 +1,6 @@
 {
   "count": 735,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-10-07T22%3A31%3A43Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-10-08T04%3A02%3A09Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -220,63 +220,6 @@
         },
         "launcher_stage": [
           {
-            "id": 989,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 4,
-            "launcher": {
-              "id": 111,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-              "successful_landings": 4,
-              "attempted_landings": 4,
-              "flights": 4,
-              "last_launch_date": "2026-10-02T03:54:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "landing": {
-              "id": 1958,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 4th flight.",
-              "downrange_distance": 14.6,
-              "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1130,
-                  "total_landing_count": 82
-                },
-                "successful_landings": 20
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2026-08-30T11:26:04Z",
-            "turn_around_time_days": 32,
-            "previous_flight": {
-              "id": "521f3a1c-f977-4306-9b7f-495858719adf",
-              "name": "Falcon Heavy | Nancy Grace Roman Space Telescope"
-            }
-          },
-          {
             "id": 988,
             "type": "Strap-On Booster",
             "reused": true,
@@ -376,6 +319,63 @@
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
+          },
+          {
+            "id": 989,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 4,
+            "launcher": {
+              "id": 111,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/111/?format=json",
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2026-10-02T03:54:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "landing": {
+              "id": 1958,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 4th flight.",
+              "downrange_distance": 14.6,
+              "location": {
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/?format=json",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1130,
+                  "total_landing_count": 82
+                },
+                "successful_landings": 20
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2026-08-30T11:26:04Z",
+            "turn_around_time_days": 32,
+            "previous_flight": {
+              "id": "521f3a1c-f977-4306-9b7f-495858719adf",
+              "name": "Falcon Heavy | Nancy Grace Roman Space Telescope"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -1697,7 +1697,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P175DT23H15M45S",
+                "time_in_space": "P176DT23H13M56S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -1736,7 +1736,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P5DT10H14M2S",
+                "time_in_space": "P6DT10H12M13S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -1775,7 +1775,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P5DT10H14M38S",
+                "time_in_space": "P6DT10H12M50S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -1814,7 +1814,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P5DT10H16M",
+                "time_in_space": "P6DT10H14M12S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -1856,7 +1856,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P175DT23H15M45S",
+                "time_in_space": "P176DT23H13M56S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -1895,7 +1895,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P5DT10H14M2S",
+                "time_in_space": "P6DT10H12M13S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -1934,7 +1934,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P5DT10H14M38S",
+                "time_in_space": "P6DT10H12M50S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -1973,7 +1973,7 @@
                   "name": "Government"
                 },
                 "in_space": true,
-                "time_in_space": "P5DT10H16M",
+                "time_in_space": "P6DT10H14M12S",
                 "status": {
                   "id": 1,
                   "name": "Active"
@@ -2004,8 +2004,8 @@
             "serial_number": "C213",
             "is_placeholder": false,
             "in_space": true,
-            "time_in_space": "P25DT13H16M44S",
-            "time_docked": "P23DT3H7M42S",
+            "time_in_space": "P26DT13H15M10S",
+            "time_docked": "P24DT3H6M8S",
             "flights_count": 2,
             "mission_ends_count": 1,
             "status": {
