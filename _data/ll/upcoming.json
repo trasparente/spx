@@ -1,6 +1,6 @@
 {
   "count": 133,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-10-11T11%3A57%3A10Z&offset=10&ordering=net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__gt=2026-10-11T17%3A17%3A11Z&offset=10&ordering=net",
   "previous": null,
   "results": [
     {
@@ -712,8 +712,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-10-09T16:17:04Z",
+      "last_updated": "2026-10-11T15:55:40Z",
       "updates": [
+        {
+          "id": 16461,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, >95% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20NASA%20CRS-35%20L-2%20Forecast%20-%2013%20Oct%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-10-11T15:55:00Z"
+        },
         {
           "id": 16373,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -780,8 +788,8 @@
       },
       "window_end": "2026-10-13T10:33:44Z",
       "window_start": "2026-10-13T10:33:44Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 99,
+      "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -3440,8 +3448,8 @@
         },
         "launcher_stage": [
           {
-            "id": 419,
-            "type": "Strap-On Booster",
+            "id": 417,
+            "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
@@ -3459,10 +3467,10 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1216,
+              "id": 1214,
               "attempt": true,
               "success": null,
-              "description": "the sidebooster will attempt to land at the launch site after launch.",
+              "description": "The center core will attempt to land on an ASDS after launch.",
               "downrange_distance": null,
               "location": {
                 "id": 12,
@@ -3473,10 +3481,10 @@
                 "successful_landings": 0
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
             "previous_flight_date": null,
@@ -3528,8 +3536,8 @@
             "previous_flight": null
           },
           {
-            "id": 417,
-            "type": "Core",
+            "id": 419,
+            "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
@@ -3547,10 +3555,10 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1214,
+              "id": 1216,
               "attempt": true,
               "success": null,
-              "description": "The center core will attempt to land on an ASDS after launch.",
+              "description": "the sidebooster will attempt to land at the launch site after launch.",
               "downrange_distance": null,
               "location": {
                 "id": 12,
@@ -3561,10 +3569,10 @@
                 "successful_landings": 0
               },
               "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
             "previous_flight_date": null,

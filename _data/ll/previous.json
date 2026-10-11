@@ -1,6 +1,6 @@
 {
   "count": 736,
-  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-10-11T11%3A57%3A10Z&offset=10&ordering=-net",
+  "next": "https://ll.thespacedevs.com/2.2.0/launch/?format=json&limit=10&lsp__ids=121&mode=detailed&net__lt=2026-10-11T17%3A17%3A11Z&offset=10&ordering=-net",
   "previous": null,
   "results": [
     {
@@ -16,7 +16,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-10-10T15:08:25Z",
+      "last_updated": "2026-10-11T14:37:18Z",
       "updates": [
         {
           "id": 16458,
@@ -1063,6 +1063,50 @@
         },
         "launcher_stage": [
           {
+            "id": 987,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 261,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/261/?format=json",
+              "details": "Falcon Heavy core booster expended during the launch of the NROL-97 mission.",
+              "flight_proven": false,
+              "serial_number": "B1106",
+              "status": "expended",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2026-10-02T03:54:00Z",
+              "first_launch_date": "2026-10-02T03:54:00Z"
+            },
+            "landing": {
+              "id": 1960,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy center core B1106 will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 38
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
             "id": 988,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1118,50 +1162,6 @@
               "id": "521f3a1c-f977-4306-9b7f-495858719adf",
               "name": "Falcon Heavy | Nancy Grace Roman Space Telescope"
             }
-          },
-          {
-            "id": 987,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 261,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/261/?format=json",
-              "details": "Falcon Heavy core booster expended during the launch of the NROL-97 mission.",
-              "flight_proven": false,
-              "serial_number": "B1106",
-              "status": "expended",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2026-10-02T03:54:00Z",
-              "first_launch_date": "2026-10-02T03:54:00Z"
-            },
-            "landing": {
-              "id": 1960,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy center core B1106 will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 38
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
           },
           {
             "id": 989,
