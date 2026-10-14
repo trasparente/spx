@@ -1,17 +1,17 @@
 {
   "id": "88d03398-af55-4bca-967e-bfe868a3cbf5",
   "url": "https://ll.thespacedevs.com/2.2.0/launch/88d03398-af55-4bca-967e-bfe868a3cbf5/?format=json",
-  "slug": "falcon-9-block-5-project-kuiper-kf-03",
+  "slug": "falcon-9-block-5-amazon-leo-kf-03",
   "flightclub_url": "https://flightclub.io/result?llId=88d03398-af55-4bca-967e-bfe868a3cbf5",
   "r_spacex_api_id": null,
-  "name": "Falcon 9 Block 5 | Project Kuiper (KF-03)",
+  "name": "Falcon 9 Block 5 | Amazon Leo (KF-03)",
   "status": {
     "id": 3,
     "name": "Launch Successful",
     "abbrev": "Success",
     "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
   },
-  "last_updated": "2025-10-14T03:49:21Z",
+  "last_updated": "2025-11-21T16:12:07Z",
   "updates": [
     {
       "id": 12560,
@@ -226,20 +226,20 @@
     "launchers": "Falcon | Starship",
     "spacecraft": "Dragon",
     "launch_library_url": null,
-    "total_launch_count": 584,
-    "consecutive_successful_launches": 67,
-    "successful_launches": 567,
+    "total_launch_count": 738,
+    "consecutive_successful_launches": 223,
+    "successful_launches": 723,
     "failed_launches": 15,
-    "pending_launches": 120,
-    "consecutive_successful_landings": 0,
-    "successful_landings": 529,
-    "failed_landings": 27,
-    "attempted_landings": 556,
+    "pending_launches": 133,
+    "consecutive_successful_landings": 32,
+    "successful_landings": 683,
+    "failed_landings": 29,
+    "attempted_landings": 711,
     "info_url": "https://www.spacex.com/",
     "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
     "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-    "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+    "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
   },
   "rocket": {
     "id": 8113,
@@ -266,22 +266,58 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": null,
-        "total_launch_count": 584,
-        "consecutive_successful_launches": 67,
-        "successful_launches": 567,
+        "total_launch_count": 738,
+        "consecutive_successful_launches": 223,
+        "successful_launches": 723,
         "failed_launches": 15,
-        "pending_launches": 120,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 529,
-        "failed_landings": 27,
-        "attempted_landings": 556,
+        "pending_launches": 133,
+        "consecutive_successful_landings": 32,
+        "successful_landings": 683,
+        "failed_landings": 29,
+        "attempted_landings": 711,
         "info_url": "https://www.spacex.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
       },
       "program": [
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
+          "name": "Commercial Crew Program",
+          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+          "agencies": [
+            {
+              "id": 80,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
+              "name": "Boeing",
+              "type": "Commercial"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+          "start_date": "2011-04-18T00:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        },
         {
           "id": 11,
           "url": "https://ll.thespacedevs.com/2.2.0/program/11/?format=json",
@@ -323,47 +359,11 @@
             "id": 2,
             "name": "Human Spaceflight"
           }
-        },
-        {
-          "id": 5,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/5/?format=json",
-          "name": "Commercial Crew Program",
-          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-          "agencies": [
-            {
-              "id": 80,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/?format=json",
-              "name": "Boeing",
-              "type": "Commercial"
-            },
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/?format=json",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
-              "name": "SpaceX",
-              "type": "Commercial"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
-          "start_date": "2011-04-18T00:00:00Z",
-          "end_date": null,
-          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-          "mission_patches": [],
-          "type": {
-            "id": 2,
-            "name": "Human Spaceflight"
-          }
         }
       ],
       "variant": "Block 5",
       "alias": "",
-      "min_stage": 1,
+      "min_stage": 2,
       "max_stage": 2,
       "length": 70,
       "diameter": 3.65,
@@ -378,15 +378,15 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "info_url": "https://www.spacex.com/vehicles/falcon-9/",
       "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-      "total_launch_count": 491,
-      "consecutive_successful_launches": 191,
-      "successful_launches": 488,
+      "total_launch_count": 639,
+      "consecutive_successful_launches": 341,
+      "successful_launches": 638,
       "failed_launches": 1,
-      "pending_launches": 102,
-      "attempted_landings": 483,
-      "successful_landings": 477,
+      "pending_launches": 117,
+      "attempted_landings": 629,
+      "successful_landings": 624,
       "failed_landings": 5,
-      "consecutive_successful_landings": 177
+      "consecutive_successful_landings": 324
     },
     "launcher_stage": [
       {
@@ -402,10 +402,10 @@
           "serial_number": "B1091",
           "status": "active",
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1091_on_slc-40_image_20250807141845.jpeg",
-          "successful_landings": 2,
-          "attempted_landings": 2,
-          "flights": 2,
-          "last_launch_date": "2025-10-14T01:58:00Z",
+          "successful_landings": 3,
+          "attempted_landings": 3,
+          "flights": 3,
+          "last_launch_date": "2025-11-02T05:09:59Z",
           "first_launch_date": "2025-08-11T12:35:00Z"
         },
         "landing": {
@@ -420,7 +420,7 @@
             "abbrev": "ASOG",
             "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
             "location": null,
-            "successful_landings": 128
+            "successful_landings": 167
           },
           "type": {
             "id": 1,
@@ -433,7 +433,7 @@
         "turn_around_time_days": 63,
         "previous_flight": {
           "id": "594ae0c5-2039-4a1a-a6be-7b0940b2ed2c",
-          "name": "Falcon 9 Block 5 | Project Kuiper (KF-02)"
+          "name": "Falcon 9 Block 5 | Amazon Leo (KF-02)"
         }
       }
     ],
@@ -441,8 +441,8 @@
   },
   "mission": {
     "id": 6671,
-    "name": "Project Kuiper (KF-03)",
-    "description": "Third of a three launches contract for Amazon's Kuiper low Earth orbit satellite internet constellation, with 24 satellites on board.",
+    "name": "Amazon Leo (KF-03)",
+    "description": "Third of a three launches contract for Amazon's Kuiper low Earth orbit satellite internet constellation, with 24 satellites on board.\r\n\r\nAmazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610 km and 630 km altitude.",
     "launch_designator": null,
     "type": "Communications",
     "orbit": {
@@ -454,12 +454,12 @@
       {
         "id": 1058,
         "url": "https://ll.thespacedevs.com/2.2.0/agencies/1058/?format=json",
-        "name": "Kuiper Systems LLC",
+        "name": "Amazon Leo",
         "featured": false,
         "type": "Private",
         "country_code": "USA",
         "abbrev": "Amazon",
-        "description": "Kuiper Systems LLC, also known as Project Kuiper, is a subsidiary of Amazon that was established in 2019 to deploy a large satellite internet constellation to provide low-latency broadband internet connectivity.",
+        "description": "Amazon Leo, formerly known as Kuiper Systems LLC and Project Kuiper, is a subsidiary of Amazon that was established in 2019 to deploy a large satellite internet constellation to provide low-latency broadband internet connectivity.",
         "administrator": "President: Rajeev Badyal",
         "founding_year": "2019",
         "launchers": "",
@@ -474,11 +474,11 @@
         "successful_landings": 0,
         "failed_landings": 0,
         "attempted_landings": 0,
-        "info_url": null,
+        "info_url": "https://leo.amazon.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/Kuiper_Systems",
         "logo_url": null,
         "image_url": null,
-        "nation_url": null
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/amazon_leo_soci_image_20251117075814.png"
       }
     ],
     "info_urls": [],
@@ -503,13 +503,13 @@
       "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
       "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
       "timezone_name": "America/New_York",
-      "total_launch_count": 1059,
-      "total_landing_count": 68
+      "total_launch_count": 1131,
+      "total_landing_count": 83
     },
     "country_code": "USA",
     "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
-    "total_launch_count": 340,
-    "orbital_launch_attempt_count": 340
+    "total_launch_count": 403,
+    "orbital_launch_attempt_count": 403
   },
   "infoURLs": [
     {
@@ -787,19 +787,19 @@
       "relative_time": "PT1H4M6S"
     }
   ],
-  "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+  "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20251102101414.jpeg",
   "infographic": null,
   "program": [
     {
       "id": 27,
       "url": "https://ll.thespacedevs.com/2.2.0/program/27/?format=json",
-      "name": "Project Kuiper",
-      "description": "Amazon's Kuiper Project is a satellite internet initiative aimed at providing high-speed, low-latency broadband connectivity to underserved and remote areas globally. The project involves deploying a constellation of low Earth orbit (LEO) satellites to create a satellite internet network capable of delivering reliable internet access.",
+      "name": "Amazon Leo",
+      "description": "Amazon Leo is a satellite internet constellation aimed at providing high-speed, low-latency broadband connectivity to underserved and remote areas globally. The project involves deploying a constellation of low Earth orbit (LEO) satellites to create a satellite internet network capable of delivering reliable internet access.",
       "agencies": [
         {
           "id": 1058,
           "url": "https://ll.thespacedevs.com/2.2.0/agencies/1058/?format=json",
-          "name": "Kuiper Systems LLC",
+          "name": "Amazon Leo",
           "type": "Private"
         }
       ],
@@ -807,7 +807,7 @@
       "start_date": "2023-10-16T18:06:00Z",
       "end_date": null,
       "info_url": "https://en.wikipedia.org/wiki/Kuiper_Systems",
-      "wiki_url": "http://aboutamazon.com/what-we-do/devices-services/project-kuiper",
+      "wiki_url": "https://aboutamazon.com/what-we-do/devices-services/project-kuiper",
       "mission_patches": [],
       "type": {
         "id": 3,
@@ -824,6 +824,19 @@
   "pad_launch_attempt_count_year": 59,
   "agency_launch_attempt_count_year": 133,
   "pad_turnaround": "P6DT19H11M50S",
-  "mission_patches": [],
+  "mission_patches": [
+    {
+      "id": 1198,
+      "name": "KF-03",
+      "priority": 10,
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/kf-03_mission_patch_20251026082951.png",
+      "agency": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/?format=json",
+        "name": "SpaceX",
+        "type": "Commercial"
+      }
+    }
+  ],
   "type": "detailed"
 }
